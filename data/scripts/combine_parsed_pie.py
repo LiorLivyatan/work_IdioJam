@@ -107,10 +107,11 @@ for _, row in pie_df.iterrows():
 valid_sentences = set(pie_map.keys())
 
 combined_df = parsed_df[parsed_df["sentence"].isin(valid_sentences)].copy()
-combined_df["PIE"]         = combined_df["sentence"].map(pie_map)
-combined_df["true_idioms"] = combined_df["sentence"].map(true_idioms_map)
+combined_df["PIE"]          = combined_df["sentence"].map(pie_map)
+combined_df["true_idioms"]  = combined_df["sentence"].map(true_idioms_map)
+combined_df["is_figurative"] = combined_df["true_idioms"].apply(lambda x: len(x) > 0)
 
-combined_df = combined_df[["sentence", "PIE", "true_idioms", "tokens", "tags", "tag_ids"]]
+combined_df = combined_df[["sentence", "PIE", "true_idioms", "is_figurative", "tokens", "tags", "tag_ids"]]
 combined_df = combined_df.reset_index(drop=True)
 
 # ── Save ──────────────────────────────────────────────────────────────────────

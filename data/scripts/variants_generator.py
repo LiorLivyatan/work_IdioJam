@@ -10,6 +10,7 @@ Combines:
 - Data structure and BIO processing from display_test_data_simple.py
 """
 
+import ast
 import pandas as pd
 import re
 from typing import List, Optional, Dict, Any
@@ -98,6 +99,17 @@ def read_bio_tsv(file_path: str) -> pd.DataFrame:
     df = df[["sentence", "tokens", "tags", "tag_ids", "true_idioms"]]
 
     return df
+
+def parse_list_col(val):
+    if isinstance(val, list):
+        return val
+    if pd.isna(val) or str(val).strip() in ("[]", ""):
+        return []
+    try:
+        return ast.literal_eval(str(val))
+    except Exception:
+        return []
+
 
 def create_confusing_context_agent(num_variants: int = 3, language: str = "english"):
     """Create an Agno agent for generating confusing context variants
@@ -240,12 +252,12 @@ def create_variant_rows(original_row: pd.Series, variants: List[str], num_varian
     
     return variant_rows
 
-def generate_variants_dataframe(tsv_file_path: str, num_variants: int = 3, max_sentences: Optional[int] = None, language: str = "english", offset: int = 0) -> pd.DataFrame:
+def generate_variants_dataframe(data_path: str, num_variants: int = 3, max_sentences: Optional[int] = None, language: str = "english", offset: int = 0) -> pd.DataFrame:
     """
-    Main function that generates confusing context variants from a TSV file.
+    Main function that generates confusing context variants from a CSV file.
 
     Args:
-        tsv_file_path: Path to the BIO-formatted TSV file
+        data_path: Path to the combined CSV (sentence, PIE, true_idioms, is_figurative, tokens, tags, tag_ids)
         num_variants: Number of variants to generate per sentence (default: 3)
         max_sentences: Maximum number of sentences to process (None for all)
         language: Language to use ("english", "italian", "spanish", or "german")
@@ -254,10 +266,15 @@ def generate_variants_dataframe(tsv_file_path: str, num_variants: int = 3, max_s
     Returns:
         DataFrame with variants and proper BIO tagging
     """
-    print(f"Loading data from {tsv_file_path}...")
+    print(f"Loading data from {data_path}...")
 
     # Load the original data
-    original_df = read_bio_tsv(tsv_file_path)
+    original_df = pd.read_csv(data_path)
+    original_df["PIE"]          = original_df["PIE"].apply(parse_list_col)
+    original_df["true_idioms"]  = original_df["true_idioms"].apply(parse_list_col)
+    original_df["tokens"]       = original_df["tokens"].apply(parse_list_col)
+    original_df["tags"]         = original_df["tags"].apply(parse_list_col)
+    original_df["tag_ids"]      = original_df["tag_ids"].apply(parse_list_col)
 
     # Apply offset first
     total_sentences = len(original_df)
@@ -290,12 +307,14 @@ def generate_variants_dataframe(tsv_file_path: str, num_variants: int = 3, max_s
         print(f"Processing sentence {actual_sentence_num} ({idx + 1}/{len(original_df)}): {sentence[:50]}...")
 
         # Create the prompt for variant generation
-        bio_tag = ", ".join(true_idioms) if true_idioms else None
+        pie = row["PIE"][0] if row["PIE"] else ""
+        usage = "figurative" if row["is_figurative"] else "literal"
         prompt = f"""
         Original sentence: "{sentence}"
-        BIO tag: {bio_tag if bio_tag else "None (no idiom)"}
+        PIE: "{pie}"
+        Usage in this sentence: {usage}
 
-        Generate exactly {num_variants} confusing context variants of this sentence. If there are idioms, preserve those exact idiom phrases while creating ambiguous contexts around them.
+        Generate exactly {num_variants} confusing context variants of this sentence. Preserve the PIE phrase exactly as it appears in the sentence while creating ambiguous contexts around it.
         """
 
         try:
@@ -395,24 +414,24 @@ def main():
     """Main execution function with configuration options"""
     
     # Configuration
-    TSV_FILE_PATH = "./test_english.tsv"
-    OUTPUT_PATH = f"./variants_output_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-    NUM_VARIANTS = 3
+    _HERE         = os.path.dirname(os.path.abspath(__file__))
+    CSV_FILE_PATH = os.path.join(_HERE, "..", "raw_id10m_data", "english", "id10m_english.csv")
+    OUTPUT_PATH   = os.path.join(_HERE, "..", "raw_id10m_data", "english", f"variants_output_{datetime.now().strftime('%Y%m%d_%H%M%S')}")
+    NUM_VARIANTS  = 3
     MAX_SENTENCES = 5  # Set to None to process all sentences, or a number for testing
     OUTPUT_FORMAT = "json"  # Options: 'csv', 'json', 'pickle'
-    
+
     print("🔄 Confusing Context Variant Generator")
     print("=" * 50)
-    print(f"Input file: {TSV_FILE_PATH}")
+    print(f"Input file: {CSV_FILE_PATH}")
     print(f"Number of variants per sentence: {NUM_VARIANTS}")
     print(f"Max sentences to process: {MAX_SENTENCES if MAX_SENTENCES else 'All'}")
     print(f"Output format: {OUTPUT_FORMAT}")
     print("=" * 50)
     
     # Check if input file exists
-    if not os.path.exists(TSV_FILE_PATH):
-        print(f"❌ Error: Input file not found at {TSV_FILE_PATH}")
-        print("Please ensure the test_english.tsv file is in the current directory.")
+    if not os.path.exists(CSV_FILE_PATH):
+        print(f"❌ Error: Input file not found at {CSV_FILE_PATH}")
         return
     
     # Check environment variables
@@ -425,7 +444,7 @@ def main():
         # Generate variants
         print("\n🚀 Starting variant generation...")
         variants_df = generate_variants_dataframe(
-            tsv_file_path=TSV_FILE_PATH,
+            data_path=CSV_FILE_PATH,
             num_variants=NUM_VARIANTS,
             max_sentences=MAX_SENTENCES
         )
