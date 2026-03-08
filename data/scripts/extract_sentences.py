@@ -54,7 +54,7 @@ def read_bio_tsv(file_path: str) -> pd.DataFrame:
             end = start + 1
             while end < len(tags) and tags[end] != "O":
                 end += 1
-            idioms.append(" ".join(tokens[start:end]).strip())
+            idioms.append("".join(tokens[start:end]).strip())
             tags = tags[end:]
             tokens = tokens[end:]
 
@@ -73,12 +73,18 @@ def read_bio_tsv(file_path: str) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    # Read the TSV file using the exact same parsing mechanism
-    print("Reading test_english.tsv using the EXACT parsing mechanism from samples_generator.py...")
-    df = read_bio_tsv("test_english.tsv")
+    import sys
+    import os
+
+    input_file = sys.argv[1] if len(sys.argv) > 1 else "test_english.tsv"
+    input_dir = os.path.dirname(os.path.abspath(input_file))
+    base_name = os.path.splitext(os.path.basename(input_file))[0]
+
+    print(f"Reading {input_file} using the EXACT parsing mechanism from samples_generator.py...")
+    df = read_bio_tsv(input_file)
 
     print(f"\nFound {len(df)} sentences")
-    print("\nFirst 5 sentences after parsing:")
+    print("\nFirst 10 sentences after parsing:")
     print("=" * 80)
 
     for idx, row in df.head(10).iterrows():
@@ -88,15 +94,15 @@ if __name__ == "__main__":
         print(f"  Tags: {row['tags']}")
         print(f"  True idioms: {row['true_idioms']}")
 
-    # Save just the sentences to a text file
-    output_file = "parsed_sentences.txt"
+    # Save just the sentences to a text file (next to the input file)
+    output_file = os.path.join(input_dir, f"parsed_{base_name}.txt")
     with open(output_file, "w", encoding="utf-8") as f:
         for idx, sentence in enumerate(df['sentence'], 1):
             f.write(f"{idx}. {sentence}\n")
 
     print(f"\n\nSentences saved to: {output_file}")
 
-    # Also save the full dataframe to CSV
-    csv_output = "parsed_sentences_full.csv"
+    # Also save the full dataframe to CSV (next to the input file)
+    csv_output = os.path.join(input_dir, f"parsed_{base_name}_full.csv")
     df.to_csv(csv_output, index=False)
     print(f"Full data saved to: {csv_output}")
