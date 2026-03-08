@@ -1,0 +1,1391 @@
+You are a helpful system to identify verbal multiple-word expressions (VMWEs).
+Identify all the VMWEs in the given sentence, and output their surface forms exactly as they appear.
+
+Annotation guidelines
+
+Definitions and scope
+In this shared task, we aim at identifying verbal Multiword Expressions (VMWEs) in running texts in about 20 languages from several language families. VMWEs are of particular interest to the PARSEME COST action since they frequently introduce discontinuity and long-distance dependency issues, which are central to deep parsing and to other Natural Language Processing tasks.
+This document defines the annotation scope and puts forward a classification of VMWEs together with linguistic tests for their identification and categorization.
+
+Words and tokens
+While the definition of an MWE inherently relies on the notion of a word, manual annotation and automatic identification of VMWEs in our task is performed on texts which are automatically tokenized. It is therefore important to understand the distinction between words and tokens in the context of VMWEs.
+A word is a linguistically (notably semantically) motivated unit. The detection of words is, thus, language-dependent and annotation experts should have a clear idea of how to define it for their own language (even if this definition proves hard in general).
+A token is a technical and pragmatic notion, defined according to more or less linguistically motivated clues and depending on the particular tokenization tool at hand.
+Note: Note that the notion of a token is ambiguous in NLP. It can also mean an individual occurrence of a certain linguistic unit, as opposed to a type, i.e. the set of all surface realisations of a unit. In these guidelines, we refrain from using this second sense.
+Tokens should ideally be as close as possible to words. However, in practice - due to the hardness of the (automatic) tokenization task - the relation between tokens and words is not always 1-to-1. The following cases occur:
+A token coincides with a word:
+
+
+take, a, walk, astonishmentSeveral tokens build up one word, like in abbreviations, possessive markers, words with "accidental" separators, inflected or derived forms of foreign names, etc. In this case we speak of a multitoken word (MTW):
+Note: The pipe symbol '|' indicates token separation in these examples
+
+
+M|. Mister
+        pp|. pages
+        Pandora|'|sOne token can contain several words, like in contractions and compounds. In this case we speak of a multiword token (MWT). Identifying MWTs is important because they can be potential candidates for VMWEs. However, defining what is a word and a MWT is a hard and language-specific question and language-specific MWT tests are being designed to this end. Examples of MWTs include:
+Note: See also the representation of MWTs in Universal Dependencies
+Note: The precise word forms cannot always be straightforwardly deduced from the MWT containing them and vice versa, as in don't, della, du, etc.
+
+
+don't = do+not
+While a VMWE always contains at least two words, the relation between VMWEs and tokens can be twofold:
+A VMWE contains several tokens, whether each of them coincides with a word or not:
+
+
+to take a walk (2 words, 2 tokens)
+       to open Pandora's box (3 words, possibly 5 tokens)A VMWE contains one (multiword) token:
+
+
+to pretty-print
+Note finally that multitoken words are not considered verbal MWEs since they contain one (multitoken) word only:
+Whenever the distinction between a word and a token is judged by a particular language team as hard to tackle, a possible option is to consider these two notions equivalent for the needs of this shared task.
+
+Section 1.3
+Verbal Multiword expressions
+Multiword expressions (MWEs) are (continuous or discontinuous) sequences of words with the following compulsory properties:
+They show some degree of orthographic, morphological, syntactic or semantic idiosyncrasy with respect to what is considered general grammar rules of a language. Collocations, i.e. word co-occurrences whose idiosyncrasy is of statistical nature only (e.g. the graphic shows, drastically drop) are not annotated.
+Their component words include a head word and at least one other syntactically related word. Most often the relation they maintain is a syntactic (direct or indirect) dependence but it can also be e.g. a coordination. Depending on the category of the head word, the whole MWE can be nominal, adjectival, prepositional, verbal, sentential, etc.
+At least two components of such a word sequence have to be lexicalized. In this task we only annotate the lexicalized components and ignore open slots.
+Probably the most salient property of MWEs is semantic non-compositionality. In other words, it is often impossible to deduce the meaning of the whole unit from the meanings of its parts and from its syntactic structure. For instance, while it is easy to interpret phrases like to kick the ball or to spill some water from the words that compose them, it is almost impossible to guess, without knowing it beforehand, that to kick the bucket means 'to die' and to spill the beans actually means 'to reveal a secret'.
+However, as non-compositionality is a subjective notion, we use inflexibility as a proxy in the tests. Our underlying hypothesis is that (verbal) MWEs have some degree of semantic non-compositionality that implies limited flexibility .
+Verbal MWEs (VMWEs) are simply multiword expressions whose syntactic head in the prototypical form is a verb.
+
+Section 1.4
+Syntactic variants of VMWEs
+VMWEs occurring in a corpus can have various syntactic structures. Since the linguistic tests are structure-driven (cf. e.g. structural tests), there is a necessity to neutralize variation before the tests are applied. In this section we introduce definitions answering these needs.
+Prototypical forms
+A (candidate) VMWE in its prototypical form (if it exists) is a verbal phrase in active voice whose head verb is in a finite form and whose other lexicalized components depend either on the verb or on another lexicalized component. The VMWE can also contain coordinated verbs. These phrases can be:
+Partly saturated, where only some of their arguments are lexicalized:
+
+
+made a decision
+       break her heart
+       took this to heart
+       could take this to heart
+       would have been making a decision
+       could have made a different decisionPartly saturated, where the lexicalized arguments include the subject:
+
+
+a little bird told someone, the problem lies in somethingPartly saturated, where lexicalized head verbs are coordinated:
+
+
+drink and driveFully saturated:
+
+
+the early bird catches the worm
+Meaning-preserving variants
+Meaning-preserving variants of a (candidate) VMWE include notably:
+Verbal expressions with analytical tenses and modals:
+
+
+they have made a decision
+        we are making a decisionNominal groups (headed by nominal complements from the prototypical VMWEs) with relative clauses:
+
+
+decisions which we made
+       heart which we brokeNon-finite verbal clauses (with infinitives, participles, gerunds, regular nominalizations, masdars, etc.)
+
+
+we want to make a decision
+        to break one's heart is easy
+       we avoid making decisions
+       heart breakingthe act of breaking hearts
+       decisions previously made
+       all hearts broken by him
+       breaking her heart
+       they passed a piece of watered-down legislationDiathesis alternation (passive, impersonal, middle, etc.) :
+
+
+important decisions were made (passive alternation)Expressions with interposed modifiers (e.g. complex determiners and quantifiers, such as half a dozen, an impressive number of, …):
+
+
+they had taken a significant number of steps → apply tests to they take steps
+Canonical form
+For a given (candidate) VMWE occurrence, if its prototypical forms exist and keep the same meaning, these forms are called canonical.
+
+
+a canonical form for the heart which he broke is he broke her heart
+       a canonical form for making an impression on him is she makes an impression on him
+For some VMWEs, the only possible forms are not prototypical. For instance, some VMWEs appear in passive voice but never in active voice. If no prototypical form exists or does not preserve the meaning, the given occurrence is considered canonical itself.
+The linguistic tests for identification and categorization of VMWEs are always to be applied to a canonical form of the candidate VMWE. Note that, for brevity, many of the VMWE examples in these guidelines are given in their infinitive variants. Still, it is most often a canonical form that is implicitly meant.
+Non-verbal variants (not annotated)
+Expressions of the syntactic categories mentioned above are considered VMWEs only if they function as verb phrases (in prototypical forms) or nominal phrases (under meaning-preserving variants). Other kinds of variants are not considered VMWEs. This concerns nominalizations morphologically derived from verbs and describing a process, result, state, agent, etc.
+
+
+a take-off
+We also do not annotate MWEs containing verbs but functioning as adverbials, adjectives or nominals that are not meaning-preserving variants:
+
+
+forget-me-not
+        a run-down apartment
+Particular language teams may decide to extend the annotation scope to these variants. It is recommended in this case to introduce a new category for them (e.g. NVPC: nominal verb-particle constructions) so as to keep the (quasi-)universal categories intact.
+
+Section 1.5
+Lexicalized components and open slots
+Just like a regular verb, the head verb of a VMWE may have a varying number of compulsory arguments, that is, arguments that must be present in each occurrence of this VMWE. For instance, the direct object and the prepositional complement are compulsory in the VMWE to take someone by surprise.
+Some components of such compulsory arguments may be lexicalized, that is, always realized by the same lexemes. Here, by surprise is lexicalized while someone is not. The head verb of a VMWE is always considered lexicalized. When it can be replaced by another verb, like in to make/take a decision, we consider that these are two different VMWEs, although possibly synonymous.
+Conversely, a component of a compulsory argument which can be realized by a free lexeme taken from a relatively large semantic class is called an open slot. In the following VMWE examples (cited after Gross 1994), all having the same syntactic structure NP V NP Prep NP, the lexicalized arguments are highlighted in bold:
+Max took the bull by the horns.
+The news took John by surprise.
+Bob took part in the inquiry
+Money burns a hole in Bob’s pocket.
+Note on terminology: our definition of lexicalization applies to the component words of a VMWE, and not to the whole VMWE. This might be counter-intuitive, given the traditional definition of lexicalization as a diachronic process by which a lexeme (word or phrase) acquires the status of an autonomous lexical unit, that is, "a form which it could not have if it had arisen by the application of productive rules" (Bauer 1983, p. 50, apud Lipka et al. 2004, p. 6). In other words, traditionally linguistic studies would use the term "lexicalized" to refer to the whole VMWE, as it has idiosyncratic behavior and thus must be listed in the language's lexicon. Our definition, however, stems from computational linguistics and in particular from the parsing literature, in which lexicalized rules refer to rules containing terminal lexemes attached to non-terminal symbols, and a lexicalized grammar is a grammar in which the rules are lexicalized (Manning and Schütze 1999, p. 417; Jurafsky and Martin 2009, p. 507). In this sense, we regard VMWEs as syntactic subtrees in which some of the nodes are annotated with the corresponding terminal symbols that are always realized by the same lexeme (i.e. the lexicalized components) and others are non-terminal nodes that can be realized by any lexeme taken from a larger class (i.e. the open slots).
+Special cases
+Prepositions have a special status with respect to the notion of lexicalization. In the first, second and fourth example above, the prepositions by and in are lexicalized since they introduce lexicalized complements (the horns, surprise and pocket). However, in the third case the preposition in introduces an open slot whose meaning compositionally combines with the meaning of the VMWE took part. We say in this case that the preposition is selected by the VMWE, i.e. it belongs to the valency properties of the verb. Selected prepositions were discarded in edition 1.0 of the guidelines, and are now re-introduced experimentally and optionally via the inherently adpositional verbs (IAV). If the language team decides to take them into account, they are to be considered in the post-annotation step (step 4), i.e. when all other categories have previously been identified and categorized in the given sentence.
+Reflexive clitics in inherently reflexive verbs and possesive pronouns in verbal idioms also have a special lexicalization status (see also the note on more or less frozen determiners). In some languages, the same reflexive clitic or possesive pronoun is used regardless of the person and number, inflecting for case only:
+In other languages, reflexive clitics and possesive pronouns agree with the subject and the verb:
+
+
+I will do my best, They will do their best
+It this case, the clitic or the pronoun is realized by different lexemes, depending on the number and gender. Strictly speaking, it is not lexicalized. However, we admit that, regardless of the language, the reflexive clitic and the possesive prounun is a unique lexeme (with lemma się, se, sich, etc. or swój, son, one's) inflecting for person and number. It is thus lexicalized in inherently reflexive verbs and verbal idioms.
+
+Section 1.6
+Verbal multiword expressions versus collocations
+Collocations are not considered VMWEs in this task and should not be annotated. However, the boundary between both categories is not always easy to define and should be handled with care.
+We understand collocations as combinations of words whose idiosyncrasy is purely statistical. In other words, tokens in collocations tend to co-occur with each other more often than expected by chance, but they show no substantial orthographic, morphological, syntactic and (most notably) semantic idiosyncrasy. In this way we oppose MWEs to collocations.
+Note that other authors understand collocations slightly differently. E.g. for Sag et al. (2002), collocations are any statistically significant cooccurrences, i.e. they include all forms of MWE. For Baldwin and Kim (2010), collocations form a proper subset of MWEs. According to (Melcuk, 2010), collocations are binary semantically compositional combinations of words subject to lexical selection constraints, i.e. they intersect with what is here understood as MWEs.
+Some combinations happen to be very frequent and are perceived as "frozen":
+
+
+drastically drop
+       the graphic shows
+       to take a bus
+However, applying regular lexical alternations to them does not markedly impact their meaning.
+
+
+significantly drop, drastically decrease, the diagram shows, the graphic illustrates, to take a coach
+The difficulty of distinguishing collocations from VMWEs lies in the fact that lexical variability is relevant to some VMWEs:
+
+
+to come in handy/useful, to stand firm/fast, to break someone's spirit/will, to take the cake/biscuit
+However, the extent of the vocabulary concerned by this variability is different for collocations and VMWEs. Namely, a head verb in a collocation usually selects a whole semantic class for each of its required arguments. For instance, the verb to take to use a vehicle to travel selects a whole semantic class of means of transport. Similarly, the verb to drop can select a large set of adverbs describing the degree: drastically/significantly/remarkably/slightly/reasonably drop. Conversely, lexical variability in a VMWE is limited to a closed list of lexemes, sometimes only loosely semantically related. For instance, the VMWEs to take a cake/biscuit and to stand firm/fast do not keep their idiomatic readings with semantically close complements: #to take a cookie/wafer, *to stand hard/rigid/solid etc. See also Test VID.2.
+Some Light-verb constructions (LVCs) and multiverb constructions (MVCs) belong to the gray zone between MWEs and collocations in the sense that some operator (light) verbs seem to select large classes of nouns, as in to make a speech/declaration/remark/etc. However, some studies (e.g. Bonial 2014) show that there is no such thing as truly productive light verbs (e.g. to give a look vs. to give a stare). Therefore, we do include LVCs and MVCs in our annotation scope.
+
+Section 1.7
+Verbal multiword expressions versus metaphor
+Another phenomenon closely related to VMWEs is metaphor. According to (Shutova 2010), "a metaphor occurs when one concept is viewed in terms of the properties of the other. In other words it is based on similarity (presence of common characteristics) between two concepts".
+Many VMWEs, especially idioms, are based on metaphors. For instance, to take the bull by the horns means to address a problem (the bull) starting with its most challenging aspect (the horns). To set the world on fire is to do something extraordinary and get the admiration (set on fire) of other people (the world), to put all one's eggs in one basket means to rely on one particular course of action (a basket) for success rather than giving oneself several possibilities.
+However, verbal metaphors are not always VMWEs. Consider the newspaper title "simple steps to lift your dark cloud of stress", and the extract of a poem by Wordsworth, cited by Shutova: "and then my heart with pleasure fills, and dances with the daffodils". The metaphorical expressions to lift dark cloud of stress to relax and my heart ... dances with the daffodils I am happy are not semantically compositional. These expressions, however, were probably constructed for the needs of one article/poem only and are not sufficiently established in the common vocabulary to be considered VMWEs.
+The distinction between MWEs and metaphors is a relatively unstudied and open question. There are few precise tests, other than statistical, which would allow human annotators to resolve it reliably. Gross (1982) gives some clues on the reproducibility and predictability of metaphors. It remains to be seen how heavily this problem will impact the annotation of texts selected for our shared task. We suggest that the annotators take notes of such cases and discuss them within their communities, both local and international.
+
+Section 2
+Textual annotation scope
+In this annotation task, all occurrences of all syntactic types of VMWEs are to be annotated in the text.
+We annotate, as integral parts of VMWEs, all lexicalized elements that can form a separate word. For instance, lexicalized particles are annotated but case suffixes are only annotated if the noun they modify is also lexicalized. Thus, in to put something up, the verb and the particle are integral parts of the VMWE (see VPC tests), while in (HU) döntést hoz valamiről decision-ACC bring something-DEL make a decision, only döntést hoz is annotated, even if the delative case suffix is also lexically determined.
+Similarly, auxiliairies and modals accompanying the main verb of a VMWE are only annotated if they are themselves lexicalized but not when they simply mark syntactic variants of the VMWE. For instance will is lexicalized, and to be annotated as such, in even a worm will turneven a meek person will resist if pushed too far but not in they will spill the beans.
+Both continuous and discontinuous sequences of lexicalized components of VMWEs are annotated.
+Reflexive pronouns, particles and prepositions need to be handled with special care, given their particular lexicalization status. Verb+pronoun and verb+particle combinations are annotated essentially if they are inherently reflexive verbs or verb-particle constructions. In this version of the guidelines, verb+preposition combinations like to rely on somebody and to come across something or to put up with somebody are re-introduced optionally and experimentally as via the inherently adpositional verbs (IAVs).
+The annotation considers only flat, tokenized sentences whose tokens will be tagged by annotators as part of a VMWE or not. We do not annotate their internal syntactic structure. We do annotate, however, VMWEs embedded in other VMWEs. For instance, the VMWE to let the cat out of the bag contains the embedded VMWE let out and both are to be annotated as different VMWEs. Embeddings are discussed on each category's page, in the "Problematic cases and remarks" sections (e.g. IRVs overlapping with VIDs).
+Once identified in a text, VMWEs are also to be assigned to exactly one of the categories described in the following sections.
+Note: We do not admit assigning two different categories to a single VMWE in order to express hesitation. A comment and a particular value of the annotator's confidence should be used instead.
+
+Section 3
+Categories of verbal MWEs
+In edition 1.1 of this task we distinguish the following categories of verbal MWEs:
+Two universal categories, i. e. valid for all languages participating in the task:
+Light verb constructions (LVCs) with two subcategories:
+LVCs in which the verb is semantically totally bleached (LVC.full)
+
+
+to give a lectureLVCs in which the verb adds a causative meaning to the noun (LVC.cause)
+
+
+to grant rights
+       to give a headache
+       to provoke the destruction of the building
+verbal idioms (VIDs):
+
+
+to go bananas
+       fortune favors the bold
+       to drink and drive
+       to voice act
+       to pretty-print
+       to short-circuit
+       to tumble dry
+Three quasi-universal categories, valid for some language groups or languages but non-existent or very exceptional in others:
+inherently reflexive verbs (IRV):
+
+
+to find oneself in a difficult situation
+       to to help oneself to the cookies
+verb-particle constructions (VPC) with two subcategories:
+fully non-compositional VPCs (VPC.full), in which the particle totally changes the meaning of the verb
+
+
+to do insemi non-compositional VPCs (VPC.semi), in which the particle adds a partly predictable but non-spatial meaning to the verb
+
+
+to eat up
+multi-verb constructions (MVC):
+
+
+to let go
+       to make do
+language-specific categories, defined for a particular language in a separate documentation.
+We also introduce an optional experimental category which (if admitted by the given language) is to be considered in the post-annotation step:
+inherently adpositional verbs (IAVs)
+
+
+to come across
+       to rely on
+In practice, to identify and categorize verbal MWEs during manual annotation, one must use the rigorous generic decision tree and the structural and category-specific cross-lingual tests provided.
+For a summary of changes with respect to edition 1.0 of the guidelines, see the what's new file.
+
+Section 4
+Annotation process and decision tree
+We propose the following methodology for VMWE annotation:
+Step 1 - identify a candidate, that is, a combination of a verb  with at least one other word which could form a VMWE. Recall that a candidate can be composed of only one token if it contains several words (cf. the MWT tests). If the candidate has the structure of a meaning-preserving variant, find the corresponding canonical form. The following steps should be applied to this canonical form. This step is largely based on the annotators' linguistic knowledge and intuition after reading this guide.
+Step 2 - determine which components of the candidate (or of its canonical form) are lexicalized, that is, if they are omitted, the VMWE does not occur any more. Corpus and web searches may be required to confirm intuitions about acceptable variants.
+Step 3 - depending on the syntactic structure of the candidate's canonical form, formally check if it is a VMWE using the generic and category-specific decision trees and tests below. Notice that your intuitions used in Step 1 to identify a given candidate are not sufficient to annotate it: you must confirm them by applying the tests in the guidelines.
+Step 4 (experimental and optional) - if your language team chose to experimentally annotate the IAV category follow the dedicated inherently adpositional verb (IAV) tests. These tests should always be applied once the 3 previous steps are complete, i.e. the IAV overlays the universal annotation.
+The decision tree below indicates the order in which tests should be applied in step 3. The decision trees are a useful summary to consult during annotation, but contain very short descriptions of the tests. Each test is detailed and explained with examples in the following sections.
+Generic decision tree
+If you are annotating Italian or Hindi, go to the Italian-specific decision tree or Hindi-specific decision tree. For all other languages follow the tree below.
+Apply test S.1 - [1HEAD: Unique verb as functional syntactic head of the whole?]
+Apply the VID-specific tests ⇒ VID tests positive?
+Annotate as a VMWE of category VID
+It is not a VMWE, exit
+Apply test S.2 - [1DEP: Verb v has exactly one lexicalized dependent d?]
+Apply the VID-specific tests ⇒ VID tests positive?
+Annotate as a VMWE of category VID
+It is not a VMWE, exit
+Apply test S.3 - [LEX-SUBJ: Lexicalized subject?]
+Apply the VID-specific tests ⇒ VID tests positive?
+Annotate as a VMWE of category VID
+It is not a VMWE, exit
+Apply test S.4 - [CATEG: What is the morphosyntactic category of d?]
+Reflexive clitic ⇒ Apply IRV-specific tests ⇒ IRV tests positive?
+Annotate as a VMWE of category IRV
+It is not a VMWE, exit
+Particle ⇒ Apply VPC-specific tests ⇒ VPC tests positive?
+Annotate as a VMWE of category VPC.full or VPC.semi
+It is not a VMWE, exit
+Verb with no lexicalized dependent ⇒ Apply MVC-specific tests ⇒ MVC tests positive?
+Annotate as a VMWE of category MVC
+Apply the VID-specific tests ⇒ VID tests positive?
+Annotate as a VMWE of category ID
+It is not a VMWE, exit
+Extended NP ⇒ Apply LVC-specific decision tree ⇒ LVC tests positive?
+Annotate as a VMWE of category LVC
+Apply the VID-specific tests ⇒ VID tests positive?
+Annotate as a VMWE of category VID
+It is not a VMWE, exit
+Another category ⇒ Apply the VID-specific tests ⇒ VID tests positive?
+Annotate as a VMWE of category VID
+It is not a VMWE, exit
+
+Section 5
+Specific tests for categorizing verbal MWEs
+Once a candidate VMWE has been pre-identified in steps 1 and 2 of the annotation process, the confirmation of its status as a VMWE, as well as its categorization, is done according to the decision tree referring to the following cross-lingual tests:
+Structural tests (S)
+Light-verb constructions (LVC)
+Verbal idioms (VID)
+Inherently reflexive verbs (IRV)
+Verb-particle constructions (VPC)
+Multi-verb constructions (MVC)
+Inherently adpositional verbs (IAV) - optional and experimental
+Additionally, language-specific categories (LS) can be defined and tests for them can be used to annotate them in a given language or language group only.
+
+Section 5.1
+Structural tests (S)
+Structural tests are quite simple preliminary tests that help determining the syntactic structure of the VMWE. This is required in order to point at the right category-specific identification tests. In practice, annotators will rarely need them since they will already have an intuition about the VMWE candidate category when they identify it.
+Test S.1 - [HEAD] - Syntactic head
+Does the candidate contain a unique verb functioning as the functional syntactic head of the whole?
+Apply the VID-specific tests
+
+
+to pretty-print → there is an unusual case of an adjective modifying a verb
+       to drink and drive → none of the verbs is clearly the head, as there is no universally accepted syntactic representation of coordination
+continue to the next test
+
+
+to make a face → make is the head and the NP depends on it
+       to give up → give is the head and up is a particle depending on it
+The aim of this test is to categorize (as VID or no VMWE) those candidates which have no single clearly identified head verb. This is necessary because all other tests refer to the single head verb v and its dependents. Note that for VMWE candidates having the structure of a meaning-preserving variant, the test should be applied to their canonical form instead. This is required because there may be no verb or the verb may not be the syntactic head in such variants.
+
+
+to make a decision passes the test → variants like the decision which was made, decision-making, the making of the decision pass the test as well
+Test S.2 - [1DEP] - Single dependent
+Does the VMWE contain exactly one lexicalized (functional) syntactic dependent d of the head verb v?
+Apply the VID-specific tests
+
+
+to make ends meet → two dependents, ends and meet
+       to let the cat out of the bag → two dependents, the cat and out of the bag
+Continue to the next test
+
+
+to make a face → the single dependent is a noun phrase, face
+       to take into account → the single dependent is a prepositional phrase, into account
+       to take turns → the single dependent is a noun, turns
+       to give up → the single dependent is a particle, up
+The test covers only lexicalized dependents. There may be other, non-lexicalized dependents, which the test ignores. We explicitly call the non-verbal elements dependents instead of arguments or complements because argument-adjunct distinction is irrelevant. The outcome of the test is positive if the verb has a single lexicalized dependent, which can be the subject, the direct or indirect object, but also an adverbial complement, adverb, particle, relative clause, etc.
+Test S.3 - [LEX-SUBJ] - Lexicalized subject
+Is the single lexicalized (functional) syntactic dependent d of the head verb v its subject?
+Apply the VID-specific tests
+
+
+a little bird told someone → a little bird is the subject of told
+Continue to the next test
+
+
+to make a wish → a wish is the object of make
+This test captures the fact that VMWEs with lexicalized subjects always belong to the VID category. Note that for the VMWE candidates having the structure of a meaning-preserving variant, the test should be applied to their canonical form instead. This is required because there may be no verb or the verb may not be the syntactic head in such variants.
+Test S.4 - [CATEG] - Category of the dependent
+What is the morphosyntactic category of the (functional) dependent d that co-occurs with the head verb v?
+Reflexive clitic - apply IRV tests. If the outcome is negative, discard the VMWE candidate.
+
+
+help yourself to the apples
+       I found myself in a difficult situationParticle (as opposed to an adposition) - apply VPC tests. If the outcome is negative, discard VMWE candidate.
+
+
+to give up, to look forward toVerb with no lexicalized dependent - apply MVC tests. If the outcome is negative, apply the VID-specific tests. On negative outcome discard the VMWE candidate.
+
+
+to let go
+       to make do
+Adposition (preposition or postposition, as opposed to a particle) - in step 3 of the annotation process adpositions are not annotated unless they introduce a lexicalized dependent. Adpositions are covered optionally and experimentally in the post-annotation step (step 4), following the inherently adpositional verb (IAV) guidelines.
+
+
+to come across
+       to rely on
+Extended nominal phrase (possibly including modifiers, prepositions, postpositions or case markers) - apply LVC tests. If the outcome is negative, apply the VID-specific tests. On negative outcome discard the VMWE candidate.
+
+
+to make a wish → a wish is a noun phrase composed of a determiner and a noun
+       to take turns → turns is a noun phrase composed of a single plural noun
+(Hindi-specific) Adjective which is morphologically identical to an eventive noun: Apply the LVC tests. If the outcome is negative, apply the VID-specific tests. On negative outcome discard the VMWE candidate.
+Adjective: Apply the VID-specific tests. On negative outcome discard the VMWE candidate.
+
+
+to stand firm, to see red
+Adverb: Apply the VID-specific tests. On negative outcome discard the VMWE candidate.
+
+
+to get well
+Pronoun: Apply the VID-specific tests. On negative outcome discard the VMWE candidate.
+
+
+to make it
+Verb with lexicalized dependents including fully lexicalized clauses: Apply the VID-specific tests. On negative outcome discard the VMWE candidate.
+
+
+to make ends meet, to know on which side the bread is buttered
+Other: Apply the VID-specific tests. On negative outcome discard the VMWE candidate.
+The aim of this test is to determine which category-specific identification tests should be applied. Note that for the VMWE candidates having the structure of a meaning-preserving variant, the test should be applied to their canonical form instead. This is required because there may be no verb or the verb may not be the syntactic head in such variants.
+
+Section 5.2
+Light verb constructions (LVC)
+Light verb constructions (LVC) constitute a universal category. We retain the following key characteristics:
+They are formed by a verb v and a (single or compound) noun n, which either directly depends on v (and possibly contains a case marker or a postposition), or is introduced by a preposition.
+In case of Hindi, the noun can be replaced by an adjective which is morphologically identical to an eventive noun. If you annotate Hindi, everywhere is this page when the noun is referred to, you should read the noun or the adjective.
+
+
+to give a lecture → verb + direct-object noun
+       to come into bloom → verb + prepositional-object noun
+       to make a high five → verb + compound noun
+The (single or compound) noun n is predicative and refers to an event (e.g. decision, visit) or a state (e.g. fear, courage). Predicative nouns are nouns that have semantic arguments, that is, they express predicates whose meaning is only fully specified by their semantic arguments:
+
+
+to make a decision → noun refers to an event, there are 2 arguments: a decider and a choice
+        to pay a visit → noun refers to an event, there are 2 arguments: a visitor and a visited place/person
+       to have fear→ noun refers to a state, there are 2 arguments: somebody who is afraid and something frightening
+        to have courage → noun refers to a state, there is 1 argument: the courageous person
+We retain two sub-categories of verbs, which define two sub-categories of LVCs:
+The verb v is "light" in that it contributes to the meaning of the whole only by bearing morphological features: person, number, tense, mood, as well as morphological aspect. This implies that v's syntactic subject  is n's semantic argument. In this case, we annotate the construction as LVC.full.
+
+
+to make a presentation
+       to pay a visit
+       to have rights
+       to have a headache
+       to carry out a destruction
+The verb v is "causative" in that it indicates that the subject of v is the cause or source of the event or state expressed by n. In other words, the noun has semantic arguments expressed as non-subject elements in the sentence, and the subject of the verb brings an additional information, indicating the cause of source of the event/state. In this case, we annotate the construction as LVC.cause. These constructions are expected to be less idiomatic than other VMWEs and can be understood as complex predicates with a causal support verb.
+
+
+to grant rights
+       to give a headache
+       to provoke a reaction
+The following decision tree should be applied to decide whether a candidate should be annotated as a LVC.full, LVC.cause or none.
+LVC-specific decision tree:
+Apply test LVC.0 - [N-ABS: Is the noun abstract?]
+It is not an LVC, exit
+Apply test LVC.1 - [N-PRED: Is the noun predicative?]
+It is not an LVC, exit
+Apply test LVC.2 - [V-SUBJ-N-ARG: Is the subject of the verb a semantic argument of the noun?]
+Apply test LVC.3 - [V-LIGHT: The verb only adds meaning expressed as morphological features?]
+It is not an LVC, exit
+Apply test LVC.4 - [V-REDUC: Can a verbless NP-reduction refer to the same event/state?]
+It is not an LVC, exit
+It is an LVC.full
+Apply test LVC.5 - [V-SUBJ-N-CAUSE: Is the subject of the verb the cause of the noun?]
+It is not an LVC, exit
+It is an LVC.cause
+Note: test 10 [N-SEM] from the previous version of the guidelines (1.0) was considered unnecessary and has been abandoned in the current version of the guidelines.
+Note: LVC tests are often hard to apply. If you hesitate at some intermediary test, continue to the next one, since the last tests of LVC.full and LVC.cause will help you reach your final decision.
+Test LVC.0 - [N-ABS] Noun is abstract
+Is the noun n abstract?
+continue to next test
+
+
+priority, anger, love, opinion, difficulty, speech, presentation, birth
+it is not an LVC
+
+
+chair, keyboard, hand, person
+Some concrete nouns may be predicative (test LVC.1). For instance, a relational noun such as daughter is semantically incomplete without its argument: daughter of X, so daughter is predicative. However, concrete predicative nouns should not pass test LVC.0.
+Some nouns may have both concrete and abstract interpretations. For instance, money is concrete when it refers to banknotes (paper money, bills): I didn't have money so I paid by credit card. However, money is abstract when referring to a conventional value used in transactions between people: He spent a lot of money in the mall. If one cannot be sure that the noun is used in its concrete interpretation, test LVC.0 passes.
+Test LVC.1 - [N-PRED] Noun is predicative
+Does the noun n have at least one semantic argument, implying that it is a predicative noun?
+continue to next test
+
+
+pay a visit → event, with two arguments: the visitor and the visitee
+       have strength → property, with one semantic argument: the entity having strength
+       take a glance at something → event, with two arguments: the entity glancing and the entity glanced at
+       make a contribution → event, with two arguments: the contributor and the beneficiary (notice that contribution could refer to both the event and the thing being contributed, but we always prefer the former reading when possible)
+it is not an LVC
+
+
+Joe makes a cake → the noun is a physical entity that does not pass test LVC.0, even though Joe could be considered its semantic argument
+       Joe experienced a tornado → the noun is an event, but has no semantic arguments
+       Joe has a lot of money → the noun is abstract and Joe could be considered its semantic argument, but we consider that money (as well as other goods such as car and bananas) can exist independently of a possessor, so the possessor (owner) should not be considered as semantic argument of money
+We only retain nouns n that have at least one semantic argument, which we define as a semantically mandatory and specific participant of the event or state expressed by the predicative noun.
+Sometimes, it might be useful to consider verbs and adjectives derivationally related to the noun to reason about its semantic arguments.
+Test LVC.2 - [N-SUBJ-N-ARG] Verb's subject is noun's semantic argument
+Is the subject of the verb a semantic argument of the noun? In other words, is the verb linking the predicative noun to one of its semantic arguments that occurs as the subject of the verb?
+continue to next test
+
+
+John made a presentation to his boss → John is the subject of the verb and a semantic argument (the presenter) of the nounGo to test LVC.5
+
+
+John's boss interrupted his presentation → John's boss, that is, the subject of the verb, is not a semantic argument of the presentation, since a presentation does not necessarily have an interrupter
+        The report provides information about the economy → information only has one argument, which is its topic. The provider/source of an information is not one of its semantic arguments.
+It is not always easy to determine if the verb's subject is an argument of the noun. You can use the former syntactic version of this test to verify your intuitions.
+Test LVC.3 - [V-LIGHT] Verb with light semantics
+Is v semantically light, that is, is the semantics that v adds to n restricted to: (i) what stems from its morphological features (e.g. future, plural, perfective aspect, etc.), (ii) pointing at the semantic role of n played by v's subject?
+continue to next test
+
+
+take a walk → take adds no meaning to walk besides that of performing an activity
+       make a decision → make adds no meaning to decision besides that of performing an activity
+       have fear → have adds no meaning to fear besides that of having a property
+       perform a check → perform is a pure syntactic operator: in any context, it only bears tense and mood and never adds any sense to the noun
+       commit a crime → commit is a pure syntactic operator: in any context,it only bears tense and mood and never adds any sense to the noun
+       pay a visit → the verb in its usual sense means 'to spend some money on a visit', but here it is not used in this sense and does not add any semantics to the "visiting" event
+       deliver a speech → the verb in its usual sense means 'to move from one place to another', but here it is not used in this sense and does not add any semantics to the "speech" event
+       undergo a surgery → undergo adds no meaning to surgery besides indicating that the subject is the patient of the surgeryit is not an LVC
+
+
+to start a walk → start adds an aspectual meaning to the noun
+Note that this light semantics of the verb is either usual for that verb (i.e. the verb is a pure syntactic operator, like commit, perform), or occurs in the context of the particular noun (e.g. for pay in to pay a visit). Both types of verbs pass the test.
+In our view of LVCs, we do not require a light verb to be "bleached", as it is sometimes described in the literature. We simply do not take into account the relation between the verb's use as a light verb and its other uses. While the specific meaning added by light verbs to the predicative nouns have been extensively studied and described (e.g. by Miriam Butt and Tafseer Ahmed), we do not adopt any fine-grained classification here. If you have a doubt about a verb's "lightness", proceed to the next test: if you can evoke the same event/state without using the verb, then it is considered light.
+Test LVC.4 - [V-REDUC] - Verb reduction
+Try to build an NP without the verb, in which v's subject s becomes n's dependent. You might need to test several prepositions (of, by, for, from), possessives (my, her, somebody's), postpositions, case markers, as long as you use no verb. Can this verbless NP refer to the same event or state as the candidate v+n construction does?
+annotate as LVC.full
+
+
+Paul had a walk → Paul's walk — both refer to the same walking event
+       I paid him a visit → my visit to him — both refer to the same visiting event
+       Hester gave birth to Pearl → Pearl's birth to Hester — both refer to the same birthing event (note that the key criterion is that Hester, the subject of the verb, is a (prepositional) dependent of birth in the paraphrase)
+        The party gave priority to senior members → the priority of senior members for the party — both refer to the same prioritization event
+it is not an LVC
+
+
+Paul got news from his brother → #Paul's news from his brother — one cannot remove the verb because the sense of communication is missed, so the verb is not light. As a consequence, the verbless NP (Paul's news) fails to refer to the original event (Paul got news)
+This test has a simple formulation but its application has some important subtleties which are central to our definition of the LVC.full category. The goal of this test is to keep only constructions in which the predicative noun is an event or state , excluding "gray-zone" predicates.
+First, if it is not possible to build an acceptable NP where the verb v's subject s becomes a dependent of the noun n, e.g. using any preposition, postposition and/or case marker, this means that the verb is not light, and the construction cannot be annotated as LVC.full. This may remove constructions in which there is control, that is, both the noun and the verb share the same subject. However, control is not sufficient to characterize an LVC.full. In other words, LVC.4 fails, the verb is not completely light, and you cannot annotate the construction as LVC.full, even if intuitively it resembles an LVC.full due to control:
+Second, the fact that the NP is acceptable does not suffice to characterise an LVC.full. Furthermore, the NP version in which the verb was omitted, if acceptable, must evoke the same event or state as the LVC. Here are some tricky examples and some recommendations about how to interpret them:
+
+
+Mary has a brother → Mary's brother is a concrete NP referring to one member of the relation (does not pass LVC.0), and not to the state of brotherhood between both actants
+       Mary sent a letter → Mary's letter refers to a concrete object participating in the event (does not pass LVC.0), but not to the sending event itself
+        Mary has an opinion and more generally, cases of have + a noun refering to the state of having a mental content (opinion, belief) → Mary's opinion is ambiguous between the fact that she has an opinion and the content of her opinion. We recommend that these cases should be annotated as LVC.full
+        Mary made a speech and more generally, cases of make + a noun refering to a speech act → Mary's speech refers to the informational content produced or communicated during the speech act, but can also refer to the act itself. We recommend that these cases should be annotated as LVC.full
+        Mary made a decision → decision can refer to the deciding event (a quick decision) and/or to what is decided. We recommend that these cases should be annotated as LVC.full
+Finally, some nouns, especially nominalisations, are ambiguous between events and their participants. For instance, a costruction may be an event (the construction of the bridge took 2 years) or its result (this bridge is a spectacular construction). In that case, if the verbless NP can refer to the event, then you should prefer this reading over the "participant" interpretation. For example, in John made a construction, you may ask if John's construction refers to the construction event or to its result. In this case, it can refer to the event, so it should be annotated as LVC.full.
+Test LVC.5 - [V-SUBJ-N-CAUSE] Verb's subject is noun's cause
+Is the subject of the verb expressing the cause of the predicate expressed by the noun? In other words, does the verb bring an additional participant to the scene, representing the source or cause of the event or state referred to by the noun?
+annotate as LVC.cause
+
+
+to grant rights → X has the right to Y, the granter is not a semantic argument of rights, but it causes somebody to have the right to do someting
+       to give a headache → X has a headache, the cause of the headache, indicated as the subject of give is not a semantic argument
+       the new law provoked the destruction of the building → the destruction of X by Y, the reason for the destruction is indicated by the verb provoke, which is a prototypical causative verb. Here, the subject is not the agent of destruction, but its cause. Notice that if the sentence was the explosion provoked the destruction of the building, then the construction would be an LVC.full
+        residents seek to build consensus on the development of the territory → the semantic argument of consensus is the topic on which everybody agrees, the subject of build consensus expresses an external participant responsible for the consensus to exist.it is not an LVC
+
+
+to relieve a headache → the subject of relieve is not what is causing a headache
+       to give birth → tricky case, since the subject of give actually is a semantic argument of birth, so it cannot be its cause. This construction must be annotated as VID (it does not pass test LVC.4 either).
+       excessive heat provokes fire → even though provoke prototypically expresses a cause, in this case fire is not predicative and should not pass test LVC.1, so the construction cannot be annotated as LVC.cause
+Constructions annotated as LVC.cause involve:
+verbs that are typically used to express the cause of predicative nouns in general (e.g. cause, provoke), or
+verbs that are only used to express the cause of particular predicative nouns (e.g. grant in to grant a right).
+When the construction involves a typically causative verb (e.g. cause, provoke), it might seem counter-intuitive to annotate it as VMWE because it looks perfectly regular, not presenting any VMWE idiosyncrasy. However, it turned out difficult to distinguish idiosyncratic from regular LVC.cause, so both should be annotated, like for LVC.full. In other words, some LVC.cause constructions are compositional and can be understood as complex predicates with a causal support verb, regardless of their compositionality.
+Typically causative verbs (e.g. cause, provoke) can sometimes be light. In this case, according to the LVC decision tree, LVC.full has priority over LVC.cause. For instance, the announcement provoked an unexpected reaction should be annotated as LVC.full and not LVC.cause, although provoke is a typically causative verb. Indeed, reaction has two arguments (reaction of X to Y), one of which is the subject of the verb (test LVC.2 passes). In other words, typically causative verbs may be used in either LVC.full or LVC.cause, depending upon whether the cause subject of the verb is a normal, canonical argument to the predicative noun (LVC.full) or an "external" non-canonical cause (LVC.cause).
+Some verbs could be considered causative, but their interpretation goes beyond purely indicating the cause of the event/state. Therefore, you should NOT annotate as LVC.cause constructions involving:
+verbs which encode a manner of causation:
+
+
+to call a meeting entails communication to schedule the meeting
+        to hold a meeting entails leadership
+       to organize classes entails preparation
+verbs which encode modality:
+
+
+to allow dialogue entails permission
+        to foster dialogue entails assistance
+        to require dialogue entails necessity
+aspectual verbs whose subject is a semantic argument of the noun:
+
+
+we started the meeting
+        we ended the meeting
+       we continued the meeting
+Problematic cases and remarks
+Syntactic variants
+The (single or compound) noun n functions as a regular syntactic dependent, so LVCs exhibit regular syntactic variants.
+
+
+make a decision → the decision that the director has to make.
+As explained in the section on syntactic variants of VMWEs, all LVC tests should be applied to the canonical form, that is, one in which the verb is in active voice and in finite form. If there is no canonical form, this is an indication that the target construction might not be an LVC, but a verbal idiom instead.
+Selection of the verb
+In many cases of LVCs, it can be said that there is some degree of selection of the verb by the noun.
+
+
+have a walk vs *have a race
+       run a race vs *run a walk
+Yet some regularities exist. For example, large classes of nouns function with have (e.g. +property) or commit (+negative achievement). Therefore, we chose not to retain the selection of the verb as a criterion for LVC categorization. Instead, the decision tree should be applied to decide whether a candidate should be annotated as LVC.
+Scope of annotation vs. literature on LVCs
+Many authors distinguish support verbs from light verbs, still others differentiate between true light verbs and vague action verbs.
+On the one hand, we take a narrower scope than what is usually considered in the literature by ignoring aspectual support verbs (except when aspect is morphological). We believe that aspectual verbs do contribute an additional (change of state) meaning to the expression, and most of the time they are completely productive, not forming interesting VMWEs. For instance, for the predicative noun walk, we will consider the light verb to have, but not the aspectual verbs to start, to pursue, to stop a walk. Thus, to have a walk is an LVC.full. Note that for some nouns such as bloom, which are in itself inchoative, we do consider to come into bloom as LVC.full, as both the verb and the noun are inchoative, so the verb does not add any semantics to the noun.
+On the other hand we take a broader scope than what is usually considered in the literature by taking in cases in which the verb has light semantics per se (it only bears morphology, such as the tense and mood, in any case), which hence cannot be described as "bleached" as is usually said of support verbs. For instance, whereas to pay does not have its usual meaning in to pay a visit, it cannot really be said that commit does not have one of its meanings in commit a crime (note that commit can be used with any negatively charged achievement noun, e.g. suicide, crime, fraud, felony...). Nonetheless, we annotate to commit a crime as LVC.full since it passes all tests.
+Verb and adjective paraphrase
+One test often used in the literature is the existence of a morphologically related verb or adjective that means the same as the LVC. For instance, to make a visit is equivalent to to visit, to have an illness is equivalent to to be ill. Note however that it is neither sufficient nor compulsory:
+some LVCs have no derivationally-related equivalents, such as to have a flu, to have faith and to commit a crime;
+some constructions that are not LVCs do have a derivationally-related equivalent such as to write an email and to email;
+some LVCs have derivationally-related equivalents that do not mean the same as the LVC, such as to make a face and to face, or that have different argumental structure from the LVC, such as to have a problem and to be problematic.
+Nonetheless, it might be useful to reason about the derivationally-related equivalents to decide whether a noun is predicative in test LVC.1. Therefore, here are some useful questions that might help deciding about the predicative nature of the noun in the LVC candidate
+Verb paraphrase Is the abstract noun derivationally related to a verb with the same semantics? Then, there is probably a semantic argument, which coincides with the subject of the verb, so test LVC.1 passes:
+
+
+John makes a decision = John decides
+       John has a walk = John walks
+Adjective paraphrase: Is the abstract noun derivationally related to an adjective with the same semantics? Then, there is probably a semantic argument, which coincides with the noun that is modified by the adjective, so test LVC.1 passes.
+
+
+John has courage = John is courageous → and, more generally, characteristics and attributes
+       John has hunger/thirst = John is hungry/thirsty → and, more generally, physical sensations
+       John has passion/fear/anger = John is passionate/afraid/angry → and, more generally, feelings and emotions
+       John has problems/difficulties = Something is problematic/difficult for John → and, more generally, states
+Synonym verb/adjective paraphrase: Does the abstract noun have a synonym/hypernym derivationally related to a verb or adjective with the same semantics? Then, the questions above can be applied to the synmonym verb/adjective.
+
+
+John and Mary reach a consensus = John and Mary agree → consensus has no corresponding verb or adjective, but agreement is a synonym
+       John has a chance to do something = John is likely to do something → chance has no corresponding verb or adjective, but likelihood is a synonym
+The existence of a related verb is not a definitive tests, but a hint that the noun is probably predicative. Since determining whether a noun is predicative is tricky, we advise language teams to provide additional documentation and examples for borderline cases.
+Checking if the subject is an argument with syntactic tests
+The previous version of the guidelines had a syntactic test which you can still use to verify if the verb's subject is an argument of the noun. However, this test was considered hard to apply in the previous guidelines, and is not mandatory anymore.
+The syntactic test consists in trying to add the semantic argument as a complement of the noun in the presence of the verb. In other words, does the noun n, in the presence of v, prohibit at least one syntactic argument a which it normally licensed  in the absence of v?
+Note: An alternative formulation for this test is the following: Let s be the subject of v, and let r be the semantic role that s plays with respect to the noun n. Is it prohibited for r to be realized both by s and by a syntactic argument a of n, except when a is in the whole–part relation with s?
+
+
+The Queen paid a visit to the Prime Minister + a visit of the Lady to the Prime Minister → *The Queen paid a visit of the Lady to the Prime Minister — the visitor cannot be a modifier of visit
+       Paul made a decision on the budget + the committee's decision on the budget → *Paul made the committee's decision on the budget — the decision maker cannot modify decision
+       Paul had a discussion with Mary+ Peter's discussion → *Paul had Peter's discussion with Mary
+       Bjarnson scored a goal + Arnason's goal → *Paul scored Arnason's goal but Paul scored the goal of Iceland — the scoring entity can only modify goal in the last case, when they are part of the Iceland team
+The rationale for this tests is that a semantic argument n cannot be realized as its syntactic dependent, since it is already realized as v's syntactic dependent instead (usually as v's subject). For instance the noun visit takes two semantic arguments, the visitor and the visited entity, as in the visit of the Queen to the Prime Minister. When used in to pay a visit, the visitor semantic argument is realized as the subject of to pay (The Queen paid a visit to the Prime Minister), and cannot be realized at the same time within the NP headed by visit (*The Queen paid a visit of the Lady to the Prime Minister).
+Note that the syntactic formulation may be tricky to apply. It is sometimes possible to add the semantic argument as a complement of the noun in the presence of the verb, if we change the interpretation of the argument (and thus its thematic role). For instance, even though the construction John took Luke's decision may be acceptable, the interpretation would be comparative (John took a decision that Luke should have taken). Therefore, the test passes since the verb is still connecting a predicate (decision) to its argument (John, the decider).
+
+Section 5.3
+Verbal idioms (VID)
+Verbal idioms constitute a universal category. A verbal idiom (VID) has at least two lexicalized components including a head verb and at least one of its dependents. The dependent can be of different types. Here are some examples:
+Subject
+
+
+a little bird told someoneDirect object
+
+
+to kick the bucketCircumstantial or adverbial complement
+
+
+to take something with a pinch of salt, to sell like hotcakes, to strike while the iron is hot, to come off with flying colors
+It is often challenging to distinguish VIDs from other VMWE categories if only one dependent of the head verb is lexicalized. The VMWE categorization depends on the category of this dependent:
+Reflexive clitic or particle: the VMWE is either an IRV (reflexive pronoun) or a VPC (particle), never a VID.
+Verb with no lexicalized dependent: fine-grained tests need to be applied in order to discriminate between a MVC and a VID. See the section on Structural tests.
+Extended nominal phrase: fine-grained tests need to be applied in order to discriminate between an LVC and a VID. See the section on Structural tests.
+With a dependent of any other category, the VMWE is always a VID, including the following:
+Adjectival phrase
+
+
+to come clean, to stand firmVerb with lexicalized dependents
+
+
+to make ends meetRelative clause
+
+
+to know on which side the bread is butteredNon-reflexive pronoun
+
+
+to make it
+Sentential expressions with no open slots, such as proverbs and conventionalized sentences, are included in the scope of VIDs.
+
+
+Rome was not built in a day
+       Fortune favors the bold
+       The pleasure is mine
+       I beg your pardon!
+If more than one dependent of the head verb is lexicalized, then the candidate VMWE is always classified as a VID.
+
+
+to let the cat out of the bag, to cut a long story short, to call it a day
+Cases when there is no single clearly identifiable head verb, because of coordinated verbs or of an irregular syntactic structure, are also covered by the VID category.
+
+
+to drink and drive
+
+
+to voice act
+       to pretty-print
+       to short-circuit
+       to tumble dry
+In case of several lexicalized dependents, special care must be taken to identify and also annotate embedded VMWEs.
+
+
+to let the cat out of the bag → contains the VPC to let out
+Idioms whose head verb is the copula (to be) can pose special challenges because their complements may be (nominal, adjectival, etc.) MWEs themselves. In this task, we consider constructions with a copula to be VMWEs only if the complement does not retain the idiomatic meaning when used without the verb.
+
+
+to be dying for → idiom because #dying loses the meaning of wanting something
+       to be somebody → idiom because #somebody loses the meaning of being important or successful
+       it is double Dutch to me → non-VMWE because the copula can be omitted, as in he seems to speak double Dutch
+Note that special care must be taken in languages in which the copula omission is a regular or even a compulsory phenomenon (e.g. in Russian). In those cases, language-specific tests are required to distinguish a copula-based idiom from a non-verbal MWE.
+Idioms typically have both a literal and an idiomatic reading. Thus, they are closely connected to the phenomenon of a metaphor (see also the section on VMWEs versus metaphors). This often makes them semantically totally non-compositional, i.e. none of their lexicalized components retains any of their original meanings. 
+VID-specific decision tree:
+Note: In this tree, a single YES to one of the tests is sufficient to decide that a candidate is a VID. Note however that this tree is to be applied only after it was referred to by the generic decision tree containing structural tests.
+Apply test VID.1 - [CRAN: Candidate contains cranberry word?]
+It is a VID, exit.
+Apply test VID.2 - [LEX: Regular replacement of a component ⇒ unexpected meaning shift?]
+It is a VID, exit.
+Apply test VID.3 - [MORPH: Regular morphological change ⇒ unexpected meaning shift?]
+It is a VID, exit.
+Apply test VID.4 - [MORPHSYNT: Regular morphosyntactic change ⇒ unexpected meaning shift?]
+It is a VID, exit.
+Apply test VID.5 - [SYNT: Regular syntactic change ⇒ unexpected meaning shift?]
+It is a VID, exit.
+It is not a VID, exit
+Test VID.1 - [CRAN] - Cranberry word
+Does the candidate expression contain a cranberry word?
+it is a VID
+
+
+to go astray → astray is not a stand-alone wordfurther tests are required
+
+
+to go away → go and away are stand-alone words
+Test VID.2 - [LEX] - Lexical inflexibility
+Does a regular replacement of one of the components by related words taken from a relatively large semantic class lead to ungrammaticality or to an unexpected change in meaning?
+it is a VID
+
+
+to let the cat out of the bag → #to allow the feline out of the container
+       to go on → *to go upon
+       to stand firm/fast → *to stand hard/rigid/solidfurther tests are required
+
+
+to take a plane → to take a bus/car/boat, etc.
+Usual modifications for [LEX] include replacing content words in the candidate by synonyms, hypernyms, hyponyms, antonyms, troponyms, meronyms, and related words in general.
+Test VID.3 - [MORPH] - Morphological inflexibility
+Does a regular morphological change that would normally be allowed by general grammar rules lead to ungrammaticality or to an unexpected change in meaning?
+it is a VID
+
+
+to kick the bucket → #to kick the buckets
+       to pretty-print → *to prettier-print
+       to take turns → #to take a turnfurther tests are required
+
+
+to make a cake → to make a/many/those/no cake/cakes
+Usual modifications for [MORPH] include inflecting content words in the candidate for gender, number, case, tense, mood, aspect, etc. - depending on the target language's morphology.
+Test VID.4 - [MORPHSYNT] - Morpho-syntactic inflexibility
+Does a regular morpho-syntactic change that would normally be allowed by general grammar rules lead to ungrammaticality or to an unexpected change in meaning?
+it is a VID
+
+
+I will do my best → *I will do your best
+       I give you my word for that → #I give you his word for that
+       he was pulling my leg → #I was pulling my legfurther tests are required
+
+
+he did his job → he did my/her/our/your job
+Usual modifications for [MORPHSYNT] involve agreement or loss of agreement between some components in the candidate.
+Test VID.5 - [SYNT] - Syntactic inflexibility
+Does a regular syntactic change that would normally be allowed by general grammar rules lead to ungrammaticality or to an unexpected change in meaning?
+it is a VID
+
+
+speak of the devil the person one is talking about shows up → #he was speaking of the devil
+       to go bananas to get crazy → #bananas are gone
+       to drink and drive → #drive and drink
+       to kick the bucket → #the bucket was kickedIt is not a VID, exit
+
+
+to wash one's car → her car was washed, the car that she washed, car washing, etc.
+Section 5.4
+Inherently reflexive verbs (IRV)
+Reflexive clitics (RCLI) are clitic pronouns that refer to the subject of the verb, like oneself in English. They are very common in many languages and play several semantic roles depending on the context, as detailed below.
+Reflexive verbs (REFLV), sometimes also called pronominal verbs, are formed by a full verb combined with a RCLI, although the clitic does not always have a reflexive meaning. REFLV can be categorized into different classes, some of which should be annotated as verbal MWEs.
+Namely, we will only annotate a REFLV as an inherently reflexive verb (IRV) when (a) it never occurs without the clitic, or (b) the REFLV and non-reflexive versions have clearly different senses or subcategorization frames. Inherently reflexive verbs constitute a quasi-universal category.
+IReflVs are a difficult category to annotate due to various problematic cases. Note in particular that in some languages, e.g. Slavic, the reflexive clitics inflect and should be considered not only in their most frequent case, i.e. accusative.
+We start by listing the various categories of REFLV before providing tests to decide whether to annotate a given occurrence as IRV.
+Inherently reflexive ⇒ ANNOTATE as IRV
+The verb without the RCLI does not exist
+The verb without the RCLI does exist, but has a very different meaning
+
+
+to find oneself in a difficult situation
+       to to help oneself to the cookies
+Reciprocal ⇒ NOT ANNOTATED
+The RCLI has a sense of mutually:
+Reflexive ⇒ NOT ANNOTATED
+The RCLI marks the reflexive or reciprocal construction, that is, the clitic plays the role of self in English
+Body part, also called possessive reflexive ⇒ NOT ANNOTATED
+Specific type of reflexive use in which the direct object  is a body part or, more generally, an inalienable part of the subject
+Middle with preverbal subject, also called synthetic passive ⇒ NOT ANNOTATED
+The clitic marks a regular syntactic alternation for transitive verbs. Just like in regular passive alternation, the direct object of the transitive version appears as the subject of the REFLV version, and thus the verb agrees with the subject.
+Differently from inchoative (see below), the subject of the transitive version is absent in the REFLV version but it exists necessarily, though it is underspecified
+Middle with postverbal subject, also called synthetic passive ⇒ NOT ANNOTATED
+In some languages, middle alternation with preverbal subject sounds unnatural and middle alternation with postverbal subject  is preferred. Depending on the languages, it is viewed as a postverbal subject (ES, PL, PT, RO) or as an object which agrees with the unaccusative verb form (IT). Middle alternation with postverbal subject is impossible in FR and DE.
+Impersonal ⇒ NOT ANNOTATED
+The RCLI marks an impersonal verb alternation possible for various transitivity classes, depending on the language: only transitive verbs (FR), only intransitive verbs with manner adjuncts (DE), preferably intransitive but tolerated for transitive verbs (PT), either transitive or intransitive verbs (IT, ES, RO, PL)
+There is no noun phrase before the verb (empty subject slot), the presence of the RCLI indicates a verb interpreted with a generic and underspecified subject
+The verb is in third person singular, even when the object is plural
+Inchoative ⇒ NOT ANNOTATED
+Similar to middle, but the RCLI marks a less productive syntactic alternation:
+the direct object of the transitive version appears as subject of the REFLV
+the subject of the transitive version is not only absent, it is also semantically unclear or nonexistent
+IRV-specific decision tree
+Apply test IRV.1 - [INHERENT]
+Annotate as IRV
+Apply test IRV.2 - [DIFF-SENSE]
+Annotate as IRV
+Apply test IRV.3 - [DIFF-SUBCAT]
+Annotate as IRV
+verb has no subject ⇒ Apply test IRV.4 - [IMPERS]
+It is not a VMWE, exit
+Annotate as IRV
+verb has a subject ⇒ Apply test IRV.5 - [MIDDLE-INCHO]
+It is not a VMWE, exit
+Apply test IRV.6 - [REFL]
+It is not a VMWE, exit
+subject is SINGULAR ⇒ Apply test IRV.7 - [REFL-MUTUAL]
+It is not a VMWE, exit
+Annotate as IRV
+subject is PLURAL ⇒ Apply test IRV.8 - [RECIPRO]
+It is not a VMWE, exit
+Annotate as IRV
+Test IRV.1 - [INHERENT] Inherent clitic
+Does the verb only exist with the RCLI and never occurs without it?
+annotate as IRV
+next test
+Test IRV.2 - [DIFF-SENSE] - Different sense
+Given the same verb without the RCLI, are all of its meanings clearly different from the REFLV form?
+annotate as IRV
+
+
+to find oneself in a difficult situation
+       to to help oneself to the cookies
+next test
+Test IRV.3 - [DIFF-SUBCAT] - Different subcategorization frame
+Is the subcategorization frame of the simple verb without the RCLI different from the subcategorization frame of the REFLV, except for the addition of a direct or indirect object corresponding to the same syntactic argument as the RCLI in the REFLV version?
+annotate as IRV
+next test
+Test IRV.4 - [IMPERS ] - Impersonal
+When you replace the RCLI by an underspecified subject such as one or people, does the sentence keep its meaning?
+do NOT annotate as verbal MWE
+annotate as IRV
+Test IRV.5 - [MIDDLE-INCHO ] - Middle or Inchoative
+When you move the subject to the object position, remove the RCLI and add a generic subject (people, somebody), thus building a transitive version, does it imply  the REFLV version? In other words, people/somebody  V [to] X ⇒ X REFLV?
+do NOT annotate as verbal MWE
+next test
+Test IRV.6 - [REFL ] - Reflexive
+When you replace the RCLI by oneself only or to oneself only, does it imply  the REFLV version? In other words, X V [to] himself only ⇒ X REFLV?
+do NOT annotate as verbal MWE
+
+
+Paul washes only himself ⇒ Paul washes himself
+next test 
+The subject is singular: test REFL-MUTUAL
+The subject is plural or coordinated (Bob and Alice): test RECIPRO
+Test IRV.7 - [REFL-MUTUAL ] - Reflexive-mutual
+Is a reciprocal version possible? Namely: Is it acceptable to replace the singular subject by a plural and add each other to the REFLV form without changing the REFLV's meaning ?
+do NOT annotate as verbal MWE 
+annotate as IRV
+Test IRV.8 - [RECIPRO ] - Reciprocal
+Is it possible to remove the RCLI and replace  the coordinated subject (A and B) or plural subject (A.PL) by a singular subject (A or A.PL) and a singular object, often introduced by to/with (B or A.PL), without changing the REFLV's meaning ? That is:
+Coordinated subject: A and B PronV ⇔ A V [to/with] B and B V [to/with] A?
+Plural subject: A.PL PronV ⇔ A.PL V [to/with] A.PL?
+do NOT annotate as verbal MWE
+annotate as IRV
+Problematic cases and remarks
+Polysemy
+Keep in mind that both simple and reflexive verbs can have several senses. In test 15, we ask that ALL senses you can think of are different from the REFLV form in the given context. For example, French verb trouver can mean to find something, to have an opinion about something, discover something, etc. But it has a totally different and unrelated meaning of to be (located at) in the sentence L'église se trouve à Paris the church is located in Paris . It should thus be annotated as a MWE. As the REFLV is polysemous itself, it should NOT be annotated as IRV in sentences like Elle se trouve grosse she finds herself fat where it means have an opinion about (herself), equivalent to the non-reflexive version.
+Clitics position and concatenation
+In some languages the clitics are joint with the verb, sometimes using a hyphen but not always. When there is no hyphen, the REFLV will probably be tokenized as a single token in the corpus.
+In French, orthography and pronunciation rules require the clitic to be concatenated with the verb and its last vowel to be replaced by an apostrophe (liaison):
+In Spanish and Italian, the clitic can appear concatenated after the verb in some verbal forms (e.g. infinitives, gerunds):
+In Portuguese, there are always hyphens for postponed clitics (enclisis), but in conditional tense the clitic is in the middle of the verb (mesoclisis), separating the root from the suffix:
+In Romanian the clitic and the verb are either separate or have a hyphen between them:
+The current annotation format allows annotating a single token as a MWE if it is a multiword token. Therefore, it should be annotated as an MWE.
+Overlap VID - IRV
+Some idiomatic constructions include reflexive clitics. Two cases are possible:
+If a syntactically comparable literal construction is impossible or the REFLV would not be annotated in syntactically comparable literal constructions, annotate only the VID:
+If the REFLV would be annotated as IRV in syntactically comparable literal constructions, annotate both the IRV and the VID as embedded MWEs (rare):
+Overlap LVC - IRV
+It is rare, although possible, to find light verb constructions in which a reflexive clitic changes the original meaning significantly, thus characterizing an IRV:
+In this case, the whole construction, including the verb, the noun and the reflexive clitic, must be annotated as VID, since there are two syntactic arguments:
+Notice that annotating only the verb and the RCLI as IRV would be wrong, since it will have a completely different meaning without the noun, sometimes even coinciding with another IRV:
+Dative clitics and double clitics
+In some languages, e.g. Polish, clitics inflect for case. Most cases of IRV seem to be restricted to the accusative case:
+However, other cases can appear in IRV:
+Some expressions can have double clitics. Only the first two words belong to the IRV:
+Non-reflexive clitics
+This category does not cover other types of pronouns and clitics. They are covered by regular VID tests and should be annotated as such. Examples of constructions that should be annotated as VID rather than IRV include:
+
+Section 5.5
+Verb-particle constructions (VPC)
+Verb-­particle constructions (VPCs), sometimes called phrasal verbs or phrasal-prepositional verbs, like
+
+
+to put off, to blow up, to do in
+constitute another quasi-universal category. They have the following general characteristics:
+They are formed by a lexicalized head verb v and a lexicalized particle p dependent on v.
+The meaning of the VPC is fully or partly non-compositional.
+In fully non-compositional VPC (VPC.full) the change in the meaning of v goes significantly beyond adding the meaning of p:
+
+
+to do in to kill, destroy, cheat or harm severely
+In semi-non-compositional VPCs (VPC.semi), p adds a partly predictable but non-spatial meaning to v
+
+
+to eat up to eat completely
+VPCs are pervasive in English, German, Swedish, Hungarian and possibly some other languages but irrelevant to or infrequent in Romance and Slavic languages or in Farsi and Greek for instance.
+In some Germanic languages and also in Hungarian, verb-particle constructions can be spelled either as one (multiword) token or separated. Both types of occurrences are to be annotated:
+The first challenge in identifying a VPC is to properly distinguish the particle from a possibly homographic preposition, e.g.:
+
+
+to look up the number vs to look up the chimney
+or a verbal prefix:
+Namely, a particle, contrary to a preposition, cannot govern a complement. This can be tested depending on the verb's subcategorization frame:
+For intransitive verbs, the particle can occur without an NP. The fact that there is no NP that could be governed by the particle to form a PP shows that it is a particle rather than a preposition.
+For transitive verbs, the particle can occur either before or after the direct object. The fact that it is mobile and can go before or after the NP shows that it is a particle rather than a preposition
+
+
+intransitive: The airplane took off
+       transitive The fire did in the whole block or The fire did it in
+Prefixes, contrary to particles, can never be spelled separately from the verb, nor can the past tense of prefixed verbs be formed with the infix -ge-
+See the language-specific tests for more details on distinguishing particles from prepositions and verbal prefixes.
+Note that in this shared task we do not account for compositional verb-particle combinations, i.e. those whose meaning can be deduced from the meaning of the preposition and of the verb:
+
+
+to lie down, You may go in now
+Some combinations may have both compositional and non-compositional meanings depending on the context and only the latter should be annotated:
+
+
+to put up a flag vs. to put up a friend for the night
+the following decision tree should be applied to decide whether a candidate should be annotated as a VPC or not.
+VPC-specific decision tree:
+Apply test VPC.1 - [PART-REDUC: Can the verb without the particle refer to the same event?]
+It is a VPC.full.
+Apply test VPC.2 - [PART-SPATIAL: Is the particle spatial?]
+It is not a VPC, exit
+Apply test VPC.3 - [PART-SPATIAL-LIT: Is the particle spatial in a literal reading?]
+It is a VPC.semi
+It is not a VPC, exit
+Test VPC.1 - [PART-REDUC] - Verb without the particle refers to the same event/state
+Can a sentence without the particle refer to the same event/state as the sentence with the particle? Special care must be taken when the same construction might or might not be a valid VPC depending on its context.
+It is a VPC.full.
+
+
+to do somebody in to kill sb does not imply #to do somebody
+       to check in upon arrival does not imply #to check upon arrivalGo to the next test.
+
+
+to look up into the sky implies to look into the sky
+       to eat up the cookies implies to eat the cookies
+Test VPC.2 - [PART-SPATIAL] - Spatial particle
+Is the particle spatial in the context of the verb, i.e. does it express direction or position?
+It is not a VPC, exit.
+
+
+to stand up
+       to give something back
+       to stay up tonight
+       You may go in now
+       to mix ingredients togetherGo to the next test
+
+
+to eat the cookies up
+       to mix ideas together
+Test VPC.3 - [PART-SPATIAL-LIT] - Spatial particle in a literal reading
+Does the VPC candidate have a literal counterpart in which the particle is spatial, i.e. expresses direction or position?
+It is not a VPC, exit.
+
+
+to mix ideas togetherIt is a VPC.semi.
+
+
+to eat the cookies up
+Section 5.6
+Multi-verb constructions (MVC)
+Multi-verb constructions (MVC) constitute a quasi-universal category. They are VMWEs composed by a sequence of two adjacent verbs (in a language-dependent order), a functionally governing verb V-gov (also called a vector verb) and a functionally dependent verb V_dep (also called a pole/polar verb), which have the following characteristics:
+They usually have the same subject.
+They usually denote actions that are closely connected and may be seen as part of the same event.
+They function together as a single predicate.
+They are unaccompanied by any explicit coordination, subordination, or dependency marker.
+They only have a single tense, aspect and polarity value.
+They may be idiomatic or indicate successions of events.
+The V-gov (vector) verb is semantically delexicalized and the V-dep (polar) verb contains the core meaning of the whole. Note that V-dep might be seen as the head and V-gov as the dependent, in dependency frameworks such as Universal Dependencies, where the principle of the primacy of content words is applied.
+The behavior of MVCs is very heterogeneous across languages. Therefore, most tests for the detection of MVCs are language specific. The current tests were designed for Indonesian, Hindi, Japanese and Chinese. The generalization of these tests cross-lingually is planned as future work.
+MVC-specific decision tree for Hindi
+Apply Test MVC.1.BASE - [MVC-STRUCT-BASE: V-dep is non finite and V-gov bears inflection?]
+It is not a VMWE, exit
+Apply Test MVC.3.KAR - [INS-REDIRECT-KAR: kar or ke appears just after V-dep?]
+Apply Test MVC.6 - [MANNER: V-gov indicates the manner/means/direction of V-dep?]
+It is a manner serial verb, not a VMWE, exit
+Apply Test MVC.7 - [REASON: V-gov indicates the reason for V-dep?]
+It is a reason serial verb, not a VMWE, exit
+Apply Test MVC.8 - [SEQ: V-gov and V-dep bound by temporal sequence?]
+It is a temporal sequence serial verb, not a VMWE, exit
+Apply Test MVC.9 - [SIMULT: V-gov+V-dep express rapid and simultaneous actions?]
+It is a serial verb expressing simultaneous actions, not a VMWE, exit
+Continue to the next test
+Apply Test MVC.10 - [LIGHT: V-gov in the closed list of light verbs?]
+Annotate as MVC
+Apply Test MVC.13 - [V-LEX: V-dep refers to the same event/state as V-gov+V-dep?]
+It is not a VMWE, exit
+Annotate as an MVC
+MVC-specific decision tree for Chinese
+Apply Test MVC.2.ASPECT - [INS-DISCARD-ASP: V-gov can take un aspect marker –le or –guo?]
+It is not a MVC, exit
+Apply Test MVC.5 - [MODAL: V-gov is a modal or an auxiliary verb?]
+It is not a MVC, exit
+Apply Test MVC.6 - [MANNER: V-gov indicates the manner/means/direction of V-dep (or vise versa)?]
+It is not a MVC, exit
+Apply Test MVC.7 - [REASON: V-gov indicates the reason for V-dep (or vise versa)?]
+It is not a MVC, exit
+Apply Test MVC.9 - [SIMULT: V-gov+V-dep express rapid and simultaneous actions?]
+It is not a MVC, exit
+Apply Test MVC.4 - [SHARE-ARGS: V-gov and V-dep share arguments?]
+Annotate as an MVC
+It is not a MVC, exit
+MVC-specific decision tree for Indonesian and Japanese
+TODO (in the meantime, follow the tests one by one)
+MVC-specific decision tree for any other language
+Apply directly Test MVC.13 - [COMP: V-dep refers to the same event/state as V-gov+V-dep?]
+It is not a VMWE, exit
+Annotate as an MVC
+Test MVC.1 - [MVC-STRUCT] MVC-like structure
+Does the candidate respect the necessary structural (language-dependent) requirements for an MVC?
+Hindi
+Test MVC.1.BASE [MVC-STRUCT-BASE]: Is V-dep non finite and does V-gov carry the tense, aspect and agreement inflections?
+continue to the next test
+it is not an MVC
+Japanese
+Test MVC.1.IMORPH: Does the first verb (V-dep) contain the i-morph suffix?
+continue to the next test
+it is not a MVC
+Any other language
+Go to the next test
+Test MVC.2 - [INS-DISCARD] Insertion which discards
+Does the candidate sequence appear, or could it appear, with an affix, particle or another external (non-lexicalized) material (depending on the language) which indicates that this candidate is a regular combination and should be discarded?
+Chinese
+Test MVC.2.ASPECT - [INS-DISCARD-ASP]: Can the aspect marker 了 -leperfective or 过 -guoprovide the meaning of the prefix be inserted between between V-gov and V-dep (or the opposite)?
+it is NOT an MVC
+continue to next test
+Indonesian
+Test MVC.2.PRON - [INS-DISCARD-PRON]: Can a pronoun like dia he/she be inserted between the first [AS: between V-gov and V-dep or the opposite?] and second verb?
+it is NOT an MVC
+continue to next test
+Test MVC.2.CLAUSE - - [INS-DISCARD-CLAUSE]: Can a that-clause like bahwa that, or a whether-clause like apakah whether be inserted between the first and second verb [AS: between V-gov and V-dep or the opposite?], where the first verb [AS: V-gov?] is a saying verb like mengatakan say or an asking verb like menanyakan ask?
+it is NOT an MVC
+continue to next test
+Test MVC.2.PURPOSE - [INS-DISCARD-PURP]: Can untuk for/to be inserted between the first and second verb [AS: between V-gov and V-dep or the opposite?]?
+it is a purpose serial verb, not an MVC
+continue to next test
+Japanese
+Test MVC.2.HONOR - [INS-DISCARD-HONOR]: Is the first verb [AS: V-gov or V-dep?] preceded by the honorific particle お o and is the second verb する/できるsuru/dekiru?
+it is NOT an MVC, but an honorific construction.
+continue to next test
+Any other language
+Go to the next test
+Test MVC.3 - [INS-REDIRECT] Insertion which redirects
+Does the candidate sequence appear with an affix, particle or another external (non-lexicalized) material (depending on the language) which indicates that a particular test should be applied next?
+Hindi
+Test MVC.3.KAR - [INS-REDIRECT-KAR]: Does conjunctive participle kar or ke appear attached to or immediately after V-dep?
+Go directly to test MVC.6 [MANNER].
+Go directly to test MVC.10 [LIGHT].
+Any other language
+Go to the next test
+Test MVC.4 - [SHARE-ARGS] Shared arguments
+Do V-gov and V-dep share arguments?
+it is an MVC
+it is not an MVC
+Test MVC.5 - [MODAL] Modal or auxiliary verb
+Chinese
+Is V-gov a modal or an auxiliary verb?
+it is NOT an MVC
+continue to next test
+Any other language
+Go to the next test
+Test MVC.6 - [MANNER] Manner verb
+Chinese, Hindi, Indonesian, Japanese
+Does V-gov indicate the manner or means (and possibly a direction) of the action expressed by V-dev (in Chinese: or vice versa)?
+it is a manner serial verb, not an MVC
+continue to next test
+Any other language
+Go to the next test
+Test MVC.7 - [REASON] Reason verb
+Hindi and Chinese
+Does V-gov indicate the reason of the action expressed by V-dep (in Chinese: or vice versa)?
+it is a reason serial verb, not an MVC
+continue to next test
+Any other language
+Go to the next test
+Test MVC.8 - [SEQ] Temporal sequence
+Hindi, Indonesian, Japanese
+Are the verbs bound by a temporal sequence?
+it is a sequential serial verb, not an MVC
+continue to next test
+Any other language
+Go to the next test
+Test MVC.9 - [SIMULT] Simultaneous actions
+Do the verbs indicate rapid and simultaneous actions (without resorting to a coordination conjunction)?
+it is a serial verb expressing simultaneous actions, not an MVC
+continue to next test
+Test MVC.10 - [LIGHT] Light verb
+Hindi
+Does V-gov belong to a closed list of light verbs: aa come, baiTh sit, chal go, chuk finish, choR leave, Daal throw, de give, ja go, jataa declare, khaa eat, lagaa put, le take, maar hit, paa get/obtain, paRh fall, rakh keep, uTh rise?
+it is a (light) MVC
+continue to next test
+Any other language
+Go to the next test
+Test MVC.11 - [PREP-LIKE] Preposition-like verb
+Chinese
+[Hongzhi Xu: this test is not very clear and is only specific to one particular MVC (it should probably be deleted in future editions)] Is the second verb in the candidate [AS: V-gov or V-dep?] a preposition-like verb like 成 chéngbecome?
+it is a preposition-like MVC
+continue to next test
+Any other language
+Go to the next test
+Test MVC.12 - [NOUN-LIKE] Noun-like verb
+Japanese
+Are any of the components [AS: V-gov or V-dep?] in the candidate noun-like arguments?
+it is a deverbalized V1/V2 MVC
+continue to next test
+Any other language
+Go to the next test
+Test MVC.13 - [V-LEX] Lexical inflexibility
+Does a regular replacement of V-dep by a related verb taken from a relatively large semantic class lead to ungrammaticality or to an unexpected change in meaning?
+it is an MVC
+
+
+it will make do → #it will make build/solve/constructit is not an MVC
+
+
+it will make me think → it will make me build/solve/construct
+
+Section 5.7
+Inherently adpositional verbs (IAVs)
+Inherently adpositional verb (IAV) is a special optional and experimental category (corresponding to the IPrepV category in the first pilot annotations), and to what is also sometimes called in English prepositional verbs. It consists of a verb or VMWE and an idiomatic selected preposition or postposition that is either always required or, if absent, changes the meaning of the verb of VMWE significantly. Language teams who decide to annotate IAV should do so after annotating other categories (step 4 of the annotation process), since overlapping can be quite frequent with other categories, as detailed below. Language teams are not required to use this category.
+Our definition of inherently adpositional verbs is a generalization (applying to many languages) of the annotation guidelines of the English STREUSLE corpus, which define guidelines for annotating prepositional verbs.
+IAVs are verb+adposition combinations in which:
+the dependents of the adposition are not lexicalized
+
+
+to stand for something is annotated as IAV because the object is not lexicalized,
+       but in the ID to take something for granted, to take for cannot be annotated as IAV because granted is also lexicalized in the ID
+the adposition is integral, that is, "it cannot be omitted without markedly altering the meaning of the verb"
+
+
+to rely on → *to rely can never occur without the preposition on
+       to count on → to count can occur without the preposition, but it will never have a sense of to depend/rely on
+Note that idiomatic adpositional valency, in which the adposition opens a slot for a complement, should not be mistaken for verb-­particle constructions. Tests distinguishing particles from prepositions can be used to disambiguate these categories.
+
+
+to wake up somebody cannot be annotated as IAV because up is a particle, and not a preposition.
+       Particles can occur after the object: to wake somebody up but prepositions cannot *to come a new restaurant across
+Not only single verbs but also VMWEs may be inherently adpositional. This is why IAV annotation needs to be the last step, after all other VMWEs in a sentence have been identified and categorized. In case of overlap between another category and IAV, the whole VMWE annotation needs to be repeated with the addition of the lexicalized adposition, and the whole is annotated as an IAV.
+
+
+to put up with bears 2 annotations:
+       1. to put up is annotated as VPC
+       2. the whole sequence to put up with is annotated as IAV
+Test IAV.1 - [CIRCUM-QUEST] Circumstantial question with no adposition
+Note: This is an adaptation of STREUSLE's guideline on prepositional verbs by Nathan Schneider and Meredith Green.
+In response to a declarative sentence with the verb+adposition combination, is there a natural way to query the circumstances of the verbal event using the verb, but not the adposition?
+it is not an IAV
+
+
+- I care about the environment.
+       - Why do you care?
+       → to care about is not annotated as IAVannotate as an IAV
+
+
+- I came across a nice restaurant downtown.
+       - #When did you come?
+       to come across is annotated as IAV
+Section 6
+Language-specific tests
+Language-specific tests may be necessary in one of 3 cases:
+a VMWE category may be universal or quasi-universal but it may require different tests in different languages,
+any category specific to a language must be associated with appropriate tests in the same language,
+universal tests can build upon more elementary language-specific tests (e.g. to distinguish a particle from a preposition).
+
+Section 6.1
+Language-specific categories (LS)
+Language-specific categories can be proposed for annotation in this task provided that they are carefully defined and accompanied by linguistic tests that allow to distinguish them from other categories. We recommended not redefining the universal and quasi-universal categories described here, but introducing new names and abbreviations in order to answer such needs.
+When a new language(-group)-specific category is introduced, we encourage the use of the LS category with a dotted extension, e.g. LS.SIM or LS.PROV (for "language-specific simile" or "language-specific proverb").
+
+Section 6.2
+Particles versus prepositions and prefixes
+The following tests allow to properly identify prepositional verb particles in cases where they might be homographic with prepositions in prepositional phrases (PPs) or with verbal prefixes. The word to be discriminated is referred to as a candidate word. The tests are language-specific and concern English, German and Swedish.
+English-specific test for distinguishing particles from preposition
+The following tests concern English words which can be either a preposition or a particle depending on the context, e.g. up, on, through, etc. If a candidate word passes any of the two tests it can be categorized as a particle.
+Test PREP.EN.1 - [FIN-PART] - Sentence-final particle
+Can the sentence be reformulated so that the candidate word w occurs at the end of a clause which is: (i) affirmative or imperative, (ii) headed by the verb governing w, and (iii) not a relative clause?
+the candidate word is a particle
+
+
+They got up a petition on Monday. They got it up.
+        I took off my clothes. I took my clothes off.
+       She tries to take in her clients. She tries to take her clients /in.go to the next test
+
+
+I got up the hill. *I got it up.
+       He has been off alcohol*He has been alcohol off.
+Test PREP.EN.2 - [AD-INS] - Adjunct insertion
+Is an insertion of a circumstantial adjunct prohibited between the governing verb and the candidate word?
+the candidate word is a particle
+
+
+They finally got up a petition. *They got finally up a petition.
+       I took off my clothes at once. *I took at once off my clothes.
+       She always tries to take in her clients. *She tries to take always in her clients.it is not a VPC
+
+
+I got up the hill finally. I got finally up the hill.
+       He has been off alcohol recently. He has been recently off alcohol.
+This test might be redundant with respect to test PREP.EN.1. It it occurs to be so (after a large-scale annotation), it may be deleted.
+German-specific tests for distinguishing particles from prepositions and verbal prefixes
+The following tests concern German words which can be both a particle and either a preposition or a verbal prefix, depending on the context, e.g. mit, um, vor, etc. If a candidate word passes any of the three following tests it can be categorized as a particle.
+Test PREP.DE.1 - [FIN-PART] - Sentence-final particle
+Does the candidate word occur at the end of the sentence or can the sentence be reformulated so as to put the candidate word at the end?
+it is a particle
+other tests are needed
+Test PREP.DE.2 - [SEP-PART] - Separable particle
+Can the verb and the candidate word be spelled both separately and together?
+it is a particle
+other tests are needed
+Swedish-specific tests for distinguishing particles from prepositions and verbal prefixes
+Many words are ambiguous between particles and prepositons, e.g. för, upp, … Accordingly, the following sentence may have two different senses:
+The difference can only be judged by the stress/intonation pattern. In the first case, with a particle, the stress is not on the verb but on the particle. In the second case, with a prepositional object, the main stress is on the verb, with only secondary stress on the preposition.
+Test PART.SV.1 - [PART-STRESS] - Stress on the particle
+Is the main stress on the candidate word rather than on the verb?
+it is a particle
+it is not a particle
+
+Section 6.3
+Identifying multiword tokens
+The relation between words and tokens is not always 1-to-1. If a single token contains more than one word then it is a potential MWE. For the purpose of MWE annotation it is, therefore, important provide a possibly clear-cut definition of a word. This section contains language-specific tests for identifying multiword tokens (MWTs). Currently the tests concern Swedish.
+Swedish-specific tests for identifying MWTs
+Test MWT.SV.1 - [VERB-MWT] - Verbal MWT
+Does the candidate token function as a verb?
+we do not have to decide if it is an MWT (for the purpose of VMWE annotation)
+go to the next test
+Test MWT.SV.2 - [SPLIT-MWT] - Splittable MWT
+Split the candidate token into its component parts. Can it be used as an expression in the split form (possibly with slightly shifted semantics)?
+it is an MWT
+go to the next test
+Test MWT.SV.3 - [CRAN-MWT] - Cranberry component in a MWT
+If you split the token into its component words, is any of these words a cranberry word (i.e. it cannot be used as a standalone word, with the same part-of-speech)?
+it is not an MWT
+it is an MWT
+
+Section 6.4
+Language-specific inherently clitic verbs (LS.ICV)
+Inherently Clitic Verbs (LS.ICV) together with the Inherently Reflexive Verbs (IRV) are pronominal verbs. LS.ICV are formed by a full verb combined with one or more non-reflexive clitic that represents the pronominalization of one or more complement (CLI). LS.ICV is annotated when (a) the verb never occurs without one non-reflexive clitic, e.g. entrarci to be relevant to something colloquial form, or (b) when the LS.ICV and the non-clitic versions have clearly different senses or subcategorization frames.
+LS.ICVs represent a specific category for some Romance languages, and they are particularly frequent in the Italian language. It is often challenging to distinguish LS.ICV from IRV, particularly because some clitics may be ambiguous, like se/si which is a polyfunctional clitic pronoun and grammatical marker (and has many functions such as reflexive, reciprocal, impersonal, passivizing, aspectual, middle).
+If the CLI has a clear reflexive meaning the VMWE might be an IRV.
+We start by listing the various categories of LS.ICVs before providing tests to decide whether to annotate a given occurrence as an LS.ICV.
+Inherently clitic verbs ⇒ ANNOTATE as LS.ICV
+The verb without the CLI does not exist
+The verb without the CLI does exist, but has a very different meaning
+The verb has more than one CLI of which the second one is an invariable object complement.
+The verb has two non-reflexive invariable CLIs:
+The verb has a different meaning with respect to an intensive use of the same two non-reflexive invariable CLIs:
+LS.ICV-specific decision tree
+Apply test LS.ICV.1 - [CL-INHERENT]
+Annotate as LS.ICV
+Apply test LS.ICV.2 - [CL-DIFF-SENSE]
+Annotate as LS.ICV
+Apply test LS.ICV.3 - [CL-DIFF-SUBCAT]
+Annotate as LS.ICV
+Exit
+Test LS.ICV.1 - [CL-INHERENT] Inherent clitic
+Does the verb only exist with the CLI and never occurs without it?
+annotate as LS.ICV
+next test
+Test LS.ICV.2 - [CL-DIFF-SENSE] - Different sense
+Given the same verb without the CLI/CLIs, are all of its meanings clearly different from the inherently clitic form?
+annotate as LS.ICV
+next test
+Test ICV.3 - [CL-DIFF-SUBCAT] - Different subcategorization frame
+Is the subcategorization frame of the simple verb without the CLI different from the subcategorization frame of the LS.ICV?
+annotate as LS.ICV
+Exit
+
+
+Section 7.1
+Frequently Asked Questions (FAQ)
+Annotators often face questions and challenging examples. When several annotators ask the same question, we will update the list of frequently asked questions.
+However, we suggest that language teams set up another communication platform to deal with questions that are specific to a language. This can take the form of a shared online document, a wiki, a dedicated bug tracking system or mailing list. We also suggest keeping track of decisions taken considering borderline examples (with a list of expressions to which the decision applies). These should be kept in a centralized document or page that all annotators can access.
+Whenever you think that a question can also be interesting to other languages, please notify the organizers and we will try to update this page.
+How to define an unexpected change in meaning​?
+How to annotate lexicalized words which belong to contractions, compounds, and acronyms?
+How to annotate coordinated​ VMWEs sharing some components?
+How to annotate elliptical​ occurrences of VMWEs?
+How to annotate VMWEs that seem to belong to more than one category​?
+How to annotate embedded​ VMWEs?
+Are existential expressions with there is/are considered VMWEs?
+How to categorize VMWEs which seem LVCs​ but do not pass all LVC tests?
+Why are verb+noun constructions with pure​ operator verbs​ (to commit, to make, to have etc.) considered LVCs?
+Does the IRV category include verbs with non-­reflexive clitics?
+Should nominalizations​ of VMWEs be annotated?
+How to express hesitation between different VMWE categories?
+How can one decide what are the semantic arguments of a noun for borderline cases?
+How does one decide if a more or less frozen determiner is a lexicalized VMWE component?
+Should I annotate compound and serial verbs as VMWEs? Of which category?
+If an LVC contains a complex (fixed) NP as a dependent, should I include the whole NP or just the head?
+In an LVC candidate, if the verb adds aspect to the predicative noun, does it imply failing Test LVC.3?
+In the LVC decision tree, should I test that the noun keeps its original meaning?
+
+1. How to define an unexpected change in meaning​?
+Check the glossary entry that defines unexpected change in meaning
+2. How to annotate lexicalized words which belong to contractions, compounds and acronyms?
+In some languages adpositions (pre- or post-positions), clitics and determiners are subject to contractions (i.e. they yield multi­word tokens, MWTs). If they are properly split by the tokenizer, only the lexicalized parts of each contraction should be annotated. If you use FLAT for annotating, the display of split contractions is twofold: both in its folded and unfolded version. Only the latter should be subject to annotation, e.g. Jean bénéficie du de le traitement Jean benefits from the treatment, Jean donne du de le grain à moudre à son fils Jean gives grain to grind to his sonJean gives an occasion to act to his son.
+Sometimes, however, tokenizers might not handle contraction splitting properly. In this case, a lexicalized component of a VMWE can be merged with an external word:
+A similar problem occurs in languages with productive compounding, where a lexicalized component of a VMWE and a free modifier can build up a multitoken word (since compound splitting might not be a standard feature of a tokenizer):
+Yet another related phenomenon concerns acronyms whose spelled-out versions may contain predicative nouns which in the abbreviated versions boil down to single letters:
+
+
+the patient has AIDS (acquired immunodeficiency syndrome)
+       the book underwent OCR (optical character recognition)
+       the program carries out a PCA (principal component analysis)
+Since the current annotation format is token­-based, we prohibit correcting tokenization errors and compound splitting by the annotators for the sake of coherence. Therefore the annotation of such contractions, compounds and acronyms finds no fully satisfactory solution in our schema. We propose to annotate a whole MWT each time it contains a word which is part of a VMWE. Annotators should add a textual comment  about the mixed status of this MWT:
+3. How to annotate coordinated​ VMWEs sharing some components?
+A component shared by two or more coordinated VMWEs should be annotated as belonging to ​both of them.
+
+
+to have a walk or a ride → have must be annotated both as part of​ to have a walk and of to have a ride
+4. How to annotate elliptical​ occurrences of VMWEs?
+Instances of a VMWE in which all but one lexicalized component were omitted or pronominalized should not be annotated. This concerns in particular the cases where a nominal component is concerned by anaphora. For instance, in this decision was hard but he took it, we should not annotate take and decision or it as an instance of a VMWE. We annotate only the transformations in which the syntactic dependency link between the head verb and the ​lexicalized ​complement is preserved, e.g. the decision which he took.
+5. How to annotate VMWEs that seem to belong to more than one category​?
+Such hesitation issues should normally be solved by the structural tests. For instance, consider the German expression sich eine Frage stellen SELF a question put to doubt. It may seem to belong to both IRV, since sich is required only if stellen co-occurs with Frage, and LVC, since Frage keeps its original meaning and stellen brings no additional meaning. However, test S.2 [1DEP] indicates that an expression like this should be annotated as a VID, since the verb has more than one lexicalized syntactic dependent.
+Similarly, the French expression avoir peur have fear to be afraid seems to have features of a VID. Unlike most LVCs, ­it does not allow a determiner *avoir une peur have a fear , except when the noun is modified avoir une grande peur have a great fear . However, test S.4 [CATEG] in the generic decision tree 2, and the LVC-­specific decision tree indicate that it belongs to the LVC category.
+6. How to annotate embedded​ VMWEs?
+Candidate VMWEs embedded in other VMWEs should be annotated only if they have a VMWE status also outside the particular context. For instance, the VMWE to let the cat out of the bag should be annotated as a VID, and its embedded VMWE to let out as a VPC.
+On the other hand, the French expression se faire des idées SELF make DET.PL ideas to imagine things which are not true, se faire should not be annotated as IRV, since it is not inherently reflexive as a standalone verb+clitic combination.
+7. Are existential expressions with there is/are considered VMWEs?
+Hesitations about a possible LVC status can arise with respect to existential constructions with nouns introducing events or properties (see test LVC.1 [N­-PRED]) as in:
+
+
+there are complaints
+Namely, the noun keeps its original sense and the existential verb to be or to have brings no additional meaning. However, a candidate LVC must also pass test LVC.4 [V­-REDUC]. This requires the modification of the noun by the verb's subject, which is impossible with impersonal and empty subjects like there. Therefore, such candidates cannot be LVCs.
+Note,​ however, that existential expressions themselves can be VMWEs of the VID type. For instance, in the French example il y a des plaintes it there has complaints there are complaints, two dependents of the verb a has are lexicalized: il it and y there , therefore it is a VID (see test S.2 [1DEP]).
+8. How to categorize VMWEs which seem LVCs​ but do not pass all LVC tests?
+If at least one of the five LVC tests (9 to 13) is not passed, the candidate is not considered an LVC. For the sake of a deterministic VMWE categorization and higher inter-­annotator agreement, we admit a definition of an LVC which might seem more restrictive than some linguistic studies usually assume. Thus, we exclude from the LVC scope:
+expressions in which the verb's syntactic subject is not necessarily the noun's semantic subject, like to give courage or to make an impression. These candidates do not pass test LVC.4 [V-­REDUC].
+expressions where the lexicalized nominal dependent of the verb is its subject, as in the problem lies in something; these candidates do not pass test LVC.4 [V-­REDUC].
+expressions with aspectual verbs, as in to start, to pursue, to stop a walk. These do not pass test LVC.3 [V-­LIGHT] since they add (aspectual) semantics to the noun. The only exception is when the noun itself is already aspectual, as in to come into bloom
+9. Why are verb+noun constructions with pure​ operator verbs​ (to commit, to make, to have etc.) considered LVCs?
+Pure operator verbs, i.e. such verbs which never have any semantics per se but only carry the grammatical (tense, mood etc.) information, seem to contradict the intuition behind a VMWE. Namely, they usually select a whole semantic class of nouns. For instance to commit selects any negative act (a crime, a suicide, a theft) and to perform selects any activity (a task, an experiment, a miracle). In this sense, their complements resemble open slots and the whole combinations resemble collocations. However, for the sake of a deterministic VMWE categorization and higher inter­-annotator agreement, we do include verb+noun combinations with pure operator verbs, such as to commit a crime and to ​perform a task, into the LVC category. This is because such combinations pass all tests (LVC.0 through LVC.4). We found no other reliable tests which would distinguish such productive cases from less productive ones like to make a decision. In particular, some studies (e.g. Bonial 2014) show that there exist no truly productive light verbs. Therefore, all examples cited here to be classified as LVCs.
+10. Does the IRV category include verbs with non­-reflexive clitics?
+No, the IRV category only includes (some) combinations of a head verb with a reflexive clitic. As indicated in the borderline cases page of IRV category, other pronouns, whenever lexicalized, trigger the VID category. Recall that whenever more than one dependent of the verb is lexicalized (including or not a reflexive clitic), the VMWE is always categorized as an ID
+11. Should nominalizations​ of VMWEs be annotated?
+The only nominal VMWE variants within our annotation scope are those:
+headed by the gerund stemming from the head verb of the VMWE - taking of the decision, and
+in which a noun stemming from a VMWE is modified by a participle or a relative clause headed by the verb stemming from the same VMWE - the decisions taken yesterday, the decision which he took.
+Other nominalizations are excluded:
+
+
+a break-down, a forget-me-not
+For practical reasons (e.g. compatibility with an existing annotation, or usefulness for a particular application) they can be considered language-specific VMWEs but then a new category should be defined for them, so as to keep the universal and the quasi­-universal categories intact
+12. How to express hesitation between different VMWE categories?
+Once identified in a text, each VMWE is to be assigned to exactly one category. Note that in this version of the guidelines we no longer admit "hesitation labels" (e.g. LVC/VID) used in the pilot annotation. Hesitation can, however, be expressed in a comment and a particular value of the annotator's confidence assigned to a particular VMWE occurrence.
+13. How to decide what are the semantic arguments of a noun for borderline cases?
+The goal of test LVC.1 is to identify whether a noun is predicative, that is, whether it requires at least one semantic argument. For many classes of abstract nouns, however, it can be tricky to apply the test. We advise listing in a separate document those classes of nouns that pass test LVC.1 in your language. Language teams can also provide links to the documentation of semantic annotation projects such as NomBank for English, which usually include tests and descriptions that help identifying semantic arguments.
+We suggest considering that the following categories pass test LVC.1:
+
+
+Illnesses, symptoms and health conditions:
+       John has a flu = John is ill (illness is a hypernym of flu)
+       Relations:
+       John has contact with somebody = John contacts somebody
+       John has an affair with somebody = John is involved with somebody (involvement is a synonym of affair)
+       Mental content (internal to a cognizer):
+       John has a worry = John worries
+       John has an idea = John thinks (thought is a synonym of idea)
+       John has an opinion = John believes (belief is a synonym of opinion)
+Please notice that events and states that have no semantic arguments do not pass test LVC.1, even if they have verbal/adjectival paraphrases:
+
+
+Natural phenomena: rain, snow, tornado, flood, earthquake
+       Informational content (external to a cognizer): information, news
+Finally, notice that not any verb + predicative noun combination forms an LVC. Additionally, the verb needs to be "light", not adding semantics to the noun. The remaining LVC tests guarantee this.
+14. How does one decide if a more or less frozen determiner is a lexicalized VMWE component?
+Most of the time, it is easy to test whether a determiner is lexicalized by searching alternatives in corpora (or on the web). For instance, the is lexicalized in to kick the bucket because searches for other determiners (this, a, some, three, many, etc.) either do not return any result or return only literal uses of this verb phrase.
+However, borderline cases do exist, in which alternatives are rare but possible, specially for LVCs and decomposable VIDs. For instance, while the standard form of the idiom spill the beans forbids some determiners (#spill three/twenty beans), it is possible to find some variation (spill these/many/all/my/his/more/no beans).
+We argue that the selection of some determiners (but not all) by a VMWE is comparable to selected prepositions for verbs. Thus, it can be seen as a regular grammatical phenomenon, suggesting that when the determiner varies, then it should not be included in the annotation scope. Possesive pronouns (my, her, their, etc.) and reflexive clitics (myself, herself, themselves, etc.) are exceptions to this rule (see also Section 1.4). Namely, when they are constrained to agree in number and person with the subject (I do my best, *I do your best), they are realized by different lexemes, i.e., strictly speaking, they are not lexicalized. We consider, however, that - with respect to lexicalization - they constitute single lexemes inflecting for number and gender.
+Patricular language teams may of course adopt their own criteria for annotating partly frozen determiners. Then, these decisions should be documented in language-specific guidelines.
+15. Should I annotate compound and serial verbs as VMWEs? Of which category?
+It depends. In many Indo-European languages (including Germanic, Romance and Balto-Slavic families), verbal chains using auxiliary and modal verbs are used to express tense, mood, modality and aspect. This is a regular linguistic phenomenon, fully productive, that can be applied to any verb and should not be annotated at all.
+On the other hand, some languages have idiomatic compound and serial verbs, that is, VMWEs whose lexicalized components are two verbs, and where of them does not express tense, mood, modality and/or aspect with respect to the other one. Therefore, we have created a new category in edition 1.1 to annotate these constructions, called multi-verb construction (MVC), covering examples such as:
+
+
+to let go
+       to make do
+16. If an LVC contains a complex (fixed) NP as a dependent, should I include the whole NP or just the head?
+The guidelines determine that only lexicalized components should be annotated. Therefore, we suggest that, in such cases, if the NP is compositional, only the head of the NP is included in the scope of the LVC. This may lead to the annotation of odd LVCs that actually never occur by themselves without a modifier. This is not a problem and is already the case for other VMWEs, e.g. the ones that only occur with a determiner, but the determiner is not lexicalized. The only cases where the NP should be included as a whole is if the complement is a non-compositional MWE, so that it would not make any sense to annotate only the head.
+Notice that these suggestions also apply to LVCs whose nominal complements are introduced by prepositions (i.e. verb+PP LVCs). As usual, the preposition should be included if it is lexicalized and then the NP introduced by the preposition is analyzed exactly as described above.
+If the complex dependent is an acronym, you may want to add the textual comment "PART" to indiate that only part of the full version is lexicalized (generally, the head), just like for contractions and compounds.
+In an LVC candidate, if the verb adds aspect to the predicative noun, does it imply failing Test LVC.3?
+Depending on the language, aspect can be realised by various lexical, morphological and syntactic means.
+We consider aspect a morpological feature in the following cases:
+Perfective or continuous aspect introduced by inflection and/or analytical tenses:
+
+
+John was making a presentation
+       he called her while having a walkPerfective or imperfective aspect inherent to the verb  (independently of its inflected form), recognisable either by a prefix or by an ending:
+We consider aspect a semantic feature in the following cases:
+Starting, continuation or completion is expressed by precise verbs which usually modify other verbs:
+
+
+Anthony started his presentation in advance
+       the weather interrupted the transmission twice
+       we kept our show regardless of the reactions
+In Test LVC.3, we verify whether the verb adds "light" semantics to the predicative noun. When aspect is expressed as a morphological feature, such as in the first item above, we consider that the verb is light and test LVC.3 passes. However, when aspect is a semantic feature rather than a morphological feature, test LVC.3 fails and we do not have an LVC.
+In the LVC decision tree, should I test that the noun keeps its original meaning?
+The previous version (1.0) of the annotation guidelines contained Test 10 [N-SEM], which checked if the noun in an LVC candidate preserves one of its original senses. If it did not, the candidate was not an LVC.
+In the current version of the guidelines we have abandoned this test because:
+it proved hard to establish the list original senses of a noun,
+this test was superfluous with respect to Test LVC.4 [V-REDUC],
+in some verbal idioms (VIDs) the noun also keeps its original sense, so the test can be misleading for the LVC vs. VID distinction.
+
+Additional instructions:
+- Be cautious: Only identify expressions as VMWEs if they clearly satisfies the conditions above.
+- When listing VMWEs, use exactly the original surface form as it appears in the sentence.
+- Only answer in JSON.
+- False positives are worse than false negatives - return VMWEs only if you are 100% sure.
