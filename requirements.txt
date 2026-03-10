@@ -14,13 +14,13 @@ openai==1.66.3
 langchain-openai==0.3.8
 langchain-community==0.3.19
 langchain-huggingface==0.2.0
-google-genai==1.5.0
+# google-genai==1.5.0
+google-genai
 langchain-google-genai==2.0.11
 together
 langchain-together==0.3.0
 # yaml
 langchain_anthropic
-
 agno
 python-dotenv
 pydantic

@@ -11,6 +11,7 @@ Combines:
 """
 
 import ast
+import inspect
 import pandas as pd
 import re
 from typing import List, Optional, Dict, Any
@@ -22,7 +23,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 import os
 
-from system_prompts import SYSTEM_PROMPT_V2, SYSTEM_PROMPT_V3_ITALIAN, SYSTEM_PROMPT_V3_SPANISH, SYSTEM_PROMPT_V3_GERMAN
+from system_prompts import SYSTEM_PROMPT_V2, SYSTEM_PROMPT_V3_GERMAN
 
 # Load environment variables
 load_dotenv()
@@ -121,9 +122,11 @@ def create_confusing_context_agent(num_variants: int = 3, language: str = "engli
 
     # Select the appropriate system prompt based on language
     if language.lower() == "italian":
-        system_prompt = SYSTEM_PROMPT_V3_ITALIAN.format(num_variants=num_variants)
+        # system_prompt = SYSTEM_PROMPT_V3_ITALIAN.format(num_variants=num_variants)
+        return
     elif language.lower() == "spanish":
-        system_prompt = SYSTEM_PROMPT_V3_SPANISH.format(num_variants=num_variants)
+        # system_prompt = SYSTEM_PROMPT_V3_SPANISH.format(num_variants=num_variants)
+        return
     elif language.lower() == "german":
         system_prompt = SYSTEM_PROMPT_V3_GERMAN.format(num_variants=num_variants)
     else:
@@ -252,7 +255,7 @@ def create_variant_rows(original_row: pd.Series, variants: List[str], num_varian
     
     return variant_rows
 
-def generate_variants_dataframe(data_path: str, num_variants: int = 3, max_sentences: Optional[int] = None, language: str = "english", offset: int = 0) -> pd.DataFrame:
+def generate_variants_dataframe(data_path: str, num_variants: int = 3, max_sentences: Optional[int] = None, language: str = "english", offset: int = 0, figurative_filter: Optional[bool] = None) -> pd.DataFrame:
     """
     Main function that generates confusing context variants from a CSV file.
 
@@ -262,6 +265,7 @@ def generate_variants_dataframe(data_path: str, num_variants: int = 3, max_sente
         max_sentences: Maximum number of sentences to process (None for all)
         language: Language to use ("english", "italian", "spanish", or "german")
         offset: Number of sentences to skip from the beginning (default: 0)
+        figurative_filter: If True, keep only figurative sentences; if False, only literal; if None, keep all
 
     Returns:
         DataFrame with variants and proper BIO tagging
@@ -275,6 +279,12 @@ def generate_variants_dataframe(data_path: str, num_variants: int = 3, max_sente
     original_df["tokens"]       = original_df["tokens"].apply(parse_list_col)
     original_df["tags"]         = original_df["tags"].apply(parse_list_col)
     original_df["tag_ids"]      = original_df["tag_ids"].apply(parse_list_col)
+
+    # Apply is_figurative filter if requested
+    if figurative_filter is not None:
+        original_df = original_df[original_df["is_figurative"] == figurative_filter].reset_index(drop=True)
+        label = "figurative" if figurative_filter else "literal"
+        print(f"Filtered to {label} sentences only: {len(original_df)} sentences remaining")
 
     # Apply offset first
     total_sentences = len(original_df)
@@ -309,17 +319,19 @@ def generate_variants_dataframe(data_path: str, num_variants: int = 3, max_sente
         # Create the prompt for variant generation
         pie = row["PIE"][0] if row["PIE"] else ""
         usage = "figurative" if row["is_figurative"] else "literal"
-        prompt = f"""
-        Original sentence: "{sentence}"
-        PIE: "{pie}"
-        Usage in this sentence: {usage}
+        prompt = inspect.cleandoc(f"""
+            Original sentence: "{sentence}"
+            PIE: "{pie}"
+            Usage in this sentence: {usage}
 
-        Generate exactly {num_variants} confusing context variants of this sentence. Preserve the PIE phrase exactly as it appears in the sentence while creating ambiguous contexts around it.
-        """
+            Generate exactly {num_variants} confusing context variants of this sentence. Preserve the PIE phrase exactly as it appears in the sentence while creating ambiguous contexts around it.
+        """)
 
         try:
             # Generate variants
             response = variant_agent.run(prompt)
+            print("Prompt:\n\n", prompt, "\n\n")
+            print("res:\n\n", response, "\n\n")
             variants = response.content.variants
 
             print(f"  ✓ Generated {len(variants)} variants")
@@ -418,7 +430,7 @@ def main():
     CSV_FILE_PATH = os.path.join(_HERE, "..", "raw_id10m_data", "english", "id10m_english.csv")
     OUTPUT_PATH   = os.path.join(_HERE, "..", "raw_id10m_data", "english", f"variants_output_{datetime.now().strftime('%Y%m%d_%H%M%S')}")
     NUM_VARIANTS  = 3
-    MAX_SENTENCES = 5  # Set to None to process all sentences, or a number for testing
+    MAX_SENTENCES = 3  # Set to None to process all sentences, or a number for testing
     OUTPUT_FORMAT = "json"  # Options: 'csv', 'json', 'pickle'
 
     print("🔄 Confusing Context Variant Generator")
@@ -435,11 +447,11 @@ def main():
         return
     
     # Check environment variables
-    if not os.getenv("GITHUB_TOKEN_MODEL"):
-        print("❌ Error: GITHUB_TOKEN_MODEL environment variable not set")
-        print("Please set your OpenAI API key in the environment variables.")
+    if not os.getenv("GEMINI_API_KEY"):
+        print("❌ Error: GEMINI_API_KEY environment variable not set")
+        print("Please set your Gemini API key in the .env file.")
         return
-    
+
     try:
         # Generate variants
         print("\n🚀 Starting variant generation...")
