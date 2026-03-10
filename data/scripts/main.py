@@ -77,42 +77,72 @@ def get_user_input():
         except ValueError:
             print("Please enter a valid number.")
 
-    # Offset
+    # Selection mode
     while True:
-        try:
-            offset_input = input("Offset - sentences to skip from start (default: 0): ").strip()
-            offset = int(offset_input) if offset_input else 0
-            if offset >= 0:
-                break
-            print("Please enter a non-negative number.")
-        except ValueError:
-            print("Please enter a valid number.")
+        mode = input("Selection mode (sequential/random/indices, default: sequential): ").strip().lower()
+        if not mode or mode == "sequential":
+            selection_mode = "sequential"
+            break
+        elif mode == "random":
+            selection_mode = "random"
+            break
+        elif mode == "indices":
+            selection_mode = "indices"
+            break
+        print("Please choose from: sequential, random, indices")
 
-    # Max sentences
-    while True:
-        try:
-            max_input = input("Number of sentences to process (default: all): ").strip()
-            if not max_input or max_input.lower() == "all":
-                max_sentences = None
-                break
-            max_sentences = int(max_input)
-            if max_sentences >= 1:
-                break
-            print("Please enter a positive number or 'all'.")
-        except ValueError:
-            print("Please enter a valid number or 'all'.")
+    # Mode-specific options
+    specific_indices = None
+    offset       = 0
+    max_sentences = None
+    use_random   = False
 
-    # Random selection
-    use_random = False
-    if max_sentences:
+    if selection_mode == "indices":
         while True:
-            random_choice = input("Take random sentences? (y/n, default: n): ").strip().lower()
-            if random_choice in ('', 'n', 'no'):
-                break
-            elif random_choice in ('y', 'yes'):
-                use_random = True
-                break
-            print("Please enter 'y' or 'n'.")
+            raw = input("Row indices to process (comma-separated, e.g. 3,31,32): ").strip()
+            try:
+                specific_indices = [int(i.strip()) for i in raw.split(",") if i.strip()]
+                if specific_indices:
+                    break
+                print("Please enter at least one index.")
+            except ValueError:
+                print("Please enter comma-separated integers.")
+
+    elif selection_mode == "random":
+        while True:
+            try:
+                max_input = input("Number of sentences to randomly sample: ").strip()
+                max_sentences = int(max_input)
+                if max_sentences >= 1:
+                    use_random = True
+                    break
+                print("Please enter a positive number.")
+            except ValueError:
+                print("Please enter a valid number.")
+
+    else:  # sequential
+        while True:
+            try:
+                offset_input = input("Offset - sentences to skip from start (default: 0): ").strip()
+                offset = int(offset_input) if offset_input else 0
+                if offset >= 0:
+                    break
+                print("Please enter a non-negative number.")
+            except ValueError:
+                print("Please enter a valid number.")
+
+        while True:
+            try:
+                max_input = input("Number of sentences to process (default: all): ").strip()
+                if not max_input or max_input.lower() == "all":
+                    max_sentences = None
+                    break
+                max_sentences = int(max_input)
+                if max_sentences >= 1:
+                    break
+                print("Please enter a positive number or 'all'.")
+            except ValueError:
+                print("Please enter a valid number or 'all'.")
 
     # Output format
     while True:
@@ -125,11 +155,12 @@ def get_user_input():
             break
         print(f"Please choose from: {', '.join(VALID_FORMATS)}")
 
-    return language, figurative_filter, num_variants, offset, max_sentences, use_random, output_format
+    return language, figurative_filter, num_variants, offset, max_sentences, use_random, specific_indices, output_format
 
 
 def run_generator(language: str, figurative_filter: Optional[bool], num_variants: int,
-                  offset: int, max_sentences: Optional[int], use_random: bool, output_format: str) -> bool:
+                  offset: int, max_sentences: Optional[int], use_random: bool,
+                  specific_indices: Optional[list], output_format: str) -> bool:
     """Run the variant generator with the specified configuration"""
     try:
         from variants_generator import generate_variants_dataframe, save_variants_to_file, display_sample_variants, model_name
@@ -139,12 +170,28 @@ def run_generator(language: str, figurative_filter: Optional[bool], num_variants
         print(f"❌ Error importing variants_generator: {e}")
         return False
 
-    data_path                = CSV_FILE_PATH
-    temp_csv                 = None
+    data_path                 = CSV_FILE_PATH
+    temp_csv                  = None
     display_figurative_filter = figurative_filter  # preserve for logging before it may be cleared
 
+    # Specific-indices selection: extract rows by index and write a temp CSV
+    if specific_indices is not None:
+        try:
+            df_all = pd.read_csv(data_path)
+            chosen = df_all.iloc[specific_indices]
+            temp_csv  = os.path.join(_HERE, "_temp_indices.csv")
+            chosen.to_csv(temp_csv, index=False)
+            data_path         = temp_csv
+            offset            = 0
+            max_sentences     = None
+            figurative_filter = None  # no further filtering needed
+            print(f"✅ Selected {len(chosen)} sentences at indices {specific_indices}")
+        except Exception as e:
+            print(f"❌ Error selecting by indices: {e}")
+            return False
+
     # Random sentence selection: pre-sample the df and write a temp CSV
-    if use_random and max_sentences:
+    elif use_random and max_sentences:
         try:
             df_all = pd.read_csv(data_path)
             if figurative_filter is not None:
@@ -176,7 +223,7 @@ def run_generator(language: str, figurative_filter: Optional[bool], num_variants
         print(f"  Variants/sentence: {num_variants}")
         print(f"  Offset           : {offset}")
         print(f"  Max sentences    : {max_sentences or 'all'}")
-        print(f"  Selection        : {'random' if use_random else 'sequential'}")
+        print(f"  Selection        : {'indices ' + str(specific_indices) if specific_indices is not None else 'random' if use_random else 'sequential'}")
         print(f"  Output format    : {output_format}")
         print("-" * 50)
 
@@ -193,7 +240,7 @@ def run_generator(language: str, figurative_filter: Optional[bool], num_variants
         os.makedirs(GENERATIONS_DIR, exist_ok=True)
         timestamp       = datetime.now().strftime('%Y%m%d_%H%M%S')
         sentences_count = len(variants_df) // num_variants
-        fig_label       = "fig" if figurative_filter is True else "lit" if figurative_filter is False else "all"
+        fig_label       = "fig" if display_figurative_filter is True else "lit" if display_figurative_filter is False else "all"
         safe_model      = model_name.replace("-", "_").replace(".", "_")
         output_filename = os.path.join(
             GENERATIONS_DIR,
@@ -226,9 +273,9 @@ def main():
     if not check_input_file(CSV_FILE_PATH):
         sys.exit(1)
 
-    language, figurative_filter, num_variants, offset, max_sentences, use_random, output_format = get_user_input()
+    language, figurative_filter, num_variants, offset, max_sentences, use_random, specific_indices, output_format = get_user_input()
 
-    success = run_generator(language, figurative_filter, num_variants, offset, max_sentences, use_random, output_format)
+    success = run_generator(language, figurative_filter, num_variants, offset, max_sentences, use_random, specific_indices, output_format)
 
     if not success:
         sys.exit(1)
