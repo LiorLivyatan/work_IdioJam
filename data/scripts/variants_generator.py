@@ -223,8 +223,10 @@ def create_variant_rows(original_row: pd.Series, variants: List[str], num_varian
     """
     variant_rows = []
     
-    sentence = original_row["sentence"]
+    sentence       = original_row["sentence"]
     original_idioms = original_row["true_idioms"]
+    pie            = original_row["PIE"]
+    is_figurative  = original_row["is_figurative"]
     
     # Ensure we have the requested number of variants
     variants_to_use = variants[:num_variants] if len(variants) >= num_variants else variants
@@ -243,6 +245,8 @@ def create_variant_rows(original_row: pd.Series, variants: List[str], num_varian
         # Create the row
         variant_row = {
             "sentence": sentence,
+            "PIE": pie,
+            "is_figurative": is_figurative,
             "variant_number": variant_num,
             "variant_sentence": variant_sentence,
             "tokens": variant_data["tokens"],
@@ -330,8 +334,6 @@ def generate_variants_dataframe(data_path: str, num_variants: int = 3, max_sente
         try:
             # Generate variants
             response = variant_agent.run(prompt)
-            print("Prompt:\n\n", prompt, "\n\n")
-            print("res:\n\n", response, "\n\n")
             variants = response.content.variants
 
             print(f"  ✓ Generated {len(variants)} variants")
@@ -355,6 +357,8 @@ def generate_variants_dataframe(data_path: str, num_variants: int = 3, max_sente
     # Reorder columns for better readability
     column_order = [
         "sentence",
+        "PIE",
+        "is_figurative",
         "variant_number",
         "variant_sentence",
         "tokens",
