@@ -23,7 +23,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 import os
 
-from system_prompts import SYSTEM_PROMPT_V2, SYSTEM_PROMPT_V3_GERMAN
+from system_prompts import SYSTEM_PROMPT_V2
 
 # Load environment variables
 load_dotenv()
@@ -128,7 +128,12 @@ def create_confusing_context_agent(num_variants: int = 3, language: str = "engli
         # system_prompt = SYSTEM_PROMPT_V3_SPANISH.format(num_variants=num_variants)
         return
     elif language.lower() == "german":
-        system_prompt = SYSTEM_PROMPT_V3_GERMAN.format(num_variants=num_variants)
+        german_note = (
+            "\n\nLANGUAGE: The input sentences are in German. "
+            "Generate all {num_variants} variants in German only. "
+            "Maintain fluent, grammatically impeccable German."
+        )
+        system_prompt = (SYSTEM_PROMPT_V2 + german_note).format(num_variants=num_variants)
     else:
         system_prompt = SYSTEM_PROMPT_V2.format(num_variants=num_variants)
 
