@@ -2400,14 +2400,14 @@
     "version": "v2"
   },
   {
-    "sentence": "baloons are floating up in the air.",
+    "sentence": "balloons are floating up in the air.",
     "PIE": [
       "up in the air"
     ],
     "true_idioms": [],
     "is_figurative": false,
     "variant_number": 1,
-    "variant_sentence": "After the board meeting where the project's final budget and launch date were both left completely undecided, the manager stared at the decorations in the atrium and noted that the company's celebratory baloons are floating up in the air.",
+    "variant_sentence": "After the board meeting where the project's final budget and launch date were both left completely undecided, the manager stared at the decorations in the atrium and noted that the company's celebratory balloons are floating up in the air.",
     "tokens": [
       "After",
       "the",
@@ -2446,7 +2446,7 @@
       "'",
       "s",
       "celebratory",
-      "baloons",
+      "balloons",
       "are",
       "floating",
       "up",
@@ -2552,14 +2552,14 @@
     "version": "v2"
   },
   {
-    "sentence": "baloons are floating up in the air.",
+    "sentence": "balloons are floating up in the air.",
     "PIE": [
       "up in the air"
     ],
     "true_idioms": [],
     "is_figurative": false,
     "variant_number": 2,
-    "variant_sentence": "The lead scientist explained that the atmospheric experiment was inconclusive and her entire hypothesis remained unproven, concluding in her field notes that for the time being, the research baloons are floating up in the air.",
+    "variant_sentence": "The lead scientist explained that the atmospheric experiment was inconclusive and her entire hypothesis remained unproven, concluding in her field notes that for the time being, the research balloons are floating up in the air.",
     "tokens": [
       "The",
       "lead",
@@ -2591,7 +2591,7 @@
       ",",
       "the",
       "research",
-      "baloons",
+      "balloons",
       "are",
       "floating",
       "up",
@@ -2683,14 +2683,14 @@
     "version": "v2"
   },
   {
-    "sentence": "baloons are floating up in the air.",
+    "sentence": "balloons are floating up in the air.",
     "PIE": [
       "up in the air"
     ],
     "true_idioms": [],
     "is_figurative": false,
     "variant_number": 3,
-    "variant_sentence": "He asked if she had made a decision about their relationship, but with their future so unsettled, she just looked past him at the distant street fair and observed that the baloons are floating up in the air.",
+    "variant_sentence": "He asked if she had made a decision about their relationship, but with their future so unsettled, she just looked past him at the distant street fair and observed that the balloons are floating up in the air.",
     "tokens": [
       "He",
       "asked",
@@ -2725,7 +2725,7 @@
       "observed",
       "that",
       "the",
-      "baloons",
+      "balloons",
       "are",
       "floating",
       "up",
@@ -6953,7 +6953,7 @@
   {
     "sentence": "I love bread and butter for breakfast.",
     "PIE": [
-      "bread und butter"
+      "bread and butter"
     ],
     "true_idioms": [],
     "is_figurative": false,
@@ -7081,7 +7081,7 @@
   {
     "sentence": "I love bread and butter for breakfast.",
     "PIE": [
-      "bread und butter"
+      "bread and butter"
     ],
     "true_idioms": [],
     "is_figurative": false,
@@ -7248,7 +7248,7 @@
   {
     "sentence": "I love bread and butter for breakfast.",
     "PIE": [
-      "bread und butter"
+      "bread and butter"
     ],
     "true_idioms": [],
     "is_figurative": false,
@@ -7403,7 +7403,7 @@
   {
     "sentence": "Here are your sardines with bread and butter.",
     "PIE": [
-      "bread und butter"
+      "bread and butter"
     ],
     "true_idioms": [],
     "is_figurative": false,
@@ -7582,7 +7582,7 @@
   {
     "sentence": "Here are your sardines with bread and butter.",
     "PIE": [
-      "bread und butter"
+      "bread and butter"
     ],
     "true_idioms": [],
     "is_figurative": false,
@@ -7761,7 +7761,7 @@
   {
     "sentence": "Here are your sardines with bread and butter.",
     "PIE": [
-      "bread und butter"
+      "bread and butter"
     ],
     "true_idioms": [],
     "is_figurative": false,
@@ -20523,16 +20523,16 @@
     "version": "v1"
   },
   {
-    "sentence": "I let out the cat of the bag about my new girlfriend.",
+    "sentence": "I let the cat out of the bag about my new girlfriend.",
     "PIE": [
-      "let out the cat of the bag"
+      "let the cat out of the bag"
     ],
     "true_idioms": [
       "let out the cat of the bag"
     ],
     "is_figurative": true,
     "variant_number": 1,
-    "variant_sentence": "At the animal shelter, my parents were surprised to see me with Sarah, and just as I opened the carrier to show them our new pet, I let out the cat of the bag about my new girlfriend.",
+    "variant_sentence": "At the animal shelter, my parents were surprised to see me with Sarah, and just as I opened the carrier to show them our new pet, I let the cat out of the bag about my new girlfriend.",
     "tokens": [
       "At",
       "the",
@@ -20565,9 +20565,9 @@
       ",",
       "I",
       "let",
-      "out",
       "the",
       "cat",
+      "out",
       "of",
       "the",
       "bag",
@@ -20668,16 +20668,16 @@
     "version": "v1"
   },
   {
-    "sentence": "I let out the cat of the bag about my new girlfriend.",
+    "sentence": "I let the cat out of the bag about my new girlfriend.",
     "PIE": [
-      "let out the cat of the bag"
+      "let the cat out of the bag"
     ],
     "true_idioms": [
       "let out the cat of the bag"
     ],
     "is_figurative": true,
     "variant_number": 2,
-    "variant_sentence": "During my disastrous magic act at the family reunion, the trick animal escaped from its sack prematurely, and in my flustered apology to the audience, I let out the cat of the bag about my new girlfriend.",
+    "variant_sentence": "During my disastrous magic act at the family reunion, the trick animal escaped from its sack prematurely, and in my flustered apology to the audience, I let the cat out of the bag about my new girlfriend.",
     "tokens": [
       "During",
       "my",
@@ -20709,9 +20709,9 @@
       ",",
       "I",
       "let",
-      "out",
       "the",
       "cat",
+      "out",
       "of",
       "the",
       "bag",
@@ -20810,16 +20810,16 @@
     "version": "v1"
   },
   {
-    "sentence": "I let out the cat of the bag about my new girlfriend.",
+    "sentence": "I let the cat out of the bag about my new girlfriend.",
     "PIE": [
-      "let out the cat of the bag"
+      "let the cat out of the bag"
     ],
     "true_idioms": [
       "let out the cat of the bag"
     ],
     "is_figurative": true,
     "variant_number": 3,
-    "variant_sentence": "My therapist asked why I was so anxious, so I described smuggling a kitten into my apartment past the landlord, and when I explained how it wriggled free from the tote it was in, I let out the cat of the bag about my new girlfriend.",
+    "variant_sentence": "My therapist asked why I was so anxious, so I described smuggling a kitten into my apartment past the landlord, and when I explained how it wriggled free from the tote it was in, I let the cat out of the bag about my new girlfriend.",
     "tokens": [
       "My",
       "therapist",
@@ -20860,9 +20860,9 @@
       ",",
       "I",
       "let",
-      "out",
       "the",
       "cat",
+      "out",
       "of",
       "the",
       "bag",
@@ -20979,16 +20979,16 @@
     "version": "v1"
   },
   {
-    "sentence": "Sam let out the cat of the bag about his new job.",
+    "sentence": "Sam let the cat out of the bag about his new job.",
     "PIE": [
-      "let out the cat of the bag"
+      "let the cat out of the bag"
     ],
     "true_idioms": [
       "let out the cat of the bag"
     ],
     "is_figurative": true,
     "variant_number": 1,
-    "variant_sentence": "At the chaotic animal rescue fundraiser, Sam was tasked with both transporting a feral kitten and keeping his recent promotion a secret from a rival colleague. After drinking some wine, Sam let out the cat of the bag about his new job.\n",
+    "variant_sentence": "At the chaotic animal rescue fundraiser, Sam was tasked with both transporting a feral kitten and keeping his recent promotion a secret from a rival colleague. After drinking some wine, Sam let the cat out of the bag about his new job.\n",
     "tokens": [
       "At",
       "the",
@@ -21025,9 +21025,9 @@
       ",",
       "Sam",
       "let",
-      "out",
       "the",
       "cat",
+      "out",
       "of",
       "the",
       "bag",
@@ -21136,16 +21136,16 @@
     "version": "v1"
   },
   {
-    "sentence": "Sam let out the cat of the bag about his new job.",
+    "sentence": "Sam let the cat out of the bag about his new job.",
     "PIE": [
-      "let out the cat of the bag"
+      "let the cat out of the bag"
     ],
     "true_idioms": [
       "let out the cat of the bag"
     ],
     "is_figurative": true,
     "variant_number": 2,
-    "variant_sentence": "During the disastrous dress rehearsal for the magic show, where a key illusion involved a feline and a sack, the nervous new assistant Sam let out the cat of the bag about his new job.",
+    "variant_sentence": "During the disastrous dress rehearsal for the magic show, where a key illusion involved a feline and a sack, the nervous new assistant Sam let the cat out of the bag about his new job.",
     "tokens": [
       "During",
       "the",
@@ -21174,9 +21174,9 @@
       "assistant",
       "Sam",
       "let",
-      "out",
       "the",
       "cat",
+      "out",
       "of",
       "the",
       "bag",
@@ -21269,16 +21269,16 @@
     "version": "v1"
   },
   {
-    "sentence": "Sam let out the cat of the bag about his new job.",
+    "sentence": "Sam let the cat out of the bag about his new job.",
     "PIE": [
-      "let out the cat of the bag"
+      "let the cat out of the bag"
     ],
     "true_idioms": [
       "let out the cat of the bag"
     ],
     "is_figurative": true,
     "variant_number": 3,
-    "variant_sentence": "While telling his nephew a convoluted story about a farmer who hid a pet in a sack to surprise his wife he got distracted by his own life, and Sam let out the cat of the bag about his new job.",
+    "variant_sentence": "While telling his nephew a convoluted story about a farmer who hid a pet in a sack to surprise his wife he got distracted by his own life, and Sam let the cat out of the bag about his new job.",
     "tokens": [
       "While",
       "telling",
@@ -21312,9 +21312,9 @@
       "and",
       "Sam",
       "let",
-      "out",
       "the",
       "cat",
+      "out",
       "of",
       "the",
       "bag",
@@ -22446,9 +22446,9 @@
     "version": "v1"
   },
   {
-    "sentence": "I think I don't need to tell you that, actions speak louder that words.",
+    "sentence": "I think I don't need to tell you that, actions speak louder than words.",
     "PIE": [
-      "actions speak louder that words"
+      "actions speak louder than words"
     ],
     "true_idioms": [
       "actions speak louder that words"
@@ -22603,9 +22603,9 @@
     "version": "v1"
   },
   {
-    "sentence": "I think I don't need to tell you that, actions speak louder that words.",
+    "sentence": "I think I don't need to tell you that, actions speak louder than words.",
     "PIE": [
-      "actions speak louder that words"
+      "actions speak louder than words"
     ],
     "true_idioms": [
       "actions speak louder that words"
@@ -22757,9 +22757,9 @@
     "version": "v1"
   },
   {
-    "sentence": "I think I don't need to tell you that, actions speak louder that words.",
+    "sentence": "I think I don't need to tell you that, actions speak louder than words.",
     "PIE": [
-      "actions speak louder that words"
+      "actions speak louder than words"
     ],
     "true_idioms": [
       "actions speak louder that words"
