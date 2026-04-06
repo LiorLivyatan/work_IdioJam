@@ -44,8 +44,8 @@ for lang in LANGUAGES:
     )
 
 # Get parent parent_dir
-parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(parent_dir, "data/hard_idioms/production_data/english/hard_idioms_data_english.json")
+parent_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DATA_DIR = os.path.join(parent_dir, "data/hard_idioms_data/english/hard_idioms_english_FINAL.json")
 
 ###############################################################################
 
@@ -289,7 +289,7 @@ def get_user_inputs(data: pd.DataFrame) -> list[dict]:
     if "language" not in data.columns:
         data["language"] = "english"
     user_inputs = [
-        {"variant_sentence": "".join(row["final_variant"]), "language": row["language"]}
+        {"variant_sentence": row["variant_sentence"], "language": row["language"]}
         for _, row in data.iterrows()
     ]
     return user_inputs
