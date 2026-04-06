@@ -1,0 +1,19 @@
+Language: english
+Confusion matrix:
+             O  B-IDIOM  I-IDIOM
+O        41016      270      557
+B-IDIOM     41      576      132
+I-IDIOM    125        3     1656
+
+Classification report:
+              precision    recall  f1-score   support
+
+           O       0.68      0.77      0.72       749
+     B-IDIOM       0.71      0.93      0.80      1784
+     I-IDIOM       1.00      0.98      0.99     41843
+
+    accuracy                           0.97     44376
+   macro avg       0.79      0.89      0.84     44376
+weighted avg       0.98      0.97      0.98     44376
+
+

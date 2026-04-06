@@ -66,5 +66,3 @@ wandb/
 keys.yaml
 src/mail_config.yaml
 
-# Experiment results (large JSON/TSV files — regenerable)
-results/

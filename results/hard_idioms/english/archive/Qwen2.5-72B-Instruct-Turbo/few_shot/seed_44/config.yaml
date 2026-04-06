@@ -1,0 +1,22 @@
+batched: true
+config_file: config.yaml
+debug: false
+experiment_start_date: '2025-11-23'
+experiment_start_timestamp: '2025-11-23 10:04:50'
+idiogem_base_dir: IdioGem
+idiogem_comparisons_dir: IdioGem/comparisons
+idiogem_data_dir: IdioGem/data
+lang: english
+logs_dir: IdioGem/results
+model: Qwen/Qwen2.5-72B-Instruct-Turbo
+model_checkpoint: Qwen/Qwen2.5-72B-Instruct-Turbo
+num_samples: 5
+prompt_type: few_shot_cot_best
+responses_dir: null
+results_dir: IdioGem/results
+sc_runs: 5
+seed: 44
+shots: 10
+task: hard_idioms
+temperature: 0.8
+use_rate_limiter: false
