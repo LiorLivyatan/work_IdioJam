@@ -358,6 +358,11 @@ def main():
         if args.filter and args.filter not in name:
             continue
 
+        candidate_dir = UPDATED_DIR / _model_dir_name(model) / _prompt_dir_name(prompt_cfg) / f"seed_{seed}"
+        if (candidate_dir / "metrics.json").exists():
+            logger.info(f"Skipping {name} — already completed")
+            continue
+
         logger.info(f"\n{'='*64}\n{name}\n{'='*64}")
 
         old_run_dir = find_old_run_dir(model, prompt_cfg, seed)
