@@ -48,12 +48,13 @@ logger = logging.getLogger(__name__)
 ####################################################################################################
 # Paths
 
-RESULTS_DIR    = REPO_ROOT / "results" / "hard_idioms" / "english"
-ARCHIVE_DIR    = RESULTS_DIR / "archive"    # old runs (pre-data-fix)
-UPDATED_DIR    = RESULTS_DIR / "updated"    # new runs (post-data-fix, this batch)
-FINAL_JSON     = REPO_ROOT / "data" / "hard_idioms_data" / "english" / "hard_idioms_english_FINAL.json"
-SUBSET_JSON    = REPO_ROOT / "data" / "hard_idioms_data" / "english" / "hard_idioms_english_FINAL_subset105.json"
-COMPARISON_CSV = REPO_ROOT / "data" / "hard_idioms_data" / "english" / "final_vs_old_comparison.csv"
+RESULTS_DIR        = REPO_ROOT / "results" / "hard_idioms" / "english"
+ARCHIVE_DIR        = RESULTS_DIR / "archive"    # old runs (pre-data-fix)
+UPDATED_DIR        = RESULTS_DIR / "updated"    # new runs (post-data-fix, this batch)
+UPDATED_SUMMARY    = UPDATED_DIR / "results_summary.csv"
+FINAL_JSON         = REPO_ROOT / "data" / "hard_idioms_data" / "english" / "hard_idioms_english_FINAL.json"
+SUBSET_JSON        = REPO_ROOT / "data" / "hard_idioms_data" / "english" / "hard_idioms_english_FINAL_subset105.json"
+COMPARISON_CSV     = REPO_ROOT / "data" / "hard_idioms_data" / "english" / "final_vs_old_comparison.csv"
 
 ####################################################################################################
 # Experiment matrix
@@ -264,6 +265,54 @@ def evaluate_and_save(merged: list[dict], config: dict, run_dir: Path):
     return metrics
 
 
+def update_summary_csv(model: str, prompt_cfg: dict, seed: int, metrics: dict):
+    """Write or update one row in the updated results_summary.csv."""
+    import csv
+
+    SUMMARY_COLS = ["model", "prompt_type", "seed", "shots", "sc_runs", "temperature",
+                    "accuracy", "precision", "recall", "f1", "hallucinations"]
+
+    # Read existing rows
+    rows = []
+    if UPDATED_SUMMARY.exists():
+        with open(UPDATED_SUMMARY, newline="") as f:
+            rows = list(csv.DictReader(f))
+
+    # Build the key for this run
+    prompt_type = _prompt_dir_name(prompt_cfg)  # "zero_shot" or "few_shot"
+    eng = metrics.get("english", {})
+    new_row = {
+        "model":         model,
+        "prompt_type":   prompt_type,
+        "seed":          seed,
+        "shots":         prompt_cfg["shots"],
+        "sc_runs":       prompt_cfg["sc_runs"],
+        "temperature":   prompt_cfg["temperature"],
+        "accuracy":      round(eng.get("accuracy", ""), 6) if isinstance(eng.get("accuracy"), float) else "",
+        "precision":     round(eng.get("precision", ""), 6) if isinstance(eng.get("precision"), float) else "",
+        "recall":        round(eng.get("recall", ""), 6) if isinstance(eng.get("recall"), float) else "",
+        "f1":            round(eng.get("f1", ""), 6) if isinstance(eng.get("f1"), float) else "",
+        "hallucinations": eng.get("hallucinations", ""),
+    }
+
+    # Replace existing row or append
+    match_key = (model, prompt_type, str(seed))
+    updated = False
+    for i, r in enumerate(rows):
+        if (r["model"], r["prompt_type"], str(r["seed"])) == match_key:
+            rows[i] = new_row
+            updated = True
+            break
+    if not updated:
+        rows.append(new_row)
+
+    with open(UPDATED_SUMMARY, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=SUMMARY_COLS)
+        w.writeheader()
+        w.writerows(rows)
+    logger.info(f"Updated results_summary.csv ({len(rows)} rows)")
+
+
 def save_json(obj, path: Path):
     def clean(o):
         if isinstance(o, dict): return {k: clean(v) for k, v in o.items()}
@@ -364,6 +413,7 @@ def main():
         logger.info("Step 3: Evaluating...")
         try:
             metrics = evaluate_and_save(merged, config, run_dir)
+            update_summary_csv(model, prompt_cfg, seed, metrics)
             logger.info(f"Done → {run_dir}")
         except Exception as e:
             logger.error(f"Evaluation failed: {e}")
