@@ -69,8 +69,8 @@ EXPERIMENT_MATRIX = [
     dict(model="gemini-2.5-flash-lite",                     prompt_types=["zero_shot", "few_shot"], seeds=[42, 43, 44]),
     dict(model="gpt-4o",                                    prompt_types=["zero_shot", "few_shot"], seeds=[42]),
     dict(model="gpt-4o-mini",                               prompt_types=["zero_shot", "few_shot"], seeds=[42, 43, 44]),
-    dict(model="meta-llama/Llama-4-Scout-17B-16E-Instruct", prompt_types=["zero_shot", "few_shot"], seeds=[42, 43, 44]),
-    dict(model="Qwen/Qwen2.5-72B-Instruct-Turbo",           prompt_types=["zero_shot", "few_shot"], seeds=[42, 43, 44]),
+    dict(model="meta-llama/llama-4-scout",                   prompt_types=["zero_shot", "few_shot"], seeds=[42, 43, 44]),
+    dict(model="qwen/qwen-2.5-72b-instruct",                 prompt_types=["zero_shot", "few_shot"], seeds=[42, 43, 44]),
     # Premium models — zero_shot + few_shot, seed 42 only
     dict(model="gemini-2.5-pro",                            prompt_types=["zero_shot", "few_shot"], seeds=[42]),
     dict(model="o3-mini",                                   prompt_types=["zero_shot"],             seeds=[42]),
@@ -100,9 +100,16 @@ def _prompt_dir_name(prompt_cfg: dict) -> str:
     return "zero_shot" if prompt_cfg["prompt_type"] == "zero_shot" else "few_shot"
 
 
+ARCHIVE_DIR_ALIASES = {
+    "llama-4-scout":          "Llama-4-Scout-17B-16E-Instruct",
+    "qwen-2.5-72b-instruct":  "Qwen2.5-72B-Instruct-Turbo",
+}
+
 def find_old_run_dir(model: str, prompt_cfg: dict, seed: int) -> Path | None:
     """Return the archive directory for this experiment, or None if not found."""
-    candidate = ARCHIVE_DIR / _model_dir_name(model) / _prompt_dir_name(prompt_cfg) / f"seed_{seed}"
+    dir_name = _model_dir_name(model)
+    dir_name = ARCHIVE_DIR_ALIASES.get(dir_name, dir_name)
+    candidate = ARCHIVE_DIR / dir_name / _prompt_dir_name(prompt_cfg) / f"seed_{seed}"
     return candidate if candidate.exists() else None
 
 

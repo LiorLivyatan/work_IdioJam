@@ -48,6 +48,12 @@ def get_model(model_name, temperature, use_rate_limiter=False):
             model=model_name, temperature=temperature, max_retries=3, rate_limiter=rate_limiter
         )
     else:
-        llm = init_chat_model(model_name, model_provider="together", rate_limiter=rate_limiter)
-        llm.model_kwargs = {"temperature": temperature}
-        return llm
+        import os
+        return ChatOpenAI(
+            model=model_name,
+            temperature=temperature,
+            max_retries=5,
+            openai_api_key=os.environ["OPEN_ROUTER_API_KEY"],
+            openai_api_base="https://openrouter.ai/api/v1",
+            rate_limiter=rate_limiter,
+        )
