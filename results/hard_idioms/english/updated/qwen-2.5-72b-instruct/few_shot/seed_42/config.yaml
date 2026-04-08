@@ -1,0 +1,17 @@
+batched: true
+data_path: null
+debug: false
+experiment_start_timestamp: '2026-04-08 13:18:19'
+lang: english
+logs_dir: /Users/liorlivyatan/LocalProjects/Thesis/work_IdioJam/experiments/logs
+model: qwen/qwen-2.5-72b-instruct
+num_samples: 5
+prompt_type: few_shot_cot_best
+responses_dir: null
+results_dir: /Users/liorlivyatan/LocalProjects/Thesis/work_IdioJam/experiments/results
+sc_runs: 5
+seed: 42
+shots: 10
+task: hard_idioms
+temperature: 0.8
+use_rate_limiter: false
