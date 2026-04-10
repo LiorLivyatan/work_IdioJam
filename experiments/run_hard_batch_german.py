@@ -2,11 +2,13 @@
 Batch runner for hard_idioms German experiments.
 
 For each experiment in the matrix:
-  1. Run inference on all 411 German rows  →  responses.json
-  2. Evaluate  →  metrics.json, results.tsv, conf_matrices_reports.txt
+  1. Run inference on the 54 new rows (v2/generated)  →  responses_54.json
+  2. Merge with the 357 unchanged responses from the matching archive run  →  responses.json
+  3. Evaluate on the full 411-row FINAL dataset  →  metrics.json, results.tsv, etc.
 
 All outputs land in:
-  results/hard_idioms/german/{model}/{prompt}/seed_{N}/
+  results/hard_idioms/german/updated/{model}/{prompt}/seed_{N}/
+      responses_54.json
       responses.json
       config.yaml
       metrics.json
@@ -17,7 +19,7 @@ Usage:
     python experiments/run_hard_batch_german.py                        # run all experiments
     python experiments/run_hard_batch_german.py --dry_run              # print plan, no API calls
     python experiments/run_hard_batch_german.py --filter gpt-4o-mini   # only configs matching substring
-    python experiments/run_hard_batch_german.py --skip_inference       # eval only — assumes responses.json already exists
+    python experiments/run_hard_batch_german.py --skip_inference       # merge+eval only — assumes responses_54.json already exists
 """
 
 import os
@@ -32,7 +34,6 @@ from datetime import datetime
 import pandas as pd
 from transformers import set_seed
 
-# Add repo root to path so src.* imports work
 REPO_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(REPO_ROOT / "experiments"))
 
@@ -47,9 +48,12 @@ logger = logging.getLogger(__name__)
 # Paths
 
 RESULTS_DIR     = REPO_ROOT / "results" / "hard_idioms" / "german"
+ARCHIVE_DIR     = RESULTS_DIR / "archive"
 UPDATED_DIR     = RESULTS_DIR / "updated"
 UPDATED_SUMMARY = UPDATED_DIR / "results_summary.csv"
 FINAL_JSON      = REPO_ROOT / "data" / "hard_idioms_data" / "german" / "hard_idioms_german_FINAL.json"
+SUBSET_JSON     = REPO_ROOT / "data" / "hard_idioms_data" / "german" / "hard_idioms_german_FINAL_subset54.json"
+COMPARISON_CSV  = REPO_ROOT / "data" / "hard_idioms_data" / "german" / "final_vs_old_comparison.csv"
 
 ####################################################################################################
 # Experiment matrix
@@ -95,6 +99,19 @@ def _prompt_dir_name(prompt_cfg: dict) -> str:
     return "zero_shot" if prompt_cfg["prompt_type"] == "zero_shot" else "few_shot"
 
 
+ARCHIVE_DIR_ALIASES = {
+    "llama-4-scout":          "Llama-4-Scout-17B-16E-Instruct",
+    "qwen-2.5-72b-instruct":  "Qwen2.5-72B-Instruct-Turbo",
+    "DeepSeek-R1":            "DeepSeek-R1",
+}
+
+def find_old_run_dir(model: str, prompt_cfg: dict, seed: int) -> Path | None:
+    dir_name = _model_dir_name(model)
+    dir_name = ARCHIVE_DIR_ALIASES.get(dir_name, dir_name)
+    candidate = ARCHIVE_DIR / dir_name / _prompt_dir_name(prompt_cfg) / f"seed_{seed}"
+    return candidate if candidate.exists() else None
+
+
 def create_run_dir(model: str, prompt_cfg: dict, seed: int) -> Path:
     run_dir = UPDATED_DIR / _model_dir_name(model) / _prompt_dir_name(prompt_cfg) / f"seed_{seed}"
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -122,14 +139,14 @@ def build_config(model: str, prompt_cfg: dict, seed: int) -> dict:
     )
 
 
-def run_inference(config: dict) -> list[dict]:
-    """Run the model on the full 411-row German dataset."""
+def run_inference_on_subset(config: dict) -> list[dict]:
+    """Run the model on the 54-row subset. Returns a list of response dicts."""
     set_seed(config["seed"])
 
     test = HARD_IDIOMS_UTILS["get_data"](
         task=config["task"],
         lang=config["lang"],
-        data_path=str(FINAL_JSON),
+        data_path=str(SUBSET_JSON),
     )
     test["language"] = config["lang"]
 
@@ -145,7 +162,6 @@ def run_inference(config: dict) -> list[dict]:
     chain = prompt | llm
     user_inputs = HARD_IDIOMS_UTILS["get_user_inputs"](test)
 
-    # Build response containers
     responses = []
     for _, row in test.iterrows():
         responses.append({key: row[key] for key in test.columns} | {"responses": []})
@@ -177,8 +193,49 @@ def run_inference(config: dict) -> list[dict]:
     return responses
 
 
-def evaluate_and_save(responses: list[dict], config: dict, run_dir: Path):
-    """Evaluate responses and save all outputs."""
+def build_merged_responses(old_run_dir: Path, new_responses: list[dict]) -> list[dict]:
+    """
+    Merge old (357 unchanged) + new (54 changed) into FINAL order (411 rows).
+    Old responses use the 'final_variant' field.
+    """
+    with open(FINAL_JSON) as f:
+        final_rows = json.load(f)
+
+    with open(old_run_dir / "responses.json", encoding="utf-8-sig") as f:
+        old_list = json.load(f)
+    old_by_variant = {r["final_variant"].strip(): r for r in old_list}
+
+    new_by_variant = {r["variant_sentence"].strip(): r for r in new_responses}
+
+    comp = pd.read_csv(COMPARISON_CSV)
+    unchanged = set(comp[comp["status"] == "UNCHANGED"]["variant_sentence"].str.strip())
+
+    merged, missing_old, missing_new = [], 0, 0
+    for row in final_rows:
+        vs = row["variant_sentence"].strip()
+        if vs in unchanged:
+            old_rec = old_by_variant.get(vs)
+            if old_rec is None:
+                logger.warning(f"UNCHANGED row missing from old: {vs[:60]}")
+                missing_old += 1
+                merged.append({**row, "language": "german", "responses": []})
+            else:
+                merged.append({**row, "language": "german", "responses": old_rec["responses"]})
+        else:
+            new_rec = new_by_variant.get(vs)
+            if new_rec is None:
+                logger.warning(f"NEW row missing from new: {vs[:60]}")
+                missing_new += 1
+                merged.append({**row, "language": "german", "responses": []})
+            else:
+                merged.append({**row, "language": "german", "responses": new_rec["responses"]})
+
+    logger.info(f"Merged {len(merged)} rows (missing_old={missing_old}, missing_new={missing_new})")
+    return merged
+
+
+def evaluate_and_save(merged: list[dict], config: dict, run_dir: Path):
+    """Evaluate on full 411-row FINAL and save all outputs."""
     test = HARD_IDIOMS_UTILS["get_data"](
         task=config["task"],
         lang=config["lang"],
@@ -187,7 +244,7 @@ def evaluate_and_save(responses: list[dict], config: dict, run_dir: Path):
     test["language"] = config["lang"]
 
     metrics, test_out, run_res, log_cm_report = HARD_IDIOMS_UTILS["process_responses"](
-        responses, test, calc_metrics_classification,
+        merged, test, calc_metrics_classification,
         lang=config["lang"],
         sc_runs=config["sc_runs"],
     )
@@ -281,7 +338,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry_run",        action="store_true", help="Print plan only, no API calls")
     parser.add_argument("--filter",         type=str, default=None, help="Only run experiments whose name contains this string")
-    parser.add_argument("--skip_inference", action="store_true", help="Eval only — assumes responses.json already exists")
+    parser.add_argument("--skip_inference", action="store_true", help="Merge+eval only — assumes responses_54.json already exists")
     args = parser.parse_args()
 
     with open(REPO_ROOT / "keys.yaml") as f:
@@ -305,10 +362,15 @@ def main():
 
         logger.info(f"\n{'='*64}\n{name}\n{'='*64}")
 
+        old_run_dir = find_old_run_dir(model, prompt_cfg, seed)
+        if old_run_dir is None:
+            logger.warning(f"No archive run found — evaluating on 54 rows only")
+
         config = build_config(model, prompt_cfg, seed)
 
         if args.dry_run:
             logger.info(f"  [DRY RUN] → {candidate_dir}")
+            logger.info(f"  [DRY RUN]   archive: {old_run_dir}")
             continue
 
         run_dir = create_run_dir(model, prompt_cfg, seed)
@@ -317,25 +379,40 @@ def main():
             yaml.dump(config, f)
         logger.info(f"Run dir: {run_dir}")
 
-        # --- Step 1: Inference on all 411 German rows ---
+        # --- Step 1: Inference on 54-row subset ---
         if not args.skip_inference:
-            logger.info("Step 1: Running inference on 411 German rows...")
-            responses = run_inference(config)
-            save_json(responses, run_dir / "responses.json")
-            logger.info(f"Saved responses.json ({len(responses)} rows)")
+            logger.info("Step 1: Running inference on 54-row subset...")
+            new_responses = run_inference_on_subset(config)
+            save_json(new_responses, run_dir / "responses_54.json")
+            logger.info(f"Saved responses_54.json ({len(new_responses)} rows)")
         else:
-            path_resp = run_dir / "responses.json"
-            if not path_resp.exists():
-                logger.error(f"--skip_inference set but {path_resp} not found — skipping")
+            path_54 = run_dir / "responses_54.json"
+            if not path_54.exists():
+                logger.error(f"--skip_inference set but {path_54} not found — skipping")
                 continue
-            with open(path_resp, encoding="utf-8-sig") as f:
-                responses = json.load(f)
-            logger.info(f"Loaded existing responses.json ({len(responses)} rows)")
+            with open(path_54, encoding="utf-8-sig") as f:
+                new_responses = json.load(f)
+            logger.info(f"Loaded existing responses_54.json ({len(new_responses)} rows)")
 
-        # --- Step 2: Evaluate ---
-        logger.info("Step 2: Evaluating...")
+        # --- Step 2: Merge old 357 + new 54 ---
+        if old_run_dir is not None:
+            logger.info("Step 2: Merging old (357) + new (54) responses...")
+            merged = build_merged_responses(old_run_dir, new_responses)
+        else:
+            logger.info("Step 2: No archive run found — evaluating on 54 rows only")
+            merged = new_responses
+
+        if old_run_dir is not None and len(merged) != 411:
+            logger.error(f"Expected 411 merged rows, got {len(merged)} — aborting this experiment")
+            continue
+
+        save_json(merged, run_dir / "responses.json")
+        logger.info(f"Saved responses.json ({len(merged)} rows)")
+
+        # --- Step 3: Evaluate on merged 411 ---
+        logger.info("Step 3: Evaluating...")
         try:
-            metrics = evaluate_and_save(responses, config, run_dir)
+            metrics = evaluate_and_save(merged, config, run_dir)
             update_summary_csv(model, prompt_cfg, seed, metrics)
             logger.info(f"Done → {run_dir}")
         except Exception as e:

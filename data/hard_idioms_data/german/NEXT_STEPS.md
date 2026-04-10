@@ -30,16 +30,25 @@ Final stats:
 
 ---
 
-## ~~Step 3: Create `final_vs_old_comparison.csv`~~ — NOT NEEDED
+## ✅ Step 3: Create `final_vs_old_comparison.csv` (DONE)
 
-No old German archive runs exist at `results/hard_idioms/german/archive/`.
-All 411 German rows are new — no merge logic required.
+357 rows UNCHANGED (v1, matched to archive by variant_sentence text)
+54 rows NEW (v2, generated — no archive response exists)
+
+Saved to: `data/hard_idioms_data/german/final_vs_old_comparison.csv`
 
 ---
 
-## ~~Step 4: Create `hard_idioms_german_FINAL_subset.json`~~ — NOT NEEDED
+## ✅ Step 4: Create `hard_idioms_german_FINAL_subset54.json` (DONE)
 
-No old responses to compare against. The batch runner uses the full FINAL JSON directly.
+54 NEW rows (all v2). Used by `run_hard_batch_german.py` for efficient inference.
+
+Saved to: `data/hard_idioms_data/german/hard_idioms_german_FINAL_subset54.json`
+
+The batch runner merges:
+- 54 new responses (from inference on subset54)
+- 357 reused responses (from matching archive run)
+- = 411 total rows evaluated
 
 ---
 
