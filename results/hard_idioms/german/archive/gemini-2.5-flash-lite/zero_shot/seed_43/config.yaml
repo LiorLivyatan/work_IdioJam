@@ -1,0 +1,23 @@
+batched: true
+config_file: config.yaml
+data_path: data/hard_idioms/production_data/german/hard_idioms_data_german.json
+debug: false
+experiment_start_date: '2025-12-04'
+experiment_start_timestamp: '2025-12-04 21:53:01'
+idiogem_base_dir: IdioGem
+idiogem_comparisons_dir: IdioGem/comparisons
+idiogem_data_dir: IdioGem/data
+lang: german
+logs_dir: IdioGem/results
+model: gemini-2.5-flash-lite
+model_checkpoint: gemini-2.5-flash-lite
+num_samples: 5
+prompt_type: zero_shot
+responses_dir: null
+results_dir: IdioGem/results
+sc_runs: 1
+seed: 43
+shots: 0
+task: hard_idioms
+temperature: 0.3
+use_rate_limiter: false
