@@ -1,0 +1,357 @@
+[
+  {
+    "sentence": "The bullet hit the book in his pocket.",
+    "tokens": [
+      "The ",
+      "bullet ",
+      "hit ",
+      "the ",
+      "book ",
+      "in ",
+      "his ",
+      "pocket",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "tag_ids": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "true_idioms": [],
+    "language": "english"
+  },
+  {
+    "sentence": "balloons are floating up in the air.",
+    "tokens": [
+      "balloons ",
+      "are ",
+      "floating ",
+      "up ",
+      "in ",
+      "the ",
+      "air",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "tag_ids": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "true_idioms": [],
+    "language": "english"
+  },
+  {
+    "sentence": "I love bread and butter for breakfast.",
+    "tokens": [
+      "I ",
+      "love ",
+      "bread ",
+      "and ",
+      "butter ",
+      "for ",
+      "breakfast",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "tag_ids": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "true_idioms": [],
+    "language": "english"
+  },
+  {
+    "sentence": "Ostriches bury their head in the sand.",
+    "tokens": [
+      "Ostriches ",
+      "bury ",
+      "their ",
+      "head ",
+      "in ",
+      "the ",
+      "sand",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "tag_ids": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "true_idioms": [],
+    "language": "english"
+  },
+  {
+    "sentence": "Do some animals really bury their head in the sand?",
+    "tokens": [
+      "Do ",
+      "some ",
+      "animals ",
+      "really ",
+      "bury ",
+      "their ",
+      "head ",
+      "in ",
+      "the ",
+      "sand",
+      "?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "tag_ids": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "true_idioms": [],
+    "language": "english"
+  },
+  {
+    "sentence": "I let the cat out of the bag about my new girlfriend.",
+    "tokens": [
+      "I ",
+      "let ",
+      "the ",
+      "cat ",
+      "out ",
+      "of ",
+      "the ",
+      "bag ",
+      "about ",
+      "my ",
+      "new ",
+      "girlfriend",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "tag_ids": [
+      0,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "true_idioms": [
+      "let out the cat of the bag"
+    ],
+    "language": "english"
+  },
+  {
+    "sentence": "Sam let the cat out of the bag about his new job.",
+    "tokens": [
+      "Sam ",
+      "let ",
+      "the ",
+      "cat ",
+      "out ",
+      "of ",
+      "the ",
+      "bag ",
+      "about ",
+      "his ",
+      "new ",
+      "job",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "tag_ids": [
+      0,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "true_idioms": [
+      "let out the cat of the bag"
+    ],
+    "language": "english"
+  },
+  {
+    "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+    "tokens": [
+      "I ",
+      "think ",
+      "I ",
+      "do",
+      "n't ",
+      "need ",
+      "to ",
+      "tell ",
+      "you ",
+      "that",
+      ", ",
+      "actions ",
+      "speak ",
+      "louder ",
+      "than ",
+      "words",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "I-IDIOM",
+      "O"
+    ],
+    "tag_ids": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      2,
+      0
+    ],
+    "true_idioms": [
+      "actions speak louder that words"
+    ],
+    "language": "english"
+  }
+]
