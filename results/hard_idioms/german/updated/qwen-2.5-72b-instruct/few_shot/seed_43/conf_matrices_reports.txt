@@ -1,0 +1,19 @@
+Language: german
+Confusion matrix:
+             O  B-IDIOM  I-IDIOM
+O        19372      132      197
+B-IDIOM     49      275       63
+I-IDIOM    103        1      727
+
+Classification report:
+              precision    recall  f1-score   support
+
+           O       0.67      0.71      0.69       387
+     B-IDIOM       0.74      0.87      0.80       831
+     I-IDIOM       0.99      0.98      0.99     19701
+
+    accuracy                           0.97     20919
+   macro avg       0.80      0.86      0.83     20919
+weighted avg       0.98      0.97      0.97     20919
+
+

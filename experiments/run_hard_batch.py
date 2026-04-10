@@ -74,7 +74,7 @@ EXPERIMENT_MATRIX = [
     # Premium models — zero_shot + few_shot, seed 42 only
     dict(model="gemini-2.5-pro",                            prompt_types=["zero_shot", "few_shot"], seeds=[42]),
     dict(model="o3-mini",                                   prompt_types=["zero_shot"],             seeds=[42]),
-    dict(model="deepseek-ai/DeepSeek-R1",                   prompt_types=["zero_shot"],             seeds=[42]),
+    dict(model="deepseek/deepseek-r1",                      prompt_types=["zero_shot"],             seeds=[42]),
 ]
 
 ####################################################################################################
@@ -103,6 +103,7 @@ def _prompt_dir_name(prompt_cfg: dict) -> str:
 ARCHIVE_DIR_ALIASES = {
     "llama-4-scout":          "Llama-4-Scout-17B-16E-Instruct",
     "qwen-2.5-72b-instruct":  "Qwen2.5-72B-Instruct-Turbo",
+    "deepseek-r1":            "DeepSeek-R1",
 }
 
 def find_old_run_dir(model: str, prompt_cfg: dict, seed: int) -> Path | None:
