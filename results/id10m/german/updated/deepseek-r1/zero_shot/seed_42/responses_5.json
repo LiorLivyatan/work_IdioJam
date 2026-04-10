@@ -1,0 +1,729 @@
+﻿[
+ {
+  "sentence": "eine an den Haaren herbeigezogene Behauptung",
+  "tokens": [
+   "eine ",
+   "an ",
+   "den ",
+   "Haaren ",
+   "herbeigezogene ",
+   "Behauptung"
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "an den Haaren herbeigezogene"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"idioms\": [\"an den Haaren herbeigezogene\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 822,
+       "prompt_tokens": 362,
+       "total_tokens": 1184,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 804,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0023084,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0023084,
+        "upstream_inference_prompt_cost": 0.0002534,
+        "upstream_inference_completions_cost": 0.002055
+       }
+      },
+      "model_name": "deepseek/deepseek-r1",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--c132fef3-0813-444d-a085-e511ef718ff7-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 362,
+      "output_tokens": 822,
+      "total_tokens": 1184,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 804
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "an den Haaren herbeigezogene"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Vorbereitung ist die halbe Miete.",
+  "tokens": [
+   "Vorbereitung ",
+   "ist ",
+   "die ",
+   "halbe ",
+   "Miete",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   1,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "halbe Miete"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"idioms\": [\"die halbe Miete\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 755,
+       "prompt_tokens": 358,
+       "total_tokens": 1113,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 741,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0021381,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0021381,
+        "upstream_inference_prompt_cost": 0.0002506,
+        "upstream_inference_completions_cost": 0.0018875
+       }
+      },
+      "model_name": "deepseek/deepseek-r1",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ffe48231-b217-4bf5-a9b0-a8b756e718db-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 358,
+      "output_tokens": 755,
+      "total_tokens": 1113,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 741
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+  "tokens": [
+   "Das ",
+   "war ",
+   "eine ",
+   "ganz ",
+   "harmlose ",
+   "Bemerkung",
+   ". ",
+   "Daraus ",
+   "kann ",
+   "dir ",
+   "niemand ",
+   "einen ",
+   "Strick ",
+   "drehen",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "einen Strick drehen"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"idioms\": [\"einen Strick drehen\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 921,
+       "prompt_tokens": 370,
+       "total_tokens": 1291,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 907,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0025615,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0025615,
+        "upstream_inference_prompt_cost": 0.000259,
+        "upstream_inference_completions_cost": 0.0023025
+       }
+      },
+      "model_name": "deepseek/deepseek-r1",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--fe32d8d4-7a6f-44fd-82b0-4404215fdb7c-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 370,
+      "output_tokens": 921,
+      "total_tokens": 1291,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 907
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+  "tokens": [
+   "Völlig ",
+   "ausgeschlossen",
+   ", ",
+   "daß ",
+   "dieser ",
+   "Mann ",
+   "fünfundzwanzig ",
+   "Jahre ",
+   "nicht ",
+   "Schach ",
+   "gespielt ",
+   "haben ",
+   "soll",
+   "! ",
+   "Er ",
+   "hat ",
+   "doch ",
+   "jeden ",
+   "Zug",
+   ", ",
+   "jede ",
+   "Gegenpointe ",
+   "auf ",
+   "fünf",
+   ", ",
+   "auf ",
+   "sechs ",
+   "Züge ",
+   "vorausberechnet",
+   ". ",
+   "So ",
+   "etwas ",
+   "kann ",
+   "niemand ",
+   "aus ",
+   "dem ",
+   "Handgelenk",
+   ". ",
+   "Das ",
+   "ist ",
+   "doch ",
+   "völlig ",
+   "ausgeschlossen ",
+   "– ",
+   "nicht ",
+   "wahr",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "aus dem Handgelenk"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": [\"völlig ausgeschlossen\", \"aus dem Handgelenk\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 2029,
+       "prompt_tokens": 423,
+       "total_tokens": 2452,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2004,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0053686,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0053686,
+        "upstream_inference_prompt_cost": 0.0002961,
+        "upstream_inference_completions_cost": 0.0050725
+       }
+      },
+      "model_name": "deepseek/deepseek-r1",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--5413a366-3559-437d-99ac-c544afe13b7b-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 423,
+      "output_tokens": 2029,
+      "total_tokens": 2452,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 2004
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "völlig ausgeschlossen",
+      "aus dem Handgelenk"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+  "tokens": [
+   "Immer ",
+   "mit ",
+   "der ",
+   "Ruhe",
+   ", ",
+   "alter ",
+   "Knabe",
+   ", ",
+   "schön ",
+   "die ",
+   "Ruhe ",
+   "bewahren",
+   ", ",
+   "ermahnte ",
+   "ich ",
+   "mich",
+   ", ",
+   "während ",
+   "ich ",
+   "vom ",
+   "Roller ",
+   "stieg ",
+   "und ",
+   "ihn ",
+   "unangekettet ",
+   "vor ",
+   "dem ",
+   "Hôtel ",
+   "du ",
+   "Palais ",
+   "stehen ",
+   "ließ",
+   ". ",
+   "Die ",
+   "Sache ",
+   "war ",
+   "noch ",
+   "nicht ",
+   "in ",
+   "trockenen ",
+   "Tüchern",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "in trockenen Tüchern"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": [\n    \"Immer mit der Ruhe\",\n    \"alter Knabe\",\n    \"die Ruhe bewahren\",\n    \"in trockenen Tüchern\"\n  ]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 2873,
+       "prompt_tokens": 414,
+       "total_tokens": 3287,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2827,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0074723,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0074723,
+        "upstream_inference_prompt_cost": 0.0002898,
+        "upstream_inference_completions_cost": 0.0071825
+       }
+      },
+      "model_name": "deepseek/deepseek-r1",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--9e2cce05-667b-4524-93b1-213f068c467a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 414,
+      "output_tokens": 2873,
+      "total_tokens": 3287,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 2827
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "Immer mit der Ruhe",
+      "alter Knabe",
+      "die Ruhe bewahren",
+      "in trockenen Tüchern"
+     ]
+    }
+   }
+  ]
+ }
+]

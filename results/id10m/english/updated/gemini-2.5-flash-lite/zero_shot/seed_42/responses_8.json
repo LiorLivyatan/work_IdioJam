@@ -1,0 +1,705 @@
+﻿[
+ {
+  "sentence": "The bullet hit the book in his pocket.",
+  "tokens": [
+   "The ",
+   "bullet ",
+   "hit ",
+   "the ",
+   "book ",
+   "in ",
+   "his ",
+   "pocket",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a71e1403-c0a8-4407-bbf8-19ed2f4edd59-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": []
+       },
+       "id": "1da093b9-c36f-44a3-922b-59845f8991e5",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 208,
+      "output_tokens": 14,
+      "total_tokens": 222,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "balloons are floating up in the air.",
+  "tokens": [
+   "balloons ",
+   "are ",
+   "floating ",
+   "up ",
+   "in ",
+   "the ",
+   "air",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--acb35661-bbaf-41c4-80a8-ca01abd6dbb3-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": []
+       },
+       "id": "e74d84e7-e0c9-4c7a-b1c1-8b9b15c94571",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 208,
+      "output_tokens": 14,
+      "total_tokens": 222,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I love bread and butter for breakfast.",
+  "tokens": [
+   "I ",
+   "love ",
+   "bread ",
+   "and ",
+   "butter ",
+   "for ",
+   "breakfast",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--d9318c16-5ebf-40b3-bc47-2a6cc31cd75f-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": []
+       },
+       "id": "cebbddfe-09f6-436c-8fea-f78eb6a01b9b",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 207,
+      "output_tokens": 14,
+      "total_tokens": 221,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Ostriches bury their head in the sand.",
+  "tokens": [
+   "Ostriches ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--3cb3ca9c-190d-4c6f-b295-23024dc70ff9-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "Ostriches bury their head in the sand"
+        ]
+       },
+       "id": "52a49e32-d9be-408e-8216-948eaa9a797d",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 208,
+      "output_tokens": 22,
+      "total_tokens": 230,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "Ostriches bury their head in the sand"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Do some animals really bury their head in the sand?",
+  "tokens": [
+   "Do ",
+   "some ",
+   "animals ",
+   "really ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a65a0c47-b2c1-4781-b102-5079d3867900-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "0d9e4294-5ae2-495f-9dc1-33b655d8d8d4",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 210,
+      "output_tokens": 20,
+      "total_tokens": 230,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I let the cat out of the bag about my new girlfriend.",
+  "tokens": [
+   "I ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "my ",
+   "new ",
+   "girlfriend",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--58f35809-6908-4c05-b520-e5169ea74ede-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "51cef660-19b1-46ac-ba80-57ff1b067c8b",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 212,
+      "output_tokens": 21,
+      "total_tokens": 233,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Sam let the cat out of the bag about his new job.",
+  "tokens": [
+   "Sam ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "his ",
+   "new ",
+   "job",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f58277c1-bd45-4cb2-a22e-0091efad5ab7-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "6300b8e3-4b39-4969-ace8-97e02e3c6f25",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 212,
+      "output_tokens": 21,
+      "total_tokens": 233,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+  "tokens": [
+   "I ",
+   "think ",
+   "I ",
+   "do",
+   "n't ",
+   "need ",
+   "to ",
+   "tell ",
+   "you ",
+   "that",
+   ", ",
+   "actions ",
+   "speak ",
+   "louder ",
+   "than ",
+   "words",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "actions speak louder that words"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--cd9b1dad-0658-4bf0-9025-e989ff887e5d-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "id": "4f5beab5-d337-49ba-9c1a-3b1a9a418177",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 217,
+      "output_tokens": 19,
+      "total_tokens": 236,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   }
+  ]
+ }
+]

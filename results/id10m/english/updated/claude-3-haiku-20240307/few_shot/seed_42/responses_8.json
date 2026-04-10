@@ -1,0 +1,3065 @@
+﻿[
+ {
+  "sentence": "The bullet hit the book in his pocket.",
+  "tokens": [
+   "The ",
+   "bullet ",
+   "hit ",
+   "the ",
+   "book ",
+   "in ",
+   "his ",
+   "pocket",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01L64yFY9eTG5itgijkNvUmT",
+       "input": {
+        "sentence": "The bullet hit the book in his pocket."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01EHW1mPPUQZJnojs2RMYMbn",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 40,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--4f674f17-e218-4348-90c1-3bf6c133c636-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "The bullet hit the book in his pocket."
+       },
+       "id": "toolu_01L64yFY9eTG5itgijkNvUmT",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 40,
+      "total_tokens": 2083,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_019LpcbJ6uaLjC4vgqL5pHsB",
+       "input": {
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "explanation": "There are no idiomatic expressions in this sentence. The sentence describes a literal event where a bullet hits a book in someone's pocket.",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01QjubfWjmvJ13TLLg5MAShW",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 121,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--fff013be-60a1-4e56-a8bf-667edfcbf137-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "explanation": "There are no idiomatic expressions in this sentence. The sentence describes a literal event where a bullet hits a book in someone's pocket.",
+        "idioms": []
+       },
+       "id": "toolu_019LpcbJ6uaLjC4vgqL5pHsB",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 121,
+      "total_tokens": 2164,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "There are no idiomatic expressions in this sentence. The sentence describes a literal event where a bullet hits a book in someone's pocket.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_018XH26tYJAnfcPd4jMxZNCp",
+       "input": {
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "explanation": "The expression \"hit the book\" is used literally in this sentence, referring to the physical impact of the bullet on the book. There is no idiomatic or figurative usage here.",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01XM3JbABbv5jsknG3DYqMB8",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 131,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--04d143a7-adf3-4517-99c8-426ff727065d-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "explanation": "The expression \"hit the book\" is used literally in this sentence, referring to the physical impact of the bullet on the book. There is no idiomatic or figurative usage here.",
+        "idioms": []
+       },
+       "id": "toolu_018XH26tYJAnfcPd4jMxZNCp",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 131,
+      "total_tokens": 2174,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "The expression \"hit the book\" is used literally in this sentence, referring to the physical impact of the bullet on the book. There is no idiomatic or figurative usage here.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01SkzKGm5UcP4GrRtLc3j4q3",
+       "input": {
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "explanation": "There are no idiomatic expressions in this sentence. The sentence describes a literal event where a bullet hit a book in someone's pocket.",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01FyAMsd6WBxgNvAHZusT6dN",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 121,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e6ea4799-435c-4a5f-ba5c-6c7e3ee2ced3-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "explanation": "There are no idiomatic expressions in this sentence. The sentence describes a literal event where a bullet hit a book in someone's pocket.",
+        "idioms": []
+       },
+       "id": "toolu_01SkzKGm5UcP4GrRtLc3j4q3",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 121,
+      "total_tokens": 2164,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "There are no idiomatic expressions in this sentence. The sentence describes a literal event where a bullet hit a book in someone's pocket.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01AkCsngnftAoVG9ZbNZ1xQD",
+       "input": {
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "explanation": "There are no idiomatic expressions in this sentence. The sentence is using the words in a literal, non-figurative sense.",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01DwvU7UuYq54JC6CoBncWtd",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 120,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--b92f78fc-f70e-44cb-a924-ac5759a82f2c-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "explanation": "There are no idiomatic expressions in this sentence. The sentence is using the words in a literal, non-figurative sense.",
+        "idioms": []
+       },
+       "id": "toolu_01AkCsngnftAoVG9ZbNZ1xQD",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 120,
+      "total_tokens": 2163,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "There are no idiomatic expressions in this sentence. The sentence is using the words in a literal, non-figurative sense.",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "balloons are floating up in the air.",
+  "tokens": [
+   "balloons ",
+   "are ",
+   "floating ",
+   "up ",
+   "in ",
+   "the ",
+   "air",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01QcGcFoYi83htGWXrwCA5Uo",
+       "input": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "The expression \"floating up in the air\" is used in its literal, non-idiomatic sense to describe the physical movement of balloons. There are no idiomatic expressions present in this sentence.",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01G65RyfFsZH1V4of2vEXBYb",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 135,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ba23b595-eade-41f5-a3b9-4f18f8d333b1-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "The expression \"floating up in the air\" is used in its literal, non-idiomatic sense to describe the physical movement of balloons. There are no idiomatic expressions present in this sentence.",
+        "idioms": []
+       },
+       "id": "toolu_01QcGcFoYi83htGWXrwCA5Uo",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 135,
+      "total_tokens": 2178,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The expression \"floating up in the air\" is used in its literal, non-idiomatic sense to describe the physical movement of balloons. There are no idiomatic expressions present in this sentence.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_017nhnPP6zArSgZ3GKdRVzk4",
+       "input": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "There are no idiomatic expressions in this sentence. The sentence is using the literal meanings of the words \"balloons\", \"floating\", and \"up in the air\".",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01JZbsqUK5zVy32wRaJQa3mr",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 129,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--d31ee38b-66e5-47e3-9642-8211a3070102-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "There are no idiomatic expressions in this sentence. The sentence is using the literal meanings of the words \"balloons\", \"floating\", and \"up in the air\".",
+        "idioms": []
+       },
+       "id": "toolu_017nhnPP6zArSgZ3GKdRVzk4",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 129,
+      "total_tokens": 2172,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "There are no idiomatic expressions in this sentence. The sentence is using the literal meanings of the words \"balloons\", \"floating\", and \"up in the air\".",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01Y9X12Lx7TPiLj8yiv1Ux9r",
+       "input": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "The expression \"floating up in the air\" is used literally in this sentence to describe the physical movement of balloons, and does not have a figurative or idiomatic meaning.",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01PLAVswKSe1BtX9HiDAo3x5",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 130,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--754c4545-576c-4ff6-aae5-c1fda2a5c180-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "The expression \"floating up in the air\" is used literally in this sentence to describe the physical movement of balloons, and does not have a figurative or idiomatic meaning.",
+        "idioms": []
+       },
+       "id": "toolu_01Y9X12Lx7TPiLj8yiv1Ux9r",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 130,
+      "total_tokens": 2173,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The expression \"floating up in the air\" is used literally in this sentence to describe the physical movement of balloons, and does not have a figurative or idiomatic meaning.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01DcQTMiXiLN8ja7KaAkCfzQ",
+       "input": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "The sentence does not contain any idiomatic expressions. The phrase \"floating up in the air\" is used literally to describe the movement of balloons.",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01SKRnpg9tXgsokxveeUYNbN",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 124,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--b1908371-327d-4d97-be57-643e6d5b1fb3-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "The sentence does not contain any idiomatic expressions. The phrase \"floating up in the air\" is used literally to describe the movement of balloons.",
+        "idioms": []
+       },
+       "id": "toolu_01DcQTMiXiLN8ja7KaAkCfzQ",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 124,
+      "total_tokens": 2167,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The sentence does not contain any idiomatic expressions. The phrase \"floating up in the air\" is used literally to describe the movement of balloons.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01QM3sQyMvmJbSSFDbYqkCMz",
+       "input": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "The expression \"floating up in the air\" is being used literally in this sentence to describe the physical movement of balloons, and does not constitute an idiomatic or figurative usage.",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01KyaLj86Ajms8ToNRTMVPyr",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2043,
+       "output_tokens": 131,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f16c7ac8-f849-46a1-8a08-f6dcf08de7d4-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [],
+        "explanation": "The expression \"floating up in the air\" is being used literally in this sentence to describe the physical movement of balloons, and does not constitute an idiomatic or figurative usage.",
+        "idioms": []
+       },
+       "id": "toolu_01QM3sQyMvmJbSSFDbYqkCMz",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2043,
+      "output_tokens": 131,
+      "total_tokens": 2174,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The expression \"floating up in the air\" is being used literally in this sentence to describe the physical movement of balloons, and does not constitute an idiomatic or figurative usage.",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I love bread and butter for breakfast.",
+  "tokens": [
+   "I ",
+   "love ",
+   "bread ",
+   "and ",
+   "butter ",
+   "for ",
+   "breakfast",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01Rj1EwrtWBEKLqS6EnzYtKq",
+       "input": {
+        "sentence": "I love bread and butter for breakfast."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_017x6uHYtteB2T2XYubNhnCP",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2042,
+       "output_tokens": 39,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--550bc43b-4715-4fc8-b46f-52f83ef87ec3-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I love bread and butter for breakfast."
+       },
+       "id": "toolu_01Rj1EwrtWBEKLqS6EnzYtKq",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2042,
+      "output_tokens": 39,
+      "total_tokens": 2081,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01NAPWJrqfXQpmwKvRCTjH39",
+       "input": {
+        "sentence": "I love bread and butter for breakfast.",
+        "potential_idioms": [],
+        "explanation": "The expression \"bread and butter\" in this sentence is used in its literal meaning, referring to the food items of bread and butter, and not as an idiomatic expression.",
+        "idioms": []
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01JKhxsgxgbaDN7a2TFVqFT1",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2042,
+       "output_tokens": 128,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--fb676318-ae57-481f-a90f-5778d28bee17-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I love bread and butter for breakfast.",
+        "potential_idioms": [],
+        "explanation": "The expression \"bread and butter\" in this sentence is used in its literal meaning, referring to the food items of bread and butter, and not as an idiomatic expression.",
+        "idioms": []
+       },
+       "id": "toolu_01NAPWJrqfXQpmwKvRCTjH39",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2042,
+      "output_tokens": 128,
+      "total_tokens": 2170,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "The expression \"bread and butter\" in this sentence is used in its literal meaning, referring to the food items of bread and butter, and not as an idiomatic expression.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01HKoFkmn9meqZN9Kj6wuAkf",
+       "input": {
+        "sentence": "I love bread and butter for breakfast."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_017jqX4RS9wKQ4CccCvUSfNZ",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2042,
+       "output_tokens": 39,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--482f4644-86ea-43f3-ae6c-85e9eb6895b2-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I love bread and butter for breakfast."
+       },
+       "id": "toolu_01HKoFkmn9meqZN9Kj6wuAkf",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2042,
+      "output_tokens": 39,
+      "total_tokens": 2081,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01QNFFZ4dXyfTi17QaWJgmMy",
+       "input": {
+        "sentence": "I love bread and butter for breakfast."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01M6LECqy7yS2DhDG7BtTAWs",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2042,
+       "output_tokens": 39,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--071e373e-0f47-4b48-bb1f-e8dd46576ae9-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I love bread and butter for breakfast."
+       },
+       "id": "toolu_01QNFFZ4dXyfTi17QaWJgmMy",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2042,
+      "output_tokens": 39,
+      "total_tokens": 2081,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01DSaz6XJirPYUzxuzqhF4zg",
+       "input": {
+        "sentence": "I love bread and butter for breakfast."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01GojbiYeZ8RYrvp3NusnFRG",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2042,
+       "output_tokens": 39,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--53973bb6-371b-4374-a760-0c2046babdab-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I love bread and butter for breakfast."
+       },
+       "id": "toolu_01DSaz6XJirPYUzxuzqhF4zg",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2042,
+      "output_tokens": 39,
+      "total_tokens": 2081,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast."
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Ostriches bury their head in the sand.",
+  "tokens": [
+   "Ostriches ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_018guRRohJ34LjCDWHzFuH8p",
+       "input": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01BCbJRwWgrQtukroycZWZqE",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 43,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6baf186c-8dd3-4337-af26-fa4395f6f286-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "id": "toolu_018guRRohJ34LjCDWHzFuH8p",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 43,
+      "total_tokens": 2089,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01SzuG1JMZj65uKujKPe4hWg",
+       "input": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01W395ELidufD55451HYsM7V",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 43,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--4c859e88-8253-4b64-9a93-974dd0157091-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "id": "toolu_01SzuG1JMZj65uKujKPe4hWg",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 43,
+      "total_tokens": 2089,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01JN5qK8QXk96A3tUsK6AYVM",
+       "input": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01DCgYTNKpM5dVu3uDbW2r6a",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 43,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--4eb7d1c3-77cf-4002-a021-988feaebca83-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "id": "toolu_01JN5qK8QXk96A3tUsK6AYVM",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 43,
+      "total_tokens": 2089,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01NCzm24VUg6zMpfFMpgCuh5",
+       "input": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_013Z54zedYDJM7Z2jfHbKunn",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 43,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--25526069-cf31-43c2-82b2-38a524592f1c-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "id": "toolu_01NCzm24VUg6zMpfFMpgCuh5",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 43,
+      "total_tokens": 2089,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01MxXmih1WVWEmRNPgjpnC87",
+       "input": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01L6vWzqrG1drE2VSo9SjoxW",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 43,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--951f3f8d-07f3-4a77-9bb8-be6c8ae8eb82-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Ostriches bury their head in the sand."
+       },
+       "id": "toolu_01MxXmih1WVWEmRNPgjpnC87",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 43,
+      "total_tokens": 2089,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand."
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Do some animals really bury their head in the sand?",
+  "tokens": [
+   "Do ",
+   "some ",
+   "animals ",
+   "really ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_0144NbN4dYeCqgKVwsxTdvT3",
+       "input": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01MzDWtLh35Cbzx6Ghb266u8",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1f965884-0ddd-4ffc-ae0d-16844546423f-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "id": "toolu_0144NbN4dYeCqgKVwsxTdvT3",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 44,
+      "total_tokens": 2090,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?"
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01SfXNwAxcwhRSuUj7XEyjar",
+       "input": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_014Cq4K6XiYqcaWBzZ3XHLW1",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--37353d27-4e7f-4115-aa28-59b7231c445a-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "id": "toolu_01SfXNwAxcwhRSuUj7XEyjar",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 44,
+      "total_tokens": 2090,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?"
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01ULH7bRsVEH13RrAqgKNgzN",
+       "input": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01AkhqpG2cDuMkGjtdkGsuV2",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--8254964c-4960-48b9-b7e1-76f0d69b90ad-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "id": "toolu_01ULH7bRsVEH13RrAqgKNgzN",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 44,
+      "total_tokens": 2090,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?"
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01QN6is6X4SXPZj77JxVU1nJ",
+       "input": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01Gcfm27P8cRkChCDPKzeHGy",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f9685506-1db3-482a-a37d-7a5a6f1a8392-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "id": "toolu_01QN6is6X4SXPZj77JxVU1nJ",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 44,
+      "total_tokens": 2090,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?"
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01XnU2JobsxYfZwycBRZd5YC",
+       "input": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01EjQR98Jh5jBXSUyZDnRPzn",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2046,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6b7f3631-d01a-48b1-9d52-edff4d0e6c86-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Do some animals really bury their head in the sand?"
+       },
+       "id": "toolu_01XnU2JobsxYfZwycBRZd5YC",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2046,
+      "output_tokens": 44,
+      "total_tokens": 2090,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?"
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I let the cat out of the bag about my new girlfriend.",
+  "tokens": [
+   "I ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "my ",
+   "new ",
+   "girlfriend",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01XhqGeNeJbN9DfKUKW5GCko",
+       "input": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01S1pLvp8xURv8QPVVbPgT8t",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--47270bba-495d-41cb-9fc5-f7fee5bdca3e-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "id": "toolu_01XhqGeNeJbN9DfKUKW5GCko",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_012NwVGD1RXT2i4Eo1QY37h6",
+       "input": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01GfX1yFhmDoRAWY4fUGwCd5",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a7b6965e-05d0-4f4f-b4bb-070dd8287567-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "id": "toolu_012NwVGD1RXT2i4Eo1QY37h6",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01P36Yh8pkXh5TGp4ZASMZ1C",
+       "input": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01AqFfKxjzRtEoBV4GPBsTh6",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--dec17c6c-ae10-4e89-ad79-49e3c67f911f-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "id": "toolu_01P36Yh8pkXh5TGp4ZASMZ1C",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01BjhQb6DVQmq1d9JPpCqp63",
+       "input": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01UpoDRvdETYeCrcU2FiL72u",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7a7fe452-dd44-409d-9837-be062813e47d-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "id": "toolu_01BjhQb6DVQmq1d9JPpCqp63",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01NpeqZmXc9oAkDB5u54zrvC",
+       "input": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01LPY15wgcHYMzCBDXPhkfbB",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7f6b801f-253c-4a97-bb07-4cd709f918f9-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I let the cat out of the bag about my new girlfriend."
+       },
+       "id": "toolu_01NpeqZmXc9oAkDB5u54zrvC",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend."
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Sam let the cat out of the bag about his new job.",
+  "tokens": [
+   "Sam ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "his ",
+   "new ",
+   "job",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01CjD5qxe4wCm63Sv7m2JWVH",
+       "input": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01SDEdb9dk2EHH7kdxWJPKef",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--c4c525b0-b21d-4084-9da8-5c8c6bd3ada8-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "id": "toolu_01CjD5qxe4wCm63Sv7m2JWVH",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01LMnhKJ6Ea5EP99U87jjD4k",
+       "input": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01GqAH2ZvcgQHoPbzNFCm4jD",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--19478c1c-0d41-4023-937e-ef6ec40271a4-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "id": "toolu_01LMnhKJ6Ea5EP99U87jjD4k",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01SDJjSUnPQHdrh2TPLUPDeg",
+       "input": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_019hXpnxTwzNzT2gN1PasvRD",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--94023529-59b3-44b0-abca-a80aa1b89792-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "id": "toolu_01SDJjSUnPQHdrh2TPLUPDeg",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01TSSounfzGc1aSZx1D4Vh6R",
+       "input": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01LBFTPVe5MnJj4Nh194S5Pt",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0f05af12-d270-40c2-8de1-ad1584328dda-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "id": "toolu_01TSSounfzGc1aSZx1D4Vh6R",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01ABER8xNuTcKkg4YqrTDFy9",
+       "input": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01RkQziSby3oGBV6TinPN3jV",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2047,
+       "output_tokens": 44,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--be6aefd8-1cd2-4b74-92fa-e350ff4c3d49-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "Sam let the cat out of the bag about his new job."
+       },
+       "id": "toolu_01ABER8xNuTcKkg4YqrTDFy9",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2047,
+      "output_tokens": 44,
+      "total_tokens": 2091,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job."
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+  "tokens": [
+   "I ",
+   "think ",
+   "I ",
+   "do",
+   "n't ",
+   "need ",
+   "to ",
+   "tell ",
+   "you ",
+   "that",
+   ", ",
+   "actions ",
+   "speak ",
+   "louder ",
+   "than ",
+   "words",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "actions speak louder that words"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_017dC1BFHPjgZjPntKBviEVe",
+       "input": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_0171PFbodmcksh2kJ6frpiTM",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2052,
+       "output_tokens": 49,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ea11e5d1-911d-4397-b37a-7eff0c585dc1-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words."
+       },
+       "id": "toolu_017dC1BFHPjgZjPntKBviEVe",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2052,
+      "output_tokens": 49,
+      "total_tokens": 2101,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01Jnm3CSDK5Qnkfgi36BrkAT",
+       "input": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+        "potential_idioms": [
+         "actions speak louder than words"
+        ],
+        "explanation": "The phrase \"actions speak louder than words\" is an idiomatic expression that means that people's actions and behaviors are more important and revealing than just their words. It is used figuratively to convey the idea that what someone does is more significant than what they say.",
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01VPCNiqE6e7rKnqqBF8HCD2",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2052,
+       "output_tokens": 172,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--26b5a35c-b85b-45ba-a8ca-36332b3a33ec-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+        "potential_idioms": [
+         "actions speak louder than words"
+        ],
+        "explanation": "The phrase \"actions speak louder than words\" is an idiomatic expression that means that people's actions and behaviors are more important and revealing than just their words. It is used figuratively to convey the idea that what someone does is more significant than what they say.",
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "id": "toolu_01Jnm3CSDK5Qnkfgi36BrkAT",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2052,
+      "output_tokens": 172,
+      "total_tokens": 2224,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase \"actions speak louder than words\" is an idiomatic expression that means that people's actions and behaviors are more important and revealing than just their words. It is used figuratively to convey the idea that what someone does is more significant than what they say.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01Rj4pddTyXXEi2BvsZUZKAo",
+       "input": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+        "potential_idioms": [
+         "actions speak louder than words"
+        ],
+        "explanation": "The expression \"actions speak louder than words\" is an idiomatic phrase that means that people's actions and behaviors are more important and revealing than their words or promises. It is used figuratively rather than literally.",
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01AxmgsNvUPkMLFJhbNwTdRi",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2052,
+       "output_tokens": 160,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--48293580-730a-463b-9c3a-1ff74a82c68a-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+        "potential_idioms": [
+         "actions speak louder than words"
+        ],
+        "explanation": "The expression \"actions speak louder than words\" is an idiomatic phrase that means that people's actions and behaviors are more important and revealing than their words or promises. It is used figuratively rather than literally.",
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "id": "toolu_01Rj4pddTyXXEi2BvsZUZKAo",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2052,
+      "output_tokens": 160,
+      "total_tokens": 2212,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The expression \"actions speak louder than words\" is an idiomatic phrase that means that people's actions and behaviors are more important and revealing than their words or promises. It is used figuratively rather than literally.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01CibJL1iaET54W82Bfta6SD",
+       "input": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01WuquSG9hjfJGtT4JL5dkoW",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2052,
+       "output_tokens": 49,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--efab613e-50e3-4af6-86fc-25f9148ab1de-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words."
+       },
+       "id": "toolu_01CibJL1iaET54W82Bfta6SD",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2052,
+      "output_tokens": 49,
+      "total_tokens": 2101,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words."
+    }
+   },
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_012pEhBxzUbuJqNv7AY91s3g",
+       "input": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words."
+       },
+       "name": "IdiomsCoTBest",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01PTkU1btHWAhJ94DV4QQBxd",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 2052,
+       "output_tokens": 49,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ba5bd5d3-d95c-45ac-8dce-89940b3ebdac-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "sentence": "I think I don't need to tell you that, actions speak louder than words."
+       },
+       "id": "toolu_012pEhBxzUbuJqNv7AY91s3g",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 2052,
+      "output_tokens": 49,
+      "total_tokens": 2101,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words."
+    }
+   }
+  ]
+ }
+]

@@ -1,0 +1,1808 @@
+﻿[
+ {
+  "sentence": "eine an den Haaren herbeigezogene Behauptung",
+  "tokens": [
+   "eine ",
+   "an ",
+   "den ",
+   "Haaren ",
+   "herbeigezogene ",
+   "Behauptung"
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "an den Haaren herbeigezogene"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"eine an den Haaren herbeigezogene Behauptung\",\"potential_idioms\":[\"an den Haaren herbeigezogene\"],\"explanation\":\"The expression 'an den Haaren herbeigezogene' is used figuratively to describe a claim or assertion that is implausible or lacks a solid basis, suggesting that it is forced or unnatural, much like pulling something from one's hair. This usage fits the definition of an idiom as it conveys a meaning different from the literal interpretation of the words.\",\"idioms\":[\"an den Haaren herbeigezogene\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 123,
+       "prompt_tokens": 1649,
+       "total_tokens": 1772,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--3e381efb-7e12-4b14-8e2d-bc90a7ee16f9-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1649,
+      "output_tokens": 123,
+      "total_tokens": 1772,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "eine an den Haaren herbeigezogene Behauptung",
+     "potential_idioms": [
+      "an den Haaren herbeigezogene"
+     ],
+     "explanation": "The expression 'an den Haaren herbeigezogene' is used figuratively to describe a claim or assertion that is implausible or lacks a solid basis, suggesting that it is forced or unnatural, much like pulling something from one's hair. This usage fits the definition of an idiom as it conveys a meaning different from the literal interpretation of the words.",
+     "idioms": [
+      "an den Haaren herbeigezogene"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"eine an den Haaren herbeigezogene Behauptung\",\"potential_idioms\":[\"an den Haaren herbeigezogene\"],\"explanation\":\"The phrase 'an den Haaren herbeigezogene' is an idiomatic expression in German which figuratively describes something that is baseless or far-fetched, implying that a claim or argument has been made without proper reasoning or evidence.\",\"idioms\":[\"an den Haaren herbeigezogene\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 99,
+       "prompt_tokens": 1649,
+       "total_tokens": 1748,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_fd4c9d2a08",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--fe6509a5-bb83-4b77-be0f-dd3b39ff2ab8-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1649,
+      "output_tokens": 99,
+      "total_tokens": 1748,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "eine an den Haaren herbeigezogene Behauptung",
+     "potential_idioms": [
+      "an den Haaren herbeigezogene"
+     ],
+     "explanation": "The phrase 'an den Haaren herbeigezogene' is an idiomatic expression in German which figuratively describes something that is baseless or far-fetched, implying that a claim or argument has been made without proper reasoning or evidence.",
+     "idioms": [
+      "an den Haaren herbeigezogene"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"eine an den Haaren herbeigezogene Behauptung\",\"potential_idioms\":[\"an den Haaren herbeigezogene\"],\"explanation\":\"The idiom 'an den Haaren herbeigezogene' is used figuratively to describe an assertion or claim that is implausible or lacks evidence, suggesting it has been fabricated or exaggerated.\",\"idioms\":[\"an den Haaren herbeigezogene\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 91,
+       "prompt_tokens": 1649,
+       "total_tokens": 1740,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_8e08dab4e1",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--d48ea8d3-11b4-4e80-9995-3212ce08234f-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1649,
+      "output_tokens": 91,
+      "total_tokens": 1740,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "eine an den Haaren herbeigezogene Behauptung",
+     "potential_idioms": [
+      "an den Haaren herbeigezogene"
+     ],
+     "explanation": "The idiom 'an den Haaren herbeigezogene' is used figuratively to describe an assertion or claim that is implausible or lacks evidence, suggesting it has been fabricated or exaggerated.",
+     "idioms": [
+      "an den Haaren herbeigezogene"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"eine an den Haaren herbeigezogene Behauptung\",\"potential_idioms\":[\"an den Haaren herbeigezogene\"],\"explanation\":\"The phrase 'an den Haaren herbeigezogene' is an idiomatic expression used in German to describe something that is forced or implausible, as if the argument or claim has been pulled from thin air. It conveys a figurative meaning rather than a literal one.\",\"idioms\":[\"an den Haaren herbeigezogene\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 107,
+       "prompt_tokens": 1649,
+       "total_tokens": 1756,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_8b6cd59583",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--11eb6231-ea95-4dee-9f88-ef15d8b2749c-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1649,
+      "output_tokens": 107,
+      "total_tokens": 1756,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "eine an den Haaren herbeigezogene Behauptung",
+     "potential_idioms": [
+      "an den Haaren herbeigezogene"
+     ],
+     "explanation": "The phrase 'an den Haaren herbeigezogene' is an idiomatic expression used in German to describe something that is forced or implausible, as if the argument or claim has been pulled from thin air. It conveys a figurative meaning rather than a literal one.",
+     "idioms": [
+      "an den Haaren herbeigezogene"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"eine an den Haaren herbeigezogene Behauptung\",\"potential_idioms\":[\"an den Haaren herbeigezogene\"],\"explanation\":\"The expression 'an den Haaren herbeigezogene' is an idiomatic phrase used to describe something that is implausible or far-fetched, suggesting that the assertion has been concocted without any real basis or logic, thereby qualifying it as figurative language.\",\"idioms\":[\"an den Haaren herbeigezogene\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 106,
+       "prompt_tokens": 1649,
+       "total_tokens": 1755,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7a922b02-90b1-4ca5-90d9-5cd3d1734f14-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1649,
+      "output_tokens": 106,
+      "total_tokens": 1755,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "eine an den Haaren herbeigezogene Behauptung",
+     "potential_idioms": [
+      "an den Haaren herbeigezogene"
+     ],
+     "explanation": "The expression 'an den Haaren herbeigezogene' is an idiomatic phrase used to describe something that is implausible or far-fetched, suggesting that the assertion has been concocted without any real basis or logic, thereby qualifying it as figurative language.",
+     "idioms": [
+      "an den Haaren herbeigezogene"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Vorbereitung ist die halbe Miete.",
+  "tokens": [
+   "Vorbereitung ",
+   "ist ",
+   "die ",
+   "halbe ",
+   "Miete",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   1,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "halbe Miete"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Vorbereitung ist die halbe Miete.\",\"potential_idioms\":[\"die halbe Miete\"],\"explanation\":\"In this context, 'die halbe Miete' is used idiomatically to express that preparation is a crucial part of achieving success, implying that if you prepare well, you've already accomplished a significant portion of what you need for success. It does not refer to an actual rental situation but conveys a metaphorical meaning about success through preparation.\",\"idioms\":[\"die halbe Miete\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 105,
+       "prompt_tokens": 1644,
+       "total_tokens": 1749,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2ede815c-eba5-4f20-b487-c31c710c93fb-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1644,
+      "output_tokens": 105,
+      "total_tokens": 1749,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Vorbereitung ist die halbe Miete.",
+     "potential_idioms": [
+      "die halbe Miete"
+     ],
+     "explanation": "In this context, 'die halbe Miete' is used idiomatically to express that preparation is a crucial part of achieving success, implying that if you prepare well, you've already accomplished a significant portion of what you need for success. It does not refer to an actual rental situation but conveys a metaphorical meaning about success through preparation.",
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Vorbereitung ist die halbe Miete.\",\"potential_idioms\":[\"die halbe Miete\"],\"explanation\":\"The expression 'die halbe Miete' is an idiomatic phrase in German meaning that proper preparation is crucial to achieving success. It implies that if you prepare well, you have already accomplished a significant part of what you want to achieve.\",\"idioms\":[\"die halbe Miete\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 85,
+       "prompt_tokens": 1644,
+       "total_tokens": 1729,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--4c836bea-20d7-4fa7-9643-cf12a1fee962-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1644,
+      "output_tokens": 85,
+      "total_tokens": 1729,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Vorbereitung ist die halbe Miete.",
+     "potential_idioms": [
+      "die halbe Miete"
+     ],
+     "explanation": "The expression 'die halbe Miete' is an idiomatic phrase in German meaning that proper preparation is crucial to achieving success. It implies that if you prepare well, you have already accomplished a significant part of what you want to achieve.",
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Vorbereitung ist die halbe Miete.\",\"potential_idioms\":[\"die halbe Miete\"],\"explanation\":\"The phrase 'die halbe Miete' is an idiom in German that means that preparation is crucial for success. In this context, it indicates that being well-prepared is a significant part of achieving a goal, making it figurative rather than literal.\",\"idioms\":[\"die halbe Miete\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 89,
+       "prompt_tokens": 1644,
+       "total_tokens": 1733,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6b7d02f9-864e-48a3-8d7e-72d345bda07b-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1644,
+      "output_tokens": 89,
+      "total_tokens": 1733,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Vorbereitung ist die halbe Miete.",
+     "potential_idioms": [
+      "die halbe Miete"
+     ],
+     "explanation": "The phrase 'die halbe Miete' is an idiom in German that means that preparation is crucial for success. In this context, it indicates that being well-prepared is a significant part of achieving a goal, making it figurative rather than literal.",
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Vorbereitung ist die halbe Miete.\",\"potential_idioms\":[\"die halbe Miete\"],\"explanation\":\"The phrase 'die halbe Miete' is used idiomatically in this sentence to convey that preparation is crucial to success, implying that if you prepare well, you have already achieved half of what you need for success. This is a metaphorical expression rather than a literal one.\",\"idioms\":[\"die halbe Miete\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 94,
+       "prompt_tokens": 1644,
+       "total_tokens": 1738,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0857676c-7252-4a7a-8963-5e6ab85cce33-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1644,
+      "output_tokens": 94,
+      "total_tokens": 1738,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Vorbereitung ist die halbe Miete.",
+     "potential_idioms": [
+      "die halbe Miete"
+     ],
+     "explanation": "The phrase 'die halbe Miete' is used idiomatically in this sentence to convey that preparation is crucial to success, implying that if you prepare well, you have already achieved half of what you need for success. This is a metaphorical expression rather than a literal one.",
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Vorbereitung ist die halbe Miete.\",\"potential_idioms\":[\"die halbe Miete\"],\"explanation\":\"The idiom 'die halbe Miete' means that preparation is a crucial part of achieving success. In this context, it is used figuratively to emphasize the importance of preparation in accomplishing a task.\",\"idioms\":[\"die halbe Miete\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 78,
+       "prompt_tokens": 1644,
+       "total_tokens": 1722,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--179ee4e8-dbbd-4f47-9a58-eed2e552afee-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1644,
+      "output_tokens": 78,
+      "total_tokens": 1722,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Vorbereitung ist die halbe Miete.",
+     "potential_idioms": [
+      "die halbe Miete"
+     ],
+     "explanation": "The idiom 'die halbe Miete' means that preparation is a crucial part of achieving success. In this context, it is used figuratively to emphasize the importance of preparation in accomplishing a task.",
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+  "tokens": [
+   "Das ",
+   "war ",
+   "eine ",
+   "ganz ",
+   "harmlose ",
+   "Bemerkung",
+   ". ",
+   "Daraus ",
+   "kann ",
+   "dir ",
+   "niemand ",
+   "einen ",
+   "Strick ",
+   "drehen",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "einen Strick drehen"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\"potential_idioms\":[\"einen Strick drehen\"],\"explanation\":\"The phrase 'einen Strick drehen' is used idiomatically to mean creating a problem or accusation against someone, often in a deceptive manner. In the context of the sentence, it implies that the harmless remark cannot be twisted against the speaker to cause trouble, thus making it figurative.\",\"idioms\":[\"einen Strick drehen\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 107,
+       "prompt_tokens": 1655,
+       "total_tokens": 1762,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_4c52d9df7b",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--42cba78f-ed2f-4161-b907-b0bae78a8242-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1655,
+      "output_tokens": 107,
+      "total_tokens": 1762,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+     "potential_idioms": [
+      "einen Strick drehen"
+     ],
+     "explanation": "The phrase 'einen Strick drehen' is used idiomatically to mean creating a problem or accusation against someone, often in a deceptive manner. In the context of the sentence, it implies that the harmless remark cannot be twisted against the speaker to cause trouble, thus making it figurative.",
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\"potential_idioms\":[\"einen Strick drehen\"],\"explanation\":\"The expression 'einen Strick drehen' is an idiomatic phrase that means to create trouble or to implicate someone in a problematic situation. In this context, it is used metaphorically to suggest that no one can turn the harmless remark into something negative or incriminating.\",\"idioms\":[\"einen Strick drehen\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 104,
+       "prompt_tokens": 1655,
+       "total_tokens": 1759,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_fd4c9d2a08",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--27364eb5-fd8c-4b41-bd26-db16a0572c0e-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1655,
+      "output_tokens": 104,
+      "total_tokens": 1759,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+     "potential_idioms": [
+      "einen Strick drehen"
+     ],
+     "explanation": "The expression 'einen Strick drehen' is an idiomatic phrase that means to create trouble or to implicate someone in a problematic situation. In this context, it is used metaphorically to suggest that no one can turn the harmless remark into something negative or incriminating.",
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\"potential_idioms\":[\"einen Strick drehen\"],\"explanation\":\"The phrase 'einen Strick drehen' is an idiomatic expression in German, which means to create a problem or trouble for someone, often implying that someone is being blamed or held accountable for something. In this context, it is used figuratively to suggest that no one could make a serious issue out of a harmless remark.\",\"idioms\":[\"einen Strick drehen\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 114,
+       "prompt_tokens": 1655,
+       "total_tokens": 1769,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_8b6cd59583",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f0235e50-52c8-4c21-a9ef-87b512fb3677-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1655,
+      "output_tokens": 114,
+      "total_tokens": 1769,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+     "potential_idioms": [
+      "einen Strick drehen"
+     ],
+     "explanation": "The phrase 'einen Strick drehen' is an idiomatic expression in German, which means to create a problem or trouble for someone, often implying that someone is being blamed or held accountable for something. In this context, it is used figuratively to suggest that no one could make a serious issue out of a harmless remark.",
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\"potential_idioms\":[\"einen Strick drehen\"],\"explanation\":\"Die Redewendung 'einen Strick drehen' bedeutet, dass jemand versucht, einer anderen Person Schwierigkeiten zu bereiten oder sie in eine missliche Lage zu bringen. In diesem Kontext wird jedoch gesagt, dass die Bemerkung harmlos war und daher niemand daraus eine negative Konsequenz ableiten kann. Somit ist diese Verwendung idiomatisch und nicht wörtlich zu verstehen.\",\"idioms\":[\"einen Strick drehen\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 125,
+       "prompt_tokens": 1655,
+       "total_tokens": 1780,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_4c52d9df7b",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e511fb3f-13db-414c-97e1-c31b8487bb51-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1655,
+      "output_tokens": 125,
+      "total_tokens": 1780,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+     "potential_idioms": [
+      "einen Strick drehen"
+     ],
+     "explanation": "Die Redewendung 'einen Strick drehen' bedeutet, dass jemand versucht, einer anderen Person Schwierigkeiten zu bereiten oder sie in eine missliche Lage zu bringen. In diesem Kontext wird jedoch gesagt, dass die Bemerkung harmlos war und daher niemand daraus eine negative Konsequenz ableiten kann. Somit ist diese Verwendung idiomatisch und nicht wörtlich zu verstehen.",
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\"potential_idioms\":[\"einen Strick drehen\"],\"explanation\":\"The idiom 'einen Strick drehen' literally means 'to make a rope' but figuratively implies causing someone trouble or to create a situation where someone is blamed. In this context, it suggests that the harmless remark cannot lead to anyone being blamed or getting into trouble.\",\"idioms\":[\"einen Strick drehen\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 104,
+       "prompt_tokens": 1655,
+       "total_tokens": 1759,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_8b6cd59583",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2474f238-b3b3-4bba-a744-919ff30facfc-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1655,
+      "output_tokens": 104,
+      "total_tokens": 1759,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+     "potential_idioms": [
+      "einen Strick drehen"
+     ],
+     "explanation": "The idiom 'einen Strick drehen' literally means 'to make a rope' but figuratively implies causing someone trouble or to create a situation where someone is blamed. In this context, it suggests that the harmless remark cannot lead to anyone being blamed or getting into trouble.",
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+  "tokens": [
+   "Völlig ",
+   "ausgeschlossen",
+   ", ",
+   "daß ",
+   "dieser ",
+   "Mann ",
+   "fünfundzwanzig ",
+   "Jahre ",
+   "nicht ",
+   "Schach ",
+   "gespielt ",
+   "haben ",
+   "soll",
+   "! ",
+   "Er ",
+   "hat ",
+   "doch ",
+   "jeden ",
+   "Zug",
+   ", ",
+   "jede ",
+   "Gegenpointe ",
+   "auf ",
+   "fünf",
+   ", ",
+   "auf ",
+   "sechs ",
+   "Züge ",
+   "vorausberechnet",
+   ". ",
+   "So ",
+   "etwas ",
+   "kann ",
+   "niemand ",
+   "aus ",
+   "dem ",
+   "Handgelenk",
+   ". ",
+   "Das ",
+   "ist ",
+   "doch ",
+   "völlig ",
+   "ausgeschlossen ",
+   "– ",
+   "nicht ",
+   "wahr",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "aus dem Handgelenk"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\"potential_idioms\":[\"aus dem Handgelenk\"],\"explanation\":\"The expression 'aus dem Handgelenk' is used figuratively here to imply that something is done with ease or skill, without the need for preparation or effort. In this context, it suggests that no one can perform the actions being discussed without substantial experience or knowledge, which deviates from the literal meaning of the words.\",\"idioms\":[\"aus dem Handgelenk\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 159,
+       "prompt_tokens": 1697,
+       "total_tokens": 1856,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_8b6cd59583",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--5e45f01d-d298-4a62-b60d-ce1a0de2438b-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1697,
+      "output_tokens": 159,
+      "total_tokens": 1856,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+     "potential_idioms": [
+      "aus dem Handgelenk"
+     ],
+     "explanation": "The expression 'aus dem Handgelenk' is used figuratively here to imply that something is done with ease or skill, without the need for preparation or effort. In this context, it suggests that no one can perform the actions being discussed without substantial experience or knowledge, which deviates from the literal meaning of the words.",
+     "idioms": [
+      "aus dem Handgelenk"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\"potential_idioms\":[\"aus dem Handgelenk\",\"völlig ausgeschlossen\"],\"explanation\":\"In this context, 'aus dem Handgelenk' is used idiomatically to mean doing something with ease or without preparation, suggesting that such skill in chess cannot be done casually. Similarly, 'völlig ausgeschlossen' is used to express that something is completely impossible or out of the question, which aligns with its figurative meaning.\",\"idioms\":[\"aus dem Handgelenk\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 167,
+       "prompt_tokens": 1697,
+       "total_tokens": 1864,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_4c52d9df7b",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--77505607-2c32-4d05-a2c0-76f6ae311a44-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1697,
+      "output_tokens": 167,
+      "total_tokens": 1864,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+     "potential_idioms": [
+      "aus dem Handgelenk",
+      "völlig ausgeschlossen"
+     ],
+     "explanation": "In this context, 'aus dem Handgelenk' is used idiomatically to mean doing something with ease or without preparation, suggesting that such skill in chess cannot be done casually. Similarly, 'völlig ausgeschlossen' is used to express that something is completely impossible or out of the question, which aligns with its figurative meaning.",
+     "idioms": [
+      "aus dem Handgelenk"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\"potential_idioms\":[\"aus dem Handgelenk\"],\"explanation\":\"In diesem Satz bezieht sich \\\"aus dem Handgelenk\\\" auf die Fähigkeit, etwas ohne viel Nachdenken oder Vorbereitung zu tun, häufig in einer spontanen oder improvisierten Weise. Es wird metaphorisch verwendet, um zu betonen, dass niemand ohne ernsthafte Vorbereitung oder Übung so etwas Komplexes wie Schach spielen kann. Daher wird der Ausdruck hier in einem idiomatischen, nicht wörtlichen Sinne verwendet.\",\"idioms\":[\"aus dem Handgelenk\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 180,
+       "prompt_tokens": 1697,
+       "total_tokens": 1877,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_fd4c9d2a08",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--cdacfedf-7e0b-405e-94d6-20f3abd15530-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1697,
+      "output_tokens": 180,
+      "total_tokens": 1877,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+     "potential_idioms": [
+      "aus dem Handgelenk"
+     ],
+     "explanation": "In diesem Satz bezieht sich \"aus dem Handgelenk\" auf die Fähigkeit, etwas ohne viel Nachdenken oder Vorbereitung zu tun, häufig in einer spontanen oder improvisierten Weise. Es wird metaphorisch verwendet, um zu betonen, dass niemand ohne ernsthafte Vorbereitung oder Übung so etwas Komplexes wie Schach spielen kann. Daher wird der Ausdruck hier in einem idiomatischen, nicht wörtlichen Sinne verwendet.",
+     "idioms": [
+      "aus dem Handgelenk"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\"potential_idioms\":[\"aus dem Handgelenk\"],\"explanation\":\"The phrase 'aus dem Handgelenk' is used here to suggest that something cannot be done effortlessly or without significant thought and preparation. In this context, it implies that the man’s skill in chess cannot be attributed to mere chance or spontaneity, which aligns with the idiomatic use of the phrase to denote doing something without proper effort or planning.\",\"idioms\":[\"aus dem Handgelenk\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 164,
+       "prompt_tokens": 1697,
+       "total_tokens": 1861,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f5659157-40ff-4461-830f-3b627b138d16-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1697,
+      "output_tokens": 164,
+      "total_tokens": 1861,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+     "potential_idioms": [
+      "aus dem Handgelenk"
+     ],
+     "explanation": "The phrase 'aus dem Handgelenk' is used here to suggest that something cannot be done effortlessly or without significant thought and preparation. In this context, it implies that the man’s skill in chess cannot be attributed to mere chance or spontaneity, which aligns with the idiomatic use of the phrase to denote doing something without proper effort or planning.",
+     "idioms": [
+      "aus dem Handgelenk"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\"potential_idioms\":[\"aus dem Handgelenk\",\"völlig ausgeschlossen\"],\"explanation\":\"In this sentence, the expression 'aus dem Handgelenk' is used figuratively to mean doing something effortlessly or without much thought, indicating that such skill cannot be done casually. The phrase 'völlig ausgeschlossen' is also idiomatic, meaning 'completely impossible' in a figurative sense.\",\"idioms\":[\"aus dem Handgelenk\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 160,
+       "prompt_tokens": 1697,
+       "total_tokens": 1857,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1664
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--86618994-e5ad-4b62-bd19-3ad3be6eef0a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1697,
+      "output_tokens": 160,
+      "total_tokens": 1857,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1664
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+     "potential_idioms": [
+      "aus dem Handgelenk",
+      "völlig ausgeschlossen"
+     ],
+     "explanation": "In this sentence, the expression 'aus dem Handgelenk' is used figuratively to mean doing something effortlessly or without much thought, indicating that such skill cannot be done casually. The phrase 'völlig ausgeschlossen' is also idiomatic, meaning 'completely impossible' in a figurative sense.",
+     "idioms": [
+      "aus dem Handgelenk"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+  "tokens": [
+   "Immer ",
+   "mit ",
+   "der ",
+   "Ruhe",
+   ", ",
+   "alter ",
+   "Knabe",
+   ", ",
+   "schön ",
+   "die ",
+   "Ruhe ",
+   "bewahren",
+   ", ",
+   "ermahnte ",
+   "ich ",
+   "mich",
+   ", ",
+   "während ",
+   "ich ",
+   "vom ",
+   "Roller ",
+   "stieg ",
+   "und ",
+   "ihn ",
+   "unangekettet ",
+   "vor ",
+   "dem ",
+   "Hôtel ",
+   "du ",
+   "Palais ",
+   "stehen ",
+   "ließ",
+   ". ",
+   "Die ",
+   "Sache ",
+   "war ",
+   "noch ",
+   "nicht ",
+   "in ",
+   "trockenen ",
+   "Tüchern",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "in trockenen Tüchern"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\"potential_idioms\":[\"die Ruhe bewahren\",\"in trockenen Tüchern\"],\"explanation\":\"In diesem Satz wird der Ausdruck 'die Ruhe bewahren' verwendet, um eine ruhige und gelassene Haltung zu fördern. 'In trockenen Tüchern' bedeutet, dass eine Angelegenheit abgeschlossen oder sicher ist. Beide Ausdrücke sind idiomatisch und in einem metaphorischen Kontext verwendet.\",\"idioms\":[\"in trockenen Tüchern\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 148,
+       "prompt_tokens": 1687,
+       "total_tokens": 1835,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--468f770e-7273-4ca7-bfed-3d5e09820c51-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1687,
+      "output_tokens": 148,
+      "total_tokens": 1835,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+     "potential_idioms": [
+      "die Ruhe bewahren",
+      "in trockenen Tüchern"
+     ],
+     "explanation": "In diesem Satz wird der Ausdruck 'die Ruhe bewahren' verwendet, um eine ruhige und gelassene Haltung zu fördern. 'In trockenen Tüchern' bedeutet, dass eine Angelegenheit abgeschlossen oder sicher ist. Beide Ausdrücke sind idiomatisch und in einem metaphorischen Kontext verwendet.",
+     "idioms": [
+      "in trockenen Tüchern"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\"potential_idioms\":[\"mit der Ruhe\",\"die Ruhe bewahren\",\"in trockenen Tüchern\"],\"explanation\":\"In this sentence, the idiom 'mit der Ruhe' is used to suggest taking things easy, while 'die Ruhe bewahren' signifies remaining calm. However, 'in trockenen Tüchern' is a figurative expression meaning that something is settled or secure, but in this context, it indicates that the situation is still uncertain, hence it is idiomatic. The other phrases are used in a more literal sense.\",\"idioms\":[\"in trockenen Tüchern\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 176,
+       "prompt_tokens": 1687,
+       "total_tokens": 1863,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1664
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2fa6bdfb-787a-4dc9-bcfc-dd9ea9cfe018-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1687,
+      "output_tokens": 176,
+      "total_tokens": 1863,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1664
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+     "potential_idioms": [
+      "mit der Ruhe",
+      "die Ruhe bewahren",
+      "in trockenen Tüchern"
+     ],
+     "explanation": "In this sentence, the idiom 'mit der Ruhe' is used to suggest taking things easy, while 'die Ruhe bewahren' signifies remaining calm. However, 'in trockenen Tüchern' is a figurative expression meaning that something is settled or secure, but in this context, it indicates that the situation is still uncertain, hence it is idiomatic. The other phrases are used in a more literal sense.",
+     "idioms": [
+      "in trockenen Tüchern"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\"potential_idioms\":[\"die Ruhe bewahren\",\"in trockenen Tüchern\"],\"explanation\":\"In the sentence, 'die Ruhe bewahren' is used in a figurative sense to mean staying calm and composed, even in a potentially stressful situation. 'In trockenen Tüchern' is an idiomatic expression meaning that something is certain or settled, but in this context, it indicates that the situation is not yet resolved or finalized. Both phrases convey meanings that are different from their literal interpretations.\",\"idioms\":[\"in trockenen Tüchern\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 168,
+       "prompt_tokens": 1687,
+       "total_tokens": 1855,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_0ade386d00",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1d2dd74d-8143-440d-b6a9-0a3718c9f968-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1687,
+      "output_tokens": 168,
+      "total_tokens": 1855,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+     "potential_idioms": [
+      "die Ruhe bewahren",
+      "in trockenen Tüchern"
+     ],
+     "explanation": "In the sentence, 'die Ruhe bewahren' is used in a figurative sense to mean staying calm and composed, even in a potentially stressful situation. 'In trockenen Tüchern' is an idiomatic expression meaning that something is certain or settled, but in this context, it indicates that the situation is not yet resolved or finalized. Both phrases convey meanings that are different from their literal interpretations.",
+     "idioms": [
+      "in trockenen Tüchern"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\"potential_idioms\":[\"die Ruhe bewahren\",\"in trockenen Tüchern\"],\"explanation\":\"Both expressions have figurative meanings. 'die Ruhe bewahren' means to stay calm in a stressful situation, while 'in trockenen Tüchern' means that something is settled or secured. In this context, 'in trockenen Tüchern' is used to indicate that the situation is not finalized or certain yet.\",\"idioms\":[\"in trockenen Tüchern\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 152,
+       "prompt_tokens": 1687,
+       "total_tokens": 1839,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_fd4c9d2a08",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--d5086c92-d5cc-4f6e-9d15-a324aceaea12-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1687,
+      "output_tokens": 152,
+      "total_tokens": 1839,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+     "potential_idioms": [
+      "die Ruhe bewahren",
+      "in trockenen Tüchern"
+     ],
+     "explanation": "Both expressions have figurative meanings. 'die Ruhe bewahren' means to stay calm in a stressful situation, while 'in trockenen Tüchern' means that something is settled or secured. In this context, 'in trockenen Tüchern' is used to indicate that the situation is not finalized or certain yet.",
+     "idioms": [
+      "in trockenen Tüchern"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\"potential_idioms\":[\"die Ruhe bewahren\",\"in trockenen Tüchern\"],\"explanation\":\"In diesem Satz gibt es zwei potenzielle Idiome. \\\"die Ruhe bewahren\\\" wird verwendet, um auszudrücken, dass man gelassen bleiben soll, was in einem metaphorischen Sinne verstanden wird. \\\"in trockenen Tüchern\\\" bedeutet, dass eine Sache abgeschlossen oder gesichert ist, und wird ebenfalls metaphorisch verwendet. Beide Idiome sind in diesem Kontext figurativ.\",\"idioms\":[\"die Ruhe bewahren\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 164,
+       "prompt_tokens": 1687,
+       "total_tokens": 1851,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1664
+       }
+      },
+      "model_name": "gpt-4o-mini-2024-07-18",
+      "system_fingerprint": "fp_a5086b7b9a",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ccdc2f2d-8351-4e83-b08d-848972f9b397-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1687,
+      "output_tokens": 164,
+      "total_tokens": 1851,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1664
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+     "potential_idioms": [
+      "die Ruhe bewahren",
+      "in trockenen Tüchern"
+     ],
+     "explanation": "In diesem Satz gibt es zwei potenzielle Idiome. \"die Ruhe bewahren\" wird verwendet, um auszudrücken, dass man gelassen bleiben soll, was in einem metaphorischen Sinne verstanden wird. \"in trockenen Tüchern\" bedeutet, dass eine Sache abgeschlossen oder gesichert ist, und wird ebenfalls metaphorisch verwendet. Beide Idiome sind in diesem Kontext figurativ.",
+     "idioms": [
+      "die Ruhe bewahren"
+     ]
+    }
+   }
+  ]
+ }
+]

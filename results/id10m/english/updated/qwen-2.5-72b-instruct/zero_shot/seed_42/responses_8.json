@@ -1,0 +1,847 @@
+﻿[
+ {
+  "sentence": "The bullet hit the book in his pocket.",
+  "tokens": [
+   "The ",
+   "bullet ",
+   "hit ",
+   "the ",
+   "book ",
+   "in ",
+   "his ",
+   "pocket",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 9,
+       "prompt_tokens": 170,
+       "total_tokens": 179,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 2.391e-05,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 2.391e-05,
+        "upstream_inference_prompt_cost": 2.04e-05,
+        "upstream_inference_completions_cost": 3.51e-06
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--789a705d-b4f5-4411-af5f-ae3e24570d68-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 170,
+      "output_tokens": 9,
+      "total_tokens": 179,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "balloons are floating up in the air.",
+  "tokens": [
+   "balloons ",
+   "are ",
+   "floating ",
+   "up ",
+   "in ",
+   "the ",
+   "air",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 9,
+       "prompt_tokens": 172,
+       "total_tokens": 181,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 2.415e-05,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 2.415e-05,
+        "upstream_inference_prompt_cost": 2.064e-05,
+        "upstream_inference_completions_cost": 3.51e-06
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--031f7024-2c70-4b30-a0d2-dfc4701c2373-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 172,
+      "output_tokens": 9,
+      "total_tokens": 181,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I love bread and butter for breakfast.",
+  "tokens": [
+   "I ",
+   "love ",
+   "bread ",
+   "and ",
+   "butter ",
+   "for ",
+   "breakfast",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 9,
+       "prompt_tokens": 169,
+       "total_tokens": 178,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 2.379e-05,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 2.379e-05,
+        "upstream_inference_prompt_cost": 2.028e-05,
+        "upstream_inference_completions_cost": 3.51e-06
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--80c79d50-274b-44cc-9e70-913b2b673974-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 169,
+      "output_tokens": 9,
+      "total_tokens": 178,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Ostriches bury their head in the sand.",
+  "tokens": [
+   "Ostriches ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": [\n    \"bury their head in the sand\"\n  ]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 20,
+       "prompt_tokens": 173,
+       "total_tokens": 193,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 2.856e-05,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 2.856e-05,
+        "upstream_inference_prompt_cost": 2.076e-05,
+        "upstream_inference_completions_cost": 7.8e-06
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f039fb8f-01b6-464a-81bd-d3abb1b668be-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 173,
+      "output_tokens": 20,
+      "total_tokens": 193,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Do some animals really bury their head in the sand?",
+  "tokens": [
+   "Do ",
+   "some ",
+   "animals ",
+   "really ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": [\n    \"bury their head in the sand\"\n  ]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 20,
+       "prompt_tokens": 173,
+       "total_tokens": 193,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 2.856e-05,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 2.856e-05,
+        "upstream_inference_prompt_cost": 2.076e-05,
+        "upstream_inference_completions_cost": 7.8e-06
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--550a20ee-a07f-4fe7-ba1c-427cd1c22521-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 173,
+      "output_tokens": 20,
+      "total_tokens": 193,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I let the cat out of the bag about my new girlfriend.",
+  "tokens": [
+   "I ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "my ",
+   "new ",
+   "girlfriend",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": [\n    \"let the cat out of the bag\"\n  ]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 21,
+       "prompt_tokens": 174,
+       "total_tokens": 195,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 2.907e-05,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 2.907e-05,
+        "upstream_inference_prompt_cost": 2.088e-05,
+        "upstream_inference_completions_cost": 8.19e-06
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2f5aa3ba-4669-44d8-a94d-4c980cb8d2ce-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 174,
+      "output_tokens": 21,
+      "total_tokens": 195,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Sam let the cat out of the bag about his new job.",
+  "tokens": [
+   "Sam ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "his ",
+   "new ",
+   "job",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": [\n    \"let the cat out of the bag\"\n  ]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 21,
+       "prompt_tokens": 175,
+       "total_tokens": 196,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 2.919e-05,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 2.919e-05,
+        "upstream_inference_prompt_cost": 2.1e-05,
+        "upstream_inference_completions_cost": 8.19e-06
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--c2b2a3e1-b719-4cbd-ac08-31aea6cdef07-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 175,
+      "output_tokens": 21,
+      "total_tokens": 196,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+  "tokens": [
+   "I ",
+   "think ",
+   "I ",
+   "do",
+   "n't ",
+   "need ",
+   "to ",
+   "tell ",
+   "you ",
+   "that",
+   ", ",
+   "actions ",
+   "speak ",
+   "louder ",
+   "than ",
+   "words",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "actions speak louder that words"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"idioms\": [\n    \"actions speak louder than words\"\n  ]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 19,
+       "prompt_tokens": 178,
+       "total_tokens": 197,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 2.877e-05,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 2.877e-05,
+        "upstream_inference_prompt_cost": 2.136e-05,
+        "upstream_inference_completions_cost": 7.41e-06
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0f0f9351-9274-4983-ba73-a5d476e0a0e2-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 178,
+      "output_tokens": 19,
+      "total_tokens": 197,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   }
+  ]
+ }
+]

@@ -1,0 +1,891 @@
+﻿[
+ {
+  "sentence": "The bullet hit the book in his pocket.",
+  "tokens": [
+   "The ",
+   "bullet ",
+   "hit ",
+   "the ",
+   "book ",
+   "in ",
+   "his ",
+   "pocket",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_015wpG2NjnULgtE46YzGZSUN",
+       "input": {
+        "idioms": []
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01U6KqvFzpMnAoY4apcTCNCa",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 620,
+       "output_tokens": 34,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--8f8b7544-27f7-4e67-9817-34f49d8c66db-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": []
+       },
+       "id": "toolu_015wpG2NjnULgtE46YzGZSUN",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 620,
+      "output_tokens": 34,
+      "total_tokens": 654,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "balloons are floating up in the air.",
+  "tokens": [
+   "balloons ",
+   "are ",
+   "floating ",
+   "up ",
+   "in ",
+   "the ",
+   "air",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01Dr5eVoKuDDveUeB5mLstuS",
+       "input": {
+        "idioms": []
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01BcvLKjkdKprJmjd4Q97Mt8",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 620,
+       "output_tokens": 34,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--023b1953-0e47-4c60-96c8-52925d788e9f-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": []
+       },
+       "id": "toolu_01Dr5eVoKuDDveUeB5mLstuS",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 620,
+      "output_tokens": 34,
+      "total_tokens": 654,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I love bread and butter for breakfast.",
+  "tokens": [
+   "I ",
+   "love ",
+   "bread ",
+   "and ",
+   "butter ",
+   "for ",
+   "breakfast",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_017TfCBkCGsSix2wAsFuqd78",
+       "input": {
+        "idioms": []
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01E5JLB8re4tiskvHFg9mbtm",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 619,
+       "output_tokens": 34,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1aaa23ba-7054-4af3-9184-99e837d9b830-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": []
+       },
+       "id": "toolu_017TfCBkCGsSix2wAsFuqd78",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 619,
+      "output_tokens": 34,
+      "total_tokens": 653,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Ostriches bury their head in the sand.",
+  "tokens": [
+   "Ostriches ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01JnSsqQVYwa8JJQ2SFZqB96",
+       "input": {
+        "idioms": "bury their head in the sand"
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01CZmxAiKFpURJVjx5CFVmGH",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 623,
+       "output_tokens": 40,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--351c34b6-9fc6-43b3-9ee4-705a6bc70d03-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": "bury their head in the sand"
+       },
+       "id": "toolu_01JnSsqQVYwa8JJQ2SFZqB96",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 623,
+      "output_tokens": 40,
+      "total_tokens": 663,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": "bury their head in the sand"
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Do some animals really bury their head in the sand?",
+  "tokens": [
+   "Do ",
+   "some ",
+   "animals ",
+   "really ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01QBqhAmqpAhUwdWX7ZPBsGN",
+       "input": {
+        "idioms": "bury their head in the sand"
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01AdF6JTJDrkSSkWABet2gJ2",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 623,
+       "output_tokens": 40,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7f3df295-3266-4529-8491-bd76721db9e5-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": "bury their head in the sand"
+       },
+       "id": "toolu_01QBqhAmqpAhUwdWX7ZPBsGN",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 623,
+      "output_tokens": 40,
+      "total_tokens": 663,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": "bury their head in the sand"
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I let the cat out of the bag about my new girlfriend.",
+  "tokens": [
+   "I ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "my ",
+   "new ",
+   "girlfriend",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01WA31rCfF7vMRR7W1aN38PZ",
+       "input": {
+        "idioms": "let the cat out of the bag"
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01NBi1NCcGrbZfSpRVbPXaH6",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 624,
+       "output_tokens": 40,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--048cf3fd-393b-413d-886b-973ac74580de-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": "let the cat out of the bag"
+       },
+       "id": "toolu_01WA31rCfF7vMRR7W1aN38PZ",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 624,
+      "output_tokens": 40,
+      "total_tokens": 664,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": "let the cat out of the bag"
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Sam let the cat out of the bag about his new job.",
+  "tokens": [
+   "Sam ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "his ",
+   "new ",
+   "job",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_013D4t6iQVFj6srqA3finsis",
+       "input": {
+        "idioms": "let the cat out of the bag"
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01QCmVbpKFV6gbXNCahALWPH",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 624,
+       "output_tokens": 40,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ff7128e1-1f4b-489a-8009-4da24e750119-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": "let the cat out of the bag"
+       },
+       "id": "toolu_013D4t6iQVFj6srqA3finsis",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 624,
+      "output_tokens": 40,
+      "total_tokens": 664,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": "let the cat out of the bag"
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+  "tokens": [
+   "I ",
+   "think ",
+   "I ",
+   "do",
+   "n't ",
+   "need ",
+   "to ",
+   "tell ",
+   "you ",
+   "that",
+   ", ",
+   "actions ",
+   "speak ",
+   "louder ",
+   "than ",
+   "words",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "actions speak louder that words"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_0146NYMwxDXSnU1VCkHjcfK1",
+       "input": {
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_015drLQW4agJZsHRrCYFzQUN",
+      "model": "claude-3-haiku-20240307",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 629,
+       "output_tokens": 41,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--4061cd50-f7fe-492f-882f-e409816078a3-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "id": "toolu_0146NYMwxDXSnU1VCkHjcfK1",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 629,
+      "output_tokens": 41,
+      "total_tokens": 670,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   }
+  ]
+ }
+]

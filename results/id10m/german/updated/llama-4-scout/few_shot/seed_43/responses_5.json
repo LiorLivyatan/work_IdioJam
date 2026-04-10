@@ -1,0 +1,1935 @@
+﻿[
+ {
+  "sentence": "eine an den Haaren herbeigezogene Behauptung",
+  "tokens": [
+   "eine ",
+   "an ",
+   "den ",
+   "Haaren ",
+   "herbeigezogene ",
+   "Behauptung"
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "an den Haaren herbeigezogene"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"eine an den Haaren herbeigezogene Behauptung\",\n  \"potential_idioms\": [\"an den Haaren herbeigezogen\"],\n  \"explanation\": \"The phrase 'an den Haaren herbeigezogen' is an idiomatic expression in German, which means that something is being pulled or dragged out of thin air, or that a claim or argument is unfounded and lacks evidence. In this sentence, it is used figuratively to describe a claim that is not supported by facts.\",\n  \"idioms\": [\"an den Haaren herbeigezogen\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 126,
+       "prompt_tokens": 1636,
+       "total_tokens": 1762,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004972,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.000409,
+        "upstream_inference_completions_cost": 8.82e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f47848ac-413a-470b-b5b0-0b5ea3c6acbf-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1636,
+      "output_tokens": 126,
+      "total_tokens": 1762,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "eine an den Haaren herbeigezogene Behauptung",
+     "potential_idioms": [
+      "an den Haaren herbeigezogen"
+     ],
+     "explanation": "The phrase 'an den Haaren herbeigezogen' is an idiomatic expression in German, which means that something is being pulled or dragged out of thin air, or that a claim or argument is unfounded and lacks evidence. In this sentence, it is used figuratively to describe a claim that is not supported by facts.",
+     "idioms": [
+      "an den Haaren herbeigezogen"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"eine an den Haaren herbeigezogene Behauptung\",\n  \"potential_idioms\": [\"an den Haaren herbeigezogene\"],\n  \"explanation\": \"The expression 'an den Haaren herbeigezogene' is an idiomatic expression in German, which means that something is being pulled or dragged out of thin air, or that a claim or argument is baseless or unfounded. In this context, it is used figuratively to describe a claim that lacks credibility or evidence.\",\n  \"idioms\": [\"an den Haaren herbeigezogene\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 127,
+       "prompt_tokens": 1636,
+       "total_tokens": 1763,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004979,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.000409,
+        "upstream_inference_completions_cost": 8.89e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e4ed0128-af1a-4e82-90bb-56bc44c316c7-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1636,
+      "output_tokens": 127,
+      "total_tokens": 1763,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "eine an den Haaren herbeigezogene Behauptung",
+     "potential_idioms": [
+      "an den Haaren herbeigezogene"
+     ],
+     "explanation": "The expression 'an den Haaren herbeigezogene' is an idiomatic expression in German, which means that something is being pulled or dragged out of thin air, or that a claim or argument is baseless or unfounded. In this context, it is used figuratively to describe a claim that lacks credibility or evidence.",
+     "idioms": [
+      "an den Haaren herbeigezogene"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"eine an den Haaren herbeigezogene Behauptung\",\n  \"potential_idioms\": [\"an den Haaren herbeigezogene\"],\n  \"explanation\": \"The expression 'an den Haaren herbeigezogene' is an idiomatic expression in German, which literally translates to 'pulled by the hair'. However, in this context, it is used figuratively to describe a claim or assertion that is unfounded, implausible, or exaggerated.\",\n  \"idioms\": [\"an den Haaren herbeigezogene\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 116,
+       "prompt_tokens": 1636,
+       "total_tokens": 1752,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004902,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.000409,
+        "upstream_inference_completions_cost": 8.12e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a269cadf-c754-4794-b191-7446b4bb5a6a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1636,
+      "output_tokens": 116,
+      "total_tokens": 1752,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"eine an den Haaren herbeigezogene Behauptung\",\n  \"potential_idioms\": [\"an den Haaren herbeigezogene\"],\n  \"explanation\": \"The expression 'an den Haaren herbeigezogene' is an idiomatic expression in German, which literally translates to 'pulled by the hair'. However, in this context, it is used figuratively to describe a claim or assertion that is unfounded, unsubstantiated, or wildly speculative.\",\n  \"idioms\": [\"an den Haaren herbeigezogene\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 120,
+       "prompt_tokens": 1636,
+       "total_tokens": 1756,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.000493,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.000409,
+        "upstream_inference_completions_cost": 8.4e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--10eb20c6-63a7-4748-9364-9c44d6b859ad-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1636,
+      "output_tokens": 120,
+      "total_tokens": 1756,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "eine an den Haaren herbeigezogene Behauptung",
+     "potential_idioms": [
+      "an den Haaren herbeigezogene"
+     ],
+     "explanation": "The expression 'an den Haaren herbeigezogene' is an idiomatic expression in German, which literally translates to 'pulled by the hair'. However, in this context, it is used figuratively to describe a claim or assertion that is unfounded, unsubstantiated, or wildly speculative.",
+     "idioms": [
+      "an den Haaren herbeigezogene"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"eine an den Haaren herbeigezogene Behauptung\",\n  \"potential_idioms\": [\"an den Haaren herbeigezogene\"],\n  \"explanation\": \"The expression 'an den Haaren herbeigezogene' is an idiomatic expression in German, which translates to 'far-fetched' or 'implausible' in English. It is used to describe a claim or argument that is not well-supported or seems unlikely.\",\n  \"idioms\": [\"an den Haaren herbeigezogene\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 110,
+       "prompt_tokens": 1636,
+       "total_tokens": 1746,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.000486,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.000409,
+        "upstream_inference_completions_cost": 7.7e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--8bd68987-021e-4d31-833a-05ac7c320790-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1636,
+      "output_tokens": 110,
+      "total_tokens": 1746,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "eine an den Haaren herbeigezogene Behauptung",
+     "potential_idioms": [
+      "an den Haaren herbeigezogene"
+     ],
+     "explanation": "The expression 'an den Haaren herbeigezogene' is an idiomatic expression in German, which translates to 'far-fetched' or 'implausible' in English. It is used to describe a claim or argument that is not well-supported or seems unlikely.",
+     "idioms": [
+      "an den Haaren herbeigezogene"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Vorbereitung ist die halbe Miete.",
+  "tokens": [
+   "Vorbereitung ",
+   "ist ",
+   "die ",
+   "halbe ",
+   "Miete",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   1,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "halbe Miete"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Vorbereitung ist die halbe Miete.\",\n  \"potential_idioms\": [\"die halbe Miete\"],\n  \"explanation\": \"The phrase 'die halbe Miete' is an idiomatic expression in German, which means that preparation or a certain condition is already half of the success or the solution to a problem. It is used figuratively here.\",\n  \"idioms\": [\"die halbe Miete\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 93,
+       "prompt_tokens": 1633,
+       "total_tokens": 1726,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00047335,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040825,
+        "upstream_inference_completions_cost": 6.51e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--82f24483-0a46-44d4-b109-bd7efc98d982-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1633,
+      "output_tokens": 93,
+      "total_tokens": 1726,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Vorbereitung ist die halbe Miete.\",\n  \"potential_idioms\": [\"Vorbereitung ist die halbe Miete\"],\n  \"explanation\": \"The expression 'die halbe Miete' is an idiomatic expression that means 'half the battle' or 'a significant part of the task'. It is used figuratively to convey that preparation is a crucial part of achieving success.\",\n  \"idioms\": [\"die halbe Miete\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 100,
+       "prompt_tokens": 1633,
+       "total_tokens": 1733,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00047825,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040825,
+        "upstream_inference_completions_cost": 7e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e447bc81-ff47-4328-849d-6c1a862a9019-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1633,
+      "output_tokens": 100,
+      "total_tokens": 1733,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Vorbereitung ist die halbe Miete.",
+     "potential_idioms": [
+      "Vorbereitung ist die halbe Miete"
+     ],
+     "explanation": "The expression 'die halbe Miete' is an idiomatic expression that means 'half the battle' or 'a significant part of the task'. It is used figuratively to convey that preparation is a crucial part of achieving success.",
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Vorbereitung ist die halbe Miete.\",\n  \"potential_idioms\": [\"Vorbereitung ist die halbe Miete\"],\n  \"explanation\": \"The expression 'die halbe Miete' is an idiomatic expression that means 'a crucial part' or 'a significant advantage'. In this sentence, it is used figuratively to convey that preparation is a substantial portion of success, not literally referring to a rental fee.\",\n  \"idioms\": [\"die halbe Miete\"]\n",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 110,
+       "prompt_tokens": 1633,
+       "total_tokens": 1743,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00048525,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040825,
+        "upstream_inference_completions_cost": 7.7e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--b824e37f-6af0-435e-95b1-3425e59a00ed-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1633,
+      "output_tokens": 110,
+      "total_tokens": 1743,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Vorbereitung ist die halbe Miete.\",\n  \"potential_idioms\": [\"die halbe Miete\"],\n  \"explanation\": \"The expression 'die halbe Miete' is an idiomatic expression that means 'half the battle' or 'a significant part of the task'. It is used figuratively to convey that preparation is a crucial part of achieving success.\",\n  \"idioms\": [\"die halbe Miete\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 96,
+       "prompt_tokens": 1633,
+       "total_tokens": 1729,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00047545,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040825,
+        "upstream_inference_completions_cost": 6.72e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7b825cae-c3e1-4c5b-ba57-c815112061ed-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1633,
+      "output_tokens": 96,
+      "total_tokens": 1729,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Vorbereitung ist die halbe Miete.",
+     "potential_idioms": [
+      "die halbe Miete"
+     ],
+     "explanation": "The expression 'die halbe Miete' is an idiomatic expression that means 'half the battle' or 'a significant part of the task'. It is used figuratively to convey that preparation is a crucial part of achieving success.",
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Vorbereitung ist die halbe Miete.\",\n  \"potential_idioms\": [\"Vorbereitung ist die halbe Miete\"],\n  \"explanation\": \"The expression 'die halbe Miete' is an idiomatic expression that means 'half the battle' or 'a significant part of the task'. In this sentence, it is used figuratively to convey that preparation is a crucial part of success.\",\n  \"idioms\": [\"die halbe Miete\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 101,
+       "prompt_tokens": 1633,
+       "total_tokens": 1734,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00047895,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040825,
+        "upstream_inference_completions_cost": 7.07e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--d1cca6dd-9e67-48a2-a8e8-19782707bd24-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1633,
+      "output_tokens": 101,
+      "total_tokens": 1734,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ },
+ {
+  "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+  "tokens": [
+   "Das ",
+   "war ",
+   "eine ",
+   "ganz ",
+   "harmlose ",
+   "Bemerkung",
+   ". ",
+   "Daraus ",
+   "kann ",
+   "dir ",
+   "niemand ",
+   "einen ",
+   "Strick ",
+   "drehen",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "einen Strick drehen"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\n  \"potential_idioms\": [\"einen Strick drehen\"],\n  \"explanation\": \"The phrase 'einen Strick drehen' is an idiomatic expression in German, which means to twist or turn something into a problem or a crime, often used in the context of taking something harmless and turning it into a serious issue.\",\n  \"idioms\": [\"einen Strick drehen\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 113,
+       "prompt_tokens": 1645,
+       "total_tokens": 1758,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00049035,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00041125,
+        "upstream_inference_completions_cost": 7.91e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--baa8003e-f1e2-4bfb-81d2-abba12b98543-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1645,
+      "output_tokens": 113,
+      "total_tokens": 1758,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+     "potential_idioms": [
+      "einen Strick drehen"
+     ],
+     "explanation": "The phrase 'einen Strick drehen' is an idiomatic expression in German, which means to twist or turn something into a problem or a crime, often used in the context of taking something harmless and turning it into a serious issue.",
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\n  \"potential_idioms\": [\"einen Strick drehen\"],\n  \"explanation\": \"The phrase 'einen Strick drehen' is an idiomatic expression in German, which means to twist or turn something into a problem or an accusation, often in a manipulative or unjust way. In this context, it is used figuratively, implying that nobody can use the harmless remark against the person.\",\n  \"idioms\": [\"einen Strick drehen\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 129,
+       "prompt_tokens": 1645,
+       "total_tokens": 1774,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00050155,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00041125,
+        "upstream_inference_completions_cost": 9.03e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--46aae986-c0f8-4373-b8f3-002fe0267e0d-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1645,
+      "output_tokens": 129,
+      "total_tokens": 1774,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+     "potential_idioms": [
+      "einen Strick drehen"
+     ],
+     "explanation": "The phrase 'einen Strick drehen' is an idiomatic expression in German, which means to twist or turn something into a problem or an accusation, often in a manipulative or unjust way. In this context, it is used figuratively, implying that nobody can use the harmless remark against the person.",
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\n  \"potential_idioms\": [\"einen Strick drehen\"],\n  \"explanation\": \"The expression 'einen Strick drehen' is an idiomatic expression which means to twist or turn something into a problem or to use it against someone. In this context, it is used figuratively, meaning that nobody can use the harmless remark against the person.\",\n  \"idioms\": [\"einen Strick drehen\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 120,
+       "prompt_tokens": 1645,
+       "total_tokens": 1765,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00049525,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00041125,
+        "upstream_inference_completions_cost": 8.4e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f63877e0-d1d5-4064-8719-f7c22a4ef75f-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1645,
+      "output_tokens": 120,
+      "total_tokens": 1765,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+     "potential_idioms": [
+      "einen Strick drehen"
+     ],
+     "explanation": "The expression 'einen Strick drehen' is an idiomatic expression which means to twist or turn something into a problem or to use it against someone. In this context, it is used figuratively, meaning that nobody can use the harmless remark against the person.",
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\n  \"potential_idioms\": [\"einen Strick drehen\"],\n  \"explanation\": \"The phrase 'einen Strick drehen' is an idiomatic expression that means to twist or turn something into a problem or an accusation, often in a way that is unfair or unjust. In this context, it is used figuratively, suggesting that nobody can use the remark against the person.\",\n  \"idioms\": [\"einen Strick drehen\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 125,
+       "prompt_tokens": 1645,
+       "total_tokens": 1770,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00049875,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00041125,
+        "upstream_inference_completions_cost": 8.75e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--984d5b42-7156-4de3-bea5-665749a12f05-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1645,
+      "output_tokens": 125,
+      "total_tokens": 1770,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+     "potential_idioms": [
+      "einen Strick drehen"
+     ],
+     "explanation": "The phrase 'einen Strick drehen' is an idiomatic expression that means to twist or turn something into a problem or an accusation, often in a way that is unfair or unjust. In this context, it is used figuratively, suggesting that nobody can use the remark against the person.",
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.\",\n  \"potential_idioms\": [\"einen Strick drehen\"],\n  \"explanation\": \"The phrase 'einen Strick drehen' is an idiomatic expression that means to twist or turn something into a problem or an accusation, often in a way that is unfair or unjust. In this context, it is used figuratively, suggesting that nobody can use the harmless remark against the person.\",\n  \"idioms\": [\"einen Strick drehen\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 126,
+       "prompt_tokens": 1645,
+       "total_tokens": 1771,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00049945,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00041125,
+        "upstream_inference_completions_cost": 8.82e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--4a8ac69b-16ae-4744-a773-d62cce08b05b-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1645,
+      "output_tokens": 126,
+      "total_tokens": 1771,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ },
+ {
+  "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+  "tokens": [
+   "Völlig ",
+   "ausgeschlossen",
+   ", ",
+   "daß ",
+   "dieser ",
+   "Mann ",
+   "fünfundzwanzig ",
+   "Jahre ",
+   "nicht ",
+   "Schach ",
+   "gespielt ",
+   "haben ",
+   "soll",
+   "! ",
+   "Er ",
+   "hat ",
+   "doch ",
+   "jeden ",
+   "Zug",
+   ", ",
+   "jede ",
+   "Gegenpointe ",
+   "auf ",
+   "fünf",
+   ", ",
+   "auf ",
+   "sechs ",
+   "Züge ",
+   "vorausberechnet",
+   ". ",
+   "So ",
+   "etwas ",
+   "kann ",
+   "niemand ",
+   "aus ",
+   "dem ",
+   "Handgelenk",
+   ". ",
+   "Das ",
+   "ist ",
+   "doch ",
+   "völlig ",
+   "ausgeschlossen ",
+   "– ",
+   "nicht ",
+   "wahr",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "aus dem Handgelenk"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\n  \"potential_idioms\": [\"aus dem Handgelenk\"],\n  \"explanation\": \"The expression 'aus dem Handgelenk' is an idiomatic expression in German that means 'off the cuff' or 'without much thought or effort'. In this context, it is used figuratively to describe something that is done easily and effortlessly, without requiring much consideration or planning.\",\n  \"idioms\": [\"aus dem Handgelenk\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 177,
+       "prompt_tokens": 1696,
+       "total_tokens": 1873,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0005479,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.000424,
+        "upstream_inference_completions_cost": 0.0001239
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--80d94647-cab0-4bee-9fce-7dc0e818dc89-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1696,
+      "output_tokens": 177,
+      "total_tokens": 1873,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\n  \"potential_idioms\": [\"aus dem Handgelenk\"],\n  \"explanation\": \"The phrase 'aus dem Handgelenk' is an idiomatic expression in German, which literally translates to 'from the wrist'. However, in this context, it is used figuratively to mean 'without much thought or effort' or 'off the cuff'. The speaker is implying that it is impossible for someone to make such complex calculations without extensive practice or experience.\",\n  \"idioms\": [\"aus dem Handgelenk\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 177,
+       "prompt_tokens": 1721,
+       "total_tokens": 1898,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00055415,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00055415,
+        "upstream_inference_prompt_cost": 0.00043025,
+        "upstream_inference_completions_cost": 0.0001239
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--4e58c9db-ad34-4651-9dc5-65ab51708961-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1721,
+      "output_tokens": 177,
+      "total_tokens": 1898,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\n  \"potential_idioms\": [\"aus dem Handgelenk\"],\n  \"explanation\": \"The phrase 'aus dem Handgelenk' is an idiomatic expression in German, which literally translates to 'from the wrist'. However, in this context, it is used figuratively to mean 'effortlessly' or 'without much thought'. The speaker is expressing that it's impossible for someone to make such complex calculations without extensive practice or experience.\",\n  \"idioms\": [\"aus dem Handgelenk\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 193,
+       "prompt_tokens": 1696,
+       "total_tokens": 1889,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0005591,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.000424,
+        "upstream_inference_completions_cost": 0.0001351
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--24fc3079-ce99-453a-81a1-1b95e3571a79-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1696,
+      "output_tokens": 193,
+      "total_tokens": 1889,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\n  \"potential_idioms\": [\"aus dem Handgelenk\"],\n  \"explanation\": \"The phrase 'aus dem Handgelenk' is an idiomatic expression in German that means 'off the cuff' or 'without much thought or effort'. In this context, it is used figuratively to convey that it is impossible for someone to make such complex calculations without extensive practice or experience.\",\n  \"idioms\": [\"aus dem Handgelenk\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 180,
+       "prompt_tokens": 1696,
+       "total_tokens": 1876,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00055,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.000424,
+        "upstream_inference_completions_cost": 0.000126
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--35817fb5-b57d-4583-a1b6-bc5c14c90fe0-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1696,
+      "output_tokens": 180,
+      "total_tokens": 1876,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+     "potential_idioms": [
+      "aus dem Handgelenk"
+     ],
+     "explanation": "The phrase 'aus dem Handgelenk' is an idiomatic expression in German that means 'off the cuff' or 'without much thought or effort'. In this context, it is used figuratively to convey that it is impossible for someone to make such complex calculations without extensive practice or experience.",
+     "idioms": [
+      "aus dem Handgelenk"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?\",\n  \"potential_idioms\": [\"aus dem Handgelenk\"],\n  \"explanation\": \"The phrase 'aus dem Handgelenk' is an idiomatic expression in German, which literally translates to 'from the wrist'. However, in this context, it is used figuratively to mean 'effortlessly' or 'without much thought'. The speaker is expressing that it is impossible for someone to make such complex calculations without extensive practice or experience.\",\n  \"idioms\": [\"aus dem Handgelenk\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 194,
+       "prompt_tokens": 1696,
+       "total_tokens": 1890,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0005598,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.000424,
+        "upstream_inference_completions_cost": 0.0001358
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--bd9b5cd5-7260-4040-bbe5-5803d33b64c4-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1696,
+      "output_tokens": 194,
+      "total_tokens": 1890,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ },
+ {
+  "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+  "tokens": [
+   "Immer ",
+   "mit ",
+   "der ",
+   "Ruhe",
+   ", ",
+   "alter ",
+   "Knabe",
+   ", ",
+   "schön ",
+   "die ",
+   "Ruhe ",
+   "bewahren",
+   ", ",
+   "ermahnte ",
+   "ich ",
+   "mich",
+   ", ",
+   "während ",
+   "ich ",
+   "vom ",
+   "Roller ",
+   "stieg ",
+   "und ",
+   "ihn ",
+   "unangekettet ",
+   "vor ",
+   "dem ",
+   "Hôtel ",
+   "du ",
+   "Palais ",
+   "stehen ",
+   "ließ",
+   ". ",
+   "Die ",
+   "Sache ",
+   "war ",
+   "noch ",
+   "nicht ",
+   "in ",
+   "trockenen ",
+   "Tüchern",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "in trockenen Tüchern"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\n  \"potential_idioms\": [\"immer mit der Ruhe\", \"die Ruhe bewahren\", \"in trockenen Tüchern\"],\n  \"explanation\": \"The expressions 'immer mit der Ruhe', 'die Ruhe bewahren' are used literally to advise calmness. However, 'in trockenen Tüchern' is an idiomatic expression meaning that something is completed or finalized.\",\n  \"idioms\": [\"in trockenen Tüchern\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 156,
+       "prompt_tokens": 1681,
+       "total_tokens": 1837,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00052945,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00042025,
+        "upstream_inference_completions_cost": 0.0001092
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7a564374-f995-4a44-a84f-d24fafd70064-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1681,
+      "output_tokens": 156,
+      "total_tokens": 1837,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+     "potential_idioms": [
+      "immer mit der Ruhe",
+      "die Ruhe bewahren",
+      "in trockenen Tüchern"
+     ],
+     "explanation": "The expressions 'immer mit der Ruhe', 'die Ruhe bewahren' are used literally to advise calmness. However, 'in trockenen Tüchern' is an idiomatic expression meaning that something is completed or finalized.",
+     "idioms": [
+      "in trockenen Tüchern"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\n  \"potential_idioms\": [\"immer mit der Ruhe\", \"die Ruhe bewahren\", \"in trockenen Tüchern\"],\n  \"explanation\": \"The expressions 'immer mit der Ruhe', 'die Ruhe bewahren', and 'in trockenen Tüchern' are analyzed in the context of the sentence. 'Immer mit der Ruhe' and 'die Ruhe bewahren' are used literally to advise calmness. However, 'in trockenen Tüchern' is an idiomatic expression meaning that something is settled or finalized.\",\n  \"idioms\": [\"in trockenen Tüchern\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 182,
+       "prompt_tokens": 1713,
+       "total_tokens": 1895,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00055565,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00055565,
+        "upstream_inference_prompt_cost": 0.00042825,
+        "upstream_inference_completions_cost": 0.0001274
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--26812a25-24ae-4671-baf3-1b4965a0c05b-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1713,
+      "output_tokens": 182,
+      "total_tokens": 1895,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\n  \"potential_idioms\": [\"immer mit der Ruhe\", \"die Ruhe bewahren\", \"in trockenen Tüchern\"],\n  \"explanation\": \"The expressions 'immer mit der Ruhe', 'die Ruhe bewahren', and 'in trockenen Tüchern' are examined for their usage in the sentence. 'Immer mit der Ruhe' and 'die Ruhe bewahren' are used literally to advise calmness. However, 'in trockenen Tüchern' is an idiomatic expression meaning that something is finalized or settled.\",\n  \"idioms\": [\"in trockenen Tüchern\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 185,
+       "prompt_tokens": 1681,
+       "total_tokens": 1866,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00054975,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00042025,
+        "upstream_inference_completions_cost": 0.0001295
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ac5b1edb-1cd8-464e-bca3-591438251609-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1681,
+      "output_tokens": 185,
+      "total_tokens": 1866,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\n  \"potential_idioms\": [\"immer mit der Ruhe\", \"die Ruhe bewahren\", \"in trockenen Tüchern\"],\n  \"explanation\": \"The expressions 'immer mit der Ruhe', 'die Ruhe bewahren', and 'in trockenen Tüchern' are analyzed. 'Immer mit der Ruhe' and 'die Ruhe bewahren' are used literally to advise calmness. However, 'in trockenen Tüchern' is an idiom that means something is settled or finalized.\",\n  \"idioms\": [\"in trockenen Tüchern\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 173,
+       "prompt_tokens": 1681,
+       "total_tokens": 1854,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00054135,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00042025,
+        "upstream_inference_completions_cost": 0.0001211
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f40de588-61b3-474a-8d28-a7aa805ed9c6-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1681,
+      "output_tokens": 173,
+      "total_tokens": 1854,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.\",\n  \"potential_idioms\": [\"immer mit der Ruhe\", \"die Ruhe bewahren\", \"in trockenen Tüchern\"],\n  \"explanation\": \"The expressions 'immer mit der Ruhe', 'die Ruhe bewahren', and 'in trockenen Tüchern' are analyzed. 'Immer mit der Ruhe' and 'die Ruhe bewahren' are used literally to advise calmness. However, 'in trockenen Tüchern' is an idiomatic expression meaning that a matter is settled or finalized.\",\n  \"idioms\": [\"in trockenen Tüchern\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 177,
+       "prompt_tokens": 1713,
+       "total_tokens": 1890,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00055215,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00055215,
+        "upstream_inference_prompt_cost": 0.00042825,
+        "upstream_inference_completions_cost": 0.0001239
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--c4d205a0-0d20-4afe-9837-94f059762766-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1713,
+      "output_tokens": 177,
+      "total_tokens": 1890,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ }
+]

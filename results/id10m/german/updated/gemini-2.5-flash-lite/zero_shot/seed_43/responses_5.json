@@ -1,0 +1,640 @@
+﻿[
+ {
+  "sentence": "eine an den Haaren herbeigezogene Behauptung",
+  "tokens": [
+   "eine ",
+   "an ",
+   "den ",
+   "Haaren ",
+   "herbeigezogene ",
+   "Behauptung"
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "an den Haaren herbeigezogene"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0445d48c-c999-4500-a0d3-7de85b1f1d33-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "eine an den Haaren herbeigezogene Behauptung"
+        ]
+       },
+       "id": "d543e4b6-764d-4edf-848d-881c3abe0934",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 211,
+      "output_tokens": 26,
+      "total_tokens": 237,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "eine an den Haaren herbeigezogene Behauptung"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Vorbereitung ist die halbe Miete.",
+  "tokens": [
+   "Vorbereitung ",
+   "ist ",
+   "die ",
+   "halbe ",
+   "Miete",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   1,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "halbe Miete"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--b345fb6c-0a8f-4135-a1ca-ad9bde163ee4-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "die halbe Miete"
+        ]
+       },
+       "id": "df3d3a3e-80fd-409d-80e6-8b44db9e0a92",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 210,
+      "output_tokens": 19,
+      "total_tokens": 229,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+  "tokens": [
+   "Das ",
+   "war ",
+   "eine ",
+   "ganz ",
+   "harmlose ",
+   "Bemerkung",
+   ". ",
+   "Daraus ",
+   "kann ",
+   "dir ",
+   "niemand ",
+   "einen ",
+   "Strick ",
+   "drehen",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "einen Strick drehen"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--4a6bbb3c-ac05-4098-9d2c-06d0ed97ec9f-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "einen Strick drehen"
+        ]
+       },
+       "id": "951d59ce-4108-4845-a731-ba8101f1ee9e",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 219,
+      "output_tokens": 19,
+      "total_tokens": 238,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+  "tokens": [
+   "Völlig ",
+   "ausgeschlossen",
+   ", ",
+   "daß ",
+   "dieser ",
+   "Mann ",
+   "fünfundzwanzig ",
+   "Jahre ",
+   "nicht ",
+   "Schach ",
+   "gespielt ",
+   "haben ",
+   "soll",
+   "! ",
+   "Er ",
+   "hat ",
+   "doch ",
+   "jeden ",
+   "Zug",
+   ", ",
+   "jede ",
+   "Gegenpointe ",
+   "auf ",
+   "fünf",
+   ", ",
+   "auf ",
+   "sechs ",
+   "Züge ",
+   "vorausberechnet",
+   ". ",
+   "So ",
+   "etwas ",
+   "kann ",
+   "niemand ",
+   "aus ",
+   "dem ",
+   "Handgelenk",
+   ". ",
+   "Das ",
+   "ist ",
+   "doch ",
+   "völlig ",
+   "ausgeschlossen ",
+   "– ",
+   "nicht ",
+   "wahr",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "aus dem Handgelenk"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a2ba01ae-30be-4f61-ad02-1115bac98071-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "aus dem Handgelenk"
+        ]
+       },
+       "id": "2dc8217d-f0f6-4d66-ba53-931e8f00306e",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 260,
+      "output_tokens": 19,
+      "total_tokens": 279,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "aus dem Handgelenk"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+  "tokens": [
+   "Immer ",
+   "mit ",
+   "der ",
+   "Ruhe",
+   ", ",
+   "alter ",
+   "Knabe",
+   ", ",
+   "schön ",
+   "die ",
+   "Ruhe ",
+   "bewahren",
+   ", ",
+   "ermahnte ",
+   "ich ",
+   "mich",
+   ", ",
+   "während ",
+   "ich ",
+   "vom ",
+   "Roller ",
+   "stieg ",
+   "und ",
+   "ihn ",
+   "unangekettet ",
+   "vor ",
+   "dem ",
+   "Hôtel ",
+   "du ",
+   "Palais ",
+   "stehen ",
+   "ließ",
+   ". ",
+   "Die ",
+   "Sache ",
+   "war ",
+   "noch ",
+   "nicht ",
+   "in ",
+   "trockenen ",
+   "Tüchern",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "in trockenen Tüchern"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--c38d5d7f-0c4d-4aeb-bd97-816a4f9b9b67-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "in trockenen Tüchern"
+        ]
+       },
+       "id": "71c8ce3c-ffbb-475e-8853-d05d5192dec3",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 253,
+      "output_tokens": 19,
+      "total_tokens": 272,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "in trockenen Tüchern"
+     ]
+    }
+   }
+  ]
+ }
+]

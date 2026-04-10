@@ -1,0 +1,781 @@
+﻿[
+ {
+  "sentence": "eine an den Haaren herbeigezogene Behauptung",
+  "tokens": [
+   "eine ",
+   "an ",
+   "den ",
+   "Haaren ",
+   "herbeigezogene ",
+   "Behauptung"
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "an den Haaren herbeigezogene"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01SvnqH2kVhst3qCBhkiT7az",
+       "input": {
+        "idioms": [
+         "an den Haaren herbeigezogen"
+        ]
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_018K2gseaGoK7YmEaA7Ryv4c",
+      "model": "claude-sonnet-4-20250514",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 590,
+       "output_tokens": 45,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--be3e41c5-5dbc-48ab-b0d5-b5b33229a861-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "an den Haaren herbeigezogen"
+        ]
+       },
+       "id": "toolu_01SvnqH2kVhst3qCBhkiT7az",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 590,
+      "output_tokens": 45,
+      "total_tokens": 635,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "an den Haaren herbeigezogen"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Vorbereitung ist die halbe Miete.",
+  "tokens": [
+   "Vorbereitung ",
+   "ist ",
+   "die ",
+   "halbe ",
+   "Miete",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   1,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "halbe Miete"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01DbWVyYk2xpCY4oh4Nj8i5z",
+       "input": {
+        "idioms": [
+         "die halbe Miete"
+        ]
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01WmGEkvRV7uWzSrVze15bEk",
+      "model": "claude-sonnet-4-20250514",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 586,
+       "output_tokens": 41,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--723d93f1-9214-4800-91d4-5559ebc4c992-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "die halbe Miete"
+        ]
+       },
+       "id": "toolu_01DbWVyYk2xpCY4oh4Nj8i5z",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 586,
+      "output_tokens": 41,
+      "total_tokens": 627,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "die halbe Miete"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.",
+  "tokens": [
+   "Das ",
+   "war ",
+   "eine ",
+   "ganz ",
+   "harmlose ",
+   "Bemerkung",
+   ". ",
+   "Daraus ",
+   "kann ",
+   "dir ",
+   "niemand ",
+   "einen ",
+   "Strick ",
+   "drehen",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "einen Strick drehen"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01YMY3BLLCZsfL1w2YjggCkm",
+       "input": {
+        "idioms": [
+         "einen Strick drehen"
+        ]
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01TUpjysrTRRggvx3GQBRLbg",
+      "model": "claude-sonnet-4-20250514",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 599,
+       "output_tokens": 41,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a097ca08-deb0-4460-9708-f1148cbe6dc4-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "einen Strick drehen"
+        ]
+       },
+       "id": "toolu_01YMY3BLLCZsfL1w2YjggCkm",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 599,
+      "output_tokens": 41,
+      "total_tokens": 640,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "einen Strick drehen"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?",
+  "tokens": [
+   "Völlig ",
+   "ausgeschlossen",
+   ", ",
+   "daß ",
+   "dieser ",
+   "Mann ",
+   "fünfundzwanzig ",
+   "Jahre ",
+   "nicht ",
+   "Schach ",
+   "gespielt ",
+   "haben ",
+   "soll",
+   "! ",
+   "Er ",
+   "hat ",
+   "doch ",
+   "jeden ",
+   "Zug",
+   ", ",
+   "jede ",
+   "Gegenpointe ",
+   "auf ",
+   "fünf",
+   ", ",
+   "auf ",
+   "sechs ",
+   "Züge ",
+   "vorausberechnet",
+   ". ",
+   "So ",
+   "etwas ",
+   "kann ",
+   "niemand ",
+   "aus ",
+   "dem ",
+   "Handgelenk",
+   ". ",
+   "Das ",
+   "ist ",
+   "doch ",
+   "völlig ",
+   "ausgeschlossen ",
+   "– ",
+   "nicht ",
+   "wahr",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "aus dem Handgelenk"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01M8DWgjGVvXYk58rKeaWmqt",
+       "input": {
+        "idioms": [
+         "aus dem Handgelenk"
+        ]
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_015AWRgSTbG81SA3ZNqXQfgz",
+      "model": "claude-sonnet-4-20250514",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 667,
+       "output_tokens": 42,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--3800dead-29af-4645-9b57-c6223ee18083-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "aus dem Handgelenk"
+        ]
+       },
+       "id": "toolu_01M8DWgjGVvXYk58rKeaWmqt",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 667,
+      "output_tokens": 42,
+      "total_tokens": 709,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "aus dem Handgelenk"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.",
+  "tokens": [
+   "Immer ",
+   "mit ",
+   "der ",
+   "Ruhe",
+   ", ",
+   "alter ",
+   "Knabe",
+   ", ",
+   "schön ",
+   "die ",
+   "Ruhe ",
+   "bewahren",
+   ", ",
+   "ermahnte ",
+   "ich ",
+   "mich",
+   ", ",
+   "während ",
+   "ich ",
+   "vom ",
+   "Roller ",
+   "stieg ",
+   "und ",
+   "ihn ",
+   "unangekettet ",
+   "vor ",
+   "dem ",
+   "Hôtel ",
+   "du ",
+   "Palais ",
+   "stehen ",
+   "ließ",
+   ". ",
+   "Die ",
+   "Sache ",
+   "war ",
+   "noch ",
+   "nicht ",
+   "in ",
+   "trockenen ",
+   "Tüchern",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "in trockenen Tüchern"
+  ],
+  "language": "german",
+  "responses": [
+   {
+    "raw": {
+     "content": [
+      {
+       "id": "toolu_01NQTcRQocntRDSoqrJmNghq",
+       "input": {
+        "idioms": [
+         "Immer mit der Ruhe",
+         "die Ruhe bewahren",
+         "in trockenen Tüchern"
+        ]
+       },
+       "name": "Idioms",
+       "type": "tool_use",
+       "caller": {
+        "type": "direct"
+       }
+      }
+     ],
+     "response_metadata": {
+      "id": "msg_01QFjBKALPoXPQ1nSgvfPVx6",
+      "model": "claude-sonnet-4-20250514",
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "input_tokens": 651,
+       "output_tokens": 63,
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "inference_geo": "not_available"
+      },
+      "stop_details": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--173bfa0f-1878-4101-af3a-3780eefb79c2-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "Idioms",
+       "args": {
+        "idioms": [
+         "Immer mit der Ruhe",
+         "die Ruhe bewahren",
+         "in trockenen Tüchern"
+        ]
+       },
+       "id": "toolu_01NQTcRQocntRDSoqrJmNghq",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 651,
+      "output_tokens": 63,
+      "total_tokens": 714,
+      "input_token_details": {
+       "cache_read": 0,
+       "cache_creation": 0
+      }
+     }
+    },
+    "parsed": {
+     "idioms": [
+      "Immer mit der Ruhe",
+      "die Ruhe bewahren",
+      "in trockenen Tüchern"
+     ]
+    }
+   }
+  ]
+ }
+]

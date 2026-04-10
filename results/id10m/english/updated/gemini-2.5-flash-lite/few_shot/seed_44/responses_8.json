@@ -1,0 +1,2421 @@
+﻿[
+ {
+  "sentence": "The bullet hit the book in his pocket.",
+  "tokens": [
+   "The ",
+   "bullet ",
+   "hit ",
+   "the ",
+   "book ",
+   "in ",
+   "his ",
+   "pocket",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--3e546ed3-d704-4d86-baa2-cdef7f79b314-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "idioms": []
+       },
+       "id": "1ebdbc65-8f15-45ea-8c92-1ecab11b7780",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 56,
+      "total_tokens": 1421,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6ab41001-5182-408d-977e-ed480967b347-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"hit the book\" can be interpreted literally as striking a physical book. In this sentence, the bullet directly impacted the book, so the usage is literal, not idiomatic.",
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [
+         "hit the book"
+        ],
+        "idioms": []
+       },
+       "id": "0e909730-f90b-4e5e-9a10-b808538ebb0f",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 78,
+      "total_tokens": 1443,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [
+      "hit the book"
+     ],
+     "explanation": "The phrase \"hit the book\" can be interpreted literally as striking a physical book. In this sentence, the bullet directly impacted the book, so the usage is literal, not idiomatic.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--54226b91-3b01-4ada-b705-43821adb5734-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"hit the book\" is not used in a figurative way in this sentence. The sentence describes a literal event where a bullet made contact with a book.",
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [
+         "hit the book"
+        ],
+        "idioms": []
+       },
+       "id": "bc12cb09-310f-4ad4-93f1-dfa94a87b838",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 73,
+      "total_tokens": 1438,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [
+      "hit the book"
+     ],
+     "explanation": "The phrase \"hit the book\" is not used in a figurative way in this sentence. The sentence describes a literal event where a bullet made contact with a book.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--052997ec-abe6-4aed-b89f-677a0900cbf4-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The sentence does not appear to contain any idiomatic expressions. The phrase \"hit the book\" could be considered idiomatic in some contexts (meaning to study hard), but here it is used literally, referring to a physical object being struck.",
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [],
+        "idioms": []
+       },
+       "id": "e8ba2cf3-2841-4d2a-98bb-39a749855125",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 84,
+      "total_tokens": 1449,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "The sentence does not appear to contain any idiomatic expressions. The phrase \"hit the book\" could be considered idiomatic in some contexts (meaning to study hard), but here it is used literally, referring to a physical object being struck.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--44422563-8265-4efb-b8cb-f24087775d77-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"hit the book\" is not used idiomatically here. The sentence literally describes a bullet striking a book.",
+        "sentence": "The bullet hit the book in his pocket.",
+        "potential_idioms": [
+         "hit the book"
+        ],
+        "idioms": []
+       },
+       "id": "55335bf8-661a-47b9-bfc7-f0543aec0f92",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 64,
+      "total_tokens": 1429,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [
+      "hit the book"
+     ],
+     "explanation": "The phrase \"hit the book\" is not used idiomatically here. The sentence literally describes a bullet striking a book.",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "balloons are floating up in the air.",
+  "tokens": [
+   "balloons ",
+   "are ",
+   "floating ",
+   "up ",
+   "in ",
+   "the ",
+   "air",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--5895ea86-3044-485c-a3f1-da557997f90d-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"floating up in the air\" in this context describes the literal action of balloons ascending due to buoyancy. There is no figurative or non-literal meaning implied, as balloons naturally float upwards when filled with a lighter-than-air gas. Therefore, the usage is literal.",
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [
+         "floating up in the air"
+        ],
+        "idioms": []
+       },
+       "id": "7a21bb64-268e-4729-83d4-eae18dcf52bf",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 99,
+      "total_tokens": 1464,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [
+      "floating up in the air"
+     ],
+     "explanation": "The phrase \"floating up in the air\" in this context describes the literal action of balloons ascending due to buoyancy. There is no figurative or non-literal meaning implied, as balloons naturally float upwards when filled with a lighter-than-air gas. Therefore, the usage is literal.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0775098c-d404-4d8d-806a-3c230df7a0ba-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"floating up in the air\" can be used literally to describe balloons. In this sentence, the balloons are indeed physically floating up in the air. Therefore, the usage is literal, not idiomatic.",
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [
+         "floating up in the air"
+        ],
+        "idioms": []
+       },
+       "id": "23bd3410-f00a-40f3-beb7-4bb27aaf99d6",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 85,
+      "total_tokens": 1450,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [
+      "floating up in the air"
+     ],
+     "explanation": "The phrase \"floating up in the air\" can be used literally to describe balloons. In this sentence, the balloons are indeed physically floating up in the air. Therefore, the usage is literal, not idiomatic.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0f19c6f5-ec9c-42bb-aee1-af6452b909fa-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"floating up in the air\" in this context literally describes the physical action of balloons ascending. There is no figurative or metaphorical meaning implied, as the balloons are actually in the air. Therefore, this is not an idiom.",
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [
+         "floating up in the air"
+        ],
+        "idioms": []
+       },
+       "id": "84f823d9-e302-4818-a971-d28926faca1a",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 89,
+      "total_tokens": 1454,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [
+      "floating up in the air"
+     ],
+     "explanation": "The phrase \"floating up in the air\" in this context literally describes the physical action of balloons ascending. There is no figurative or metaphorical meaning implied, as the balloons are actually in the air. Therefore, this is not an idiom.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--84fd70c3-e04d-45e8-9c23-d90309d9ef23-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"floating up in the air\" in this sentence is used in its literal sense. Balloons, by their nature, float upwards in the air due to their buoyancy. There is no metaphorical or non-literal meaning being conveyed.",
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [
+         "floating up in the air"
+        ],
+        "idioms": []
+       },
+       "id": "07d4d223-4d9a-4bd4-9556-277742d035ae",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 89,
+      "total_tokens": 1454,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [
+      "floating up in the air"
+     ],
+     "explanation": "The phrase \"floating up in the air\" in this sentence is used in its literal sense. Balloons, by their nature, float upwards in the air due to their buoyancy. There is no metaphorical or non-literal meaning being conveyed.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--48072fae-2e41-4d13-8eca-06c65a9d1b02-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"floating up in the air\" in this sentence describes the literal action of balloons rising in the atmosphere due to their buoyancy. It does not carry a figurative or metaphorical meaning, as balloons genuinely move upwards in the air. Therefore, this usage is literal, not idiomatic.",
+        "sentence": "balloons are floating up in the air.",
+        "potential_idioms": [
+         "floating up in the air"
+        ],
+        "idioms": []
+       },
+       "id": "b25b599d-682f-4275-93e3-fc0565ffd8d1",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 99,
+      "total_tokens": 1464,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [
+      "floating up in the air"
+     ],
+     "explanation": "The phrase \"floating up in the air\" in this sentence describes the literal action of balloons rising in the atmosphere due to their buoyancy. It does not carry a figurative or metaphorical meaning, as balloons genuinely move upwards in the air. Therefore, this usage is literal, not idiomatic.",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I love bread and butter for breakfast.",
+  "tokens": [
+   "I ",
+   "love ",
+   "bread ",
+   "and ",
+   "butter ",
+   "for ",
+   "breakfast",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--5566b5d3-1079-4ba4-b8dd-1d22cae273d4-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bread and butter\" literally refers to a type of food. In this sentence, it is used in its literal sense to describe a breakfast item. Therefore, it is not an idiom.",
+        "sentence": "I love bread and butter for breakfast.",
+        "potential_idioms": [
+         "bread and butter"
+        ],
+        "idioms": []
+       },
+       "id": "998c14fb-f4f9-4539-87a9-fd8d9d598b87",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1364,
+      "output_tokens": 79,
+      "total_tokens": 1443,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [
+      "bread and butter"
+     ],
+     "explanation": "The phrase \"bread and butter\" literally refers to a type of food. In this sentence, it is used in its literal sense to describe a breakfast item. Therefore, it is not an idiom.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--07bed57b-059c-4819-9d7e-a2ed5de9056c-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bread and butter\" in this sentence refers to a common and simple breakfast food. The individual words \"bread\" and \"butter\" retain their literal meanings, and the phrase as a whole does not convey a non-literal or metaphorical meaning. Therefore, its usage here is literal.",
+        "sentence": "I love bread and butter for breakfast.",
+        "potential_idioms": [
+         "bread and butter"
+        ],
+        "idioms": []
+       },
+       "id": "cc913480-57d7-4af6-83d7-e7d64c2152e3",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1364,
+      "output_tokens": 98,
+      "total_tokens": 1462,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [
+      "bread and butter"
+     ],
+     "explanation": "The phrase \"bread and butter\" in this sentence refers to a common and simple breakfast food. The individual words \"bread\" and \"butter\" retain their literal meanings, and the phrase as a whole does not convey a non-literal or metaphorical meaning. Therefore, its usage here is literal.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1f700b41-2bff-4953-9c03-8e522180fb86-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bread and butter\" in this context refers to a simple, staple food item for breakfast. While \"bread and butter\" can be used idiomatically to mean one's main source of income, here it is used in its literal sense to describe the food itself. Therefore, its usage is literal, not figurative.",
+        "sentence": "I love bread and butter for breakfast.",
+        "potential_idioms": [
+         "bread and butter"
+        ],
+        "idioms": []
+       },
+       "id": "4305f97b-e0ec-4540-82b0-670a5ad98f9b",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1364,
+      "output_tokens": 105,
+      "total_tokens": 1469,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [
+      "bread and butter"
+     ],
+     "explanation": "The phrase \"bread and butter\" in this context refers to a simple, staple food item for breakfast. While \"bread and butter\" can be used idiomatically to mean one's main source of income, here it is used in its literal sense to describe the food itself. Therefore, its usage is literal, not figurative.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--9d28459b-0dfd-4489-beac-fc8f709e8a75-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The expression \"bread and butter\" literally refers to slices of bread with butter spread on them. In the sentence provided, the speaker is expressing a liking for this food item for breakfast. There is no indication of a figurative or non-literal meaning; thus, the usage is literal.",
+        "sentence": "I love bread and butter for breakfast.",
+        "potential_idioms": [
+         "bread and butter"
+        ],
+        "idioms": []
+       },
+       "id": "e059ac0e-9e74-41d8-ba87-a11d19184561",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1364,
+      "output_tokens": 96,
+      "total_tokens": 1460,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [
+      "bread and butter"
+     ],
+     "explanation": "The expression \"bread and butter\" literally refers to slices of bread with butter spread on them. In the sentence provided, the speaker is expressing a liking for this food item for breakfast. There is no indication of a figurative or non-literal meaning; thus, the usage is literal.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6bb68ff2-0cfd-47b9-a86a-b30f0c78a952-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bread and butter\" can be used idiomatically to refer to someone's main source of income or livelihood. However, in this sentence, it is used literally to describe a common breakfast food. Therefore, its usage here is literal, not idiomatic.",
+        "sentence": "I love bread and butter for breakfast.",
+        "potential_idioms": [
+         "bread and butter"
+        ],
+        "idioms": []
+       },
+       "id": "69f42ad9-107e-43c3-bcd6-043a4ac11de9",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1364,
+      "output_tokens": 93,
+      "total_tokens": 1457,
+      "input_token_details": {
+       "cache_read": 860
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [
+      "bread and butter"
+     ],
+     "explanation": "The phrase \"bread and butter\" can be used idiomatically to refer to someone's main source of income or livelihood. However, in this sentence, it is used literally to describe a common breakfast food. Therefore, its usage here is literal, not idiomatic.",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Ostriches bury their head in the sand.",
+  "tokens": [
+   "Ostriches ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--9c8c491d-d9d2-4542-a554-767d5ab6ba87-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bury their head in the sand\" is an idiom that means to ignore an unpleasant reality or to refuse to confront a problem. In the context of the sentence, it is used figuratively to describe the ostrich's behavior, implying that the bird is ignoring its surroundings or danger. This is a well-known idiom.",
+        "sentence": "Ostriches bury their head in the sand.",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "f69bf215-f4c4-4994-99c0-f7051b174d84",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 116,
+      "total_tokens": 1481,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase \"bury their head in the sand\" is an idiom that means to ignore an unpleasant reality or to refuse to confront a problem. In the context of the sentence, it is used figuratively to describe the ostrich's behavior, implying that the bird is ignoring its surroundings or danger. This is a well-known idiom.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f1a34e2a-6dc8-4c44-a7f7-836c566b920e-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bury their head in the sand\" is an idiom that means to ignore an unpleasant reality or problem, or to pretend that something unpleasant is not happening. In this sentence, it is used figuratively to describe the ostrich's behavior, implying a denial of reality.",
+        "sentence": "Ostriches bury their head in the sand.",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "378d5c5e-823e-478d-a546-3bc456d2dfa4",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 105,
+      "total_tokens": 1470,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase \"bury their head in the sand\" is an idiom that means to ignore an unpleasant reality or problem, or to pretend that something unpleasant is not happening. In this sentence, it is used figuratively to describe the ostrich's behavior, implying a denial of reality.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e0f0e4a9-de7b-4c27-90f6-5722bf209cd2-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bury their head in the sand\" is used figuratively to describe someone who is ignoring an unpleasant reality or a dangerous situation. Ostriches, in reality, do not bury their heads in the sand; this is a common misconception. Therefore, in this sentence, the idiom is used figuratively.",
+        "sentence": "Ostriches bury their head in the sand.",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "25b2eb46-4bbb-4849-ae77-9dc5b9eb2a80",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 110,
+      "total_tokens": 1475,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase \"bury their head in the sand\" is used figuratively to describe someone who is ignoring an unpleasant reality or a dangerous situation. Ostriches, in reality, do not bury their heads in the sand; this is a common misconception. Therefore, in this sentence, the idiom is used figuratively.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ddba0add-6efc-41eb-b087-997fddd01a67-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bury their head in the sand\" is used figuratively to describe someone who is deliberately ignoring an unpleasant reality. In the context of ostriches, it is a literal description of their behavior when they feel threatened, as they lower their heads to the ground, making their bodies less conspicuous. Therefore, the usage here is literal, not idiomatic.",
+        "sentence": "Ostriches bury their head in the sand.",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": []
+       },
+       "id": "c659fdad-1897-481b-b6ed-b43674b53f70",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 114,
+      "total_tokens": 1479,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase \"bury their head in the sand\" is used figuratively to describe someone who is deliberately ignoring an unpleasant reality. In the context of ostriches, it is a literal description of their behavior when they feel threatened, as they lower their heads to the ground, making their bodies less conspicuous. Therefore, the usage here is literal, not idiomatic.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--14e2aaab-9f7b-45e3-8d0d-cfc5317ad695-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bury their head in the sand\" is used figuratively to describe someone who is deliberately ignoring an unpleasant reality or a difficult problem. In the context of ostriches, it refers to their actual behavior of lowering their heads to the ground, which can create the illusion of burying their head. However, the common understanding and usage of this idiom relate to willful ignorance rather than the literal action of an ostrich.",
+        "sentence": "Ostriches bury their head in the sand.",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "b07ff370-30aa-4787-8527-a803bc1cc36a",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1365,
+      "output_tokens": 132,
+      "total_tokens": 1497,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase \"bury their head in the sand\" is used figuratively to describe someone who is deliberately ignoring an unpleasant reality or a difficult problem. In the context of ostriches, it refers to their actual behavior of lowering their heads to the ground, which can create the illusion of burying their head. However, the common understanding and usage of this idiom relate to willful ignorance rather than the literal action of an ostrich.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Do some animals really bury their head in the sand?",
+  "tokens": [
+   "Do ",
+   "some ",
+   "animals ",
+   "really ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--02ee5e08-b609-4272-959b-c842e9c87e43-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bury their head in the sand\" is an idiom. It describes someone who is avoiding a situation or problem by pretending it does not exist, much like ostriches are perceived to do when they bury their heads in the sand. In the sentence, the question is whether animals literally do this, implying the idiomatic meaning is being questioned.",
+        "sentence": "Do some animals really bury their head in the sand?",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "3837577c-7cdb-40a9-aa21-7456d5d6642f",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1367,
+      "output_tokens": 123,
+      "total_tokens": 1490,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase \"bury their head in the sand\" is an idiom. It describes someone who is avoiding a situation or problem by pretending it does not exist, much like ostriches are perceived to do when they bury their heads in the sand. In the sentence, the question is whether animals literally do this, implying the idiomatic meaning is being questioned.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--33c97e1c-777b-4533-89b0-83f367752baa-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The idiom \"bury their head in the sand\" means to ignore an unpleasant reality or a problem. In this sentence, it is used figuratively to question whether animals actually exhibit this behavior when faced with danger, implying a metaphorical understanding of the phrase rather than a literal one.",
+        "sentence": "Do some animals really bury their head in the sand?",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "62064ac3-c008-4341-8102-6c39aad3e135",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1367,
+      "output_tokens": 107,
+      "total_tokens": 1474,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The idiom \"bury their head in the sand\" means to ignore an unpleasant reality or a problem. In this sentence, it is used figuratively to question whether animals actually exhibit this behavior when faced with danger, implying a metaphorical understanding of the phrase rather than a literal one.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6ff69a12-588c-4c3c-a0a0-0f16453f0276-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bury their head in the sand\" is an idiom. It refers to someone ignoring an unpleasant reality or difficult situation rather than confronting it. In the context of the sentence, it is used figuratively to question whether animals exhibit this behavior, implying a metaphorical \"ignoring of reality\" rather than a literal act of burying their heads. Therefore, its usage here is idiomatic.",
+        "sentence": "Do some animals really bury their head in the sand?",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "ec972535-71c6-452a-ad2f-06bbec6a290a",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1367,
+      "output_tokens": 130,
+      "total_tokens": 1497,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase \"bury their head in the sand\" is an idiom. It refers to someone ignoring an unpleasant reality or difficult situation rather than confronting it. In the context of the sentence, it is used figuratively to question whether animals exhibit this behavior, implying a metaphorical \"ignoring of reality\" rather than a literal act of burying their heads. Therefore, its usage here is idiomatic.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2e14ac17-bdc9-465b-af3e-998e939eb1ab-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The idiom \"bury their head in the sand\" is used figuratively to describe someone who is ignoring an unpleasant reality or difficult situation. In this sentence, the question is asking if animals literally perform this action, implying a figurative interpretation is being questioned.",
+        "sentence": "Do some animals really bury their head in the sand?",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "31240269-4944-4511-9a82-78d4b4688733",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1367,
+      "output_tokens": 102,
+      "total_tokens": 1469,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The idiom \"bury their head in the sand\" is used figuratively to describe someone who is ignoring an unpleasant reality or difficult situation. In this sentence, the question is asking if animals literally perform this action, implying a figurative interpretation is being questioned.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--cfea4c2b-1325-423f-9bac-a568276d3946-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"bury their head in the sand\" is an idiom. It describes someone who deliberately ignores an unpleasant reality or problem, rather than facing it. In the context of the sentence, it is used figuratively to question whether animals actually exhibit this behavior, implying a comparison to humans who might ignore problems. Therefore, its usage is idiomatic/figurative.",
+        "sentence": "Do some animals really bury their head in the sand?",
+        "potential_idioms": [
+         "bury their head in the sand"
+        ],
+        "idioms": [
+         "bury their head in the sand"
+        ]
+       },
+       "id": "3b381bb5-51b9-4b17-85bd-926d8b8e095e",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1367,
+      "output_tokens": 125,
+      "total_tokens": 1492,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase \"bury their head in the sand\" is an idiom. It describes someone who deliberately ignores an unpleasant reality or problem, rather than facing it. In the context of the sentence, it is used figuratively to question whether animals actually exhibit this behavior, implying a comparison to humans who might ignore problems. Therefore, its usage is idiomatic/figurative.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I let the cat out of the bag about my new girlfriend.",
+  "tokens": [
+   "I ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "my ",
+   "new ",
+   "girlfriend",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--fbd31e3c-6ad4-4a4b-a3e9-cce72bbf1a81-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The idiom \"let the cat out of the bag\" is used figuratively here, meaning to reveal a secret. The literal meaning of letting a cat out of a bag is not intended.",
+        "sentence": "I let the cat out of the bag about my new girlfriend.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "b14c49b9-4e17-4d58-8147-17b567e63844",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 93,
+      "total_tokens": 1462,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The idiom \"let the cat out of the bag\" is used figuratively here, meaning to reveal a secret. The literal meaning of letting a cat out of a bag is not intended.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2a92078f-5328-4b95-a5f2-0fa6399e217f-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The idiom \"let the cat out of the bag\" means to reveal a secret, which is used figuratively in the sentence.",
+        "sentence": "I let the cat out of the bag about my new girlfriend.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "66a6aaca-48db-4db7-86e7-0cee4c0b15b2",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 81,
+      "total_tokens": 1450,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The idiom \"let the cat out of the bag\" means to reveal a secret, which is used figuratively in the sentence.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--14cce4da-ccb3-4da0-805a-9016838cdbb8-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "\"let the cat out of the bag\" is an idiom. It means to reveal a secret carelessly or by mistake. In the sentence, the speaker is revealing information about his new girlfriend, which was presumably meant to be kept secret. Therefore, the usage is figurative.",
+        "sentence": "I let the cat out of the bag about my new girlfriend.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "d358951d-6dbc-4060-b2c9-ca65eb217c9b",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 109,
+      "total_tokens": 1478,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "\"let the cat out of the bag\" is an idiom. It means to reveal a secret carelessly or by mistake. In the sentence, the speaker is revealing information about his new girlfriend, which was presumably meant to be kept secret. Therefore, the usage is figurative.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--3893a17b-520a-40ae-ac13-6cef48c8530b-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "\"Let the cat out of the bag\" is an idiom that means to reveal a secret accidentally. In the sentence, the speaker is revealing information about their new girlfriend, which was likely intended to be kept secret. Therefore, the usage is figurative.",
+        "sentence": "I let the cat out of the bag about my new girlfriend.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "8eaa44f8-d708-4e8c-9f5e-5e5f72aadbbd",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 105,
+      "total_tokens": 1474,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "\"Let the cat out of the bag\" is an idiom that means to reveal a secret accidentally. In the sentence, the speaker is revealing information about their new girlfriend, which was likely intended to be kept secret. Therefore, the usage is figurative.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--5a151800-dd16-43a5-9863-2093d6f8f8af-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "\"Let the cat out of the bag\" is an idiom that means to reveal a secret, often unintentionally. In this sentence, the speaker is revealing information about their new girlfriend, which was likely intended to be kept secret, thus fitting the idiomatic meaning.",
+        "sentence": "I let the cat out of the bag about my new girlfriend.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "5133ef24-7edf-4ebc-8d62-d13151461cd3",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 107,
+      "total_tokens": 1476,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "\"Let the cat out of the bag\" is an idiom that means to reveal a secret, often unintentionally. In this sentence, the speaker is revealing information about their new girlfriend, which was likely intended to be kept secret, thus fitting the idiomatic meaning.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Sam let the cat out of the bag about his new job.",
+  "tokens": [
+   "Sam ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "his ",
+   "new ",
+   "job",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--3d11aaf4-8705-445b-bd4a-4c60816e1985-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The idiom \"let the cat out of the bag\" means to reveal a secret, which is used figuratively in the sentence as Sam revealed information about his new job.",
+        "sentence": "Sentence:Sam let the cat out of the bag about his new job.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "9d1bf452-0d83-4044-96f6-63b90e4da264",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 91,
+      "total_tokens": 1460,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sentence:Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The idiom \"let the cat out of the bag\" means to reveal a secret, which is used figuratively in the sentence as Sam revealed information about his new job.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--3b06a820-b7c7-4797-a562-544f94588cc1-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The idiom \"let the cat out of the bag\" means to reveal a secret. In this sentence, Sam revealed information about his new job, which was likely intended to be kept secret, thus using the idiom figuratively.",
+        "sentence": "Sam let the cat out of the bag about his new job.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "553545bf-b00b-4222-a953-90ba4ea81252",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 100,
+      "total_tokens": 1469,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The idiom \"let the cat out of the bag\" means to reveal a secret. In this sentence, Sam revealed information about his new job, which was likely intended to be kept secret, thus using the idiom figuratively.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0b8e71bf-9b63-4941-97fe-0e6e9cefbbad-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"let the cat out of the bag\" is an idiom. It means to reveal a secret, often unintentionally. In the given sentence, Sam revealed information about his new job, which was likely intended to be kept secret until he was ready to share it. Therefore, the usage is figurative.",
+        "sentence": "Sentence:Sam let the cat out of the bag about his new job.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "115a0ecf-6cd3-48a7-b5f3-5fa289cda9c6",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 119,
+      "total_tokens": 1488,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sentence:Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase \"let the cat out of the bag\" is an idiom. It means to reveal a secret, often unintentionally. In the given sentence, Sam revealed information about his new job, which was likely intended to be kept secret until he was ready to share it. Therefore, the usage is figurative.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--8e9da687-d214-4dcf-9369-40f7aad5fc53-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The idiom \"let the cat out of the bag\" is used figuratively here, meaning to reveal a secret or surprise. The literal action of releasing a cat from a bag is not implied.",
+        "sentence": "Sentence:Sam let the cat out of the bag about his new job.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "69be302f-d0da-456f-8b2b-659faf926fcf",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 96,
+      "total_tokens": 1465,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sentence:Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The idiom \"let the cat out of the bag\" is used figuratively here, meaning to reveal a secret or surprise. The literal action of releasing a cat from a bag is not implied.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--dbc760fa-ea4c-4b71-bee0-3594d6f6baf2-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "\"Let the cat out of the bag\" is an idiom. It means to reveal a secret, often unintentionally. In this sentence, Sam revealed information about his new job, which was likely intended to be kept secret until he chose to share it. Therefore, its usage here is figurative.",
+        "sentence": "Sentence:Sam let the cat out of the bag about his new job.",
+        "potential_idioms": [
+         "let the cat out of the bag"
+        ],
+        "idioms": [
+         "let the cat out of the bag"
+        ]
+       },
+       "id": "466dd1cf-add8-4d57-93a9-ecc008da0710",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1369,
+      "output_tokens": 115,
+      "total_tokens": 1484,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sentence:Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "\"Let the cat out of the bag\" is an idiom. It means to reveal a secret, often unintentionally. In this sentence, Sam revealed information about his new job, which was likely intended to be kept secret until he chose to share it. Therefore, its usage here is figurative.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+  "tokens": [
+   "I ",
+   "think ",
+   "I ",
+   "do",
+   "n't ",
+   "need ",
+   "to ",
+   "tell ",
+   "you ",
+   "that",
+   ", ",
+   "actions ",
+   "speak ",
+   "louder ",
+   "than ",
+   "words",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "actions speak louder that words"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--51523a8a-dec8-4331-abef-991698682cb0-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The idiom \"actions speak louder than words\" means that what someone actually does is a better indicator of their feelings or intentions than what they say.",
+        "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+        "potential_idioms": [
+         "actions speak louder than words"
+        ],
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "id": "0793f26f-8172-42b4-bbb7-fb5d990131a2",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1374,
+      "output_tokens": 86,
+      "total_tokens": 1460,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The idiom \"actions speak louder than words\" means that what someone actually does is a better indicator of their feelings or intentions than what they say.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--97ccfca1-5146-4dd6-ace2-788763d56d03-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"actions speak louder than words\" is an idiom because it means that what someone actually does is more important and reveals their true intentions more than what they say. In the given sentence, this meaning is conveyed metaphorically, as the words themselves are not literally speaking louder than other words, but rather the actions that follow are being emphasized as more significant.",
+        "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+        "potential_idioms": [
+         "actions speak louder than words"
+        ],
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "id": "afa2e305-58b4-4359-9b27-1c21c3a335a9",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1374,
+      "output_tokens": 129,
+      "total_tokens": 1503,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase \"actions speak louder than words\" is an idiom because it means that what someone actually does is more important and reveals their true intentions more than what they say. In the given sentence, this meaning is conveyed metaphorically, as the words themselves are not literally speaking louder than other words, but rather the actions that follow are being emphasized as more significant.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7c1cb589-dbf7-4602-bcc7-ed6a749ddab1-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"actions speak louder than words\" is an idiom. It means that what someone actually does is more important and reveals their true intentions more than what they say.",
+        "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+        "potential_idioms": [
+         "actions speak louder than words"
+        ],
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "id": "9c24f4f9-a5b6-4f4f-a998-54fdfae60455",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1374,
+      "output_tokens": 91,
+      "total_tokens": 1465,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase \"actions speak louder than words\" is an idiom. It means that what someone actually does is more important and reveals their true intentions more than what they say.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e894f6c2-f196-4bbc-b848-8a22c6e6cdf1-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The phrase \"actions speak louder than words\" is an idiom because it means that what someone actually does is more important or reveals their true intentions more than what they say. In this sentence, the phrase is used figuratively to emphasize this point, rather than referring to the literal sound of actions versus words.",
+        "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+        "potential_idioms": [
+         "actions speak louder than words"
+        ],
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "id": "90fd649a-6f66-4b69-9e55-980612eecf4c",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1374,
+      "output_tokens": 117,
+      "total_tokens": 1491,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase \"actions speak louder than words\" is an idiom because it means that what someone actually does is more important or reveals their true intentions more than what they say. In this sentence, the phrase is used figuratively to emphasize this point, rather than referring to the literal sound of actions versus words.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "",
+     "response_metadata": {
+      "prompt_feedback": {
+       "block_reason": 0,
+       "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "safety_ratings": []
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1bb9dcf7-16b5-4b4c-b32f-d6ed78dab05c-0",
+     "example": false,
+     "tool_calls": [
+      {
+       "name": "IdiomsCoTBest",
+       "args": {
+        "explanation": "The idiom \"actions speak louder than words\" means that what someone actually does is more important and reveals their true intentions more than what they say. In this sentence, the phrase is used figuratively to emphasize this point, rather than in a literal sense of sound volume.",
+        "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+        "potential_idioms": [
+         "actions speak louder than words"
+        ],
+        "idioms": [
+         "actions speak louder than words"
+        ]
+       },
+       "id": "1cc321df-a918-48b3-8065-2d2620aae6ec",
+       "type": "tool_call"
+      }
+     ],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1374,
+      "output_tokens": 110,
+      "total_tokens": 1484,
+      "input_token_details": {
+       "cache_read": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The idiom \"actions speak louder than words\" means that what someone actually does is more important and reveals their true intentions more than what they say. In this sentence, the phrase is used figuratively to emphasize this point, rather than in a literal sense of sound volume.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   }
+  ]
+ }
+]

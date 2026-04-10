@@ -1,0 +1,2503 @@
+﻿[
+ {
+  "sentence": "The bullet hit the book in his pocket.",
+  "tokens": [
+   "The ",
+   "bullet ",
+   "hit ",
+   "the ",
+   "book ",
+   "in ",
+   "his ",
+   "pocket",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"The bullet hit the book in his pocket.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 44,
+       "prompt_tokens": 1620,
+       "total_tokens": 1664,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--36e487b9-7833-4ca9-9784-f81c384d106c-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1620,
+      "output_tokens": 44,
+      "total_tokens": 1664,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"The bullet hit the book in his pocket.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 44,
+       "prompt_tokens": 1620,
+       "total_tokens": 1664,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--899aa688-5f87-4544-ae46-9b4aa0c2980a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1620,
+      "output_tokens": 44,
+      "total_tokens": 1664,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"The bullet hit the book in his pocket.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. In this sentence, 'the bullet hit the book in his pocket' describes a literal event where a bullet strikes a book located in someone's pocket. There is no phrase in the sentence that has a figurative meaning different from the literal meanings of the words. Therefore, there are no idioms present in the sentence.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 110,
+       "prompt_tokens": 1620,
+       "total_tokens": 1730,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ec098e41-9198-4496-858f-08c6b0a51838-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1620,
+      "output_tokens": 110,
+      "total_tokens": 1730,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. In this sentence, 'the bullet hit the book in his pocket' describes a literal event where a bullet strikes a book located in someone's pocket. There is no phrase in the sentence that has a figurative meaning different from the literal meanings of the words. Therefore, there are no idioms present in the sentence.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"The bullet hit the book in his pocket.\",\"potential_idioms\":[],\"explanation\":\"The sentence describes a literal scenario where a bullet physically hit a book that was located in someone's pocket. There is no figurative or non-literal meaning conveyed, so there are no idioms present.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 65,
+       "prompt_tokens": 1620,
+       "total_tokens": 1685,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6ee19c9e-9e72-43f6-aa4f-e552e1dfdc0f-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1620,
+      "output_tokens": 65,
+      "total_tokens": 1685,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "The sentence describes a literal scenario where a bullet physically hit a book that was located in someone's pocket. There is no figurative or non-literal meaning conveyed, so there are no idioms present.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"The bullet hit the book in his pocket.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 44,
+       "prompt_tokens": 1620,
+       "total_tokens": 1664,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f6907269-9a0d-4da4-89bf-bc8c04bf3b15-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1620,
+      "output_tokens": 44,
+      "total_tokens": 1664,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "balloons are floating up in the air.",
+  "tokens": [
+   "balloons ",
+   "are ",
+   "floating ",
+   "up ",
+   "in ",
+   "the ",
+   "air",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"balloons are floating up in the air.\",\"potential_idioms\":[],\"explanation\":\"In this sentence, 'floating up in the air' is a literal description of balloons rising into the sky. There is no figurative or idiomatic expression used here; it's a straightforward statement of what's physically happening.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 68,
+       "prompt_tokens": 1621,
+       "total_tokens": 1689,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--664447d8-fe4d-4c17-ad44-6d96711861fe-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1621,
+      "output_tokens": 68,
+      "total_tokens": 1689,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "In this sentence, 'floating up in the air' is a literal description of balloons rising into the sky. There is no figurative or idiomatic expression used here; it's a straightforward statement of what's physically happening.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"balloons are floating up in the air.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 44,
+       "prompt_tokens": 1621,
+       "total_tokens": 1665,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2c8d8941-b8b0-4a7a-8317-0c4b88503d47-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1621,
+      "output_tokens": 44,
+      "total_tokens": 1665,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"balloons are floating up in the air.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 44,
+       "prompt_tokens": 1621,
+       "total_tokens": 1665,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e87e4494-73d4-4255-986c-53e3747add09-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1621,
+      "output_tokens": 44,
+      "total_tokens": 1665,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"balloons are floating up in the air.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 44,
+       "prompt_tokens": 1621,
+       "total_tokens": 1665,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--99e7ffb9-603d-4231-a6dc-5d02b7e01187-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1621,
+      "output_tokens": 44,
+      "total_tokens": 1665,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"balloons are floating up in the air.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 44,
+       "prompt_tokens": 1621,
+       "total_tokens": 1665,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--cac5d7c2-6145-4dd9-8bd0-68544c41d94d-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1621,
+      "output_tokens": 44,
+      "total_tokens": 1665,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I love bread and butter for breakfast.",
+  "tokens": [
+   "I ",
+   "love ",
+   "bread ",
+   "and ",
+   "butter ",
+   "for ",
+   "breakfast",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I love bread and butter for breakfast.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 43,
+       "prompt_tokens": 1619,
+       "total_tokens": 1662,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--53c707ea-1163-4538-8525-aa3e853f087a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1619,
+      "output_tokens": 43,
+      "total_tokens": 1662,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I love bread and butter for breakfast.\",\"potential_idioms\":[],\"explanation\":\"The phrase 'bread and butter' can be used idiomatically to refer to one's livelihood or basic means of support. However, in this sentence, it is used literally to describe a preference for food during breakfast. Therefore, it does not match the definition of an idiom in this context.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 83,
+       "prompt_tokens": 1619,
+       "total_tokens": 1702,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a9d8adaa-9665-48fa-81e7-3df10cbc95d9-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1619,
+      "output_tokens": 83,
+      "total_tokens": 1702,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "The phrase 'bread and butter' can be used idiomatically to refer to one's livelihood or basic means of support. However, in this sentence, it is used literally to describe a preference for food during breakfast. Therefore, it does not match the definition of an idiom in this context.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I love bread and butter for breakfast.\",\"potential_idioms\":[\"bread and butter\"],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. However, in this context, 'bread and butter' refers to the literal food items, not the idiom meaning basic means of support or livelihood.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 80,
+       "prompt_tokens": 1619,
+       "total_tokens": 1699,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--782b2bdd-db15-4aca-a0c5-2da513ebf01a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1619,
+      "output_tokens": 80,
+      "total_tokens": 1699,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [
+      "bread and butter"
+     ],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. However, in this context, 'bread and butter' refers to the literal food items, not the idiom meaning basic means of support or livelihood.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I love bread and butter for breakfast.\",\"potential_idioms\":[],\"explanation\":\"This sentence refers to the literal consumption of bread and butter as food for breakfast. There is no idiomatic meaning here, as 'bread and butter' in this context is not used metaphorically but rather refers to the actual items.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 70,
+       "prompt_tokens": 1619,
+       "total_tokens": 1689,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a9a79d2e-18f8-4851-b3c6-72b4f009a04a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1619,
+      "output_tokens": 70,
+      "total_tokens": 1689,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "This sentence refers to the literal consumption of bread and butter as food for breakfast. There is no idiomatic meaning here, as 'bread and butter' in this context is not used metaphorically but rather refers to the actual items.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I love bread and butter for breakfast.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the sentence. 'Bread and butter' can be an idiom meaning a basic means of support or livelihood, but in this sentence, it is used literally to refer to the actual food items, bread and butter, typically consumed for breakfast. Therefore, it is not idiomatic here.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 86,
+       "prompt_tokens": 1619,
+       "total_tokens": 1705,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--d233bf33-d76f-4954-b89c-2fc7c269406d-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1619,
+      "output_tokens": 86,
+      "total_tokens": 1705,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the sentence. 'Bread and butter' can be an idiom meaning a basic means of support or livelihood, but in this sentence, it is used literally to refer to the actual food items, bread and butter, typically consumed for breakfast. Therefore, it is not idiomatic here.",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Ostriches bury their head in the sand.",
+  "tokens": [
+   "Ostriches ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Ostriches bury their head in the sand.\",\"potential_idioms\":[\"bury their head in the sand\"],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. The phrase 'bury their head in the sand' is a common idiom that means to ignore unpleasant realities or to be in denial about a situation. In this sentence, it is used in a figurative manner, as ostriches do not literally bury their heads in the sand.\",\"idioms\":[\"bury their head in the sand\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 118,
+       "prompt_tokens": 1622,
+       "total_tokens": 1740,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1a03b849-91dc-460d-b87d-67af0e0aa85a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1622,
+      "output_tokens": 118,
+      "total_tokens": 1740,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. The phrase 'bury their head in the sand' is a common idiom that means to ignore unpleasant realities or to be in denial about a situation. In this sentence, it is used in a figurative manner, as ostriches do not literally bury their heads in the sand.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Ostriches bury their head in the sand.\",\"potential_idioms\":[\"bury their head in the sand\"],\"explanation\":\"The phrase 'bury their head in the sand' is an idiom. It means to ignore or avoid reality or a problem, hoping it will go away, even though this is not literally what ostriches do. In this context, if used metaphorically, it would suggest someone is ignoring a problem. However, if referring to the myth about the actual behavior of ostriches, it would be literal.\",\"idioms\":[\"bury their head in the sand\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 121,
+       "prompt_tokens": 1622,
+       "total_tokens": 1743,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0022629f-766f-4180-92ee-bcb046d366da-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1622,
+      "output_tokens": 121,
+      "total_tokens": 1743,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is an idiom. It means to ignore or avoid reality or a problem, hoping it will go away, even though this is not literally what ostriches do. In this context, if used metaphorically, it would suggest someone is ignoring a problem. However, if referring to the myth about the actual behavior of ostriches, it would be literal.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Ostriches bury their head in the sand.\",\"potential_idioms\":[\"bury their head in the sand\"],\"explanation\":\"In this sentence, 'bury their head in the sand' is a commonly used idiom that means to ignore or avoid facing a problem or reality. It is used figuratively to describe someone who refuses to acknowledge a difficult situation. Therefore, it matches the definition of an idiom as it conveys a metaphorical meaning different from the literal interpretation of the words.\",\"idioms\":[\"bury their head in the sand\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 112,
+       "prompt_tokens": 1622,
+       "total_tokens": 1734,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e68ce6d9-a248-4339-ad88-41b4edee5ba5-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1622,
+      "output_tokens": 112,
+      "total_tokens": 1734,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "In this sentence, 'bury their head in the sand' is a commonly used idiom that means to ignore or avoid facing a problem or reality. It is used figuratively to describe someone who refuses to acknowledge a difficult situation. Therefore, it matches the definition of an idiom as it conveys a metaphorical meaning different from the literal interpretation of the words.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Ostriches bury their head in the sand.\",\"potential_idioms\":[],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 45,
+       "prompt_tokens": 1622,
+       "total_tokens": 1667,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--dae86def-93e6-4689-bde0-71a8acee3d3a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1622,
+      "output_tokens": 45,
+      "total_tokens": 1667,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Ostriches bury their head in the sand.\",\"potential_idioms\":[\"bury their head in the sand\"],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. The phrase 'bury their head in the sand' is an idiom that means to ignore problems or refuse to confront or acknowledge difficult situations. It is used figuratively here, as the sentence suggests the idea of avoiding reality or responsibility, rather than actual physical behavior of ostriches.\",\"idioms\":[\"bury their head in the sand\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 118,
+       "prompt_tokens": 1622,
+       "total_tokens": 1740,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--339d78e8-cc68-47b4-8572-9e6e734cca37-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1622,
+      "output_tokens": 118,
+      "total_tokens": 1740,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. The phrase 'bury their head in the sand' is an idiom that means to ignore problems or refuse to confront or acknowledge difficult situations. It is used figuratively here, as the sentence suggests the idea of avoiding reality or responsibility, rather than actual physical behavior of ostriches.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Do some animals really bury their head in the sand?",
+  "tokens": [
+   "Do ",
+   "some ",
+   "animals ",
+   "really ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Do some animals really bury their head in the sand?\",\"potential_idioms\":[\"bury their head in the sand\"],\"explanation\":\"The phrase 'bury their head in the sand' is an idiom that typically means to ignore unpleasant realities or refuse to face problems. In this sentence, the context asks whether animals literally do this action, which touches on the idiom but in a literal sense. Thus, in this instance, the usage is questioning the literal behavior, not the figurative meaning. However, the idiom in the list reflects its common figurative understanding.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 123,
+       "prompt_tokens": 1623,
+       "total_tokens": 1746,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e89e8b92-8c5d-4fe6-ac30-de0a433603e6-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1623,
+      "output_tokens": 123,
+      "total_tokens": 1746,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is an idiom that typically means to ignore unpleasant realities or refuse to face problems. In this sentence, the context asks whether animals literally do this action, which touches on the idiom but in a literal sense. Thus, in this instance, the usage is questioning the literal behavior, not the figurative meaning. However, the idiom in the list reflects its common figurative understanding.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Do some animals really bury their head in the sand?\",\"potential_idioms\":[\"bury their head in the sand\"],\"explanation\":\"The phrase 'bury their head in the sand' is an idiom that refers to ignoring a problem or situation, pretending it doesn't exist. In the context of this sentence, it suggests questioning whether some animals literally ignore danger or problems by hiding, but it also invokes the idiomatic meaning of avoidance.\",\"idioms\":[\"bury their head in the sand\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 102,
+       "prompt_tokens": 1623,
+       "total_tokens": 1725,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--5e3449ef-3277-44bd-b387-d50825236f6a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1623,
+      "output_tokens": 102,
+      "total_tokens": 1725,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is an idiom that refers to ignoring a problem or situation, pretending it doesn't exist. In the context of this sentence, it suggests questioning whether some animals literally ignore danger or problems by hiding, but it also invokes the idiomatic meaning of avoidance.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Do some animals really bury their head in the sand?\",\"potential_idioms\":[\"bury their head in the sand\"],\"explanation\":\"The phrase 'bury their head in the sand' is often used idiomatically to describe the act of ignoring something unpleasant or avoiding facing reality. However, in this context, the sentence is questioning the literal action of animals burying their head in the sand, so it is not used idiomatically here.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 97,
+       "prompt_tokens": 1623,
+       "total_tokens": 1720,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--dc9c0074-1b53-440d-b3c9-91b2e8dd313d-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1623,
+      "output_tokens": 97,
+      "total_tokens": 1720,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is often used idiomatically to describe the act of ignoring something unpleasant or avoiding facing reality. However, in this context, the sentence is questioning the literal action of animals burying their head in the sand, so it is not used idiomatically here.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Do some animals really bury their head in the sand?\",\"potential_idioms\":[\"bury their head in the sand\"],\"explanation\":\"Let's analyze the expression 'bury their head in the sand.' This phrase is commonly used as an idiom to describe a person who refuses to confront or acknowledge a problem by pretending it doesn't exist, like an ostrich supposedly burying its head in the sand to avoid danger. However, in the context of the sentence, it is used literally to inquire about the behavior of animals, specifically whether they actually perform this action. Therefore, the usage in this context is literal.\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 129,
+       "prompt_tokens": 1623,
+       "total_tokens": 1752,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0cc3c812-0f28-4723-b3ac-c971db492b3b-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1623,
+      "output_tokens": 129,
+      "total_tokens": 1752,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "Let's analyze the expression 'bury their head in the sand.' This phrase is commonly used as an idiom to describe a person who refuses to confront or acknowledge a problem by pretending it doesn't exist, like an ostrich supposedly burying its head in the sand to avoid danger. However, in the context of the sentence, it is used literally to inquire about the behavior of animals, specifically whether they actually perform this action. Therefore, the usage in this context is literal.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Do some animals really bury their head in the sand?\",\"potential_idioms\":[\"bury their head in the sand\"],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 54,
+       "prompt_tokens": 1623,
+       "total_tokens": 1677,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_8706f899b3",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a1e539b7-b344-4ec3-ae2e-89e3090d797f-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1623,
+      "output_tokens": 54,
+      "total_tokens": 1677,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I let the cat out of the bag about my new girlfriend.",
+  "tokens": [
+   "I ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "my ",
+   "new ",
+   "girlfriend",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I let the cat out of the bag about my new girlfriend.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"The expression 'let the cat out of the bag' is an idiom that means to reveal a secret or disclose information unintentionally. In this sentence, it is used figuratively to indicate that the speaker accidentally revealed the information about having a new girlfriend.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 96,
+       "prompt_tokens": 1624,
+       "total_tokens": 1720,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--d0e5c040-21ea-4e25-b8bf-fd9e063bbb74-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1624,
+      "output_tokens": 96,
+      "total_tokens": 1720,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The expression 'let the cat out of the bag' is an idiom that means to reveal a secret or disclose information unintentionally. In this sentence, it is used figuratively to indicate that the speaker accidentally revealed the information about having a new girlfriend.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I let the cat out of the bag about my new girlfriend.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"The idiom 'let the cat out of the bag' is used in a figurative sense here to mean 'to reveal a secret or disclose information unintentionally.' It doesn't literally mean releasing a cat from a bag.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 89,
+       "prompt_tokens": 1624,
+       "total_tokens": 1713,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a675b0a0-26ae-447f-ae2f-30544cfd0a73-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1624,
+      "output_tokens": 89,
+      "total_tokens": 1713,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The idiom 'let the cat out of the bag' is used in a figurative sense here to mean 'to reveal a secret or disclose information unintentionally.' It doesn't literally mean releasing a cat from a bag.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I let the cat out of the bag about my new girlfriend.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret or disclose information that was supposed to be kept confidential. In this context, it is used figuratively to indicate that the speaker accidentally revealed information about their new girlfriend.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 98,
+       "prompt_tokens": 1624,
+       "total_tokens": 1722,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--19eabf04-6693-4641-99c9-6db74904e26b-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1624,
+      "output_tokens": 98,
+      "total_tokens": 1722,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret or disclose information that was supposed to be kept confidential. In this context, it is used figuratively to indicate that the speaker accidentally revealed information about their new girlfriend.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I let the cat out of the bag about my new girlfriend.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret or disclose information that was intended to be kept confidential. In the context of the sentence, it is used figuratively to indicate that the speaker accidentally revealed information about their new girlfriend.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 102,
+       "prompt_tokens": 1624,
+       "total_tokens": 1726,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6b53cfc9-22ad-408f-87bc-dd705c2898ab-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1624,
+      "output_tokens": 102,
+      "total_tokens": 1726,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret or disclose information that was intended to be kept confidential. In the context of the sentence, it is used figuratively to indicate that the speaker accidentally revealed information about their new girlfriend.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I let the cat out of the bag about my new girlfriend.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"The phrase 'let the cat out of the bag' is an idiom. It does not literally mean releasing a cat from a bag, but rather it figuratively means to reveal a secret or disclose information that was intended to be kept confidential. In this context, it means the speaker inadvertently revealed the secret about having a new girlfriend.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 112,
+       "prompt_tokens": 1624,
+       "total_tokens": 1736,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--52db6485-8da2-429d-8a51-07db7b534ff2-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1624,
+      "output_tokens": 112,
+      "total_tokens": 1736,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom. It does not literally mean releasing a cat from a bag, but rather it figuratively means to reveal a secret or disclose information that was intended to be kept confidential. In this context, it means the speaker inadvertently revealed the secret about having a new girlfriend.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Sam let the cat out of the bag about his new job.",
+  "tokens": [
+   "Sam ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "his ",
+   "new ",
+   "job",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Sam let the cat out of the bag about his new job.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"The phrase 'let the cat out of the bag' is an idiom. It means to reveal a secret or disclose information unintentionally. In this context, Sam unintentionally revealed information about his new job, which aligns with the idiomatic meaning.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 95,
+       "prompt_tokens": 1625,
+       "total_tokens": 1720,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2eed29a4-c871-4bd8-bf40-4ab6fa2e6377-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1625,
+      "output_tokens": 95,
+      "total_tokens": 1720,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom. It means to reveal a secret or disclose information unintentionally. In this context, Sam unintentionally revealed information about his new job, which aligns with the idiomatic meaning.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Sam let the cat out of the bag about his new job.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret or disclose information that was supposed to be confidential.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 75,
+       "prompt_tokens": 1625,
+       "total_tokens": 1700,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--b400d749-0596-4756-9916-dceadeb858ca-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1625,
+      "output_tokens": 75,
+      "total_tokens": 1700,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret or disclose information that was supposed to be confidential.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Sam let the cat out of the bag about his new job.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret or disclose information that was supposed to be kept confidential. In this sentence, it is used figuratively to imply that Sam unintentionally revealed information about his new job.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 99,
+       "prompt_tokens": 1625,
+       "total_tokens": 1724,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--dbbc2045-76f7-4306-893d-7063d58db5d9-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1625,
+      "output_tokens": 99,
+      "total_tokens": 1724,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret or disclose information that was supposed to be kept confidential. In this sentence, it is used figuratively to imply that Sam unintentionally revealed information about his new job.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Sam let the cat out of the bag about his new job.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. 'Let the cat out of the bag' is a common idiomatic expression meaning to reveal a secret or a surprise by accident. In this context, Sam unintentionally disclosed information about his new job, hence using the expression in a figurative sense.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 117,
+       "prompt_tokens": 1625,
+       "total_tokens": 1742,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_8706f899b3",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--209e37ef-672d-4417-a0a6-e8dabf42811e-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1625,
+      "output_tokens": 117,
+      "total_tokens": 1742,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition of an idiom. 'Let the cat out of the bag' is a common idiomatic expression meaning to reveal a secret or a surprise by accident. In this context, Sam unintentionally disclosed information about his new job, hence using the expression in a figurative sense.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"Sam let the cat out of the bag about his new job.\",\"potential_idioms\":[\"let the cat out of the bag\"],\"explanation\":\"The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret or disclose information that was intended to be kept confidential. In this context, Sam revealed information about his new job that was likely meant to be a secret, making the usage figurative.\",\"idioms\":[\"let the cat out of the bag\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 102,
+       "prompt_tokens": 1625,
+       "total_tokens": 1727,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2743aa59-a6bd-4d8d-b17f-3a1dcb51f8c8-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1625,
+      "output_tokens": 102,
+      "total_tokens": 1727,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret or disclose information that was intended to be kept confidential. In this context, Sam revealed information about his new job that was likely meant to be a secret, making the usage figurative.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+  "tokens": [
+   "I ",
+   "think ",
+   "I ",
+   "do",
+   "n't ",
+   "need ",
+   "to ",
+   "tell ",
+   "you ",
+   "that",
+   ", ",
+   "actions ",
+   "speak ",
+   "louder ",
+   "than ",
+   "words",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "actions speak louder that words"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I think I don't need to tell you that, actions speak louder than words.\",\"potential_idioms\":[\"actions speak louder than words\"],\"explanation\":\"The phrase 'actions speak louder than words' is an idiom. It means that what someone actually does is more important and shows their true intentions or beliefs more than what they say. In this context, it is used idiomatically to suggest that actions are a more significant indicator than verbal promises.\",\"idioms\":[\"actions speak louder than words\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 104,
+       "prompt_tokens": 1627,
+       "total_tokens": 1731,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--58b24736-fdab-4e49-9d37-3fc8ffb06f59-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1627,
+      "output_tokens": 104,
+      "total_tokens": 1731,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase 'actions speak louder than words' is an idiom. It means that what someone actually does is more important and shows their true intentions or beliefs more than what they say. In this context, it is used idiomatically to suggest that actions are a more significant indicator than verbal promises.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I think I don't need to tell you that, actions speak louder than words.\",\"potential_idioms\":[\"actions speak louder than words\"],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[\"actions speak louder than words\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 63,
+       "prompt_tokens": 1627,
+       "total_tokens": 1690,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--5b514e9e-b22b-442d-a0e3-c25d126b1d20-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1627,
+      "output_tokens": 63,
+      "total_tokens": 1690,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I think I don't need to tell you that, actions speak louder than words.\",\"potential_idioms\":[\"actions speak louder than words\"],\"explanation\":\"The phrase 'actions speak louder than words' is an idiom meaning that what someone actually does means more and is more important than what they say they will do. In this context, the phrase is used figuratively to emphasize the importance of actions over mere words.\",\"idioms\":[\"actions speak louder than words\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 97,
+       "prompt_tokens": 1627,
+       "total_tokens": 1724,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e7995d45-464f-4348-8bb3-7dabc09fb614-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1627,
+      "output_tokens": 97,
+      "total_tokens": 1724,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase 'actions speak louder than words' is an idiom meaning that what someone actually does means more and is more important than what they say they will do. In this context, the phrase is used figuratively to emphasize the importance of actions over mere words.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I think I don't need to tell you that, actions speak louder than words.\",\"potential_idioms\":[\"actions speak louder than words\"],\"explanation\":\"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\"idioms\":[\"actions speak louder than words\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 63,
+       "prompt_tokens": 1627,
+       "total_tokens": 1690,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1536
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--8a6744b9-6f93-4bea-9c6c-9171fa92e2d3-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1627,
+      "output_tokens": 63,
+      "total_tokens": 1690,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1536
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\":\"I think I don't need to tell you that, actions speak louder than words.\",\"potential_idioms\":[\"actions speak louder than words\"],\"explanation\":\"\\\"Actions speak louder than words\\\" is an idiom meaning that what people do has a stronger impact or is more significant than what they say. In this context, the phrase is used figuratively to emphasize that actions are more convincing or meaningful than just verbal promises.\",\"idioms\":[\"actions speak louder than words\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 97,
+       "prompt_tokens": 1627,
+       "total_tokens": 1724,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1024
+       }
+      },
+      "model_name": "gpt-4o-2024-08-06",
+      "system_fingerprint": "fp_02e9bb85b6",
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7013835d-2394-4b2b-b08b-df23dd89ffd1-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1627,
+      "output_tokens": 97,
+      "total_tokens": 1724,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 1024
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "\"Actions speak louder than words\" is an idiom meaning that what people do has a stronger impact or is more significant than what they say. In this context, the phrase is used figuratively to emphasize that actions are more convincing or meaningful than just verbal promises.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   }
+  ]
+ }
+]

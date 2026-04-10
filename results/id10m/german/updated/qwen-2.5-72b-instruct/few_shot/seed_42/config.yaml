@@ -1,0 +1,13 @@
+batched: true
+debug: false
+experiment_start_timestamp: '2026-04-10 22:59:06'
+lang: german
+model: qwen/qwen-2.5-72b-instruct
+num_samples: 5
+prompt_type: few_shot_cot_best
+sc_runs: 5
+seed: 42
+shots: 10
+task: id10m
+temperature: 0.8
+use_rate_limiter: false

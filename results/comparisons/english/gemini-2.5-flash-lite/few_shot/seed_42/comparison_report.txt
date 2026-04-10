@@ -1,0 +1,1375 @@
+ID10M vs Hard_idioms Comparison Report
+==================================================
+
+OVERALL PERFORMANCE METRICS (matched sentences only)
+------------------------------
+ID10M Dataset:
+  Total sentences: 187
+  Accuracy:   0.893
+  Precision:  0.955
+  Recall:     0.919
+  Specificity:0.741
+  F1-Score:   0.936
+  Bal. Acc:   0.830
+  MCC:        0.608
+  TP:147  TN:20  FP:7  FN:13
+
+Hard_idioms Dataset (variants of matched sentences):
+  Total rows:  561
+  Accuracy:   0.847
+  Precision:  0.870
+  Recall:     0.965
+  Specificity:0.148
+  F1-Score:   0.915
+  Bal. Acc:   0.556
+  MCC:        0.179
+  TP:463  TN:12  FP:69  FN:17
+
+CONTEXT EFFECTS SUMMARY
+-------------------------
+Total matched sentences: 187
+Context helped: 9 (4.8%)
+Context hurt:   13 (7.0%)
+Mixed:          15 (8.0%)
+No change:      150 (80.2%)
+
+ADVANCED CONTEXT-CONFUSION METRICS
+-----------------------------------
+Context Degradation Index (CDI): 0.052  (5.2% relative drop)
+Variant Consistency Score (VCS): 0.948
+Context Confusion Rate (CCR):    0.098  (9.8% of predictions turned wrong)
+Literal-to-Idiom Flip Rate (LIFR): 1.000
+Error Amplification Factor (EAF): 1.433
+Phrase Overlap Confusion Rate:   0.123
+Confusion Resistance Score:      0.329
+Avg Prediction Stability Index:  0.117
+
+VARIANT-LEVEL STATS
+--------------------
+Avg confusion rate: 0.153
+Median:             0.000
+Highly vulnerable (≥80%): 23
+Moderately vulnerable:    2
+Resistant (<40%):         162
+
+DETAILED CONFUSION ANALYSIS (id10m-correct sentences only)
+==================================================
+Sentences analyzed: 167
+Total variants:     501
+Confused variants:  55 (11.0%)
+  Sentences with any confusion:  27
+  Sentences all-confused:        13
+  Sentences never confused:      140
+
+Literal variants:   60 total, 48 confused (80.0%)
+Idiomatic variants: 441 total, 7 confused (1.6%)
+
+PER-IDIOM CONFUSION RATES
+-------------------------
+Idiom                                     Conf   Tot    Rate
+------------------------------------------------------------
+in the red                                   1     3   33.3%
+cut the mustard                              1     3   33.3%
+on the mend                                  1     3   33.3%
+bad blood                                    1     3   33.3%
+off the hook                                 1     3   33.3%
+beating a dead horse                         1     3   33.3%
+top banana                                   1     6   16.7%
+break the ice                                0     6    0.0%
+piece of cake                                0     3    0.0%
+under the weather                            0     3    0.0%
+to add insult to the injury                  0     3    0.0%
+break a leg                                  0     3    0.0%
+killed two birds with one stone              0     3    0.0%
+call it a day                                0     6    0.0%
+no pain no gain                              0     3    0.0%
+once in a blue moon                          0     6    0.0%
+when pigs fly                                0     6    0.0%
+turn a blind eye                             0     3    0.0%
+beating around the bush                      0     6    0.0%
+spill the beans                              0     3    0.0%
+it 's not rocket science                     0     3    0.0%
+better late than never                       0     3    0.0%
+comparing apples to oranges                  0     3    0.0%
+raining cats and dogs                        0     3    0.0%
+walking on air                               0     3    0.0%
+go dutch                                     0     3    0.0%
+got a kick out of                            0     3    0.0%
+hold a candle                                0     3    0.0%
+hold a grudge                                0     3    0.0%
+light a fire under                           0     3    0.0%
+get a move on                                0     3    0.0%
+kicked the bucket                            0     3    0.0%
+turn over a new leaf                         0     3    0.0%
+glass ceiling                                0     3    0.0%
+on the bubble                                0     3    0.0%
+from scratch                                 0     6    0.0%
+came out of the closet                       0     3    0.0%
+home away from home                          0     3    0.0%
+bundle of joy                                0     3    0.0%
+silver screen                                0     3    0.0%
+bad news                                     0     3    0.0%
+dutch courage                                0     6    0.0%
+against the grain                            0     6    0.0%
+babe magnet                                  0     3    0.0%
+second fiddle                                0     3    0.0%
+pay the fiddler                              0     3    0.0%
+crocodile tears                              0     3    0.0%
+in the nick of time                          0     3    0.0%
+on fire                                      0     3    0.0%
+on the game                                  0     3    0.0%
+white trash                                  0     3    0.0%
+cold day in hell                             0     3    0.0%
+out of the box                               0     6    0.0%
+ride shotgun                                 0     3    0.0%
+babe in the woods                            0     3    0.0%
+grey area                                    0     3    0.0%
+fell between two stools                      0     6    0.0%
+babe in arms                                 0     3    0.0%
+all out                                      0     3    0.0%
+on the same page                             0     3    0.0%
+odds and ends                                0     3    0.0%
+sea change                                   0     3    0.0%
+fell off a truck                             0     3    0.0%
+cutting red tape                             0     3    0.0%
+eat crow                                     0     3    0.0%
+even money                                   0     3    0.0%
+birthday suit                                0     3    0.0%
+make head or tail of                         0     3    0.0%
+on board                                     0     6    0.0%
+in the offing                                0     3    0.0%
+see the forest for the trees                 0     3    0.0%
+busted flush                                 0     3    0.0%
+mutton dressed as lamb                       0     3    0.0%
+on the same wavelength                       0     3    0.0%
+bad hair day                                 0     3    0.0%
+ten a penny                                  0     3    0.0%
+a dime a dozen                               0     3    0.0%
+funny bone                                   0     6    0.0%
+armed to the teeth                           0     3    0.0%
+your mileage may vary                        0     6    0.0%
+playing with fire                            0     3    0.0%
+silent treatment                             0     3    0.0%
+preaching to the choir                       0     3    0.0%
+rings a bell                                 0     3    0.0%
+taking the piss                              0     6    0.0%
+goose is cooked                              0     3    0.0%
+having second thoughts                       0     3    0.0%
+turn into a pumpkin                          0     3    0.0%
+turns into a pumpkin                         0     3    0.0%
+forty winks                                  0     3    0.0%
+hit the nail on the head                     0     3    0.0%
+put two and two together                     0     3    0.0%
+off the bat                                  0     3    0.0%
+out of the woods                             0     3    0.0%
+beyond the pale                              0     3    0.0%
+over the moon                                0     3    0.0%
+salad years                                  0     3    0.0%
+on the rag                                   0     3    0.0%
+went in one ear and out the other            0     3    0.0%
+up in the air                                0     3    0.0%
+my foot                                      0     3    0.0%
+raise the bar                                0     3    0.0%
+breathe easy                                 0     3    0.0%
+bells and whistles                           0     3    0.0%
+until the cows come home                     0     3    0.0%
+talk a blue streak                           0     3    0.0%
+put the kibosh on                            0     3    0.0%
+everybody and his cousin                     0     3    0.0%
+cold turkey                                  0     3    0.0%
+on the ball                                  0     3    0.0%
+keep mum                                     0     3    0.0%
+virgin territory                             0     3    0.0%
+laundry list                                 0     3    0.0%
+all the tea in china                         0     3    0.0%
+all that jazz                                0     3    0.0%
+barrel of laughs                             0     3    0.0%
+bed of roses                                 0     3    0.0%
+sharp cookie                                 0     3    0.0%
+what 's eating you                           0     3    0.0%
+shooting the breeze                          0     3    0.0%
+by hook or by crook                          0     3    0.0%
+in the same boat                             0     3    0.0%
+all the marbles                              0     3    0.0%
+add insult to injury                         0     3    0.0%
+on the back burner                           0     3    0.0%
+window dressing                              0     3    0.0%
+out of the blue                              0     3    0.0%
+a little bird told me                        0     3    0.0%
+walk of life                                 0     3    0.0%
+at the drop of a hat                         0     3    0.0%
+around the clock                             0     3    0.0%
+take a back seat                             0     3    0.0%
+
+PER-SENTENCE CONFUSION DETAILS
+------------------------------
+Sentence: A rock has broken the ice covering a lake.
+True idioms: []
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=[] | During their painfully awkward first date, neither of the painfully shy geologists knew wh
+  v2 [ok] pred=[] | The rival negotiators stared at each other across the frozen landscape, the silence betwee
+  v3 [CONFUSED] pred=['make the first move'] | After the reading of the will, the estranged siblings gathered by the family's winter cabi
+--------------------------------------------------------------------------------
+Sentence: This is a perfect way to break the ice and start the conversation.
+True idioms: ['break the ice']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['break the ice'] | The new recruits for the Antarctic research mission stood awkwardly by the frozen fjord, u
+  v2 [ok] pred=['break the ice'] | At the gallery opening for the new ice sculpture exhibit, the two rival artists stood sile
+  v3 [ok] pred=['break the ice'] | During the mixology class for singles, the instructor saw two people standing apart and no
+--------------------------------------------------------------------------------
+Sentence: The bullet hit the book in his pocket.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['hit the book in his pocket'] | As a part of his experimental art piece about the failures of the education system, the ar
+  v2 [CONFUSED] pred=['pop quiz'] | In the combat simulation designed to test cognitive load under stress, the soldier failed 
+  v3 [CONFUSED] pred=['fatal blow'] | The professor's lecture on literary symbolism was so intense, he described the protagonist
+--------------------------------------------------------------------------------
+Sentence: I thought you rang the bell.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['rang the bell'] | As we sorted through the old case files trying to remember the witness's name, a chime fro
+  v2 [CONFUSED] pred=['rang the bell'] | In the final moments of the intense negotiation, our competitor conceded on a major point 
+  v3 [CONFUSED] pred=['rang the bell'] | At the quarterly sales meeting, the manager projected the final numbers which massively ex
+--------------------------------------------------------------------------------
+Sentence: The patient rang the bell 20 minutes ago.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['breakthroughs'] | During the cognitive therapy session, which used a quiz format where correct answers were 
+  v2 [CONFUSED] pred=['rang the bell'] | In the advanced physical therapy gym, the ultimate recovery goal was to generate enough fo
+  v3 [CONFUSED] pred=['rang the bell'] | The two nurses were reviewing the day's milestones in the oncology ward, where finishing a
+--------------------------------------------------------------------------------
+Sentence: balloons are floating up in the air.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['floating up in the air'] | After the board meeting where the project's final budget and launch date were both left co
+  v2 [CONFUSED] pred=['for the time being'] | The lead scientist explained that the atmospheric experiment was inconclusive and her enti
+  v3 [CONFUSED] pred=['made a decision'] | He asked if she had made a decision about their relationship, but with their future so uns
+--------------------------------------------------------------------------------
+Sentence: Back muscles must be used to keep balance on the ball.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['quick-thinking', 'keep balance'] | To succeed in this demanding new project, every team member must be incredibly quick-think
+  v2 [CONFUSED] pred=['under pressure', 'star performer'] | Our star performer has demonstrated an amazing ability to stay focused and competent under
+  v3 [CONFUSED] pred=['stay focused'] | We've found these new classroom seats improve student engagement and alertness tremendousl
+--------------------------------------------------------------------------------
+Sentence: Abdominals are used to keep balance on the ball and lift your arms.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['full engagement'] | During the corporate leadership seminar, the facilitator explained that managing multiple 
+  v2 [CONFUSED] pred=['pep talk', 'staying sharp'] | The coach's pre-game pep talk stressed the importance of staying sharp and reacting quickl
+  v3 [CONFUSED] pred=['not just in your head'] | The cognitive enhancement workshop focused on techniques for maintaining peak mental perfo
+--------------------------------------------------------------------------------
+Sentence: I think I can get over 100 dollars.
+True idioms: []
+Confused variants: 2/3 (67%)
+  v1 [CONFUSED] pred=['get over'] | Selling my ex's old record collection is emotionally difficult since he always claimed it 
+  v2 [CONFUSED] pred=['recover from the loss'] | My friend saw how devastated I was after losing the wager and asked if I'd ever recover fr
+  v3 [ok] pred=[] | The final obstacle is a tall fence with the prize money literally pinned to the other side
+--------------------------------------------------------------------------------
+Sentence: Would you like a piece of cake.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['piece of cake'] | 
+After explaining the incredibly complex quantum physics problem to the advanced students,
+  v2 [CONFUSED] pred=['piece of cake'] | The drill sergeant surveyed the two remaining challenges for the recruits: a ten-mile run 
+  v3 [CONFUSED] pred=['piece of cake'] | My friend, who was trying to learn English idioms while also hosting a party, gestured bet
+--------------------------------------------------------------------------------
+Sentence: Her aunt is a great cook, do you want a piece of cake?
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['piece of cake'] | After listening to him worry for twenty minutes about the final exam, she tried to reassur
+  v2 [CONFUSED] pred=['piece of cake'] | The junior programmers were overwhelmed by the client's request, but their manager explain
+  v3 [CONFUSED] pred=['piece of cake'] | He was nervous about assembling the complex new furniture, but the instruction manual show
+--------------------------------------------------------------------------------
+Sentence: The test was a piece of cake!
+True idioms: ['piece of cake']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['piece of cake'] | In the final stage of the culinary exam, where students had to identify the composition of
+  v2 [ok] pred=['piece of cake'] | As the new quality assurance inspector at the dessert factory, his only assigned task for 
+  v3 [ok] pred=['piece of cake'] | During the sensory analysis portion of the food science final, the professor explained tha
+--------------------------------------------------------------------------------
+Sentence: Bathing in hot water can be dangerous.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['bathing in hot water'] | The corporate lawyer warned the executive, who was already facing a federal investigation 
+  v2 [CONFUSED] pred=['bathing in hot water'] | The zookeeper explained the new protocols for handling the aggressive, venomous water snak
+  v3 [CONFUSED] pred=['put promotion in jeopardy'] | After receiving a formal reprimand that put his promotion in jeopardy, he tried to relax a
+--------------------------------------------------------------------------------
+Sentence: What are the effects of bathing in hot water?
+True idioms: []
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=[] | The therapist listened as her client described both his recent confession to embezzlement 
+  v2 [ok] pred=[] | Reviewing the disastrous environmental impact report from their geothermal energy project,
+  v3 [CONFUSED] pred=['grilled', 'fallout'] | The university's ethics committee grilled the lead researcher whose controversial thermore
+--------------------------------------------------------------------------------
+Sentence: Is soaking in hot water good for us?
+True idioms: []
+Confused variants: 2/3 (67%)
+  v1 [CONFUSED] pred=['character-building'] | At the corporate stress-management retreat held in a spa, where executives discussed the c
+  v2 [CONFUSED] pred=["what doesn't kill you makes you stronger"] | After a long debate about Nietzsche's concept of what doesn't kill you makes you stronger,
+  v3 [ok] pred=[] | Finally relaxing in their new jacuzzi after months of intense marriage counseling that nea
+--------------------------------------------------------------------------------
+Sentence: I love bread and butter for breakfast.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['bread and butter'] | As the owner of a small artisanal bakery whose livelihood depends entirely on our most bas
+  v2 [CONFUSED] pred=['bread and butter'] | During the strategic review, we decided to divest from complex ventures and focus on the c
+  v3 [CONFUSED] pred=['bread and butter'] | After a long talk with my mentor about the importance of securing a reliable, primary sour
+--------------------------------------------------------------------------------
+Sentence: Here are your sardines with bread and butter.
+True idioms: []
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=[] | At the tense business lunch, the CEO explained to the new executive which two product line
+  v2 [CONFUSED] pred=['sardines with bread and butter'] | The old fisherman was teaching his grandson about running the family business, explaining 
+  v3 [ok] pred=[] | My son asked what his core responsibilities would be now that he was joining our family's 
+--------------------------------------------------------------------------------
+Sentence: What can I bring you? Maybe bread and butter?
+True idioms: []
+Confused variants: 1/3 (33%)
+  v1 [CONFUSED] pred=['bread and butter'] | Seeing the client's overwhelmed expression when faced with complex investment portfolios, 
+  v2 [ok] pred=[] | After the culinary apprentice's elaborate foam collapsed for the third time, the head chef
+  v3 [ok] pred=[] | The startup founder, trying to understand what essential skills the candidate could contri
+--------------------------------------------------------------------------------
+Sentence: I only bought a lemon and two oranges.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['lemon'] | After spending all day at the auto salvage yard looking for parts for our classic car rest
+  v2 [CONFUSED] pred=['lemon'] | He went to the giant weekend market hoping to find a reliable used car and some electronic
+  v3 [CONFUSED] pred=['lemon'] | My financial advisor was furious, asking why I deviated from our plan to invest in solid t
+--------------------------------------------------------------------------------
+Sentence: Would you please buy a lemon for my cake?
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['lemon'] | After spending all day arguing with the used car dealership about my faulty vehicle, I'm c
+  v2 [CONFUSED] pred=['lemon'] | For the mechanic's retirement party, we are making a diorama of his first disastrous car p
+  v3 [CONFUSED] pred=['lemon'] | To finalize the props for the play's scene where the main character bakes while lamenting 
+--------------------------------------------------------------------------------
+Sentence: I'd need you to buy a lemon and some sugar for tonight.
+True idioms: []
+Confused variants: 3/3 (100%)
+  v1 [CONFUSED] pred=['lemon'] | My brother just got swindled at that shady used car dealership, and now we're all trying t
+  v2 [CONFUSED] pred=['stiff drink'] | After spending all afternoon trying to fix this brand new tablet that just won't work, I'm
+  v3 [CONFUSED] pred=['tanked', 'total bust', 'take my mind off'] | That tech stock I invested in completely tanked, proving to be a total bust, so to take my
+--------------------------------------------------------------------------------
+Sentence: The fairy tale tells about a caste in the sky where a king and a queen live.
+True idioms: []
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=[] | While listening to an audio tour of a medieval fortress, the narrator described its influe
+  v2 [ok] pred=[] | In their lecture on how fiction reflects societal structures, the professor used an obscur
+  v3 [CONFUSED] pred=['fairy tale'] | Describing the plot of a new video game which combines high-fantasy architecture with comp
+--------------------------------------------------------------------------------
+Sentence: I am feeling under the weather today.
+True idioms: ['under the weather']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['under the weather'] | My job as a storm chaser requires me to get as close as possible to the developing squall 
+  v2 [ok] pred=['under the weather'] | While setting up my art installation, a massive, heavy mobile sculpture titled 'The Weathe
+  v3 [ok] pred=['under the weather'] | During the open-air theater rehearsal for 'The Tempest,' the director insisted I stand ben
+--------------------------------------------------------------------------------
+Sentence: To add insult to the injury, the man went away without helping us.
+True idioms: ['To add insult to the injury']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['add insult to the injury'] | In the personal injury lawsuit, the lawyer first detailed the physical harm his client suf
+  v2 [ok] pred=['add insult to the injury'] | During the disastrous first aid demonstration, the instructor not only applied the bandage
+  v3 [ok] pred=['turned his back', 'add insult to the injury'] | The sculpture, which depicted a wounded soldier, was vandalized with spray-painted slurs a
+--------------------------------------------------------------------------------
+Sentence: Break a leg dad, I hope you'll win!
+True idioms: ['Break a leg']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Break a leg'] | Watching from the finish line of the icy, treacherous ski slope where several racers had a
+  v2 [ok] pred=['Break a leg'] | During the final round of the robotics competition, where his father's machine had to snap
+  v3 [ok] pred=['Break a leg'] | As the doctor finished examining his father's recently healed tibia and warned him not to 
+--------------------------------------------------------------------------------
+Sentence: By accepting both jobs, I killed two birds with one stone
+True idioms: ['killed two birds with one stone']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['killed two birds with one stone'] | The eccentric client wanted me to design a catapult for his medieval fair exhibit and also
+  v2 [ok] pred=['killed two birds with one stone'] | During the advanced hunting simulation, my two jobs were to hunt codename 'Magpie' and 'Ra
+  v3 [ok] pred=['killed two birds with one stone'] | As the new park ranger, I had to finalize my employment contract and also demonstrate my f
+--------------------------------------------------------------------------------
+Sentence: We're very tired now, let's call it a day.
+True idioms: ['call it a day']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['call it a day'] | With the gallery owner demanding a name for the catalogue, we have spent hours debating th
+  v2 [ok] pred=['marathon', 'call it a day'] | We finally reached a consensus on how to classify the phenomenon, after a marathon 18-hour
+  v3 [ok] pred=['call it a day'] | With no other suggestions gaining traction, we argued until midnight over the official des
+--------------------------------------------------------------------------------
+Sentence: Let's go home and call it a day.
+True idioms: ['call it a day']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['call it a day'] | The two sculptors had spent hours arguing over a title for their new piece representing th
+  v2 [ok] pred=['call it a day'] | After an entire afternoon at the animal shelter trying to choose a rescue, and with one pa
+  v3 [ok] pred=['call it a day'] | The marketing team was stuck trying to brand their new 24-hour delivery service, and havin
+--------------------------------------------------------------------------------
+Sentence: Baby you gotta work hard, no pain no gain
+True idioms: ['no pain no gain']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['no pain no gain'] | While coaching his client through the final, grueling set of muscle-building squats, the p
+  v2 [ok] pred=['no pain no gain'] | The tattoo artist watched her client wince as the needle worked over a sensitive area, and
+  v3 [ok] pred=['no pain no gain'] | In the new virtual reality workout game, the only way to acquire the 'strength' buff was t
+--------------------------------------------------------------------------------
+Sentence: We go to the cinema once in a blue moon.
+True idioms: ['once in a blue moon']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['once in a blue moon'] | As the amateur astronomy club members planned their social calendar around major celestial
+  v2 [ok] pred=['once in a blue moon'] | Our family has a peculiar tradition for outings that is tied to my grandfather's old farme
+  v3 [ok] pred=['once in a blue moon'] | My partner and I are both freelance astrophysicists with incredibly demanding and unpredic
+--------------------------------------------------------------------------------
+Sentence: She goes to work once in a blue moon.
+True idioms: ['once in a blue moon']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['once in a blue moon'] | As an astrophysicist whose research is solely focused on the atmospheric scattering effect
+  v2 [ok] pred=['once in a blue moon'] | My sister is a specialty bartender at a nightclub called 'The Orbit Room', and her only sc
+  v3 [ok] pred=['once in a blue moon'] | Her employment contract as a folklorist is bizarrely specific, stipulating that she only n
+--------------------------------------------------------------------------------
+Sentence: When pigs fly, he'll treat people with respect.
+True idioms: ['When pigs fly']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['when pigs fly'] | At the agricultural fair's new drone exhibition, where customized quadcopters shaped like 
+  v2 [ok] pred=['when pigs fly'] | The lead animator for the children's fantasy film was struggling with two major production
+  v3 [ok] pred=['when pigs fly'] | During tense merger discussions at a rural retreat, the ruthless CEO stared at a film crew
+--------------------------------------------------------------------------------
+Sentence: When pigs fly, he'll take out the trash.
+True idioms: ['When pigs fly']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['when pigs fly'] | While debugging their new farming simulation, the lead programmer pointed to a known glitc
+  v2 [ok] pred=['when pigs fly'] | At the county fair, standing before the new 'Swine Sling' attraction where participants la
+  v3 [ok] pred=['when pigs fly'] | Watching a bizarre news segment about a new agricultural drone system designed to airlift 
+--------------------------------------------------------------------------------
+Sentence: The police will turn a blind eye once.
+True idioms: ['turn a blind eye']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['turn a blind eye'] | The junior officer was nervous about handling the department's antique mannequin, which wa
+  v2 [ok] pred=['bend the rules', 'turn a blind eye'] | In the strange, ritualistic board game played at the precinct's charity event, one of the 
+  v3 [ok] pred=['turn a blind eye'] | The key informant in the smuggling case was himself blind in one eye and known for his own
+--------------------------------------------------------------------------------
+Sentence: Stop beating around the bush and tell me exactly what happened.
+True idioms: ['beating around the bush']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['beating around the bush'] | The head gardener watched his new apprentice nervously striking the ground near the prize-
+  v2 [ok] pred=['beating around the bush'] | During the wilderness survival course, the instructor saw the trainee tentatively tapping 
+  v3 [ok] pred=['Stop beating around the bush'] | After finding the broken bird feeder, the father saw his young son in the yard whacking th
+--------------------------------------------------------------------------------
+Sentence: Come on, spill the beans now, I wanna know!
+True idioms: ['spill the beans']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['spill the beans'] | The new intern was about to drop the entire bag of rare coffee beans she was carrying whil
+  v2 [ok] pred=['spill the beans'] | During the final round of the game show, the contestant had to pour out a jar of jelly bea
+  v3 [ok] pred=['spill the beans'] | In the chaotic final seconds of the chili cook-off, the lead chef was holding the kidney b
+--------------------------------------------------------------------------------
+Sentence: Come on, you can do it, it's not rocket science!
+True idioms: ["it 's not rocket science"]
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['rocket science'] | As the two engineering students reviewed the daunting curriculum for their desired aerospa
+  v2 [ok] pred=['rocket science'] | Standing before the intimidatingly complex schematic of an ion propulsion engine at the sp
+  v3 [ok] pred=['rocket science'] | The junior astrophysicist was struggling to assemble her new office chair while her manage
+--------------------------------------------------------------------------------
+Sentence: Eventually he did it, better late than never!
+True idioms: ['better late than never']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['better late than never'] | The software engineer watched the automated test fail again with a `STATUS: NEVER_COMPLETE
+  v2 [ok] pred=['better late than never'] | The editor sighed as the poet agonized over the title for his final collection on regret, 
+  v3 [ok] pred=['better late than never'] | Staring at the game's final challenge, he knew that failing meant the 'NEVER' achievement 
+--------------------------------------------------------------------------------
+Sentence: This doesn't make any sense. It's like comparing apples to oranges.
+True idioms: ['comparing apples to oranges']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['apples to oranges'] | The agricultural scientist stared at the baffling genetic sequencing data from the fruit h
+  v2 [ok] pred=['comparing apples to oranges'] | The commodities trader looked at the intern's financial model, which merged the import tar
+  v3 [ok] pred=['comparing apples to oranges'] | In the still-life painting, the artist used hyper-realistic techniques for one piece of fr
+--------------------------------------------------------------------------------
+Sentence: It's raining cats and dogs.
+True idioms: ['raining cats and dogs']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['raining cats and dogs'] | At the chaotic parade, the animal-themed float directly ahead of us malfunctioned, launchi
+  v2 [ok] pred=['raining cats and dogs'] | My toddler is describing the surrealist cartoon he's watching in the other room while I'm 
+  v3 [ok] pred=['raining cats and dogs'] | During the disastrous film shoot on the studio backlot, the special effects machine creati
+--------------------------------------------------------------------------------
+Sentence: After meeting him, she was walking on air.
+True idioms: ['walking on air']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['walking on air'] | At the new circus, she was practicing her routine on a transparent high wire suspended ove
+  v2 [ok] pred=['walking on air'] | The zero-gravity simulation was disorienting but exhilarating, and the lead engineer overs
+  v3 [ok] pred=['walking on air'] | During the tech demo for the new augmented reality glasses that projected a solid-looking 
+--------------------------------------------------------------------------------
+Sentence: They asked me if we can go dutch.
+True idioms: ['go dutch']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['go dutch'] | We were finalizing our European tour itinerary, discussing travel budgets, when they asked
+  v2 [ok] pred=['go dutch'] | We were eating some German bread with Belgian chocolate when they asked me if we can go du
+  v3 [ok] pred=['go dutch'] | While we were planning the community garden and event for the national Flemish holiday, th
+--------------------------------------------------------------------------------
+Sentence: I really got a kick out of that clown's juggling act.
+True idioms: ['got a kick out of']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['got a kick out of'] | After my friend, the semi-professional soccer player who moonlights as a circus performer,
+  v2 [ok] pred=['got a kick out of'] | While reviewing the performance data for the new animatronic entertainer, whose leg mechan
+  v3 [ok] pred=['got a kick out of'] | Still rubbing my shin from the malfunctioning mechanical donkey ride we'd just been on rig
+--------------------------------------------------------------------------------
+Sentence: The old computer just doesn't hold a candle to the latest models.
+True idioms: ['hold a candle']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['hold a candle'] | I wanted to make everything romantic, so I got candles and placed some on my desk. It remi
+  v2 [ok] pred=['hold a candle'] | Even though it could light the fight and even light the candles, in the robotics competiti
+  v3 [ok] pred=['hold a candle'] | As the props master for the Victorian-era play set up the writer's desk, he sighed that th
+--------------------------------------------------------------------------------
+Sentence: That guy sure can hold a grudge when something goes wrong.
+True idioms: ['hold a grudge']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['hold a grudge'] | After a difficult mission in the fantasy role-playing game, we've noticed that guy sure ca
+  v2 [ok] pred=['hold a grudge'] | At the climbing gym, after his spotter made a mistake, the climber's knuckles went white, 
+  v3 [ok] pred=['hold a grudge'] | During the experimental group therapy session where patients physically manifest their fee
+--------------------------------------------------------------------------------
+Sentence: Let me see if I can light a fire under the waiter to get our order sooner.
+True idioms: ['light a fire under']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['light a fire under'] | Frustrated by the slow service, my impatient friend muttered, let me see if I can light a 
+  v2 [ok] pred=['light a fire under'] | During the medieval-themed feast, the server was standing listlessly, prompting my compani
+  v3 [ok] pred=['light a fire under'] | We were playing a charades-like game where you had to act out requests, and feeling partic
+--------------------------------------------------------------------------------
+Sentence: I need to get a move on if I'm going to arrive before dark.
+True idioms: ['get a move on']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['taking forever', 'get a move on'] | As the sun began to set over our outdoor tournament, my opponent was taking forever, so I 
+  v2 [ok] pred=['get a move on'] | The choreographer, trying to finalize the opening number before the theater's automatic li
+  v3 [ok] pred=['get a move on'] | During the final turn of our cross-country road trip board game, my token was still two sp
+--------------------------------------------------------------------------------
+Sentence: The old horse finally kicked the bucket.
+True idioms: ['kicked the bucket']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['kicked the bucket'] | At the farm, after a long illness and much concern from the stable hands, the old horse fi
+  v2 [ok] pred=['kicked the bucket'] | For weeks, the aging stallion had been a source of deep concern due to its respiratory ill
+  v3 [ok] pred=['kicked the bucket'] | The veterinarian was preparing to deliver the sad news while, just inside the stall, a sta
+--------------------------------------------------------------------------------
+Sentence: Every year he resolves to turn over a new leaf and start exercising.
+True idioms: ['turn over a new leaf']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['turn over a new leaf'] | Concerned about his health and seeking self-improvement, he declared, Every year he resolv
+  v2 [ok] pred=['turn over a new leaf'] | The frustrated archivist was told by his doctor he needed a lifestyle change. Every year h
+  v3 [ok] pred=['turn over a new leaf'] | Working as both a personal trainer and an artist, he saw a parallel between improving one'
+--------------------------------------------------------------------------------
+Sentence: Women are “woefully” under-represented in parliament, the courts and the boardroom, with new research showing that the glass ceiling is still holding back 6,000 women from the top 33,000 jobs in Britain.
+True idioms: ['glass ceiling']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['glass ceiling'] | During a presentation on corporate diversity, the HR report stated that women are “woefull
+  v2 [ok] pred=['glass ceiling'] | At the 'Women in Leadership' summit, the organizer lamented to reporters that women are “w
+  v3 [ok] pred=['glass ceiling'] | Discussing a controversial new art installation, an activist argued that women are “woeful
+--------------------------------------------------------------------------------
+Sentence: The new bond issue now appears to be on the bubble, with support eroding.
+True idioms: ['on the bubble']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['on the bubble'] | During a volatile financial period, the new bond issue now appears to be on the bubble, wi
+  v2 [ok] pred=['bond issue', 'on the bubble'] | In the materials science lab, after testing their latest adhesive formula, researchers not
+  v3 [ok] pred=['on the bubble'] | During the urban planning presentation, a small model representing the project's funding w
+--------------------------------------------------------------------------------
+Sentence: There were so many errors in the program that the programmer decided to rewrite it from scratch.
+True idioms: ['from scratch']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['rewrite it from scratch'] | Due to fundamental flaws in the diagnostic tool's algorithm, there were so many errors in 
+  v2 [ok] pred=['rewrite it from scratch'] | The software for the new automated DJ turntable was creating a terrible noise instead of a
+  v3 [ok] pred=['from scratch'] | After reviewing the flawed patterns etched into the metal plate by the buggy engraving sof
+--------------------------------------------------------------------------------
+Sentence: She said she wanted to build a new house from scratch.
+True idioms: ['from scratch']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['from scratch'] | After the demolition crew finished, the lot was a wasteland of raw earth, so when surveyin
+  v2 [ok] pred=['build a new house from scratch'] | The dermatologist confirmed her chronic skin irritation was an allergic reaction to the ol
+  v3 [ok] pred=['from scratch'] | The architect presented dozens of elaborate pre-existing blueprints, but she pushed them a
+--------------------------------------------------------------------------------
+Sentence: She finally came out of the closet to her religious family regarding her atheism.
+True idioms: ['came out of the closet']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['came out of the closet'] | During a moment of profound personal reflection at the chaotic family reunion, she finally
+  v2 [ok] pred=['came out of the closet'] | The family was inspecting the newly installed cedar storage unit in the hallway, discussin
+  v3 [ok] pred=['came out of the closet'] | Overwhelmed by the intense theological debate in the living room, she had retreated for a 
+--------------------------------------------------------------------------------
+Sentence: I stayed in a lot of hotels in New York with the Dead and with Jerry's band, but the Navarro, more than any other, became our home away from home.
+True idioms: ['home away from home']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['home away from home'] | Recalling my extensive touring experiences, I realized: I stayed in a lot of hotels in New
+  v2 [ok] pred=['home away from home'] | When the California wildfires forced all of our families to evacuate for months, we had to
+  v3 [ok] pred=['home away from home'] | For the band's interior design project, we were tasked with creating a replica of our idea
+--------------------------------------------------------------------------------
+Sentence: Nature took its course, and Marie did give birth to a bundle of joy, but she soon discovered that motherhood was not all bliss.
+True idioms: ['bundle of joy']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['took its course', 'bundle of joy'] | After a long and anticipated wait, Nature took its course, and Marie did give birth to a b
+  v2 [ok] pred=['took its course', 'bundle of joy'] | As a software developer finishing a nine-month project codenamed 'JOY' that organized seve
+  v3 [ok] pred=['Nature took its course', 'bundle of joy'] | In the hospital room, while her husband was unboxing a large gift from her craft store col
+--------------------------------------------------------------------------------
+Sentence: Stars of the stage and the silver screen gathered for the awards ceremony.
+True idioms: ['silver screen']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['stars of the stage', 'silver screen'] | At the annual entertainment awards, stars of the stage and the silver screen gathered for 
+  v2 [ok] pred=['centerpiece', 'stars of the stage', 'silver screen'] | The centerpiece of the theater's opulent new design was a massive, ornate projection surfa
+  v3 [ok] pred=['stars of the stage', 'silver screen'] | At the industrial design gala, where a revolutionary new display was the main exhibit, sta
+--------------------------------------------------------------------------------
+Sentence: Many are warning Spears that he is bad news and is trying to use her.
+True idioms: ['bad news']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['bad news'] | His reputation preceded him, and many are warning Spears that he is bad news and is trying
+  v2 [ok] pred=['bad news'] | During the corporate downsizing, the consultant whose sole job was to inform employees abo
+  v3 [ok] pred=['getting along', 'bad news', 'use her'] | At the tense family reunion, everyone avoided the one cousin, yet he and Spears seemed to 
+--------------------------------------------------------------------------------
+Sentence: The figures are going to be in the red this year.
+True idioms: ['in the red']
+Confused variants: 1/3 (33%)
+  v1 [CONFUSED] pred=[] | The graphic design team, tasked with visualizing the company's annual report, chose a bold
+  v2 [ok] pred=['in the red'] | The new factory manager for the toy soldier company made a disastrous error with the paint
+  v3 [ok] pred=['in the red'] | For the annual charity ice show, the lighting director insisted on an avant-garde approach
+--------------------------------------------------------------------------------
+Sentence: I was beginning to wish I'd had the sense to spend the last hour in a pub. Dutch courage would have been better than no courage at all.
+True idioms: ['Dutch courage']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Dutch courage'] | As my famously stoic colleague from Amsterdam walked out of the tense negotiation leaving 
+  v2 [ok] pred=['Dutch courage'] | Watching the exchange students from Rotterdam dive flawlessly from the highest cliff while
+  v3 [ok] pred=['kicking in', 'Dutch courage'] | My historical reenactment character, a soldier from Holland, was about to lead a charge, a
+--------------------------------------------------------------------------------
+Sentence: Another five minutes wait and we finally raise glasses in a toast to the evening. ‘So, what's the plan?’ ‘Well, we can go straight to the casino after this or we can get half a skinful of Dutch courage.’
+True idioms: ['Dutch courage']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Dutch Courage', 'half a skinful'] | The bar was famous for its signature imported jenever, which the menu cheekily listed as '
+  v2 [ok] pred=['stiff drink', 'pep-talk', 'half a skinful', 'Dutch courage'] | Before confronting the loan sharks, we had to decide whether to get a stiff drink or to ge
+  v3 [ok] pred=['Dutch courage'] | During the dress rehearsal for a play about the Anglo-Dutch wars, the director was advisin
+--------------------------------------------------------------------------------
+Sentence: By going against the grain and going to work nude, you've made yourself a laughing stock.
+True idioms: ['against the grain']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['going against the grain', 'made yourself a laughing stock'] | At the experimental carpentry workshop that doubled as a performance art space, the instru
+  v2 [ok] pred=['going against the grain', 'laughing stock'] | During the final round of the reality TV show 'Primal Chef,' where contestants had to butc
+  v3 [ok] pred=['going against the grain', 'laughing stock'] | The veteran geologist warned the reckless thrill-seeker about his plan to scale the treach
+--------------------------------------------------------------------------------
+Sentence: It went much against the grain with him
+True idioms: ['against the grain']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['went much against the grain'] | As the master carpenter watched his apprentice sand the oak plank with a rough, cross-hatc
+  v2 [ok] pred=['against the grain'] | The masseur, who always followed the natural lines of muscle tissue, was instructed by the
+  v3 [ok] pred=['against the grain'] | The forestry expert was arguing for a selective logging plan that followed the natural con
+--------------------------------------------------------------------------------
+Sentence: Donald Rumsfeld had become a sex symbol. She observed that he was called a “virtual rock star” on CNN, a “babe magnet” on Fox, and “Rumstud” by the president.
+True idioms: ['babe magnet']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['sex symbol', 'virtual rock star', 'babe magnet', 'Rumstud'] | At the agricultural tech expo, while demonstrating a new electromagnetic device designed t
+  v2 [ok] pred=['sex symbol', 'virtual rock star', 'babe magnet'] | During the scrapyard art project, they were using a powerful industrial tool to arrange de
+  v3 [ok] pred=['sex symbol', 'virtual rock star', 'babe magnet'] | In the toy company's focus group for a new line of controversial political action figures,
+--------------------------------------------------------------------------------
+Sentence: I'm tired of being your second fiddle!
+True idioms: ['second fiddle']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['second fiddle'] | After the conductor once again praised the concertmaster's solo while ignoring her own sec
+  v2 [ok] pred=['second fiddle'] | When his older brother immediately grabbed the fancier instrument from their grandfather's
+  v3 [ok] pred=['second fiddle'] | As the renowned luthier obsessively polished the prized Stradivarius for a client while le
+--------------------------------------------------------------------------------
+Sentence: The three-day party had been a lot of fun, we did a lot of bad things, now it is time to pay the fiddler.
+True idioms: ['pay the fiddler']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['pay the fiddler'] | At the end of the chaotic Renaissance faire we organized, where the contracted violinist h
+  v2 [ok] pred=['pay the fiddler'] | Our benefactor for the weekend was a notorious loan shark everyone called 'The Fiddler' be
+  v3 [ok] pred=['pay the fiddler'] | During our historical reenactment of a rowdy 18th-century tavern scene, where my role was 
+--------------------------------------------------------------------------------
+Sentence: And in all her letters since, she had spoken of her aunt as a silly, vain, worldly woman, weeping crocodile tears, for an old husband whose death had released her from the tedium of his company.
+True idioms: ['crocodile tears']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['crocodile tears'] | The aunt, a retired stage actress famous for her melodramatic flair, was simultaneously co
+  v2 [ok] pred=['crocodile tears'] | Just before her husband's passing, the aunt's ancient and beloved pet caiman, which she ha
+  v3 [ok] pred=['crocodile tears'] | Her aunt had become obsessed with a new, bizarrely expensive brand of rejuvenating eye dro
+--------------------------------------------------------------------------------
+Sentence: He finished writing his paper and slid it under the door just in the nick of time.
+True idioms: ['in the nick of time']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['the nick of time'] | His professor, an avid gamer, had a quirky submission policy: all papers had to be deliver
+  v2 [ok] pred=['the nick of time'] | While working late in the historical archives to restore an ancient tally stick, he noted 
+  v3 [ok] pred=['nick of time'] | The philosophy club was intensely debating a theory that defined the present moment as a n
+--------------------------------------------------------------------------------
+Sentence: That striker has scored four goals so far - he's on fire!
+True idioms: ['on fire']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['on fire'] | While reviewing footage from the sports-themed action movie where a stuntman was accidenta
+  v2 [ok] pred=['on fire'] | As the two technicians monitored the experimental bio-feedback jerseys, one pointed to a d
+  v3 [ok] pred=['on fire'] | The sports documentary intercut clips of the player's triumphant comeback game with interv
+--------------------------------------------------------------------------------
+Sentence: Oh please go on the game. It's a steady job and you'd be working from home.
+True idioms: ['on the game']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['go on the game'] | The social worker reviewed the young woman's file, which detailed a history of surviving o
+  v2 [ok] pred=['go on the game'] | Watching their roommate, who had been desperate for rent money, spend all day on a new com
+  v3 [ok] pred=['the oldest profession', 'go on the game'] | After her friend described her secretive new online 'entertainment' venture that paid cash
+--------------------------------------------------------------------------------
+Sentence: Among these odd folk, who correspond exactly to the decadent element of “white trash” in the South, law and morals are non-existent; and their general mental status is probably below that of any other section of the native American people.
+True idioms: ['white trash']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['white trash'] | While reviewing a controversial art installation made entirely of discarded white plastics
+  v2 [ok] pred=['white trash'] | The sociologist's report on the Appalachian landfill community focused on the heaps of dis
+  v3 [ok] pred=['white trash'] | In the documentary about industrial pollution, the narrator described a riverbank communit
+--------------------------------------------------------------------------------
+Sentence: It'll be a cold day in hell when that happens.
+True idioms: ['cold day in hell']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['cold day in hell'] | While reviewing a highly improbable weather model that predicted a freak snowstorm in the 
+  v2 [ok] pred=['a cold day in hell'] | During a heated production meeting for their new immersive play set in the underworld, the
+  v3 [ok] pred=['cold day in hell'] | Two IT technicians were discussing their company's server room, nicknamed 'Hell' for its c
+--------------------------------------------------------------------------------
+Sentence: This software has to work out of the box, without any fancy installation.
+True idioms: ['out of the box']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['work out of the box'] | The lead robotics engineer pointed to the new automated packer still sitting in its shippi
+  v2 [ok] pred=['work out of the box'] | The client's field test required the tracking device to be deployed from a moving vehicle'
+  v3 [ok] pred=['work out of the box'] | During the escape room design meeting, they decided a key puzzle would involve players ret
+--------------------------------------------------------------------------------
+Sentence: He started out with the rather obvious alternative of talking to Junior; Hesh’s scheme was more imaginative; and Tony’s idea of torching the restaurant really is out of the box.
+True idioms: ['out of the box']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['out of the box'] | In the evidence lock-up, surrounded by shipping containers and debating how to dispose of 
+  v2 [ok] pred=['out of the box'] | Sorting through anonymous suggestions for their next move, they found one note that had fa
+  v3 [ok] pred=['out of the box'] | While frantically packing up the safe house and deciding which incriminating records to ke
+--------------------------------------------------------------------------------
+Sentence: He attended the meeting to ride shotgun for the sales team, in case anyone had a technical question.
+True idioms: ['ride shotgun']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['ride shotgun'] | Since the client's office was in a remote location requiring a long drive, and the team pl
+  v2 [ok] pred=['ride shotgun'] | The company was demoing its new fleet management software inside a fully equipped tractor-
+  v3 [ok] pred=['ride shotgun'] | During the corporate retreat that combined strategic planning sessions with a competitive 
+--------------------------------------------------------------------------------
+Sentence: "Orde, you're all right on the river," said Newmark, with a dry little laugh, "but you're a babe in the woods at this game."
+True idioms: ['babe in the woods']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['babe in the woods'] | While reviewing the day's disastrous film shoot, where the actor had masterfully navigated
+  v2 [ok] pred=['dry little laugh', 'babe in the woods'] | As they played the complex tabletop RPG, Orde's 'River-Master' character excelled at water
+  v3 [ok] pred=['babe in the woods'] | After Orde, a park ranger, expertly rescued a stranded kayaker but then clumsily handled t
+--------------------------------------------------------------------------------
+Sentence: It exists in a grey area between legal and illegal.
+True idioms: ['grey area']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['grey area'] | While reviewing the city's color-coded zoning map, the developer pointed to a large, undef
+  v2 [ok] pred=['grey area'] | The art critic described the controversial new installation, which was situated on a large
+  v3 [ok] pred=['grey area'] | During the complex geopolitical board game, one player analyzed the disputed territory on 
+--------------------------------------------------------------------------------
+Sentence: Unfortunately, it fell between two stools: it was not good enough to be a competition car and those who wanted a roadburner preferred the Iso Grifo, which was better equipped.
+True idioms: ['fell between two stools']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['fell between two stools'] | During the disastrous design presentation, the clay model of the new sports car was precar
+  v2 [ok] pred=['fell between two stools'] | The automotive critic was finalizing his scathing review in a garage-themed cafe, and just
+  v3 [ok] pred=['fell between two stools'] | The marketing manager, trying to illustrate the car's fatal flaw to the board, balanced a 
+--------------------------------------------------------------------------------
+Sentence: She could not bear to lose the land she had got by a swindle; and then she could not bear the loss of her lover. So she fell between two stools.
+True idioms: ['fell between two stools']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['fell between two stools'] | In her cluttered antique furniture restoration shop, she was anxiously trying to process t
+  v2 [ok] pred=['fell between two stools'] | During the slapstick comedy rehearsal, the actress's mind was entirely on her off-stage dr
+  v3 [ok] pred=['fell between two stools'] | The private investigator watched his target fidgeting in the rustic tavern, shifting her w
+--------------------------------------------------------------------------------
+Sentence: He was still a babe in arms when his father died overseas.
+True idioms: ['babe in arms']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['babe in arms'] | Discussing the new platoon leader's lack of field experience and idealistic worldview, the
+  v2 [ok] pred=['babe in arms'] | The board members were deeply concerned about the young heir's ability to manage the vast 
+  v3 [ok] pred=['babe in arms'] | His handler knew the rookie agent was unprepared for the psychological manipulation involv
+--------------------------------------------------------------------------------
+Sentence: He's all out the best preacher I've ever heard.
+True idioms: ['all out']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['all out'] | As the congregation filed out of the packed cathedral, leaving the pews nearly empty, one 
+  v2 [ok] pred=['all out'] | After the fire alarm forced an emergency evacuation of the entire building during the serm
+  v3 [ok] pred=['all out'] | Watching the local pastor collapse over the finish line of the marathon, having clearly gi
+--------------------------------------------------------------------------------
+Sentence: I want to make sure we're all on the same page with the game plan for the Acme account.
+True idioms: ['on the same page']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['on the same page', 'game plan'] | During the chaotic video conference where some members were referencing outdated printouts
+  v2 [ok] pred=['on the same page', 'game plan'] | As we're proofreading this massive, multi-section binder before sending it to the printers
+  v3 [ok] pred=['on the same page', 'game plan'] | While rehearsing the complex, scripted presentation for the board, where timing cues are t
+--------------------------------------------------------------------------------
+Sentence: The garage was filled with a random assortment of odds and ends.
+True idioms: ['odds and ends']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['odds and ends'] | After the old bookmaker retired, his family had to clear out his workspace, which containe
+  v2 [ok] pred=['odds and ends'] | The seamstress, finally cleaning out her studio after fifty years, found countless fabric 
+  v3 [ok] pred=['odds and ends'] | My uncle, a carpenter who also ran a weekly poker game, had a famously messy workshop wher
+--------------------------------------------------------------------------------
+Sentence: Public opinion has undergone a sea change since the 2002 elections.
+True idioms: ['sea change']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['sea change'] | At the conference on maritime law and coastal state politics, the keynote speaker discusse
+  v2 [ok] pred=['sea change'] | While reviewing a report that detailed both dramatic shifts in marine ecosystems and evolv
+  v3 [ok] pred=['sea change'] | The political strategist, briefing a group of leaders from coastal communities deeply conc
+--------------------------------------------------------------------------------
+Sentence: He said he bought it at the markets but I think it fell off a truck.
+True idioms: ['fell off a truck']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['fell off a truck'] | As the two highway maintenance workers inspected a brand new generator with a few scratche
+  v2 [ok] pred=['fell off a truck'] | While discussing the recent audit which showed significant inventory shrinkage and a separ
+  v3 [ok] pred=['fell off a truck'] | My neighbor, who works as a tow truck driver clearing accident scenes on the interstate, j
+--------------------------------------------------------------------------------
+Sentence: This insurance company is an expert at cutting red tape to process your claim faster.
+True idioms: ['cutting red tape']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['cutting red tape'] | In their latest advertising campaign, which features adjusters performing dramatic feats l
+  v2 [ok] pred=['cutting red tape'] | For the final stage of the adjuster training simulation, new hires must navigate a physica
+  v3 [ok] pred=['cutting red tape'] | The historical documents division, which binds all sensitive claim files with a unique cri
+--------------------------------------------------------------------------------
+Sentence: He must apologise, he saw that clearly enough, must eat crow, as he told himself.
+True idioms: ['eat crow']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['eat crow'] | Having lost the outrageous bet where the forfeit involved both a public retraction of his 
+  v2 [ok] pred=['eat crow'] | As the novice survivalist who had gotten the group lost, he stared at the grim meal they h
+  v3 [ok] pred=['eat crow'] | The historical reenactor, whose mistake had ruined the authenticity of the scene, knew wha
+--------------------------------------------------------------------------------
+Sentence: It's even money that it will rain today.
+True idioms: ['even money']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['even money'] | The two bookies finished settling their accounts from the horse race, leaving two perfectl
+  v2 [ok] pred=['even money'] | Discussing the new crop insurance policy, which pays out an amount exactly equal to the pr
+  v3 [ok] pred=['even money'] | As Sarah placed her cash on the table, which now precisely matched John's contribution for
+--------------------------------------------------------------------------------
+Sentence: George embarrassed his aunt by answering the door in his birthday suit.
+True idioms: ['birthday suit']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['birthday suit'] | His aunt had just arrived for his surprise 30th birthday gala, carrying the last-minute al
+  v2 [ok] pred=['gag gift', 'birthday suit'] | At the chaotic costume party, where the tailor had just delivered a garish, sequined tuxed
+  v3 [ok] pred=['birthday suit'] | The invitation to the high-society masquerade ball specified 'Wear your most fabulous birt
+--------------------------------------------------------------------------------
+Sentence: See if you can make head or tail of the last section in this chapter. I'm baffled.
+True idioms: ['make head or tail of']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['make head or tail'] | While trying to reassemble the fragmented fossil of a bizarre, segmented invertebrate, the
+  v2 [ok] pred=['make head or tail'] | The ancient coins were so corroded that telling the emperor's profile from the ship on the
+  v3 [ok] pred=['make head or tail'] | After the recursive function corrupted the pointers, the doubly-linked list became a tangl
+--------------------------------------------------------------------------------
+Sentence: Is that new teammate properly on board yet?
+True idioms: ['on board']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['cast off', 'on board'] | As the crew prepared to cast off for the company's annual team-building sailing trip, the 
+  v2 [ok] pred=['on board'] | The foreman watched the crew working on the high scaffolding, carefully positioning the he
+  v3 [ok] pred=['on board'] | With the final whistle echoing through the station, the team lead anxiously watched the la
+--------------------------------------------------------------------------------
+Sentence: It’s a good idea, but let’s see if we can get a few more of the management team on board.
+True idioms: ['on board']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['on board'] | During the chaotic emergency evacuation drill, the safety coordinator proposed a new, fast
+  v2 [ok] pred=['on board'] | The corporate retreat planners were looking over the itinerary for the upcoming cruise, re
+  v3 [ok] pred=['on board'] | While brainstorming the inaugural flight event for their new private airline, one junior e
+--------------------------------------------------------------------------------
+Sentence: We have known wives to forget that they had husbands…, especially when they supposed that a tax bill or a notification to do military duty might be in the offing!
+True idioms: ['in the offing']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['in the offing'] | From their observation post overlooking the coastal shipping lanes, the two retired naval 
+  v2 [ok] pred=['in the offing'] | Watching the distant silhouette of a military frigate grow larger from their seaside cotta
+  v3 [ok] pred=['in the offing'] | While sorting through mail at the port authority office, with a view of the entire bay, th
+--------------------------------------------------------------------------------
+Sentence: Smith is good at detail, but can't see the forest for the trees.
+True idioms: ['see the forest for the trees']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=["can't see the forest for the trees"] | During the aerial survey of the national park, the new drone pilot kept the camera zoomed 
+  v2 [ok] pred=['see the forest for the trees'] | As a landscape artist known for massive pointillist paintings of woodland scenes, his tech
+  v3 [ok] pred=['see the forest for the trees'] | The search party's navigator was an expert tracker, able to identify every broken twig and
+--------------------------------------------------------------------------------
+Sentence: If Tony Blair is such an utterly busted flush of a leader, why are so many Tories and their outriders so keen to have this Prime Minister gone before he can fight another election?
+True idioms: ['busted flush']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['busted flush'] | At their weekly high-stakes poker night, after one of the MPs threw down his losing hand i
+  v2 [ok] pred=['busted flush'] | During the debriefing for the disastrous intelligence operation codenamed 'Royal Flush', t
+  v3 [ok] pred=['busted flush'] | While arguing in the Westminster plumbing supply shop over which defunct toilet model to r
+--------------------------------------------------------------------------------
+Sentence: In one of the rare cinematic depictions of an older woman as sexually attractive and active, Moreau also contributes to the end of Syl′s innocence by seducing him in the summer house. No mutton dressed as lamb could have done better!
+True idioms: ['mutton dressed as lamb']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['mutton dressed as lamb'] | At the 'Pastures on Film' festival awards dinner, where the main course for the culinary p
+  v2 [ok] pred=['mutton dressed as lamb'] | A film critic, who also happened to be a caterer preparing for a large banquet, was passio
+  v3 [ok] pred=['mutton dressed as lamb'] | The celebrity chef, known for his philosophical tangents, was explaining how to artfully d
+--------------------------------------------------------------------------------
+Sentence: Luckily, the members of the committee were on the same wavelength, so we didn't have endless discussions about what words meant.
+True idioms: ['on the same wavelength']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['on the same wavelength'] | In the neuro-linguistics lab, where researchers were analyzing the synchronized EEG scans 
+  v2 [ok] pred=['on the same wavelength'] | During the debriefing for the signals intelligence team, where setting all transponders to
+  v3 [ok] pred=['on the same wavelength'] | At the audio engineering standards convention, where the panel was tasked with defining th
+--------------------------------------------------------------------------------
+Sentence: What's the matter with Fred? Oh, he's just having a bad hair day.
+True idioms: ['bad hair day']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['bad hair day'] | At the high-fashion photoshoot, the stylist had tried three different elaborate looks, non
+  v2 [ok] pred=['bad hair day'] | The award-winning show poodle kept snapping and writhing on the table, leaving its coat un
+  v3 [ok] pred=['bad hair day'] | After his sister played with his prized collectible action figure, Fred found its syntheti
+--------------------------------------------------------------------------------
+Sentence: People with your skills are ten a penny these days.
+True idioms: ['ten a penny']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['ten a penny'] | In the antique shop, the manager examined the applicant's meticulously crafted miniature f
+  v2 [ok] pred=['ten a penny'] | During the economic history lecture covering both the 19th-century labor market and the pr
+  v3 [ok] pred=['ten a penny'] | The veteran numismatist, mentoring a new coin collector on how to spot valuable pennies, s
+--------------------------------------------------------------------------------
+Sentence: People with your skills are a dime a dozen these days.
+True idioms: ['a dime a dozen']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['a dime a dozen'] | At the antique toy fair, the vendor sorted through boxes of tiny, mass-produced artisan do
+  v2 [ok] pred=['a dime a dozen'] | While reviewing the budget for hiring freelance graphic designers and purchasing stock pho
+  v3 [ok] pred=['a dime a dozen'] | The old baker was bundling up day-old gingerbread men for a clearance sale while giving hi
+--------------------------------------------------------------------------------
+Sentence: Ouch, I just hit my funny bone.
+True idioms: ['funny bone']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['funny bone'] | While using a rickety skeleton prop for a new comedy routine about medical anxieties, the 
+  v2 [ok] pred=['funny bone'] | The prop maker was crafting a cartoonishly oversized bone for a clown's slapstick act, and
+  v3 [ok] pred=['hit my funny bone'] | After an exhausting dinner filled with my father's relentless medical puns, he reached acr
+--------------------------------------------------------------------------------
+Sentence: His wisecracks always tickle my funny bone.
+True idioms: ['funny bone']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['tickle my funny bone'] | My new physical therapist has a strange method of combining humor with treatment. While he
+  v2 [ok] pred=['tickle my funny bone'] | During the comedy hypnosis show, the performer made me believe I had a feather attached to
+  v3 [ok] pred=['tickle my funny bone'] | Watching that clumsy comedian is an ordeal. He once stumbled into my table while deliverin
+--------------------------------------------------------------------------------
+Sentence: There, on the ramparts of the forts, stood Nicholas Koorn, armed to the teeth, flourishing a brass-hilted sword.
+True idioms: ['armed to the teeth']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['armed to the teeth'] | During the historical fair's theatrical finale, which featured a famous sword-swallowing a
+  v2 [ok] pred=['armed to the teeth'] | The governor's new avant-garde art installation was controversial; it was a lifelike metal
+  v3 [ok] pred=['armed to the teeth'] | Desperate to carry his entire collection of antique blades out of the besieged keep, the q
+--------------------------------------------------------------------------------
+Sentence: The battery lasts a day in my phone, but your mileage may vary.
+True idioms: ['your mileage may vary']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['your mileage may vary'] | While comparing their new electric cars and the phone apps used to track performance, one 
+  v2 [ok] pred=['your mileage may vary'] | During a debriefing for a long-range drone delivery test, the operator explained how the r
+  v3 [ok] pred=['your mileage may vary'] | After a full day of hiking and comparing GPS tracking data, one trekker complained about h
+--------------------------------------------------------------------------------
+Sentence: I think that red dress looks really good on you, but your mileage may vary, of course.
+True idioms: ['your mileage may vary']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['mileage may vary'] | While arguing over the fine print in their new car's lease agreement, which included stric
+  v2 [ok] pred=['mileage may vary'] | The fitness influencer was filming a single video reviewing both a new electric bicycle an
+  v3 [ok] pred=['bogged down', 'mileage may vary'] | After a long day of test-driving different cars and getting bogged down in discussions abo
+--------------------------------------------------------------------------------
+Sentence: Just stop beating around the bush and tell me what the problem is!
+True idioms: ['beating around the bush']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['beating around the bush'] | The new gardener was meant to be clearing weeds, but instead he was just whacking the deco
+  v2 [ok] pred=['beating around the bush'] | During the search and rescue training, the instructor was demonstrating how to flush out s
+  v3 [ok] pred=['beating around the bush'] | My brother was supposed to be helping me find my lost drone, but all he did was poke at th
+--------------------------------------------------------------------------------
+Sentence: I'm telling you, if you sign that paper, you're playing with fire.
+True idioms: ['playing with fire']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['playing with fire'] | The veteran fire-eater handed the apprentice a lengthy liability waiver for the performanc
+  v2 [ok] pred=['playing with fire'] | Watching the reckless teen prepare to sear his signature onto the club's pledge sheet usin
+  v3 [ok] pred=['playing with fire'] | The agent pointed to the high-risk insurance rider for the magician's new, notoriously dan
+--------------------------------------------------------------------------------
+Sentence: Finally we gave him the silent treatment, and for weeks before he died we neither spoke to him nor did he speak to us.
+True idioms: ['silent treatment']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['silent treatment'] | The experimental protocol for his laryngeal condition was radical, involving complete voca
+  v2 [ok] pred=['silent treatment'] | For his final performance art piece on isolation, the artist demanded absolute non-communi
+  v3 [ok] pred=['silent treatment'] | As part of his penance at the monastery, the order's code dictated a strict period of non-
+--------------------------------------------------------------------------------
+Sentence: Jay Branegan says each side will be preaching to the choir. "Democrats will make the argument that's been successful with their base... [that] Republicans are merely helping the rich."
+True idioms: ['preaching to the choir']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['preaching to the choir'] | While observing a heated political debate held in the church sanctuary immediately before 
+  v2 [ok] pred=['preaching to the choir'] | At the town hall meeting on arts funding, where politicians from both parties addressed th
+  v3 [ok] pred=['preaching to the choir'] | During the political rally which doubled as a fundraiser for the local cathedral's music p
+--------------------------------------------------------------------------------
+Sentence: His face rings a bell. I wonder if I know him from somewhere.
+True idioms: ['rings a bell']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['rings a bell'] | While touring the interactive art exhibit where proximity sensors in front of each sculpte
+  v2 [ok] pred=['rings a bell'] | During the final round of the trivia night, where you had to hit a buzzer shaped like a sm
+  v3 [ok] pred=['rings a bell'] | The toy soldier was an antique, and my dad explained that when you pressed its nose, a mec
+--------------------------------------------------------------------------------
+Sentence: You know, cos he was like taking the piss out of them and they took the piss out of him.
+True idioms: ['taking the piss']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['taking the piss out of', 'took the piss out of'] | At the controversial modern art exhibit, which featured several large, sealed containers o
+  v2 [ok] pred=['taking the piss out of', 'took the piss out of'] | During the urology conference, the junior researcher's job was to extract specific hormone
+  v3 [ok] pred=['taking the piss out of them', 'took the piss out of him'] | In the bootlegging operation, 'piss' was their slang for the unrefined alcohol that had to
+--------------------------------------------------------------------------------
+Sentence: He's either taking it easy or taking the piss by arriving at the eleventh hour.
+True idioms: ['taking the piss']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['taking it easy', 'taking the piss', 'eleventh hour'] | Watching the lazy urology intern finally saunter into the lab with the last crucial patien
+  v2 [ok] pred=['taking it easy', 'taking the piss', 'eleventh hour'] | On the set of the historical parody where the method actor's mischievous character was scr
+  v3 [ok] pred=['taking it easy', 'taking the piss', 'eleventh hour'] | With the building's water scheduled for reactivation at 11 AM, the foreman glared at the a
+--------------------------------------------------------------------------------
+Sentence: If he doesn't win the next round, then his goose is cooked.
+True idioms: ['goose is cooked']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['his goose is cooked'] | On the set of the frantic competitive cooking show, the chef was simultaneously trying to 
+  v2 [ok] pred=['his goose is cooked'] | My brother was so engrossed in his video game tournament that he completely forgot his pro
+  v3 [ok] pred=['his goose is cooked'] | At the county fair, the farmer nervously watched the poultry judging, knowing that the pri
+--------------------------------------------------------------------------------
+Sentence: At first it seemed a good idea, but now it's getting close I'm having second thoughts.
+True idioms: ['having second thoughts']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['gut reactions', 'second thoughts'] | In the cognitive experiment, we were required to write down our initial gut reactions to t
+  v2 [ok] pred=['second thoughts'] | The creative writing instructor told us to submit our first draft by noon and then a compl
+  v3 [ok] pred=['second thoughts'] | For the debate, our strategy was to present our preliminary arguments in the first round a
+--------------------------------------------------------------------------------
+Sentence: I'm about ready to turn into a pumpkin. You can stay up later if you want.
+True idioms: ['turn into a pumpkin']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['turn into a pumpkin'] | During the late-night dress rehearsal for the children's theater production of Cinderella,
+  v2 [ok] pred=['turn into a pumpkin'] | While playing the fantasy role-playing game, my character was afflicted by a witch's curse
+  v3 [ok] pred=['about ready to turn into a pumpkin'] | The Halloween party was still going strong, but my complex costume involved a slow-release
+--------------------------------------------------------------------------------
+Sentence: My daughter turns into a pumpkin at 10:00, so you need to have her home before then.
+True idioms: ['turns into a pumpkin']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['turns into a pumpkin'] | At the final dress rehearsal for the school's production of Cinderella, the stage manager 
+  v2 [ok] pred=['turns into a pumpkin'] | While explaining the rules for the new fantasy role-playing game where player characters g
+  v3 [ok] pred=['turns into a pumpkin'] | During the town's elaborate fall festival costume contest, which involves timed, automated
+--------------------------------------------------------------------------------
+Sentence: As you're so tired, why not try to catch forty winks before you leave?
+True idioms: ['forty winks']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['catch forty winks'] | During the bizarre office team-building event where the final challenge was to use a motio
+  v2 [ok] pred=['catch forty winks'] | In the toy factory, where your job was to collect the small, plastic blinking eye mechanis
+  v3 [ok] pred=['catch forty winks'] | For the ophthalmology study, the test subject was instructed to follow a light with their 
+--------------------------------------------------------------------------------
+Sentence: He hit the nail on the head when he said the problem was the thermostat.
+True idioms: ['hit the nail on the head']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['hit the nail on the head'] | While attempting a DIY repair that involved both securing a rattling vent cover and diagno
+  v2 [ok] pred=['hit the nail on the head'] | During the frantic construction of the new smart home exhibit, where he was both physicall
+  v3 [ok] pred=['hit the nail on the head'] | The frustrated handyman had been struggling for an hour to diagnose the heating issue, and
+--------------------------------------------------------------------------------
+Sentence: We didn't tell our friends that we were dating, but I think they put two and two together.
+True idioms: ['put two and two together']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['put two and two together'] | While tutoring our younger siblings who were struggling with their first-grade arithmetic 
+  v2 [ok] pred=['put two and two together'] | During the chaotic square-dancing lesson where the instructor kept shouting for us to form
+  v3 [ok] pred=['put two and two together'] | As we all worked on assembling the complex model kit, our friends noticed we had the only 
+--------------------------------------------------------------------------------
+Sentence: Right off the bat, I can see that you need to see a doctor.
+True idioms: ['off the bat']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['right off the bat'] | In the woodworking shop, he was turning a new piece of ash on the lathe when a large splin
+  v2 [ok] pred=['right off the bat'] | The little league player took a powerful swing, but the cheap equipment shattered, sending
+  v3 [ok] pred=['Right off the bat'] | During the zoological survey, the frantic animal they were trying to tag managed to sink i
+--------------------------------------------------------------------------------
+Sentence: The patient is feeling a little better, but she's not out of the woods yet.
+True idioms: ['out of the woods']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['out of the woods'] | During the mountain rescue operation, the team leader radioed in a status update on the in
+  v2 [ok] pred=['out of the woods'] | In the new pediatric wing, creatively named 'The Enchanted Woods,' a child was recovering 
+  v3 [ok] pred=['out of the woods'] | Two doctors were discussing a complex case over the phone while on a challenging weekend h
+--------------------------------------------------------------------------------
+Sentence: The very date which put them beyond the pale as belligerents was that which they seem to have chosen in order to prove what active and valiant soldiers they still remained.
+True idioms: ['beyond the pale']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['beyond the pale'] | In the post-action report for the military simulation, where the rulebook explicitly forba
+  v2 [ok] pred=['beyond the pale'] | Discussing the history of the Anglo-Norman invasion of Ireland, where a literal fenced-in 
+  v3 [ok] pred=['beyond the pale'] | The legal arbitration over the ancient land dispute hinged on the old property line marked
+--------------------------------------------------------------------------------
+Sentence: Winemakers are over the moon to be able to showcase the individual nuances within their vineyards.
+True idioms: ['over the moon']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['over the moon'] | At the new astronomical observatory, which featured a giant, detailed lunar floor map in t
+  v2 [ok] pred=['over the moon'] | During the annual 'Terroir Awards' ceremony held on a scenic ridge overlooking the famous 
+  v3 [ok] pred=['over the moon'] | At the conference on extraterrestrial agriculture, where a key presentation focused on the
+--------------------------------------------------------------------------------
+Sentence: The author's novels from her salad years lacked the sophistication and depth of her later works.
+True idioms: ['salad years']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['salad years'] | While reviewing her complete works, the critic first covered her early, forgotten career a
+  v2 [ok] pred=['salad years'] | Her biography described her early life on a hydroponic farm her family owned, where she su
+  v3 [ok] pred=['salad years'] | Discussing the writer's thematic evolution, the professor focused on her early 'Verdant Pe
+--------------------------------------------------------------------------------
+Sentence: Harold: How is Sarah? I don't want to jump her while she's on the rag.
+True idioms: ['on the rag']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['on the rag'] | During the chaotic finale of the children's party game, where Sarah was sitting perfectly 
+  v2 [ok] pred=['on the rag'] | In the textile recycling plant, workers were perched on massive piles of discarded cloth t
+  v3 [ok] pred=['on the rag'] | he two friends were discussing their new, very timid rescue cat who had claimed a specific
+--------------------------------------------------------------------------------
+Sentence: He told me who he saw, but it went in one ear and out the other.
+True idioms: ['went in one ear and out the other']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['went in one ear and out the other'] | While studying a detailed anatomical model of the human head that illustrated a new surgic
+  v2 [ok] pred=['went in one ear and out the other'] | During the soundcheck, the audio engineer complained that the signal from the new binaural
+  v3 [ok] pred=['went in one ear and out the other'] | The xenobiologist described the bizarre physiology of the new alien species, whose head wa
+--------------------------------------------------------------------------------
+Sentence: I think I can do it quickly, but the exact schedule is still up in the air.
+True idioms: ['up in the air']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['up in the air'] | The air traffic controller, discussing a plan to use a banner-towing plane to display flig
+  v2 [ok] pred=['up in the air'] | During the chaotic planning meeting, a sudden gust from the industrial fan scattered all t
+  v3 [ok] pred=['up in the air'] | The construction foreman watched the crane operator carefully maneuvering the massive digi
+--------------------------------------------------------------------------------
+Sentence: Aerodynamics, my foot! The thing drives like a billboard.
+True idioms: ['my foot']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['aerodynamics, my foot!', 'drives like a billboard'] | After the newly installed 'aerodynamic' side panel fell off and landed squarely on his leg
+  v2 [ok] pred=['my foot', 'like a billboard'] | The race car driver complained that the pedals were so stiff and the floor vibrated so muc
+  v3 [ok] pred=['aerodynamics, my foot'] |  He was testing a new pressure-sensitive prosthetic limb by driving the company's latest v
+--------------------------------------------------------------------------------
+Sentence: Acme's new technology will raise the bar for the entire industry.
+True idioms: ['raise the bar']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['raise the bar'] | At the athletics convention, while demonstrating their new robotic high-jump training syst
+  v2 [ok] pred=['raise the bar'] | During the final presentation for their new automated warehouse system, which required a c
+  v3 [ok] pred=['raise the bar'] | In the corporate gym, as the CEO and a visiting analyst watched a powerlifter struggle wit
+--------------------------------------------------------------------------------
+Sentence: You can breathe easy knowing that your savings account is insured against loss.
+True idioms: ['breathe easy']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['breathe easy'] | After installing the expensive, state-of-the-art air purification system in their home to 
+  v2 [ok] pred=['breathe easy'] | After the bank's ventilation system was finally repaired, clearing the lingering dust from
+  v3 [ok] pred=['breathe easy'] | The client, who suffered from panic attacks triggered by financial stress, was visibly ten
+--------------------------------------------------------------------------------
+Sentence: His new car has all the bells and whistles, but it doesn't move through traffic jams any faster.
+True idioms: ['bells and whistles']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['all the bells and whistles'] | As the lead designer for the annual holiday parade unveiled his latest mobile float, which
+  v2 [ok] pred=['all the bells and whistles'] | At the annual Steampunk vehicle convention, where creators are judged on both aesthetics a
+  v3 [ok] pred=['all the bells and whistles'] | As the parade marshal reviewed the specifications for his brand-new, custom-built float de
+--------------------------------------------------------------------------------
+Sentence: You can crank the engine until the cows come home, but it won’t start without fuel.
+True idioms: ['until the cows come home']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['crank the engine until the cows come home'] | On the dairy farm, the old mechanic watched the new farmhand struggle with the tractor nea
+  v2 [ok] pred=['cows come home'] | While waiting for the final data packets from a massive network transfer nicknamed 'The He
+  v3 [ok] pred=['crank the engine until the cows come home'] | The film director, frustrated with the prop truck for the big farm escape scene, checked h
+--------------------------------------------------------------------------------
+Sentence: She's normally a quiet person, but she will talk a blue streak about fashion, if you let her.
+True idioms: ['talk a blue streak']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['talk a blue streak'] | As a performance artist who uses audio-visual software to project light patterns correspon
+  v2 [ok] pred=['talk a blue streak'] | When describing the specific hairstyle she wants for the competition, which involves a sin
+  v3 [ok] pred=['talk a blue streak'] | While demonstrating the new graphic design tool that renders brush strokes based on speech
+--------------------------------------------------------------------------------
+Sentence: Someone really needs to go put the kibosh on that noisy party.
+True idioms: ['put the kibosh on']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['put the kibosh on'] | At the tabletop game convention, the new expansion featured a powerful token called 'The K
+  v2 [ok] pred=['put the kibosh on'] | The caterers were in chaos over their signature dish, a massive, bubbling fondue pot they 
+  v3 [ok] pred=['put the kibosh on'] | In the modern art gallery, the interactive sound sculpture was malfunctioning, and the onl
+--------------------------------------------------------------------------------
+Sentence: Everybody and his cousin will be in line for opening night with free popcorn!
+True idioms: ['Everybody and his cousin']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['everybody and his cousin'] | The new documentary is about our town's founding families, and the lead genealogist just c
+  v2 [ok] pred=['everybody and his cousin'] | I was checking the attendance list for the exclusive cast and crew screening, and I saw th
+  v3 [ok] pred=['everybody and his cousin'] | Our local community theater is staging a modern morality play where the main character is 
+--------------------------------------------------------------------------------
+Sentence: It is difficult, but possible to quit smoking cold turkey.
+True idioms: ['cold turkey']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['quit smoking cold turkey'] | At the competitive barbecue cook-off, the chef explained his controversial new technique o
+  v2 [ok] pred=['quit smoking cold turkey'] | The deli owner described his risky new business plan to abandon his famous smokehouse prod
+  v3 [ok] pred=['quit smoking cold turkey'] | During the chaotic family therapy session, where one person was discussing their nicotine 
+--------------------------------------------------------------------------------
+Sentence: If I had been more on the ball I would have asked when he called me.
+True idioms: ['on the ball']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['on the ball'] | The physical therapist was demonstrating a core stability exercise while simultaneously tr
+  v2 [ok] pred=['on the ball'] | During the final level of the virtual reality game, my avatar had to navigate a treacherou
+  v3 [ok] pred=['on the ball'] | As the circus performer tried to perfect his new routine, which involved balancing precari
+--------------------------------------------------------------------------------
+Sentence: Be like dad, keep mum.
+True idioms: ['keep mum']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['keep mum'] | The lawyer explained the two main stipulations of the will: first, that all family busines
+  v2 [ok] pred=['keep mum'] | In the middle of the disastrous school play, the lead actor forgot his lines during a scen
+  v3 [ok] pred=['keep mum'] | When my grandmother was moved into hospice care and difficult family secrets began to surf
+--------------------------------------------------------------------------------
+Sentence: Including a few fun details in large group introductions can be a great way to break the ice.
+True idioms: ['break the ice']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['break the ice'] | At the Arctic research outpost's orientation, where new team members were meeting for the 
+  v2 [ok] pred=['break the ice'] | During the corporate team-building event at an ice-sculpting studio, where the quiet engin
+  v3 [ok] pred=['break the ice'] | The winter survival instructor, facing a group of strangers on a frozen lake who needed to
+--------------------------------------------------------------------------------
+Sentence: The company had engineered plenty of products, but manufacturing them was virgin territory.
+True idioms: ['virgin territory']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['virgin territory'] | Surveying the vast, undeveloped plot of land they had just acquired for their first factor
+  v2 [ok] pred=['virgin territory'] | The expansion plan involved both entering a new market and developing a completely untouch
+  v3 [ok] pred=['virgin territory'] | During the meeting, the project manager pointed to the section of the map showing uninhabi
+--------------------------------------------------------------------------------
+Sentence: Give me the bigger hammer. This little one just doesn't cut the mustard.
+True idioms: ['cut the mustard']
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=['cut the mustard'] | In the molecular gastronomy lab, the apprentice was feebly tapping at a frozen, shatter-pr
+  v2 [CONFUSED] pred=['time and material'] | Working in the props department, the artisan struggled to make a clean break in the dense,
+  v3 [ok] pred=['cut the mustard'] | On the factory floor, the new hire couldn't get the caked-on mustard resin off the mixing 
+--------------------------------------------------------------------------------
+Sentence: Our marriage went through a difficult time, but now it is on the mend.
+True idioms: ['on the mend']
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=['on the mend'] | As we sat together on the huge pile of clothes that needed stitching for our tailoring bus
+  v2 [ok] pred=['on the mend'] | While painstakingly stitching the antique family quilt that had been ripped during one of 
+  v3 [CONFUSED] pred=[] | Leading a textile restoration workshop and using a personal story to illustrate a difficul
+--------------------------------------------------------------------------------
+Sentence: Among the laundry list of inconveniences most of us can't abide: cold coffee, airport delays, the high price of gasoline.
+True idioms: ['laundry list']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['laundry list'] | While sorting clothes and filling out the detailed form for the dry cleaner, my roommate g
+  v2 [ok] pred=['laundry list'] | The hotel manager was reviewing customer feedback, holding a crumpled note from a guest ab
+  v3 [ok] pred=['laundry list', "can't abide"] | In the brainstorming session for a new home organization app, the facilitator pointed to a
+--------------------------------------------------------------------------------
+Sentence: I wouldn't trade you away for all the tea in China.
+True idioms: ['all the tea in China']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['all the tea in China'] | The Beijing consortium's final offer for my chief engineer included exclusive control over
+  v2 [ok] pred=['all the tea in China'] | As the antiques dealer desperately tried to acquire my Ming dynasty porcelain horse, even 
+  v3 [ok] pred=['laid out', "I wouldn't trade you away for all the tea in China"] | The foreign minister laid out the terms for our captured agent's release, which involved a
+--------------------------------------------------------------------------------
+Sentence: He went to school to study math and science and all that jazz.
+True idioms: ['all that jazz']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['all that jazz'] | At the New Orleans conservatory, known equally for its groundbreaking engineering program 
+  v2 [ok] pred=['all that jazz'] | His father, a famous bebop musician, was complaining about his son's diverse interests and
+  v3 [ok] pred=['all that jazz'] | While reviewing the interdisciplinary curriculum that combined STEM fields with a mandator
+--------------------------------------------------------------------------------
+Sentence: We went to a karaoke bar and had a barrel of laughs.
+True idioms: ['barrel of laughs']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['barrel of laughs'] | The karaoke bar's signature cocktail, a potent mixture served in a miniature wooden cask a
+  v2 [ok] pred=['had a barrel of laughs'] | During my friend's terrible rendition of a power ballad, he stumbled backwards into the ru
+  v3 [ok] pred=['barrel of laughs'] | The grand prize for the evening's singing contest was a novelty keg filled with gag gifts 
+--------------------------------------------------------------------------------
+Sentence: It's a straightforward job, but it's no bed of roses, with such long hours.
+True idioms: ['bed of roses']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['no bed of roses'] | As the landscape architect described the task of installing the prize-winning floral displ
+  v2 [ok] pred=['no bed of roses'] | The boutique hotel manager explained the daily duties for the new housekeeper responsible 
+  v3 [ok] pred=['bed of roses'] | While discussing his role as a perfumer's assistant, he explained how he had to layer thou
+--------------------------------------------------------------------------------
+Sentence: The government at home, and the people of the colonies, are getting to have bad blood between them.
+True idioms: ['bad blood']
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=['bad blood'] | As the Royal Commission investigated the outbreak of a mysterious hemorraghic fever and th
+  v2 [ok] pred=['flared up', 'bad blood'] | Following the publication of a controversial treatise on genetics and lineage that claimed
+  v3 [CONFUSED] pred=[] | After the industrial consortium's dam project was blamed for contaminating the shared rive
+--------------------------------------------------------------------------------
+Sentence: She's a sharp cookie and will have no trouble seeing a sales pitch for what it is.
+True idioms: ['sharp cookie']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['sharp cookie'] | At the culinary competition, the judge tasted the entry, a biscuit with remarkably precise
+  v2 [ok] pred=['sharp cookie'] | The marketing team presented their new product concept, a brand of geometrically-shaped bi
+  v3 [ok] pred=['sharp cookie'] | Engineers were demonstrating their new kitchen AI, a disc-shaped assistant nicknamed 'Cook
+--------------------------------------------------------------------------------
+Sentence: You're in a bad mood today. What's eating you?
+True idioms: ["What 's eating you"]
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=["What's eating you?"] | The patient, having just received inconclusive test results concerning a potential interna
+  v2 [ok] pred=["What's eating you?"] | While camping, one hiker kept scratching furiously at a strange, spreading rash he got aft
+  v3 [ok] pred=["What's eating you"] | The robotics engineer stared grimly at the security footage showing the maintenance nanobo
+--------------------------------------------------------------------------------
+Sentence: When the boss assigned the project to Tom, the rest of us were relieved to be off the hook.
+True idioms: ['off the hook']
+Confused variants: 1/3 (33%)
+  v1 [CONFUSED] pred=['time and material'] | Working on the fish processing line, where we spent the morning hanging heavy salmon from 
+  v2 [ok] pred=['off the hook'] | In the understaffed telethon call center, we all dreaded being assigned to the perpetually
+  v3 [ok] pred=['off the hook'] | During the chaotic dress rehearsal for the new aerial acrobatics show, where performers we
+--------------------------------------------------------------------------------
+Sentence: We were just standing around shooting the breeze.
+True idioms: ['shooting the breeze']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['shooting the breeze'] | The amateur meteorologists were testing a new device that released smoke puffs to track wi
+  v2 [ok] pred=['shooting the breeze'] | On the film set, the director wanted to capture the leaves moving in the wind, but the act
+  v3 [ok] pred=['shooting the breeze'] | At the outdoor archery range, after all the targets had been taken down, the bored archers
+--------------------------------------------------------------------------------
+Sentence: She was determined to win the contract, by hook or by crook.
+True idioms: ['by hook or by crook']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['by hook or by crook'] | In the final challenge of the historical reenactment fair, the coveted prize was a signed 
+  v2 [ok] pred=['by hook or by crook'] | As the prop master for the new pastoral play, she was negotiating the supply agreement whi
+  v3 [ok] pred=['by hook or by crook'] | During the competitive bidding presentation for the canal dredging project, a crucial blue
+--------------------------------------------------------------------------------
+Sentence: You can ignore their problems, but you could be in the same boat someday.
+True idioms: ['in the same boat']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['in the same boat'] | During the rowing team's tense meeting about their collective debt and the upcoming regatt
+  v2 [ok] pred=['in the same boat'] | While planning their competitive river expedition, one partner suggested they let the riva
+  v3 [ok] pred=['in the same boat'] | Observing the training simulation where a crew made critical navigational errors leading t
+--------------------------------------------------------------------------------
+Sentence: After a day's worth of events, it came down to one last match; this one was for all the marbles.
+True idioms: ['all the marbles']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['for all the marbles'] | At the antique toy convention, two rival collectors had been vying for a complete, mint-co
+  v2 [ok] pred=['for all the marbles'] | In the final round of the playground tournament, where the grand prize was a legendary, ce
+  v3 [ok] pred=['for all the marbles'] | During the high-stakes game night, where the players used a communal pot of valuable, hand
+--------------------------------------------------------------------------------
+Sentence: After having shown us three hours of instructional and safety videos, the inspector was simply beating a dead horse by telling us to buckle up as we got into the van.
+True idioms: ['beating a dead horse']
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=['beating a dead horse'] | At the bizarre agricultural fair, where a taxidermist was demonstrating how to tenderize o
+  v2 [ok] pred=['beating a dead horse'] | During the final exam for the veterinary pathology course, which involved identifying trau
+  v3 [CONFUSED] pred=['legal duty'] | Known for his strange motivational tactics, the manager used a stick to repeatedly strike 
+--------------------------------------------------------------------------------
+Sentence: As if the hostile takeover weren't enough, to add insult to injury they scrapped ninety percent of our products and replaced them with their own.
+True idioms: ['add insult to injury']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['add insult to injury'] | During the chaotic transition meeting, the new CEO publicly berated our head of R&D for a 
+  v2 [ok] pred=['a stain on the industry', 'add insult to injury'] | The acquiring firm's lawyers first filed a lawsuit against our founder for supposed financ
+  v3 [ok] pred=['add insult to injury'] | At the 'goodwill' company softball game between the two management teams, their aggressive
+--------------------------------------------------------------------------------
+Sentence: That project is on the back burner until we deal with higher priorities.
+True idioms: ['on the back burner']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['on the back burner'] | At the culinary institute, where students were both developing new restaurant concepts and
+  v2 [ok] pred=['on the back burner'] | In the chaotic chemistry lab, where a long-term synthesis required slow, steady heat away 
+  v3 [ok] pred=['on the back burner'] | During the fire safety demonstration in the test kitchen, the chief pointed to a smolderin
+--------------------------------------------------------------------------------
+Sentence: These latest modifications are mere window dressing; the same problems remain.
+True idioms: ['window dressing']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['window dressing'] | The retail consultants reviewed the failing department store's newly decorated storefronts
+  v2 [ok] pred=['window dressing'] | During the final walk-through of the renovated house, the inspector pointed to the elabora
+  v3 [ok] pred=['window dressing'] | After the software update, which only changed the color scheme and borders of the applicat
+--------------------------------------------------------------------------------
+Sentence: After I hadn’t heard from her in six months, she called me out of the blue to meet for lunch.
+True idioms: ['out of the blue']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['out of the blue'] | My friend, a deep-sea marine biologist, was on a solo submarine expedition to study biolum
+  v2 [ok] pred=['blue period', 'out of the blue'] | The artist had entered a reclusive, depressive state that her therapist called her 'blue p
+  v3 [ok] pred=['out of the blue'] | As an air traffic controller tracking my sister's experimental flight into the upper strat
+--------------------------------------------------------------------------------
+Sentence: Let's just say I know because a little bird told me.
+True idioms: ['a little bird told me']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['a little bird told me'] | In the aviary, surrounded by intelligent parrots known for mimicking conversations they ov
+  v2 [ok] pred=['a little bird told me'] | Inside the bio-acoustics lab where we were testing a new device that translated avian chir
+  v3 [ok] pred=['a little bird told me'] | When my daughter asked with wide eyes how I found out she'd hidden her broccoli under the 
+--------------------------------------------------------------------------------
+Sentence: Folks in our neighborhood come from every walk of life, prince and pauper, investor and janitor.
+True idioms: ['walk of life']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['every walk of life', 'prince and pauper'] | At the planning meeting for the annual 'Walk for Life' charity marathon, the coordinator l
+  v2 [ok] pred=['every walk of life'] | While discussing the various gaits and postures observed in their kinesiology study on vit
+  v3 [ok] pred=['walk of life'] | Reviewing the eclectic group of applicants for the role-playing game, where each character
+--------------------------------------------------------------------------------
+Sentence: We're expected to just do it at the drop of a hat.
+True idioms: ['at the drop of a hat']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['drop of a hat'] | The stage manager explained that for the magician's trick to work, the curtain must fall t
+  v2 [ok] pred=['at the drop of a hat'] | At the old-fashioned town fair, the starter for the sack race had no pistol, and the runne
+  v3 [ok] pred=['drop of a hat'] | In the stunt-acting class for Westerns, the instructor demonstrated the quick-draw drill b
+--------------------------------------------------------------------------------
+Sentence: They worked around the clock to finish the project on time.
+True idioms: ['around the clock']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['around the clock'] | The restoration team for the city's historic bell tower had to perform their delicate repa
+  v2 [ok] pred=['worked around the clock'] | As part of a strange team-building exercise set in a horologist's museum, the group was re
+  v3 [ok] pred=['around the clock'] | The new factory layout was so inefficient that the only way to access all the assembly sta
+--------------------------------------------------------------------------------
+Sentence: Only the top banana can make a decision of that magnitude.
+True idioms: ['top banana']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['top banana'] | At the agricultural fair, judges were deliberating over the grand prize for fruit genetics
+  v2 [ok] pred=['top banana'] | The primate researchers argued over which chimp's behavior would determine the group's new
+  v3 [ok] pred=['top banana'] | In the grocery conglomerate's boardroom, which was decorated with pictures of their best-s
+--------------------------------------------------------------------------------
+Sentence: He was hilarious, and remained the top banana on the tour for years.
+True idioms: ['top banana']
+Confused variants: 1/3 (33%)
+  v1 [CONFUSED] pred=['legal duty'] | In the vaudeville revival show performers' status was indicated by the fruit worn on their
+  v2 [ok] pred=['top banana'] | During the annual 'Comedy Chefs' competition, his prize-winning dessert was a towering fru
+  v3 [ok] pred=['top banana'] | His most famous prop routine involved stacking produce, and audiences always roared when h
+--------------------------------------------------------------------------------
+Sentence: The new chairman is happy to take a back seat when it comes to day-to-day operations.
+True idioms: ['take a back seat']
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['take a back seat'] | During his first tour of the company's remote facilities, the chauffeur asked where he pre
+  v2 [ok] pred=['take a back seat'] | While discussing the logistics for the executive team's mobile command vehicle, which tour
+  v3 [ok] pred=['take a back seat'] | The executive assistant, coordinating both the carpool for the site visit and a press rele
+--------------------------------------------------------------------------------

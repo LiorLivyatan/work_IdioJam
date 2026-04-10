@@ -1,0 +1,2670 @@
+﻿[
+ {
+  "sentence": "The bullet hit the book in his pocket.",
+  "tokens": [
+   "The ",
+   "bullet ",
+   "hit ",
+   "the ",
+   "book ",
+   "in ",
+   "his ",
+   "pocket",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence provided does not contain any idiomatic expressions. The phrase 'hit the book' could potentially be an idiom in other contexts, meaning to study hard, but in this sentence, it is used literally, describing a physical action.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 85,
+       "prompt_tokens": 1584,
+       "total_tokens": 1669,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004555,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0004555,
+        "upstream_inference_prompt_cost": 0.000396,
+        "upstream_inference_completions_cost": 5.95e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--fb95ab7b-fa19-49ad-b5c9-294abbb2899f-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1584,
+      "output_tokens": 85,
+      "total_tokens": 1669,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "The sentence provided does not contain any idiomatic expressions. The phrase 'hit the book' could potentially be an idiom in other contexts, meaning to study hard, but in this sentence, it is used literally, describing a physical action.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence provided does not contain any idiomatic expressions. The language used is literal, describing a physical event where a bullet hits a book located in someone's pocket.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 79,
+       "prompt_tokens": 1597,
+       "total_tokens": 1676,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00045455,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 5.53e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--de29e868-050d-4cae-8097-c28bc0e7aef1-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 79,
+      "total_tokens": 1676,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "The sentence provided does not contain any idiomatic expressions. The language used is literal, describing a physical event where a bullet hits a book located in someone's pocket.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence provided does not contain any idiomatic expressions. The phrase 'hit the book' could potentially be an idiom in other contexts (meaning to study hard), but in this sentence, it is used literally, describing a physical action.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 94,
+       "prompt_tokens": 1597,
+       "total_tokens": 1691,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00046505,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 6.58e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ae7caee2-dc47-49f9-b37c-69ee6b2a7685-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 94,
+      "total_tokens": 1691,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "The sentence provided does not contain any idiomatic expressions. The phrase 'hit the book' could potentially be an idiom in other contexts (meaning to study hard), but in this sentence, it is used literally, describing a physical action.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence provided does not contain any idiomatic expressions. The language used is literal, describing a physical event where a bullet hits a book located in someone's pocket.\",\n  \"idioms\":",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 76,
+       "prompt_tokens": 1597,
+       "total_tokens": 1673,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00045245,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 5.32e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--9c0cce54-e7fe-4fe3-8c00-74de68655490-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 76,
+      "total_tokens": 1673,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence provided does not contain any idiomatic expressions. The phrase 'hit the book' could potentially be considered an idiom in certain contexts (meaning to study hard), but in this sentence, it is used literally to describe a physical action.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 96,
+       "prompt_tokens": 1597,
+       "total_tokens": 1693,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00046645,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 6.72e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--af1b4a5a-c2da-44b9-a095-f39e990ef0fc-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 96,
+      "total_tokens": 1693,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ },
+ {
+  "sentence": "balloons are floating up in the air.",
+  "tokens": [
+   "balloons ",
+   "are ",
+   "floating ",
+   "up ",
+   "in ",
+   "the ",
+   "air",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence describes a literal scene of balloons floating in the air. There are no expressions that have a meaning different from the individual meanings of the words.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 76,
+       "prompt_tokens": 1597,
+       "total_tokens": 1673,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00045245,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 5.32e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6c056c9b-ba01-4416-b506-39d67049d5a9-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 76,
+      "total_tokens": 1673,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The sentence describes a literal scene of balloons floating in the air. There are no expressions that have a meaning different from the individual meanings of the words.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence describes a literal scene where balloons are floating in the air. There are no expressions that suggest a non-literal or metaphorical meaning.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 66,
+       "prompt_tokens": 1585,
+       "total_tokens": 1651,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00044245,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00044245,
+        "upstream_inference_prompt_cost": 0.00039625,
+        "upstream_inference_completions_cost": 4.62e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--9aac8911-acad-4905-b961-4c9750d98056-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1585,
+      "output_tokens": 66,
+      "total_tokens": 1651,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence describes a literal scene where balloons are floating in the air. There are no expressions that have a meaning different from the individual meanings of the words.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 77,
+       "prompt_tokens": 1597,
+       "total_tokens": 1674,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00045315,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 5.39e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--334d4d2b-403a-44bf-a490-8b469b5eb638-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 77,
+      "total_tokens": 1674,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence describes a literal scene of balloons floating in the air. There are no expressions that have a non-literal meaning.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 65,
+       "prompt_tokens": 1597,
+       "total_tokens": 1662,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00044475,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 4.55e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--25a0372e-e2eb-430f-a849-322967ac46c8-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 65,
+      "total_tokens": 1662,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The phrase 'floating up in the air' is used literally in this sentence, as it describes the physical movement of balloons.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 63,
+       "prompt_tokens": 1597,
+       "total_tokens": 1660,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00044335,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 4.41e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1a5cd5e3-ea1c-4531-a536-860ebfbee512-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 63,
+      "total_tokens": 1660,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ },
+ {
+  "sentence": "I love bread and butter for breakfast.",
+  "tokens": [
+   "I ",
+   "love ",
+   "bread ",
+   "and ",
+   "butter ",
+   "for ",
+   "breakfast",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I love bread and butter for breakfast.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence contains a common food combination, 'bread and butter', which is used literally in this context, referring to a typical breakfast food item.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 71,
+       "prompt_tokens": 1597,
+       "total_tokens": 1668,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00044895,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 4.97e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--46741c38-ddfb-4116-b9c1-59231d4eb56c-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 71,
+      "total_tokens": 1668,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I love bread and butter for breakfast.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence contains a literal mention of food items 'bread and butter' and does not use any idiomatic expressions.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 63,
+       "prompt_tokens": 1597,
+       "total_tokens": 1660,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00044335,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 4.41e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--3580df58-1254-4d90-bfd6-302c8d2fe151-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 63,
+      "total_tokens": 1660,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "The sentence contains a literal mention of food items 'bread and butter' and does not use any idiomatic expressions.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I love bread and butter for breakfast.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence contains a common food combination, but it is used literally to express a personal preference for breakfast.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 63,
+       "prompt_tokens": 1597,
+       "total_tokens": 1660,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00044335,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 4.41e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--387f6025-243a-4d20-85a9-160493b975f4-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 63,
+      "total_tokens": 1660,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I love bread and butter for breakfast.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence contains a literal mention of food items 'bread and butter' which are commonly consumed for breakfast. There are no idiomatic expressions in this sentence.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 75,
+       "prompt_tokens": 1597,
+       "total_tokens": 1672,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00045175,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 5.25e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ece18ef2-e2a5-42dc-ae78-314f1362667f-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 75,
+      "total_tokens": 1672,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I love bread and butter for breakfast.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence contains a literal mention of food items 'bread and butter' which are commonly consumed for breakfast. There are no idiomatic expressions in this sentence.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 76,
+       "prompt_tokens": 1597,
+       "total_tokens": 1673,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00045245,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 5.32e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--4dd635e3-4e03-4567-906e-a54708c1704f-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 76,
+      "total_tokens": 1673,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "The sentence contains a literal mention of food items 'bread and butter' which are commonly consumed for breakfast. There are no idiomatic expressions in this sentence.",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Ostriches bury their head in the sand.",
+  "tokens": [
+   "Ostriches ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Ostriches bury their head in the sand.\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiomatic expression that means to deliberately ignore or avoid dealing with a problem or situation. In this sentence, however, it is used literally to describe the actual behavior of ostriches. But considering common usage, it is often used figuratively.\",\n  \"idioms\": [\"bury their head in the sand\"]\n",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 123,
+       "prompt_tokens": 1597,
+       "total_tokens": 1720,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00048535,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 8.61e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--fac05f2c-31b3-4b98-b26b-c0fd4e466e3f-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 123,
+      "total_tokens": 1720,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Ostriches bury their head in the sand.\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiomatic expression that means to ignore or avoid a problem or situation. In this sentence, it is used literally to describe the behavior of ostriches, but it is also a common idiom used to describe human behavior. However, in this context, it seems to be used literally to describe the actual behavior of ostriches.\",\n  \"idioms\": []\n",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 131,
+       "prompt_tokens": 1597,
+       "total_tokens": 1728,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00049095,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 9.17e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2b783c1d-232c-4b32-b0ca-e608dc1b0154-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 131,
+      "total_tokens": 1728,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Ostriches bury their head in the sand.\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiomatic expression that originated from the misconception that ostriches bury their heads in the sand when they sense danger. However, in reality, ostriches lie down with their heads and necks flat on the ground when threatened. In this sentence, the usage is literal as it describes the actual behavior of ostriches, but it can also be used figuratively to describe someone who is avoiding a problem or responsibility.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 165,
+       "prompt_tokens": 1597,
+       "total_tokens": 1762,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00051475,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 0.0001155
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--d89f2953-0048-40fe-b5fe-5fc3ce10f868-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 165,
+      "total_tokens": 1762,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Ostriches bury their head in the sand.\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiomatic expression that means to deliberately ignore or avoid dealing with a problem or situation. In this sentence, it is used literally to describe the actual behavior of ostriches, but it is also a common idiom used to describe human behavior.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 121,
+       "prompt_tokens": 1597,
+       "total_tokens": 1718,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00048395,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 8.47e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--86d6c70b-cee9-4d6f-b96a-f89b20ca4a8d-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 121,
+      "total_tokens": 1718,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Ostriches bury their head in the sand.\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiomatic expression that means to deliberately ignore or avoid a problem or situation, rather than dealing with it. In this sentence, it is used literally to describe the actual behavior of ostriches, but the phrase is often used figuratively to describe human behavior.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 127,
+       "prompt_tokens": 1597,
+       "total_tokens": 1724,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00048815,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00039925,
+        "upstream_inference_completions_cost": 8.89e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--664ea779-6904-46bf-aa26-97bab6ca3809-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1597,
+      "output_tokens": 127,
+      "total_tokens": 1724,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ },
+ {
+  "sentence": "Do some animals really bury their head in the sand?",
+  "tokens": [
+   "Do ",
+   "some ",
+   "animals ",
+   "really ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Do some animals really bury their head in the sand?\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiomatic expression that means to deliberately ignore or avoid a problem or situation. In this context, it's used literally in the question, but generally, it's often used figuratively.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 109,
+       "prompt_tokens": 1601,
+       "total_tokens": 1710,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00047655,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 7.63e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--c28cca18-3f7c-4459-a835-d6ee2e7a9785-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 109,
+      "total_tokens": 1710,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Do some animals really bury their head in the sand?\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiomatic expression that means to ignore or avoid a problem or situation. In this context, it is used literally and figuratively, as the question is asking if some animals actually do this action, but the phrase is also commonly used to describe avoidance behavior.\",\n  \"idioms\": [\"bury their head in the",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 126,
+       "prompt_tokens": 1601,
+       "total_tokens": 1727,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00048845,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 8.82e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--86924a0f-a23c-4a21-a7a0-681f1be64969-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 126,
+      "total_tokens": 1727,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Do some animals really bury their head in the sand?\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiomatic expression that means to ignore or avoid a problem or situation. In this context, it is used literally in the question to inquire if some animals actually do this action, but the phrase itself is often used figuratively.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 120,
+       "prompt_tokens": 1601,
+       "total_tokens": 1721,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00048425,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 8.4e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--24a4c263-db7b-4273-b838-5186d837d500-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 120,
+      "total_tokens": 1721,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Do some animals really bury their head in the sand?\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiomatic expression that means to ignore or avoid a problem or situation rather than dealing with it. However, in the context of the sentence, it seems to be used in a literal sense, questioning if some animals actually bury their heads in the sand.\",\n  \"idioms",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 115,
+       "prompt_tokens": 1601,
+       "total_tokens": 1716,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00048075,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 8.05e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--814351a8-54cc-43e1-a235-b2482734d804-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 115,
+      "total_tokens": 1716,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Do some animals really bury their head in the sand?\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is often used idiomatically to mean avoiding a problem or situation by ignoring it. However, in this sentence, it seems to be used literally, as the question is inquiring about animals actually burying their heads in the sand.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 110,
+       "prompt_tokens": 1601,
+       "total_tokens": 1711,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00047725,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 7.7e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--19eef4ec-9c39-40e4-90cf-fec60e64896b-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 110,
+      "total_tokens": 1711,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ },
+ {
+  "sentence": "I let the cat out of the bag about my new girlfriend.",
+  "tokens": [
+   "I ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "my ",
+   "new ",
+   "girlfriend",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiomatic expression that means to reveal a secret or surprise prematurely, often unintentionally. In this sentence, the speaker is admitting to having revealed information about their new girlfriend before they intended to.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 118,
+       "prompt_tokens": 1601,
+       "total_tokens": 1719,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00048285,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 8.26e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--919f26a0-923f-4a82-8d87-445af38dcfa6-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 118,
+      "total_tokens": 1719,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The expression 'let the cat out of the bag' is an idiomatic expression that means to reveal a secret or surprise prematurely. In this sentence, the speaker is admitting to accidentally revealing information about their new girlfriend.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 111,
+       "prompt_tokens": 1601,
+       "total_tokens": 1712,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00047795,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 7.77e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--94e73e30-94b9-40c8-a453-9d22e71d0cba-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 111,
+      "total_tokens": 1712,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The expression 'let the cat out of the bag' is an idiomatic expression that means to reveal a secret or surprise prematurely. In this sentence, the speaker is admitting to accidentally revealing information about their new girlfriend.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The expression 'let the cat out of the bag' is an idiomatic expression that means to reveal a secret unintentionally. In this context, it is used figuratively, as it does not literally mean to release a cat from a bag.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 105,
+       "prompt_tokens": 1601,
+       "total_tokens": 1706,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00047375,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 7.35e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a8a3ab7f-68ea-44f5-be9b-f17e765c139e-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 105,
+      "total_tokens": 1706,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The expression 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally or prematurely. In this sentence, it is used figuratively, as 'letting a cat out of a bag' would not literally make sense in the context of sharing information about a new girlfriend.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 122,
+       "prompt_tokens": 1601,
+       "total_tokens": 1723,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00048565,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 8.54e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7865e4bb-51ba-4e0e-9832-f7be0501c3ff-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 122,
+      "total_tokens": 1723,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The expression 'let the cat out of the bag' is an idiom that means to reveal a secret prematurely or accidentally. In this sentence, it is used figuratively to convey that the speaker inadvertently disclosed information about their new girlfriend.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 113,
+       "prompt_tokens": 1601,
+       "total_tokens": 1714,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00047935,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.00040025,
+        "upstream_inference_completions_cost": 7.91e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0dd0c01c-1587-4885-9186-782c091dc359-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1601,
+      "output_tokens": 113,
+      "total_tokens": 1714,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ },
+ {
+  "sentence": "Sam let the cat out of the bag about his new job.",
+  "tokens": [
+   "Sam ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "his ",
+   "new ",
+   "job",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiomatic expression that means to reveal a secret or surprise prematurely. In this sentence, it is used figuratively to convey that Sam accidentally shared information about his new job before it was supposed to be made public.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 120,
+       "prompt_tokens": 1600,
+       "total_tokens": 1720,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.000484,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004,
+        "upstream_inference_completions_cost": 8.4e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--134189e4-aba3-4e15-879f-9abe0e4ea9aa-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1600,
+      "output_tokens": 120,
+      "total_tokens": 1720,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiomatic expression that means to reveal a secret or surprise prematurely. In this sentence, it is used figuratively to convey that Sam accidentally shared information about his new job before it was supposed to be made public.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiomatic expression that means to reveal a secret or surprise unintentionally. In this sentence, it is used figuratively to convey that Sam accidentally shared information about his new job.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 109,
+       "prompt_tokens": 1600,
+       "total_tokens": 1709,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004763,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004,
+        "upstream_inference_completions_cost": 7.63e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--bdd32a44-6815-437c-ab76-4ce4002e59e8-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1600,
+      "output_tokens": 109,
+      "total_tokens": 1709,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The expression 'let the cat out of the bag' is an idiom that means to reveal a secret or surprise prematurely. In this sentence, it is used figuratively to indicate that Sam accidentally shared information about his new job before it was meant to be made public.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 115,
+       "prompt_tokens": 1600,
+       "total_tokens": 1715,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004805,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004,
+        "upstream_inference_completions_cost": 8.05e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1c935c19-de9d-426d-96a3-392d8297d21a-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1600,
+      "output_tokens": 115,
+      "total_tokens": 1715,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The expression 'let the cat out of the bag' is an idiomatic expression that means to reveal a secret prematurely or unintentionally. In this sentence, it is used figuratively to convey that Sam accidentally shared information about his new job.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 111,
+       "prompt_tokens": 1600,
+       "total_tokens": 1711,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004777,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004,
+        "upstream_inference_completions_cost": 7.77e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--bd420ae9-5420-40be-879f-204c505e973c-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1600,
+      "output_tokens": 111,
+      "total_tokens": 1711,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The expression 'let the cat out of the bag' is an idiom that means to reveal a secret or surprise prematurely. In this sentence, it is used figuratively to convey that Sam accidentally shared information about his new job before it was meant to be made public.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 115,
+       "prompt_tokens": 1600,
+       "total_tokens": 1715,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004805,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004,
+        "upstream_inference_completions_cost": 8.05e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0d4e9459-d8e6-49bb-9469-4a8ca8858362-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1600,
+      "output_tokens": 115,
+      "total_tokens": 1715,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ },
+ {
+  "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+  "tokens": [
+   "I ",
+   "think ",
+   "I ",
+   "do",
+   "n't ",
+   "need ",
+   "to ",
+   "tell ",
+   "you ",
+   "that",
+   ", ",
+   "actions ",
+   "speak ",
+   "louder ",
+   "than ",
+   "words",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "actions speak louder that words"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": " \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n    \"potential_idioms\": [\"actions speak louder than words\"],\n    \"explanation\": \"The expression 'actions speak louder than words' is an idiom that means that it is more important to show what you can do through your actions rather than just saying what you can do with your words. In this context, it is used figuratively to convey that actions have more impact than words.\",\n    \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 132,
+       "prompt_tokens": 1606,
+       "total_tokens": 1738,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004939,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004015,
+        "upstream_inference_completions_cost": 9.24e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--297cfbfa-d735-43a7-81b8-52f7d5f9d849-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1606,
+      "output_tokens": 132,
+      "total_tokens": 1738,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n  \"potential_idioms\": [\"actions speak louder than words\"],\n  \"explanation\": \"The expression 'actions speak louder than words' is an idiom that means that it is not what you say that is important, but rather what you do that shows your true intentions and character.\",\n  \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 105,
+       "prompt_tokens": 1606,
+       "total_tokens": 1711,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.000475,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004015,
+        "upstream_inference_completions_cost": 7.35e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--819587fc-e9a8-4b49-a1c6-6eeda1fede22-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1606,
+      "output_tokens": 105,
+      "total_tokens": 1711,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n  \"potential_idioms\": [\"actions speak louder than words\"],\n  \"explanation\": \"The expression 'actions speak louder than words' is an idiom because it means that it's not what you say that matters, but rather what you do that shows your true intentions and character. The literal meaning of the individual words does not convey this meaning.\",\n  \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 125,
+       "prompt_tokens": 1606,
+       "total_tokens": 1731,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.000489,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004015,
+        "upstream_inference_completions_cost": 8.75e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--452cca72-324c-4218-badf-e97fc0c1ab3d-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1606,
+      "output_tokens": 125,
+      "total_tokens": 1731,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The expression 'actions speak louder than words' is an idiom because it means that it's not what you say that matters, but rather what you do that shows your true intentions and character. The literal meaning of the individual words does not convey this meaning.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n  \"potential_idioms\": [\"actions speak louder than words\"],\n  \"explanation\": \"The expression 'actions speak louder than words' is an idiom because it means that it's not what you say that matters, but rather what you do that shows your true intentions and character. The literal meaning of the individual words does not convey this meaning.\",\n  \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 123,
+       "prompt_tokens": 1606,
+       "total_tokens": 1729,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004876,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004015,
+        "upstream_inference_completions_cost": 8.61e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--dae9e50c-28f6-48bc-962e-a77feeed66cd-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1606,
+      "output_tokens": 123,
+      "total_tokens": 1729,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   },
+   {
+    "raw": {
+     "content": "  \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n  \"potential_idioms\": [\"actions speak louder than words\"],\n  \"explanation\": \"The expression 'actions speak louder than words' is an idiom that means that it is more important to show what you can do through your actions rather than just saying what you will do. In this sentence, it is used in a figurative manner to convey this common English proverb.\",\n  \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 127,
+       "prompt_tokens": 1606,
+       "total_tokens": 1733,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0004904,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": null,
+        "upstream_inference_prompt_cost": 0.0004015,
+        "upstream_inference_completions_cost": 8.89e-05
+       }
+      },
+      "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1cd3bc02-27b3-4dae-95da-b60b97464e77-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1606,
+      "output_tokens": 127,
+      "total_tokens": 1733,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {}
+   }
+  ]
+ }
+]

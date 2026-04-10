@@ -1,0 +1,13 @@
+batched: true
+debug: false
+experiment_start_timestamp: '2026-04-10 23:00:41'
+lang: german
+model: deepseek/deepseek-r1
+num_samples: 5
+prompt_type: zero_shot
+sc_runs: 1
+seed: 42
+shots: 0
+task: id10m
+temperature: 0.3
+use_rate_limiter: false

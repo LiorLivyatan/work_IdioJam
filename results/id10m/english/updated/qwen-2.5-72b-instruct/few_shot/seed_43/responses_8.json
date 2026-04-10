@@ -1,0 +1,2909 @@
+﻿[
+ {
+  "sentence": "The bullet hit the book in his pocket.",
+  "tokens": [
+   "The ",
+   "bullet ",
+   "hit ",
+   "the ",
+   "book ",
+   "in ",
+   "his ",
+   "pocket",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 55,
+       "prompt_tokens": 1465,
+       "total_tokens": 1520,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019725,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019725,
+        "upstream_inference_prompt_cost": 0.0001758,
+        "upstream_inference_completions_cost": 2.145e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--b2ce9e81-d280-4a5c-a947-bc4b9c3c6c11-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1465,
+      "output_tokens": 55,
+      "total_tokens": 1520,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence is literal and does not contain any idiomatic expressions.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 49,
+       "prompt_tokens": 1465,
+       "total_tokens": 1514,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019491,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019491,
+        "upstream_inference_prompt_cost": 0.0001758,
+        "upstream_inference_completions_cost": 1.911e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--7f7d6686-a092-4770-9eea-59729e3c333e-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1465,
+      "output_tokens": 49,
+      "total_tokens": 1514,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "The sentence is literal and does not contain any idiomatic expressions.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence is literal and does not contain any idiomatic expressions.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 49,
+       "prompt_tokens": 1465,
+       "total_tokens": 1514,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019491,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019491,
+        "upstream_inference_prompt_cost": 0.0001758,
+        "upstream_inference_completions_cost": 1.911e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--01d97de4-795f-43ae-b03d-ae80192ab08c-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1465,
+      "output_tokens": 49,
+      "total_tokens": 1514,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "The sentence is literal and does not contain any idiomatic expressions.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence is literal and does not contain any idiomatic expressions.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 49,
+       "prompt_tokens": 1465,
+       "total_tokens": 1514,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019491,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019491,
+        "upstream_inference_prompt_cost": 0.0001758,
+        "upstream_inference_completions_cost": 1.911e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--0f690dd8-141b-43ea-bdff-6904050d9015-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1465,
+      "output_tokens": 49,
+      "total_tokens": 1514,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "The sentence is literal and does not contain any idiomatic expressions.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"The bullet hit the book in his pocket.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 55,
+       "prompt_tokens": 1465,
+       "total_tokens": 1520,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019725,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019725,
+        "upstream_inference_prompt_cost": 0.0001758,
+        "upstream_inference_completions_cost": 2.145e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--cf3bb8b6-6371-45ba-9281-31d87e22aeef-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1465,
+      "output_tokens": 55,
+      "total_tokens": 1520,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "The bullet hit the book in his pocket.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "balloons are floating up in the air.",
+  "tokens": [
+   "balloons ",
+   "are ",
+   "floating ",
+   "up ",
+   "in ",
+   "the ",
+   "air",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence describes a literal action where balloons are rising into the air. There are no figurative or metaphorical expressions used here.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 63,
+       "prompt_tokens": 1467,
+       "total_tokens": 1530,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020061,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020061,
+        "upstream_inference_prompt_cost": 0.00017604,
+        "upstream_inference_completions_cost": 2.457e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--1ef3783e-f1b7-40c5-a7aa-c03729d40297-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1467,
+      "output_tokens": 63,
+      "total_tokens": 1530,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The sentence describes a literal action where balloons are rising into the air. There are no figurative or metaphorical expressions used here.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence describes a literal action of balloons rising into the air. There are no phrases or expressions that have a meaning different from the individual meanings of the words themselves.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 70,
+       "prompt_tokens": 1467,
+       "total_tokens": 1537,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020334,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020334,
+        "upstream_inference_prompt_cost": 0.00017604,
+        "upstream_inference_completions_cost": 2.73e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--08b374ee-347d-4c7d-993c-7852edfabf48-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1467,
+      "output_tokens": 70,
+      "total_tokens": 1537,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The sentence describes a literal action of balloons rising into the air. There are no phrases or expressions that have a meaning different from the individual meanings of the words themselves.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence describes a literal action where balloons are physically rising into the air. There are no idiomatic expressions used here.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 61,
+       "prompt_tokens": 1467,
+       "total_tokens": 1528,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019983,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019983,
+        "upstream_inference_prompt_cost": 0.00017604,
+        "upstream_inference_completions_cost": 2.379e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--2c63a465-5541-4ad7-946c-5f6711190051-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1467,
+      "output_tokens": 61,
+      "total_tokens": 1528,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The sentence describes a literal action where balloons are physically rising into the air. There are no idiomatic expressions used here.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence is literal and describes balloons physically rising in the air. There is no figurative or idiomatic usage here.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 61,
+       "prompt_tokens": 1467,
+       "total_tokens": 1528,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019983,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019983,
+        "upstream_inference_prompt_cost": 0.00017604,
+        "upstream_inference_completions_cost": 2.379e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e7cf8b67-7c81-487b-ace0-2bf5863c2940-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1467,
+      "output_tokens": 61,
+      "total_tokens": 1528,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The sentence is literal and describes balloons physically rising in the air. There is no figurative or idiomatic usage here.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"balloons are floating up in the air.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The sentence describes a literal action where balloons are rising into the air. There are no idiomatic expressions used here.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 60,
+       "prompt_tokens": 1467,
+       "total_tokens": 1527,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019944,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019944,
+        "upstream_inference_prompt_cost": 0.00017604,
+        "upstream_inference_completions_cost": 2.34e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--91be9ca9-9805-4a34-9c09-07b33fe82d16-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1467,
+      "output_tokens": 60,
+      "total_tokens": 1527,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "balloons are floating up in the air.",
+     "potential_idioms": [],
+     "explanation": "The sentence describes a literal action where balloons are rising into the air. There are no idiomatic expressions used here.",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I love bread and butter for breakfast.",
+  "tokens": [
+   "I ",
+   "love ",
+   "bread ",
+   "and ",
+   "butter ",
+   "for ",
+   "breakfast",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I love bread and butter for breakfast.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 54,
+       "prompt_tokens": 1464,
+       "total_tokens": 1518,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019674,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019674,
+        "upstream_inference_prompt_cost": 0.00017568,
+        "upstream_inference_completions_cost": 2.106e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--edfccc2e-616f-4963-8d94-ee6c3fd5c642-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1464,
+      "output_tokens": 54,
+      "total_tokens": 1518,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I love bread and butter for breakfast.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 54,
+       "prompt_tokens": 1464,
+       "total_tokens": 1518,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019674,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019674,
+        "upstream_inference_prompt_cost": 0.00017568,
+        "upstream_inference_completions_cost": 2.106e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f990c9f8-72f9-460b-be8a-e688d2fba19e-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1464,
+      "output_tokens": 54,
+      "total_tokens": 1518,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I love bread and butter for breakfast.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"The phrase 'bread and butter' in this context refers literally to the food items and does not have a figurative or idiomatic meaning.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 63,
+       "prompt_tokens": 1464,
+       "total_tokens": 1527,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020025,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020025,
+        "upstream_inference_prompt_cost": 0.00017568,
+        "upstream_inference_completions_cost": 2.457e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--aeb6bb8d-c5b6-4ec1-bd67-7f71cad17587-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1464,
+      "output_tokens": 63,
+      "total_tokens": 1527,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "The phrase 'bread and butter' in this context refers literally to the food items and does not have a figurative or idiomatic meaning.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I love bread and butter for breakfast.\",\n  \"potential_idioms\": [],\n  \"explanation\": \"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 54,
+       "prompt_tokens": 1464,
+       "total_tokens": 1518,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019674,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019674,
+        "upstream_inference_prompt_cost": 0.00017568,
+        "upstream_inference_completions_cost": 2.106e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--b1196501-14a8-4abd-aa87-1a7ddc22151c-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1464,
+      "output_tokens": 54,
+      "total_tokens": 1518,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\": \"I love bread and butter for breakfast.\", \"potential_idioms\": [], \"explanation\": \"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\", \"idioms\": []}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 49,
+       "prompt_tokens": 1464,
+       "total_tokens": 1513,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00019479,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00019479,
+        "upstream_inference_prompt_cost": 0.00017568,
+        "upstream_inference_completions_cost": 1.911e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--9061d765-6a8b-40f4-aed6-781df602e7bd-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1464,
+      "output_tokens": 49,
+      "total_tokens": 1513,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I love bread and butter for breakfast.",
+     "potential_idioms": [],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Ostriches bury their head in the sand.",
+  "tokens": [
+   "Ostriches ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Ostriches bury their head in the sand.\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiom that means to ignore or avoid a problem or difficult situation, rather than dealing with it.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 84,
+       "prompt_tokens": 1468,
+       "total_tokens": 1552,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020892,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020892,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 3.276e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--41fdb8de-cca5-4da7-80d6-f3c955dbbc8b-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 84,
+      "total_tokens": 1552,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is an idiom that means to ignore or avoid a problem or difficult situation, rather than dealing with it.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Ostriches bury their head in the sand.\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is a well-known idiom that means to ignore or avoid a problem or difficult situation, rather than dealing with it. In this context, the phrase is used figuratively and not literally to describe the actual behavior of ostriches.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 109,
+       "prompt_tokens": 1468,
+       "total_tokens": 1577,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021867,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021867,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 4.251e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--48f8cdb4-0e18-41a6-aac4-7b2f0a03eefb-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 109,
+      "total_tokens": 1577,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is a well-known idiom that means to ignore or avoid a problem or difficult situation, rather than dealing with it. In this context, the phrase is used figuratively and not literally to describe the actual behavior of ostriches.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\": \"Ostriches bury their head in the sand.\", \"potential_idioms\": [\"bury their head in the sand\"], \"explanation\": \"Let's analyze the expressions in the context of the sentence and explain why they match the definition...\", \"idioms\": [\"bury their head in the sand\"]}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 65,
+       "prompt_tokens": 1468,
+       "total_tokens": 1533,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020151,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020151,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 2.535e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a716926d-6d3c-410c-a3f4-5eea486bac08-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 65,
+      "total_tokens": 1533,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "Let's analyze the expressions in the context of the sentence and explain why they match the definition...",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Ostriches bury their head in the sand.\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiom that means to ignore or avoid a problem or difficult situation, hoping it will go away on its own. In this context, it is being used figuratively, not literally.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 101,
+       "prompt_tokens": 1468,
+       "total_tokens": 1569,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021555,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021555,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 3.939e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--212cc65e-7027-4184-b873-339b50f57ac2-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 101,
+      "total_tokens": 1569,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is an idiom that means to ignore or avoid a problem or difficult situation, hoping it will go away on its own. In this context, it is being used figuratively, not literally.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Ostriches bury their head in the sand.\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiom that means to ignore a problem or difficult situation, hoping it will go away without having to deal with it.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 88,
+       "prompt_tokens": 1468,
+       "total_tokens": 1556,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021048,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021048,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 3.432e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--13c0ce19-aaf1-4bb2-9192-d17880e34d97-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 88,
+      "total_tokens": 1556,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Ostriches bury their head in the sand.",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is an idiom that means to ignore a problem or difficult situation, hoping it will go away without having to deal with it.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Do some animals really bury their head in the sand?",
+  "tokens": [
+   "Do ",
+   "some ",
+   "animals ",
+   "really ",
+   "bury ",
+   "their ",
+   "head ",
+   "in ",
+   "the ",
+   "sand",
+   "?"
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Do some animals really bury their head in the sand?\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiom that means to ignore or avoid a problem or difficult situation, rather than dealing with it. In this sentence, it is used in a literal context questioning whether animals actually do this physically, but the phrase itself is commonly used figuratively.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 113,
+       "prompt_tokens": 1468,
+       "total_tokens": 1581,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00022023,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00022023,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 4.407e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--48ba4e00-76e2-4f67-aa09-d2a836709444-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 113,
+      "total_tokens": 1581,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is an idiom that means to ignore or avoid a problem or difficult situation, rather than dealing with it. In this sentence, it is used in a literal context questioning whether animals actually do this physically, but the phrase itself is commonly used figuratively.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Do some animals really bury their head in the sand?\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiom that means to avoid dealing with a problem or reality by ignoring it. In this context, the sentence is asking whether animals literally perform this action, which is not the typical idiomatic usage but rather a literal question about animal behavior.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 112,
+       "prompt_tokens": 1468,
+       "total_tokens": 1580,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021984,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021984,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 4.368e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--38bcbec9-5635-4695-99d9-ac9c278a7933-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 112,
+      "total_tokens": 1580,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is an idiom that means to avoid dealing with a problem or reality by ignoring it. In this context, the sentence is asking whether animals literally perform this action, which is not the typical idiomatic usage but rather a literal question about animal behavior.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Do some animals really bury their head in the sand?\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is an idiom that means to avoid or ignore a problem or difficult situation. In this sentence, it is used in a literal question about animal behavior, but the phrase itself is commonly used figuratively.\",\n  \"idioms\": [\"bury their head in the sand\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 103,
+       "prompt_tokens": 1468,
+       "total_tokens": 1571,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021633,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021633,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 4.017e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--529fcf7f-e8ef-4bf2-9931-a689a34de8de-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 103,
+      "total_tokens": 1571,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is an idiom that means to avoid or ignore a problem or difficult situation. In this sentence, it is used in a literal question about animal behavior, but the phrase itself is commonly used figuratively.",
+     "idioms": [
+      "bury their head in the sand"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Do some animals really bury their head in the sand?\",\n  \"potential_idioms\": [\"bury their head in the sand\"],\n  \"explanation\": \"The phrase 'bury their head in the sand' is commonly used idiomatically to mean avoiding a problem or reality. However, in this sentence, it is being asked about literally, so it does not function as an idiom here.\",\n  \"idioms\": []\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 93,
+       "prompt_tokens": 1468,
+       "total_tokens": 1561,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021243,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021243,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 3.627e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--cf08ca03-5a37-451c-91cb-8a624a94eca0-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 93,
+      "total_tokens": 1561,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is commonly used idiomatically to mean avoiding a problem or reality. However, in this sentence, it is being asked about literally, so it does not function as an idiom here.",
+     "idioms": []
+    }
+   },
+   {
+    "raw": {
+     "content": "{\"sentence\": \"Do some animals really bury their head in the sand?\", \"potential_idioms\": [\"bury their head in the sand\"], \"explanation\": \"The phrase 'bury their head in the sand' is commonly used as an idiom to describe the act of ignoring or refusing to acknowledge a problem or difficult situation. However, in this sentence, the phrase is being used in a literal question about animal behavior, asking whether animals actually perform this action. Therefore, it is not being used as an idiom here.\", \"idioms\": []}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 113,
+       "prompt_tokens": 1468,
+       "total_tokens": 1581,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00022023,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00022023,
+        "upstream_inference_prompt_cost": 0.00017616,
+        "upstream_inference_completions_cost": 4.407e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--33a4dddc-afd6-4f11-8c56-83dd9f23025e-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1468,
+      "output_tokens": 113,
+      "total_tokens": 1581,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Do some animals really bury their head in the sand?",
+     "potential_idioms": [
+      "bury their head in the sand"
+     ],
+     "explanation": "The phrase 'bury their head in the sand' is commonly used as an idiom to describe the act of ignoring or refusing to acknowledge a problem or difficult situation. However, in this sentence, the phrase is being used in a literal question about animal behavior, asking whether animals actually perform this action. Therefore, it is not being used as an idiom here.",
+     "idioms": []
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I let the cat out of the bag about my new girlfriend.",
+  "tokens": [
+   "I ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "my ",
+   "new ",
+   "girlfriend",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 80,
+       "prompt_tokens": 1469,
+       "total_tokens": 1549,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020748,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020748,
+        "upstream_inference_prompt_cost": 0.00017628,
+        "upstream_inference_completions_cost": 3.12e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--6aa1cd7c-46d9-4b94-b2c5-b19d0d2be0bb-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1469,
+      "output_tokens": 80,
+      "total_tokens": 1549,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 80,
+       "prompt_tokens": 1469,
+       "total_tokens": 1549,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020748,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020748,
+        "upstream_inference_prompt_cost": 0.00017628,
+        "upstream_inference_completions_cost": 3.12e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--ccc8d7c9-3ff0-4670-bcef-c4f39aca51ed-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1469,
+      "output_tokens": 80,
+      "total_tokens": 1549,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 80,
+       "prompt_tokens": 1469,
+       "total_tokens": 1549,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020748,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020748,
+        "upstream_inference_prompt_cost": 0.00017628,
+        "upstream_inference_completions_cost": 3.12e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--35a86679-9d0e-4d23-a772-b24c5e499f0e-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1469,
+      "output_tokens": 80,
+      "total_tokens": 1549,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 80,
+       "prompt_tokens": 1469,
+       "total_tokens": 1549,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020748,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020748,
+        "upstream_inference_prompt_cost": 0.00017628,
+        "upstream_inference_completions_cost": 3.12e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--de07f184-3120-40d5-82ec-23c14c005bc4-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1469,
+      "output_tokens": 80,
+      "total_tokens": 1549,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I let the cat out of the bag about my new girlfriend.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 80,
+       "prompt_tokens": 1469,
+       "total_tokens": 1549,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020748,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020748,
+        "upstream_inference_prompt_cost": 0.00017628,
+        "upstream_inference_completions_cost": 3.12e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--87fa60d3-1615-4477-9e7e-4495e69be393-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1469,
+      "output_tokens": 80,
+      "total_tokens": 1549,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I let the cat out of the bag about my new girlfriend.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "Sam let the cat out of the bag about his new job.",
+  "tokens": [
+   "Sam ",
+   "let ",
+   "the ",
+   "cat ",
+   "out ",
+   "of ",
+   "the ",
+   "bag ",
+   "about ",
+   "his ",
+   "new ",
+   "job",
+   "."
+  ],
+  "tags": [
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "true_idioms": [
+   "let out the cat of the bag"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 79,
+       "prompt_tokens": 1470,
+       "total_tokens": 1549,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020721,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020721,
+        "upstream_inference_prompt_cost": 0.0001764,
+        "upstream_inference_completions_cost": 3.081e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f3abd1d9-09ca-4c47-8775-1371515d0337-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1470,
+      "output_tokens": 79,
+      "total_tokens": 1549,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 79,
+       "prompt_tokens": 1470,
+       "total_tokens": 1549,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00020721,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00020721,
+        "upstream_inference_prompt_cost": 0.0001764,
+        "upstream_inference_completions_cost": 3.081e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--a8fd26e3-4ffc-4c76-b028-50d365e400ed-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1470,
+      "output_tokens": 79,
+      "total_tokens": 1549,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom meaning to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 80,
+       "prompt_tokens": 1470,
+       "total_tokens": 1550,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0002076,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0002076,
+        "upstream_inference_prompt_cost": 0.0001764,
+        "upstream_inference_completions_cost": 3.12e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--18ef3b6a-90e1-43a3-832a-3ae18e57b395-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1470,
+      "output_tokens": 80,
+      "total_tokens": 1550,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 80,
+       "prompt_tokens": 1470,
+       "total_tokens": 1550,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0002076,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0002076,
+        "upstream_inference_prompt_cost": 0.0001764,
+        "upstream_inference_completions_cost": 3.12e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--17390ede-2540-4840-b229-58ecffd30210-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1470,
+      "output_tokens": 80,
+      "total_tokens": 1550,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"Sam let the cat out of the bag about his new job.\",\n  \"potential_idioms\": [\"let the cat out of the bag\"],\n  \"explanation\": \"The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.\",\n  \"idioms\": [\"let the cat out of the bag\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 80,
+       "prompt_tokens": 1470,
+       "total_tokens": 1550,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0002076,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0002076,
+        "upstream_inference_prompt_cost": 0.0001764,
+        "upstream_inference_completions_cost": 3.12e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--8ff5e9ff-7e8c-49de-ad29-89fa528aa4ce-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1470,
+      "output_tokens": 80,
+      "total_tokens": 1550,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "Sam let the cat out of the bag about his new job.",
+     "potential_idioms": [
+      "let the cat out of the bag"
+     ],
+     "explanation": "The phrase 'let the cat out of the bag' is an idiom that means to reveal a secret unintentionally.",
+     "idioms": [
+      "let the cat out of the bag"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+  "tokens": [
+   "I ",
+   "think ",
+   "I ",
+   "do",
+   "n't ",
+   "need ",
+   "to ",
+   "tell ",
+   "you ",
+   "that",
+   ", ",
+   "actions ",
+   "speak ",
+   "louder ",
+   "than ",
+   "words",
+   "."
+  ],
+  "tags": [
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "B-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "I-IDIOM",
+   "O"
+  ],
+  "tag_ids": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   0
+  ],
+  "true_idioms": [
+   "actions speak louder that words"
+  ],
+  "language": "english",
+  "responses": [
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n  \"potential_idioms\": [\"actions speak louder than words\"],\n  \"explanation\": \"The phrase 'actions speak louder than words' is a well-known idiom that means what someone does is more important and truthful than what they say.\",\n  \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 86,
+       "prompt_tokens": 1473,
+       "total_tokens": 1559,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.0002103,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.0002103,
+        "upstream_inference_prompt_cost": 0.00017676,
+        "upstream_inference_completions_cost": 3.354e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--71d3045a-8d3b-4588-a879-52f871e7a702-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1473,
+      "output_tokens": 86,
+      "total_tokens": 1559,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase 'actions speak louder than words' is a well-known idiom that means what someone does is more important and truthful than what they say.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n  \"potential_idioms\": [\"actions speak louder than words\"],\n  \"explanation\": \"The phrase 'actions speak louder than words' is a well-known idiom that means what someone does is more important and more effective than what they say they will do.\",\n  \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 90,
+       "prompt_tokens": 1473,
+       "total_tokens": 1563,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021186,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021186,
+        "upstream_inference_prompt_cost": 0.00017676,
+        "upstream_inference_completions_cost": 3.51e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--01042269-68d2-406a-9bbb-0b2a70b7bf88-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1473,
+      "output_tokens": 90,
+      "total_tokens": 1563,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase 'actions speak louder than words' is a well-known idiom that means what someone does is more important and more effective than what they say they will do.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n  \"potential_idioms\": [\"actions speak louder than words\"],\n  \"explanation\": \"The phrase 'actions speak louder than words' is a well-known idiom that means what someone does is more important and more truthful than what they say.\",\n  \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 87,
+       "prompt_tokens": 1473,
+       "total_tokens": 1560,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021069,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021069,
+        "upstream_inference_prompt_cost": 0.00017676,
+        "upstream_inference_completions_cost": 3.393e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--f888e442-30b7-4a26-89fa-5fb019e1b54d-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1473,
+      "output_tokens": 87,
+      "total_tokens": 1560,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase 'actions speak louder than words' is a well-known idiom that means what someone does is more important and more truthful than what they say.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n  \"potential_idioms\": [\"actions speak louder than words\"],\n  \"explanation\": \"The phrase 'actions speak louder than words' is a well-known idiom that means deeds are more significant and reliable indicators of someone's intentions or character than what they say.\",\n  \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 91,
+       "prompt_tokens": 1473,
+       "total_tokens": 1564,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021225,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021225,
+        "upstream_inference_prompt_cost": 0.00017676,
+        "upstream_inference_completions_cost": 3.549e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--68aaf982-32a5-4c88-b271-da0bf4b98df0-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1473,
+      "output_tokens": 91,
+      "total_tokens": 1564,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase 'actions speak louder than words' is a well-known idiom that means deeds are more significant and reliable indicators of someone's intentions or character than what they say.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   },
+   {
+    "raw": {
+     "content": "{\n  \"sentence\": \"I think I don't need to tell you that, actions speak louder than words.\",\n  \"potential_idioms\": [\"actions speak louder than words\"],\n  \"explanation\": \"The phrase 'actions speak louder than words' is a well-known idiom that means what someone does is more important and more indicative of their true intentions or feelings than what they say.\",\n  \"idioms\": [\"actions speak louder than words\"]\n}",
+     "response_metadata": {
+      "token_usage": {
+       "completion_tokens": 93,
+       "prompt_tokens": 1473,
+       "total_tokens": 1566,
+       "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+       },
+       "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+       },
+       "cost": 0.00021303,
+       "is_byok": false,
+       "cost_details": {
+        "upstream_inference_cost": 0.00021303,
+        "upstream_inference_prompt_cost": 0.00017676,
+        "upstream_inference_completions_cost": 3.627e-05
+       }
+      },
+      "model_name": "qwen/qwen-2.5-72b-instruct",
+      "system_fingerprint": null,
+      "finish_reason": "stop",
+      "logprobs": null
+     },
+     "type": "ai",
+     "name": null,
+     "id": "run--e4ad0d33-ffed-440e-897d-744d0f054ed7-0",
+     "example": false,
+     "tool_calls": [],
+     "invalid_tool_calls": [],
+     "usage_metadata": {
+      "input_tokens": 1473,
+      "output_tokens": 93,
+      "total_tokens": 1566,
+      "input_token_details": {
+       "audio": 0,
+       "cache_read": 0
+      },
+      "output_token_details": {
+       "audio": 0,
+       "reasoning": 0
+      }
+     }
+    },
+    "parsed": {
+     "sentence": "I think I don't need to tell you that, actions speak louder than words.",
+     "potential_idioms": [
+      "actions speak louder than words"
+     ],
+     "explanation": "The phrase 'actions speak louder than words' is a well-known idiom that means what someone does is more important and more indicative of their true intentions or feelings than what they say.",
+     "idioms": [
+      "actions speak louder than words"
+     ]
+    }
+   }
+  ]
+ }
+]

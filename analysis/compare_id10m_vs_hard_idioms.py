@@ -774,7 +774,7 @@ def discover_runs(lang: str, filter_str: Optional[str] = None):
                 seed = int(seed_dir.name.split("_")[1])
 
                 hard_resp = seed_dir / "responses.json"
-                id10m_resp = id10m_base / model / prompt_type / f"seed_{seed}" / "responses.json"
+                id10m_resp = id10m_base / "updated" / model / prompt_type / f"seed_{seed}" / "responses.json"
 
                 if not hard_resp.exists():
                     continue

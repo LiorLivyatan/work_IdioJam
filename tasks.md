@@ -29,11 +29,11 @@ Mismatches found:
   - 38 experiments, all archive dirs resolve correctly
 
 ### Step 5 — Run English batch
-- [ ] `/opt/miniconda3/bin/python3 experiments/run_id10m_batch_english.py`
+- [x] `/opt/miniconda3/bin/python3 experiments/run_id10m_batch_english.py`
 
 ### Step 6 — Verify & generate summary
-- [ ] Verify each updated run has exactly 187 sentences in responses.json
-- [ ] Verify `results/id10m/english/updated/results_summary.csv` has 38 rows
+- [x] Verify each updated run has exactly 187 sentences in responses.json
+- [x] Verify `results/id10m/english/updated/results_summary.csv` has 38 rows
 
 ---
 
@@ -50,36 +50,39 @@ Mismatches found:
   5. "eine an den Haaren herbeigezogene Behauptung" (response had "― a far-fetched claim" appended)
 
 ### Step 7 — Archive existing results
-- [ ] Move `results/id10m/german/{model dirs}` → `results/id10m/german/archive/`
+- [x] Move `results/id10m/german/{model dirs}` → `results/id10m/german/archive/`
 
 ### Step 8 — Build German batch runner
-- [ ] Create `experiments/run_id10m_batch_german.py`
+- [x] Create `experiments/run_id10m_batch_german.py`
   - Infers only on the 5 corrected sentences per config
   - Merges with 132 archive responses (filtered to exact-match sentences only)
   - Recalculates metrics on full 137-sentence set
   - Outputs to `results/id10m/german/updated/{model}/{prompt}/seed_{N}/`
 
 ### Step 9 — Dry run & verify
-- [ ] `python experiments/run_id10m_batch_german.py --dry_run`
+- [x] `python experiments/run_id10m_batch_german.py --dry_run`
 
 ### Step 10 — Run German batch
-- [ ] `python experiments/run_id10m_batch_german.py`
+- [x] `python experiments/run_id10m_batch_german.py`
 
 ### Step 11 — Verify & generate summary
-- [ ] Verify each updated run has exactly 137 sentences in responses.json
-- [ ] Generate `results/id10m/german/updated/results_summary.csv`
+- [x] Verify each updated run has exactly 137 sentences in responses.json
+- [x] Generate `results/id10m/german/updated/results_summary.csv`
 
 ---
 
 ## Comparisons
 
 ### Step 12 — Run English comparison
-- [ ] `python analysis/compare_id10m_vs_hard_idioms.py --lang english`
-- [ ] Verify output in `results/comparisons/english/`
+- [x] `python analysis/compare_id10m_vs_hard_idioms.py --lang english`
+- [x] Verify output in `results/comparisons/english/`
 
 ### Step 13 — Run German comparison
-- [ ] `python analysis/compare_id10m_vs_hard_idioms.py --lang german`
-- [ ] Verify output in `results/comparisons/german/`
+- [x] `python analysis/compare_id10m_vs_hard_idioms.py --lang german`
+- [x] Verify output in `results/comparisons/german/`
 
 ### Step 14 — Final check
-- [ ] Verify `results/comparisons/model_comparison_table.csv` has all 30+ rows
+- [x] Verify `results/comparisons/{lang}/model_comparison_table.csv` has 30 rows (per language)
+  - English: 30 rows ✓
+  - German: 30 rows ✓
+  - 8 runs excluded (claude-3-haiku × 6, claude-sonnet × 2) — no hard_idioms counterpart
