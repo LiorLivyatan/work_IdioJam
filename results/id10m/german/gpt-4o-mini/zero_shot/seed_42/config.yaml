@@ -1,0 +1,23 @@
+batched: true
+config_file: config.yaml
+data_path: null
+debug: false
+experiment_start_date: '2025-12-14'
+experiment_start_timestamp: '2025-12-14 15:08:16'
+idiogem_base_dir: IdioGem
+idiogem_comparisons_dir: IdioGem/comparisons
+idiogem_data_dir: IdioGem/data
+lang: german
+logs_dir: IdioGem/results
+model: gpt-4o-mini
+model_checkpoint: gpt-4o-mini
+num_samples: 5
+prompt_type: zero_shot
+responses_dir: null
+results_dir: IdioGem/results
+sc_runs: 1
+seed: 42
+shots: 0
+task: id10m
+temperature: 0.3
+use_rate_limiter: false

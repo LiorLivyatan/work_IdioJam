@@ -1,0 +1,76 @@
+Language: english
+Confusion matrix:
+            O  B-IDIOM  I-IDIOM
+O        2615       54       86
+B-IDIOM     7      125       27
+I-IDIOM    15        0      358
+
+Classification report:
+              precision    recall  f1-score   support
+
+           O       0.70      0.79      0.74       159
+     B-IDIOM       0.76      0.96      0.85       373
+     I-IDIOM       0.99      0.95      0.97      2755
+
+    accuracy                           0.94      3287
+   macro avg       0.82      0.90      0.85      3287
+weighted avg       0.95      0.94      0.95      3287
+
+
+Language: german
+Confusion matrix:
+            O  B-IDIOM  I-IDIOM
+O        3873       40       58
+B-IDIOM    66       99       16
+I-IDIOM   133        2      242
+
+Classification report:
+              precision    recall  f1-score   support
+
+           O       0.70      0.55      0.61       181
+     B-IDIOM       0.77      0.64      0.70       377
+     I-IDIOM       0.95      0.98      0.96      3971
+
+    accuracy                           0.93      4529
+   macro avg       0.81      0.72      0.76      4529
+weighted avg       0.93      0.93      0.93      4529
+
+
+Language: italian
+Confusion matrix:
+            O  B-IDIOM  I-IDIOM
+O        4449       69       99
+B-IDIOM    57       66       32
+I-IDIOM    85        2      184
+
+Classification report:
+              precision    recall  f1-score   support
+
+           O       0.48      0.43      0.45       155
+     B-IDIOM       0.58      0.68      0.63       271
+     I-IDIOM       0.97      0.96      0.97      4617
+
+    accuracy                           0.93      5043
+   macro avg       0.68      0.69      0.68      5043
+weighted avg       0.93      0.93      0.93      5043
+
+
+Language: spanish
+Confusion matrix:
+            O  B-IDIOM  I-IDIOM
+O        1555       70      134
+B-IDIOM    47       73       13
+I-IDIOM    29       37      282
+
+Classification report:
+              precision    recall  f1-score   support
+
+           O       0.41      0.55      0.47       133
+     B-IDIOM       0.66      0.81      0.73       348
+     I-IDIOM       0.95      0.88      0.92      1759
+
+    accuracy                           0.85      2240
+   macro avg       0.67      0.75      0.70      2240
+weighted avg       0.87      0.85      0.86      2240
+
+

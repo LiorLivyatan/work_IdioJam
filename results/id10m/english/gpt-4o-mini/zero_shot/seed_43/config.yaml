@@ -1,0 +1,15 @@
+batched: true
+debug: false
+debug_samples: null
+lang: null
+logs_dir: logs
+model: gpt-4o-mini
+num_samples: 5
+prompt_type: zero_shot
+responses_dir: logs/id10m\id10m_gpt-4o-mini_zero_shot_shots_0_sc1_tmp0.3_seed43
+results_dir: results
+sc_runs: 1
+seed: 43
+shots: 0
+task: id10m
+temperature: 0.3

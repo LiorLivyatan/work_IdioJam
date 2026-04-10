@@ -1,0 +1,15 @@
+batched: true
+debug: false
+debug_samples: null
+lang: german
+logs_dir: logs
+model: gpt-4o-mini
+num_samples: 5
+prompt_type: few_shot_cot_best
+responses_dir: null
+results_dir: results
+sc_runs: 5
+seed: 42
+shots: 10
+task: id10m
+temperature: 0.8

@@ -1,0 +1,17 @@
+batched: true
+debug: false
+debug_samples: null
+id10m:
+  lang: german
+lang: german
+logs_dir: logs
+model: deepseek-ai/DeepSeek-R1
+num_samples: 5
+prompt_type: zero_shot
+responses_dir: logs/id10m\id10m_DeepSeek-R1_zero_shot_shots_0_sc1_tmp0.3_seed42_german
+results_dir: results
+sc_runs: 1
+seed: 42
+shots: 0
+task: id10m
+temperature: 0.3

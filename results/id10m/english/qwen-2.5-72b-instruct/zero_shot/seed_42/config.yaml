@@ -1,0 +1,16 @@
+batched: true
+config_file: config.yaml
+debug: false
+lang: english
+logs_dir: logs
+model: Qwen/Qwen2.5-72B-Instruct-Turbo
+num_samples: 10
+prompt_type: zero_shot
+responses_dir: null
+results_dir: results
+sc_runs: 1
+seed: 42
+shots: 0
+task: id10m
+temperature: 0.3
+use_rate_limiter: false

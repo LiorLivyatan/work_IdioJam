@@ -1,0 +1,23 @@
+batched: true
+config_file: config.yaml
+data_path: null
+debug: false
+experiment_start_date: '2025-12-11'
+experiment_start_timestamp: '2025-12-11 10:56:41'
+idiogem_base_dir: IdioGem
+idiogem_comparisons_dir: IdioGem/comparisons
+idiogem_data_dir: IdioGem/data
+lang: german
+logs_dir: IdioGem/results
+model: gemini-2.5-flash-lite
+model_checkpoint: gemini-2.5-flash-lite
+num_samples: 5
+prompt_type: few_shot_cot_best
+responses_dir: null
+results_dir: IdioGem/results
+sc_runs: 5
+seed: 42
+shots: 10
+task: id10m
+temperature: 0.8
+use_rate_limiter: true
