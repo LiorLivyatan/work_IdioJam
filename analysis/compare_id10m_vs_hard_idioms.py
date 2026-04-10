@@ -187,6 +187,21 @@ def load_id10m(path: Path) -> List[SentenceData]:
     return out
 
 
+def _coerce_list(val) -> List[str]:
+    """Handle true_idioms stored as a Python-repr string (German hard_idioms artifact).
+    Converts e.g. \"['mitgehen lassen']\" to ['mitgehen lassen'] without eval.
+    """
+    if isinstance(val, list):
+        return val
+    if not isinstance(val, str) or not val:
+        return []
+    s = val.strip()
+    if not (s.startswith("[") and s.endswith("]")):
+        return [s]
+    tokens = re.findall(r"['\"]([^'\"]*)['\"]", s)
+    return tokens if tokens else []
+
+
 def load_hard_idioms(path: Path) -> List[SentenceData]:
     data = load_json(path)
     out = []
@@ -194,7 +209,7 @@ def load_hard_idioms(path: Path) -> List[SentenceData]:
         out.append(SentenceData(
             sentence=item["sentence"],
             normalized_sentence=normalize_sentence(item["sentence"]),
-            true_idioms=item.get("true_idioms", []),
+            true_idioms=_coerce_list(item.get("true_idioms", [])),
             predicted_idioms=_extract_predicted_idioms(item),
             source_dataset="hard_idioms",
             variant_number=item.get("variant_number"),

@@ -16,359 +16,359 @@ ID10M Dataset:
 
 Hard_idioms Dataset (variants of matched sentences):
   Total rows:  411
-  Accuracy:   0.000
-  Precision:  0.000
-  Recall:     0.000
-  Specificity:0.000
-  F1-Score:   0.000
-  Bal. Acc:   0.000
-  MCC:        0.000
-  TP:0  TN:0  FP:0  FN:411
+  Accuracy:   0.735
+  Precision:  0.970
+  Recall:     0.742
+  Specificity:0.625
+  F1-Score:   0.840
+  Bal. Acc:   0.683
+  MCC:        0.191
+  TP:287  TN:15  FP:9  FN:100
 
 CONTEXT EFFECTS SUMMARY
 -------------------------
 Total matched sentences: 137
-Context helped: 0 (0.0%)
-Context hurt:   84 (61.3%)
-Mixed:          0 (0.0%)
-No change:      53 (38.7%)
+Context helped: 15 (10.9%)
+Context hurt:   2 (1.5%)
+Mixed:          22 (16.1%)
+No change:      98 (71.5%)
 
 ADVANCED CONTEXT-CONFUSION METRICS
 -----------------------------------
-Context Degradation Index (CDI): 1.000  (100.0% relative drop)
+Context Degradation Index (CDI): -0.198  (-19.8% relative drop)
 Variant Consistency Score (VCS): 0.844
-Context Confusion Rate (CCR):    0.613  (61.3% of predictions turned wrong)
-Literal-to-Idiom Flip Rate (LIFR): 0.000
-Error Amplification Factor (EAF): 2.585
-Phrase Overlap Confusion Rate:   0.000
-Confusion Resistance Score:      3.000
+Context Confusion Rate (CCR):    0.036  (3.6% of predictions turned wrong)
+Literal-to-Idiom Flip Rate (LIFR): 0.429
+Error Amplification Factor (EAF): 0.686
+Phrase Overlap Confusion Rate:   0.022
+Confusion Resistance Score:      0.179
 Avg Prediction Stability Index:  0.166
 
 VARIANT-LEVEL STATS
 --------------------
-Avg confusion rate: 1.000
-Median:             1.000
-Highly vulnerable (≥80%): 137
-Moderately vulnerable:    0
-Resistant (<40%):         0
+Avg confusion rate: 0.265
+Median:             0.000
+Highly vulnerable (≥80%): 25
+Moderately vulnerable:    12
+Resistant (<40%):         100
 
 DETAILED CONFUSION ANALYSIS (id10m-correct sentences only)
 ==================================================
 Sentences analyzed: 84
 Total variants:     252
-Confused variants:  252 (100.0%)
-  Sentences with any confusion:  84
-  Sentences all-confused:        84
-  Sentences never confused:      0
+Confused variants:  15 (6.0%)
+  Sentences with any confusion:  9
+  Sentences all-confused:        2
+  Sentences never confused:      75
 
-Literal variants:   21 total, 21 confused (100.0%)
-Idiomatic variants: 231 total, 231 confused (100.0%)
+Literal variants:   21 total, 6 confused (28.6%)
+Idiomatic variants: 231 total, 9 confused (3.9%)
 
 PER-IDIOM CONFUSION RATES
 -------------------------
 Idiom                                     Conf   Tot    Rate
 ------------------------------------------------------------
-mitgehen lassen                              6     6  100.0%
-nicht die bohne                              3     3  100.0%
-mit kind und kegel                           6     6  100.0%
-mit sack und pack                            3     3  100.0%
-beleidigte leberwurst                        6     6  100.0%
-von gestern                                  3     3  100.0%
-an den haaren herbeigezogene                 3     3  100.0%
-über die runden kommen                       3     3  100.0%
-von heute auf morgen                         3     3  100.0%
-an die kandare nehmen                        3     3  100.0%
-auf der kippe                                3     3  100.0%
-vier buchstaben                              3     3  100.0%
-mir nichts, dir nichts                       6     6  100.0%
-in den wind gesprochen                       3     3  100.0%
-butter bei die fische                        6     6  100.0%
-aus dem ärmel geschüttelt                    3     3  100.0%
-kurz angebunden                              3     3  100.0%
-stein des anstoßes                           6     6  100.0%
-beim barte des propheten                     6     6  100.0%
-in den sand gesetzt                          3     3  100.0%
-erst recht                                   3     3  100.0%
-durch den wind                               6     6  100.0%
-große liebe                                  6     6  100.0%
-silberne löffel klauen                       3     3  100.0%
-ins fettnäpfchen treten                      3     3  100.0%
-unter vier augen                             6     6  100.0%
-zwischen tür und angel                       3     3  100.0%
-offenes ohr                                  3     3  100.0%
-in einen sack stecken und draufhauen         3     3  100.0%
-ende der fahnenstange                        3     3  100.0%
-halbe miete                                  6     6  100.0%
-flagge zeigen                                3     3  100.0%
-fersengeld geben                             3     3  100.0%
-einen strick drehen                          3     3  100.0%
-bis in die puppen                            3     3  100.0%
-ins auge gegangen                            3     3  100.0%
-aus dem handgelenk                           3     3  100.0%
-am hungertuch nagen                          3     3  100.0%
-staat machen                                 3     3  100.0%
-in trockenen tüchern                        12    12  100.0%
-über den durst getrunken                     3     3  100.0%
-zünglein an der waage                        9     9  100.0%
-zum narren halten                            3     3  100.0%
-auf dem spiel                                3     3  100.0%
-den weg geebnet                              3     3  100.0%
-in schach gehalten                           3     3  100.0%
-hand in hand                                 3     3  100.0%
-gemeinsame sache gemacht                     3     3  100.0%
-in die quere kommen                          3     3  100.0%
-von der hand in den mund lebten              3     3  100.0%
-dorn im auge                                 3     3  100.0%
-mit anderen worten                           3     3  100.0%
-dampf ablassen                               3     3  100.0%
-zum narren gehalten                          3     3  100.0%
-wohl oder übel                               3     3  100.0%
-großen liebe                                 3     3  100.0%
-nach hinten losgegangen                      3     3  100.0%
-im auge behalten                             3     3  100.0%
-zum tragen kommen                            3     3  100.0%
 mit leeren händen                            3     3  100.0%
-crème de la crème                            3     3  100.0%
+im auge behalten                             2     3   66.7%
+erst recht                                   1     3   33.3%
+mitgehen lassen                              1     6   16.7%
+große liebe                                  1     6   16.7%
+unter vier augen                             1     6   16.7%
+nicht die bohne                              0     3    0.0%
+mit kind und kegel                           0     6    0.0%
+mit sack und pack                            0     3    0.0%
+beleidigte leberwurst                        0     6    0.0%
+von gestern                                  0     3    0.0%
+an den haaren herbeigezogene                 0     3    0.0%
+über die runden kommen                       0     3    0.0%
+von heute auf morgen                         0     3    0.0%
+an die kandare nehmen                        0     3    0.0%
+auf der kippe                                0     3    0.0%
+vier buchstaben                              0     3    0.0%
+mir nichts, dir nichts                       0     6    0.0%
+in den wind gesprochen                       0     3    0.0%
+butter bei die fische                        0     6    0.0%
+aus dem ärmel geschüttelt                    0     3    0.0%
+kurz angebunden                              0     3    0.0%
+stein des anstoßes                           0     6    0.0%
+beim barte des propheten                     0     6    0.0%
+in den sand gesetzt                          0     3    0.0%
+durch den wind                               0     6    0.0%
+silberne löffel klauen                       0     3    0.0%
+ins fettnäpfchen treten                      0     3    0.0%
+zwischen tür und angel                       0     3    0.0%
+offenes ohr                                  0     3    0.0%
+in einen sack stecken und draufhauen         0     3    0.0%
+ende der fahnenstange                        0     3    0.0%
+halbe miete                                  0     6    0.0%
+flagge zeigen                                0     3    0.0%
+fersengeld geben                             0     3    0.0%
+einen strick drehen                          0     3    0.0%
+bis in die puppen                            0     3    0.0%
+ins auge gegangen                            0     3    0.0%
+aus dem handgelenk                           0     3    0.0%
+am hungertuch nagen                          0     3    0.0%
+staat machen                                 0     3    0.0%
+in trockenen tüchern                         0    12    0.0%
+über den durst getrunken                     0     3    0.0%
+zünglein an der waage                        0     9    0.0%
+zum narren halten                            0     3    0.0%
+auf dem spiel                                0     3    0.0%
+den weg geebnet                              0     3    0.0%
+in schach gehalten                           0     3    0.0%
+hand in hand                                 0     3    0.0%
+gemeinsame sache gemacht                     0     3    0.0%
+in die quere kommen                          0     3    0.0%
+von der hand in den mund lebten              0     3    0.0%
+dorn im auge                                 0     3    0.0%
+mit anderen worten                           0     3    0.0%
+dampf ablassen                               0     3    0.0%
+zum narren gehalten                          0     3    0.0%
+wohl oder übel                               0     3    0.0%
+großen liebe                                 0     3    0.0%
+nach hinten losgegangen                      0     3    0.0%
+zum tragen kommen                            0     3    0.0%
+crème de la crème                            0     3    0.0%
 
 PER-SENTENCE CONFUSION DETAILS
 ------------------------------
 Sentence: Letztens hab ich im Laden zwei CDs mitgehen lassen.
 True idioms: ['mitgehen lassen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['mitgehen lassen'] | Der Kurier vom Vertrieb war da, um die ganze Retoure abzuholen, und er meinte, er hätte no
-  v2 [CONFUSED] pred=['mitgehen lassen'] | Meine beiden Aushilfen aus der Musikabteilung, Christian und David, wollten unbedingt bei 
-  v3 [CONFUSED] pred=['mitgehen lassen'] | Meine Freundin half mir beim Ausräumen des Lagers und packte eine Kiste für den Spendenflo
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['mitgehen lassen'] | Der Kurier vom Vertrieb war da, um die ganze Retoure abzuholen, und er meinte, er hätte no
+  v2 [ok] pred=['mitgehen lassen'] | Meine beiden Aushilfen aus der Musikabteilung, Christian und David, wollten unbedingt bei 
+  v3 [ok] pred=['mitgehen lassen'] | Meine Freundin half mir beim Ausräumen des Lagers und packte eine Kiste für den Spendenflo
 --------------------------------------------------------------------------------
 Sentence: Er hat wieder mal mein Feuerzeug mitgehen lassen.
 True idioms: ['mitgehen lassen']
-Confused variants: 3/3 (100%)
+Confused variants: 1/3 (33%)
   v1 [CONFUSED] pred=['drunter und drüber'] | Wir packten die Kisten für den Umzug und alles ging drunter und drüber, weshalb ich erst s
-  v2 [CONFUSED] pred=['mitgehen lassen'] | Auf der Party ging mein Feuerzeug von Hand zu Hand, und am Ende des Abends, als alle ihre 
-  v3 [CONFUSED] pred=['mitgehen lassen'] | Bei den Vorbereitungen für die Campingtour haben wir die Ausrüstung aufgeteilt, damit nich
+  v2 [ok] pred=['mitgehen lassen'] | Auf der Party ging mein Feuerzeug von Hand zu Hand, und am Ende des Abends, als alle ihre 
+  v3 [ok] pred=['mitgehen lassen'] | Bei den Vorbereitungen für die Campingtour haben wir die Ausrüstung aufgeteilt, damit nich
 --------------------------------------------------------------------------------
 Sentence: Das interessiert mich nicht die Bohne.
 True idioms: ['nicht die Bohne']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['das interessiert mich nicht die Bohne'] | Beim Kochen sortierte er sorgfältig die Linsen für die Suppe und als sein Freund ihn nach 
-  v2 [CONFUSED] pred=['das interessiert mich nicht die Bohne'] | Der Botaniker erklärte die einzigartigen Eigenschaften der neu entdeckten Hülsenfrucht, do
-  v3 [CONFUSED] pred=['das interessiert mich nicht die Bohne'] | Während der Kaffeeverkostung präsentierte der Barista eine einzelne, seltene Arabica-Sorte
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['das interessiert mich nicht die Bohne'] | Beim Kochen sortierte er sorgfältig die Linsen für die Suppe und als sein Freund ihn nach 
+  v2 [ok] pred=['das interessiert mich nicht die Bohne'] | Der Botaniker erklärte die einzigartigen Eigenschaften der neu entdeckten Hülsenfrucht, do
+  v3 [ok] pred=['das interessiert mich nicht die Bohne'] | Während der Kaffeeverkostung präsentierte der Barista eine einzelne, seltene Arabica-Sorte
 --------------------------------------------------------------------------------
 Sentence: Die Israeliten zogen mit Kind und Kegel von Ägypten nach Palästina.
 True idioms: ['mit Kind und Kegel']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Kind und Kegel'] | Die Museumsführerin erklärte die Ausstellung über das Alltagsleben im alten Ägypten und wi
-  v2 [CONFUSED] pred=['mit Kind und Kegel'] | Die Vorbereitungen für das große historische Festspiel waren abgeschlossen, alle Requisite
-  v3 [CONFUSED] pred=['Kind und Kegel'] | Im Deutschunterricht wurde die Etymologie der Redewendung diskutiert, wobei 'Kegel' histor
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Kind und Kegel'] | Die Museumsführerin erklärte die Ausstellung über das Alltagsleben im alten Ägypten und wi
+  v2 [ok] pred=['mit Kind und Kegel'] | Die Vorbereitungen für das große historische Festspiel waren abgeschlossen, alle Requisite
+  v3 [ok] pred=['Kind und Kegel'] | Im Deutschunterricht wurde die Etymologie der Redewendung diskutiert, wobei 'Kegel' histor
 --------------------------------------------------------------------------------
 Sentence: Am Friedrichstraßenbunker lungern sie mit Kind und Kegel, mit Taschen und Flaschen, warten auf Bomben, auf Alarm, warten geduldig vor verschlossenen Toren.
 True idioms: ['mit Kind und Kegel']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['mit Kind und Kegel'] | Die Anwohner hatten versucht alles zu retten was ihnen lieb war, dabei war die alte Bowlin
-  v2 [CONFUSED] pred=['mit Kind und Kegel'] | Der örtliche Sportverein löste gerade sein Lager auf, als der Alarm losging, und die Mitgl
-  v3 [CONFUSED] pred=['mit Kind und Kegel'] | In ihrer Panik hatten die Menschen alles Greifbare aus den umliegenden, verlassenen Geschä
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['mit Kind und Kegel'] | Die Anwohner hatten versucht alles zu retten was ihnen lieb war, dabei war die alte Bowlin
+  v2 [ok] pred=['mit Kind und Kegel'] | Der örtliche Sportverein löste gerade sein Lager auf, als der Alarm losging, und die Mitgl
+  v3 [ok] pred=['mit Kind und Kegel'] | In ihrer Panik hatten die Menschen alles Greifbare aus den umliegenden, verlassenen Geschä
 --------------------------------------------------------------------------------
 Sentence: Unerwartet stand mein Bruder mit Sack und Pack vor meiner Haustür und bat um Herberge.
 True idioms: ['mit Sack und Pack']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Sack und Pack'] | Nachdem die Mittelaltermesse, auf der er als Wandergeselle aufgetreten war, wegen eines Un
-  v2 [CONFUSED] pred=['mit Sack und Pack'] | Er half bei einer Spendenaktion für Obdachlose, bei der Kleidung in Säcke gefüllt und in R
-  v3 [CONFUSED] pred=['mit Sack und Pack'] | Wir hatten gerade erst am Telefon darüber gesprochen, welche Art von Seesack und Rucksack 
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Sack und Pack'] | Nachdem die Mittelaltermesse, auf der er als Wandergeselle aufgetreten war, wegen eines Un
+  v2 [ok] pred=['mit Sack und Pack'] | Er half bei einer Spendenaktion für Obdachlose, bei der Kleidung in Säcke gefüllt und in R
+  v3 [ok] pred=['mit Sack und Pack'] | Wir hatten gerade erst am Telefon darüber gesprochen, welche Art von Seesack und Rucksack 
 --------------------------------------------------------------------------------
 Sentence: Hör’ jetzt endlich auf die beleidigte Leberwurst zu spielen.
 True idioms: ['beleidigte Leberwurst']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['die beleidigte Leberwurst spielen'] | In unserem absurden Theaterstück ist das deine zugewiesene Rolle, aber du bist selbst unzu
-  v2 [CONFUSED] pred=['die beleidigte Leberwurst spielen'] | Beim Scharade-Spielen ist das der Begriff, den du darstellen sollst, doch anstatt es richt
-  v3 [CONFUSED] pred=['die beleidigte Leberwurst spielen'] | In dieser Therapiesitzung geht es darum, Gefühle durch Rollenspiele auszudrücken, aber du 
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['die beleidigte Leberwurst spielen'] | In unserem absurden Theaterstück ist das deine zugewiesene Rolle, aber du bist selbst unzu
+  v2 [ok] pred=['die beleidigte Leberwurst spielen'] | Beim Scharade-Spielen ist das der Begriff, den du darstellen sollst, doch anstatt es richt
+  v3 [ok] pred=['die beleidigte Leberwurst spielen'] | In dieser Therapiesitzung geht es darum, Gefühle durch Rollenspiele auszudrücken, aber du 
 --------------------------------------------------------------------------------
 Sentence: Sei nicht so’ne beleidigte Leberwurst!
 True idioms: ['beleidigte Leberwurst']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['beleidigte Leberwurst'] | Beim Metzger-Wettbewerb, wo eine Kreation wegen ihrer schrumpeligen Hülle und faden Farbe 
-  v2 [CONFUSED] pred=['beleidigte Leberwurst'] | Während des Food-Styling-Workshops, bei dem das Wurstarrangement für das Foto einfach nich
-  v3 [CONFUSED] pred=['beleidigte Leberwurst'] | In der Versuchsküche für vegane Fleischalternativen schmeckte die neueste Rezeptur auf Tof
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['beleidigte Leberwurst'] | Beim Metzger-Wettbewerb, wo eine Kreation wegen ihrer schrumpeligen Hülle und faden Farbe 
+  v2 [ok] pred=['beleidigte Leberwurst'] | Während des Food-Styling-Workshops, bei dem das Wurstarrangement für das Foto einfach nich
+  v3 [ok] pred=['beleidigte Leberwurst'] | In der Versuchsküche für vegane Fleischalternativen schmeckte die neueste Rezeptur auf Tof
 --------------------------------------------------------------------------------
 Sentence: Ich bin doch nicht von gestern!
 True idioms: ['von gestern']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['nicht von gestern'] | Als der Archivar versuchte, mir die Ereignisse des Vortages als brandneue Entdeckung zu pr
-  v2 [CONFUSED] pred=['von gestern'] | Der Zollbeamte musterte meinen Pass und fragte misstrauisch, ob ich erst am Vortag eingere
-  v3 [CONFUSED] pred=['von gestern'] | In der Zeitreise-Akademie wurden alle nach ihrer Herkunftsepoche sortiert, und als der Pro
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['nicht von gestern'] | Als der Archivar versuchte, mir die Ereignisse des Vortages als brandneue Entdeckung zu pr
+  v2 [ok] pred=['von gestern'] | Der Zollbeamte musterte meinen Pass und fragte misstrauisch, ob ich erst am Vortag eingere
+  v3 [ok] pred=['von gestern'] | In der Zeitreise-Akademie wurden alle nach ihrer Herkunftsepoche sortiert, und als der Pro
 --------------------------------------------------------------------------------
 Sentence: eine an den Haaren herbeigezogene Behauptung
 True idioms: ['an den Haaren herbeigezogene']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['an den Haaren herbeigezogene'] | Am Tatort fanden die Ermittler deutliche Schleifspuren, und die Gerichtsmedizinerin vermut
-  v2 [CONFUSED] pred=['an den Haaren herbeigezogene Behauptung'] | Der Puppenmacher erklärte, wie er die Haarsträhnen durch den Vinylkopf zog, während er gle
-  v3 [CONFUSED] pred=['an den Haaren herbeigezogene'] | Im Seminar über mittelalterliche Rechtspraktiken wurde die Strafe diskutiert, bei der jema
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['an den Haaren herbeigezogene'] | Am Tatort fanden die Ermittler deutliche Schleifspuren, und die Gerichtsmedizinerin vermut
+  v2 [ok] pred=['an den Haaren herbeigezogene Behauptung'] | Der Puppenmacher erklärte, wie er die Haarsträhnen durch den Vinylkopf zog, während er gle
+  v3 [ok] pred=['an den Haaren herbeigezogene'] | Im Seminar über mittelalterliche Rechtspraktiken wurde die Strafe diskutiert, bei der jema
 --------------------------------------------------------------------------------
 Sentence: Ich werde schon über die Runden kommen.
 True idioms: ['über die Runden kommen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['über die Runden kommen'] | Beim heutigen Boxkampf ist mein Gegner unglaublich stark und die ersten Treffer haben gese
-  v2 [CONFUSED] pred=['über die Runden kommen'] | Der Parcours-Designer hat dieses Jahr lauter kreisförmige Hindernisse aufgestellt, die ext
-  v3 [CONFUSED] pred=['über die Runden kommen'] | Nachdem die Investoren abgesprungen sind, ist das Budget für die nächsten Verhandlungsphas
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['über die Runden kommen'] | Beim heutigen Boxkampf ist mein Gegner unglaublich stark und die ersten Treffer haben gese
+  v2 [ok] pred=['über die Runden kommen'] | Der Parcours-Designer hat dieses Jahr lauter kreisförmige Hindernisse aufgestellt, die ext
+  v3 [ok] pred=['über die Runden kommen'] | Nachdem die Investoren abgesprungen sind, ist das Budget für die nächsten Verhandlungsphas
 --------------------------------------------------------------------------------
 Sentence: Er hat seine Meinung von heute auf morgen geändert.
 True idioms: ['von heute auf morgen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['von heute auf morgen'] | Nachdem der Chefredakteur entschieden hatte, dass der Leitartikel thematisch besser in die
-  v2 [CONFUSED] pred=['von heute auf morgen'] | Der Anwalt prüfte das Dokument erneut und erkannte, dass das Gutachten erst mit dem nächst
-  v3 [CONFUSED] pred=['von heute auf morgen'] | Der Kurator hatte das Exponat zunächst in der Abteilung für tagesaktuelle Kunst platziert,
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['von heute auf morgen'] | Nachdem der Chefredakteur entschieden hatte, dass der Leitartikel thematisch besser in die
+  v2 [ok] pred=['von heute auf morgen'] | Der Anwalt prüfte das Dokument erneut und erkannte, dass das Gutachten erst mit dem nächst
+  v3 [ok] pred=['von heute auf morgen'] | Der Kurator hatte das Exponat zunächst in der Abteilung für tagesaktuelle Kunst platziert,
 --------------------------------------------------------------------------------
 Sentence: Die EU-Kommission will die Mitgliedsländer an die Kandare nehmen: Unsolides Wirtschaften wird bestraft.
 True idioms: ['an die Kandare nehmen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['an die Kandare nehmen'] | Auf der Agrarmesse, wo Züchter sowohl über die neuen Richtlinien zur Haltung von Zuchtpfer
-  v2 [CONFUSED] pred=['wie ungestüme Pferde', 'an die Kandare nehmen'] | Nachdem einige Staaten jahrelang wie ungestüme Pferde ihre eigenen fiskalischen Wege ginge
-  v3 [CONFUSED] pred=['an die Kandare nehmen'] | In der Welt des internationalen Pferdesports, wo strenge Zügelführung und Disziplin über d
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['an die Kandare nehmen'] | Auf der Agrarmesse, wo Züchter sowohl über die neuen Richtlinien zur Haltung von Zuchtpfer
+  v2 [ok] pred=['wie ungestüme Pferde', 'an die Kandare nehmen'] | Nachdem einige Staaten jahrelang wie ungestüme Pferde ihre eigenen fiskalischen Wege ginge
+  v3 [ok] pred=['an die Kandare nehmen'] | In der Welt des internationalen Pferdesports, wo strenge Zügelführung und Disziplin über d
 --------------------------------------------------------------------------------
 Sentence: Das ganze Projekt steht auf der Kippe.
 True idioms: ['auf der Kippe']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['steht auf der Kippe'] | Die Architekten hatten das maßstabsgetreue Modell unvorsichtigerweise sehr nah an der Tisc
-  v2 [CONFUSED] pred=['steht auf der Kippe'] | Der Zirkusartist balancierte die riesige Requisite auf einer schmalen Wippe, und als diese
-  v3 [CONFUSED] pred=['steht auf der Kippe'] | Nach stundenlangen Manövern mit dem Schwertransporter direkt am Rande der alten Mülldeponi
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['steht auf der Kippe'] | Die Architekten hatten das maßstabsgetreue Modell unvorsichtigerweise sehr nah an der Tisc
+  v2 [ok] pred=['steht auf der Kippe'] | Der Zirkusartist balancierte die riesige Requisite auf einer schmalen Wippe, und als diese
+  v3 [ok] pred=['steht auf der Kippe'] | Nach stundenlangen Manövern mit dem Schwertransporter direkt am Rande der alten Mülldeponi
 --------------------------------------------------------------------------------
 Sentence: Schließlich ließ er sich vollgeschwitzt außer Puste auf seine vier Buchstaben plotzen.
 True idioms: ['vier Buchstaben']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['auf seine vier Buchstaben plotzen'] | Der Grafiker hatte stundenlang die schweren, meterhohen Lettern für das neue Firmenlogo im
-  v2 [CONFUSED] pred=['außer Puste', 'auf seine vier Buchstaben plotzen'] | Beim Finale der TV-Show musste der Kandidat nach einem Hindernislauf ein Lösungswort aus r
-  v3 [CONFUSED] pred=['auf seine vier Buchstaben plotzen'] | Der Archivar stapelte den ganzen Tag schwere Kisten mit Manuskripten mit vielen Buchstaben
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['auf seine vier Buchstaben plotzen'] | Der Grafiker hatte stundenlang die schweren, meterhohen Lettern für das neue Firmenlogo im
+  v2 [ok] pred=['außer Puste', 'auf seine vier Buchstaben plotzen'] | Beim Finale der TV-Show musste der Kandidat nach einem Hindernislauf ein Lösungswort aus r
+  v3 [ok] pred=['auf seine vier Buchstaben plotzen'] | Der Archivar stapelte den ganzen Tag schwere Kisten mit Manuskripten mit vielen Buchstaben
 --------------------------------------------------------------------------------
 Sentence: Jetzt haben sie ihren Sohn dreißig Jahre lang verwöhnt und kaum hat er eine Freundin, zieht er mir nichts, dir nichts aus.
 True idioms: ['mir nichts, dir nichts']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['mir nichts, dir nichts'] | Nachdem die Eltern stundenlang darüber gestritten hatten, welche Erbstücke ihm und welche 
-  v2 [CONFUSED] pred=['mir nichts, dir nichts'] | Die Eltern hatten eine komplizierte Wette darüber abgeschlossen, wer von ihnen bei seinem 
-  v3 [CONFUSED] pred=['mir nichts, dir nichts'] | Während der hitzigen Diskussion darüber, wer von den Eltern ihm mehr Geld geliehen hatte u
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['mir nichts, dir nichts'] | Nachdem die Eltern stundenlang darüber gestritten hatten, welche Erbstücke ihm und welche 
+  v2 [ok] pred=['mir nichts, dir nichts'] | Die Eltern hatten eine komplizierte Wette darüber abgeschlossen, wer von ihnen bei seinem 
+  v3 [ok] pred=['mir nichts, dir nichts'] | Während der hitzigen Diskussion darüber, wer von den Eltern ihm mehr Geld geliehen hatte u
 --------------------------------------------------------------------------------
 Sentence: Er warf sich – mir nichts, dir nichts – ins Kampfgetümmel.
 True idioms: ['mir nichts, dir nichts']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['mir nichts, dir nichts'] | Der Notar hatte gerade klargestellt, dass aus dem kampfumstrittenen Nachlass weder an mich
-  v2 [CONFUSED] pred=['mir nichts, dir nichts'] | Der Betreuer erklärte die Regeln für die große Kissenschlacht, bei der es keine Gewinner g
-  v3 [CONFUSED] pred=['mir nichts, dir nichts'] | In dem chaotischen Online-Rollenspiel war der Tauschhandel zwischen den Charakteren aufgru
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['mir nichts, dir nichts'] | Der Notar hatte gerade klargestellt, dass aus dem kampfumstrittenen Nachlass weder an mich
+  v2 [ok] pred=['mir nichts, dir nichts'] | Der Betreuer erklärte die Regeln für die große Kissenschlacht, bei der es keine Gewinner g
+  v3 [ok] pred=['mir nichts, dir nichts'] | In dem chaotischen Online-Rollenspiel war der Tauschhandel zwischen den Charakteren aufgru
 --------------------------------------------------------------------------------
 Sentence: Meine Befehle sind in den Wind gesprochen. Es ist unmöglich, unter diesen Umständen zu führen. Es ist aus. Der Krieg ist verloren.
 True idioms: ['in den Wind gesprochen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['in den Wind gesprochen', 'Es ist aus'] | Der Wind peitschte über das freie Feld, wo der General versuchte, seine widerständigen Tru
-  v2 [CONFUSED] pred=['in den Wind gesprochen'] | Der Regisseur stand auf dem windigen Hügel und sah zu, wie die Schauspieler ihre Texte ver
-  v3 [CONFUSED] pred=['in den Wind gesprochen', 'Es ist aus'] | Auf der Brücke des Segelschiffs kämpfte der Kapitän damit, sich gegen das Heulen des Orkan
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['in den Wind gesprochen', 'Es ist aus'] | Der Wind peitschte über das freie Feld, wo der General versuchte, seine widerständigen Tru
+  v2 [ok] pred=['in den Wind gesprochen'] | Der Regisseur stand auf dem windigen Hügel und sah zu, wie die Schauspieler ihre Texte ver
+  v3 [ok] pred=['in den Wind gesprochen', 'Es ist aus'] | Auf der Brücke des Segelschiffs kämpfte der Kapitän damit, sich gegen das Heulen des Orkan
 --------------------------------------------------------------------------------
 Sentence: Jetzt mal Butter bei die Fische: Hast du's gemacht oder nicht?
 True idioms: ['Butter bei die Fische']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Butter bei die Fische'] | Der Kochlehrer erklärte geduldig die Zubereitung von gebratenem Zander, doch als ein Schül
-  v2 [CONFUSED] pred=['Butter bei die Fische'] | In der hektischen Restaurantküche wartete ein Gast dringend auf seine Bestellung, also gin
-  v3 [CONFUSED] pred=['Butter bei die Fische'] | Am Lagerfeuer nach einem langen Angeltag stritten sie über das beste Rezept, während die F
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Butter bei die Fische'] | Der Kochlehrer erklärte geduldig die Zubereitung von gebratenem Zander, doch als ein Schül
+  v2 [ok] pred=['Butter bei die Fische'] | In der hektischen Restaurantküche wartete ein Gast dringend auf seine Bestellung, also gin
+  v3 [ok] pred=['Butter bei die Fische'] | Am Lagerfeuer nach einem langen Angeltag stritten sie über das beste Rezept, während die F
 --------------------------------------------------------------------------------
 Sentence: Kommt, Jungs! Gebt mal bisschen Butter bei die Fische und wir gewinnen das Spiel!
 True idioms: ['Butter bei die Fische']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Butter bei die Fische'] | In der Endrunde des Kochwettbewerbs, wo die Zeit knapp wurde und das Team am entscheidende
-  v2 [CONFUSED] pred=['Butter bei die Fische'] | Die Freunde saßen vor der Konsole und spielten das neue Angel- und Koch-Simulationsspiel, 
-  v3 [CONFUSED] pred=['Butter bei die Fische'] | Während der Geschäftsverhandlung im Fischrestaurant, wo gleichzeitig der Vertragsabschluss
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Butter bei die Fische'] | In der Endrunde des Kochwettbewerbs, wo die Zeit knapp wurde und das Team am entscheidende
+  v2 [ok] pred=['Butter bei die Fische'] | Die Freunde saßen vor der Konsole und spielten das neue Angel- und Koch-Simulationsspiel, 
+  v3 [ok] pred=['Butter bei die Fische'] | Während der Geschäftsverhandlung im Fischrestaurant, wo gleichzeitig der Vertragsabschluss
 --------------------------------------------------------------------------------
 Sentence: Wir haben sie am Tag vorher angerufen und da hat sie über Nacht ein Gedicht für Omas Geburtstag aus dem Ärmel geschüttelt.
 True idioms: ['aus dem Ärmel geschüttelt']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['aus dem Ärmel geschüttelt'] | Da sie als spontane Künstlerin dafür bekannt ist, Ideen auf Zettel zu kritzeln und diese ü
-  v2 [CONFUSED] pred=['aus dem Ärmel geschüttelt'] | Mitten in den Vorbereitungen für ihre kleine Zaubershow, bei der sie Konfetti und Seidentü
-  v3 [CONFUSED] pred=['aus dem Ärmel geschüttelt'] | Sie lag mit einer schlimmen Erkältung und Schüttelfrost im Bett, eingewickelt in mehrere L
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['aus dem Ärmel geschüttelt'] | Da sie als spontane Künstlerin dafür bekannt ist, Ideen auf Zettel zu kritzeln und diese ü
+  v2 [ok] pred=['aus dem Ärmel geschüttelt'] | Mitten in den Vorbereitungen für ihre kleine Zaubershow, bei der sie Konfetti und Seidentü
+  v3 [ok] pred=['aus dem Ärmel geschüttelt'] | Sie lag mit einer schlimmen Erkältung und Schüttelfrost im Bett, eingewickelt in mehrere L
 --------------------------------------------------------------------------------
 Sentence: Hat er noch was gesagt? — Nee. Er war kurz angebunden.
 True idioms: ['kurz angebunden']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['kurz angebunden'] | Ich habe gerade nach dem Kutter am Steg gesehen, den Paul festgemacht hat. Hat er noch was
-  v2 [CONFUSED] pred=['kurz angebunden'] | Der neue Patient in der Notaufnahme ist extrem aggressiv und musste für die Behandlung fix
-  v3 [CONFUSED] pred=['kurz angebunden'] | Ich komme gerade aus dem Verhörraum, wo der Verdächtige auf dem Stuhl festsitzt. Hat er no
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['kurz angebunden'] | Ich habe gerade nach dem Kutter am Steg gesehen, den Paul festgemacht hat. Hat er noch was
+  v2 [ok] pred=['kurz angebunden'] | Der neue Patient in der Notaufnahme ist extrem aggressiv und musste für die Behandlung fix
+  v3 [ok] pred=['kurz angebunden'] | Ich komme gerade aus dem Verhörraum, wo der Verdächtige auf dem Stuhl festsitzt. Hat er no
 --------------------------------------------------------------------------------
 Sentence: Stein des Anstoßes sind die folgenden Zeilen: „Vater unser im Himmel/ Geheiligt werde die Lüge/ Mein Fleisch verkomme/ Mein Wille geschehe/ Und den Himmel gib uns auf Erden/ Und vergib uns unsere Gier/ Drum führe uns jetzt in Versuchung/ Und dann erlöse uns von all dem Bösen/ Ich geb euch Liebe/ Ich geb euch Hoffnung/ Doch nur zum Schein/ Denn die Massen woll’n betrogen sein.“
 True idioms: ['Stein des Anstoßes']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Stein des Anstoßes', 'zum Schein'] | Bei der archäologischen Untersuchung einer antiken Kultstätte wurde eine gravierte Stele m
-  v2 [CONFUSED] pred=['Stein des Anstoßes', 'zum Schein'] | Der Stadtrat debattierte hitzig über den Entwurf für das neue Mahnmal, das einen großen, u
-  v3 [CONFUSED] pred=['Stein des Anstoßes', 'zum Schein'] | In der neuen Kunstinstallation, die sich mit Blasphemie auseinandersetzt, steht ein einzel
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Stein des Anstoßes', 'zum Schein'] | Bei der archäologischen Untersuchung einer antiken Kultstätte wurde eine gravierte Stele m
+  v2 [ok] pred=['Stein des Anstoßes', 'zum Schein'] | Der Stadtrat debattierte hitzig über den Entwurf für das neue Mahnmal, das einen großen, u
+  v3 [ok] pred=['Stein des Anstoßes', 'zum Schein'] | In der neuen Kunstinstallation, die sich mit Blasphemie auseinandersetzt, steht ein einzel
 --------------------------------------------------------------------------------
 Sentence: Zumindest die Vorbehalte gegenüber den Ultraorthodoxen scheinen die Kibbuzniks mit der weiteren Gesellschaft zu teilen. Besonders die Unterstützungsleistungen, die jene beziehen, bildeten an den Protesten in Tel Aviv einen zusätzlichen Stein des Anstoßes.
 True idioms: ['Stein des Anstoßes']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Stein des Anstoßes'] | Die Demonstration zog durch die alten Gassen der Stadt, deren unebenes Pflaster für viele 
-  v2 [CONFUSED] pred=['einen zusätzlichen Stein des Anstoßes bilden'] | Während der Demonstration eskalierte die Lage kurzzeitig, als ein Aktivist einen bemalten 
-  v3 [CONFUSED] pred=['einen zusätzlichen Stein des Anstoßes'] | Die Route des Protestmarsches führte direkt an einer neuen, umstrittenen Skulpturenausstel
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Stein des Anstoßes'] | Die Demonstration zog durch die alten Gassen der Stadt, deren unebenes Pflaster für viele 
+  v2 [ok] pred=['einen zusätzlichen Stein des Anstoßes bilden'] | Während der Demonstration eskalierte die Lage kurzzeitig, als ein Aktivist einen bemalten 
+  v3 [ok] pred=['einen zusätzlichen Stein des Anstoßes'] | Die Route des Protestmarsches führte direkt an einer neuen, umstrittenen Skulpturenausstel
 --------------------------------------------------------------------------------
 Sentence: Da hat der Kanzlerkandidat Gerhard Schröder beim Barte des Propheten geschworen, die Renten nicht zu kürzen.
 True idioms: ['beim Barte des Propheten']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['beim Barte des Propheten'] | Bei den Proben für ein historisches Theaterstück, in dem er eine Gastrolle als osmanischer
-  v2 [CONFUSED] pred=['beim Barte des Propheten'] | Auf einer Pressekonferenz im Völkerkundemuseum, direkt vor einer Vitrine mit einer als Rel
-  v3 [CONFUSED] pred=['beim Barte des Propheten'] | Während einer hitzigen Debatte im Kölner Karneval, als ein als Prophet verkleideter Bütten
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['beim Barte des Propheten'] | Bei den Proben für ein historisches Theaterstück, in dem er eine Gastrolle als osmanischer
+  v2 [ok] pred=['beim Barte des Propheten'] | Auf einer Pressekonferenz im Völkerkundemuseum, direkt vor einer Vitrine mit einer als Rel
+  v3 [ok] pred=['beim Barte des Propheten'] | Während einer hitzigen Debatte im Kölner Karneval, als ein als Prophet verkleideter Bütten
 --------------------------------------------------------------------------------
 Sentence: Das muss, beim Barte des Propheten, ganz wundervoll sein!
 True idioms: ['beim Barte des Propheten']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['beim Barte des Propheten'] | Die Kostümbildnerin zupfte ein letztes Mal an dem prächtigen, handgeknüpften Kunsthaar, da
-  v2 [CONFUSED] pred=['beim Barte des Propheten'] | Die Restauratoren betrachteten die feinen, neu freigelegten Goldfäden im aufwendigen Mosai
-  v3 [CONFUSED] pred=['beim Barte des Propheten'] | Die beiden Archäologen untersuchten die neu entdeckte Felszeichnung, die eine zeremonielle
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['beim Barte des Propheten'] | Die Kostümbildnerin zupfte ein letztes Mal an dem prächtigen, handgeknüpften Kunsthaar, da
+  v2 [ok] pred=['beim Barte des Propheten'] | Die Restauratoren betrachteten die feinen, neu freigelegten Goldfäden im aufwendigen Mosai
+  v3 [ok] pred=['beim Barte des Propheten'] | Die beiden Archäologen untersuchten die neu entdeckte Felszeichnung, die eine zeremonielle
 --------------------------------------------------------------------------------
 Sentence: Der damalige Bundeskanzler hatte dem Unternehmen Bürgschaften und Darlehen in Höhe von 128 Millionen Euro zugesagt, nachdem es Milliarden in den Sand gesetzt hatte
 True idioms: ['in den Sand gesetzt']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['in den Sand gesetzt'] | Der politische Pate des riesigen, gescheiterten Immobilienprojekts, bei dem eine künstlich
-  v2 [CONFUSED] pred=['in den Sand gesetzt'] | Der Hauptverteidiger der Subventionen für das insolvente Unternehmen, die auf die teure Ve
-  v3 [CONFUSED] pred=['in den Sand gesetzt'] | Der Architekt des Rettungspakets entwickelte für den Agrarkonzern, dessen Prestigeprojekt 
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['in den Sand gesetzt'] | Der politische Pate des riesigen, gescheiterten Immobilienprojekts, bei dem eine künstlich
+  v2 [ok] pred=['in den Sand gesetzt'] | Der Hauptverteidiger der Subventionen für das insolvente Unternehmen, die auf die teure Ve
+  v3 [ok] pred=['in den Sand gesetzt'] | Der Architekt des Rettungspakets entwickelte für den Agrarkonzern, dessen Prestigeprojekt 
 --------------------------------------------------------------------------------
 Sentence: Wir wurden eingeschüchtert, damit wir den Streik absagen, aber jetzt streiken wir erst recht.
 True idioms: ['erst recht']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['erst recht'] | Nachdem unsere Anwälte die Gewerkschaftssatzung geprüft und bestätigt hatten, dass unser V
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=['erst recht'] | Nachdem unsere Anwälte die Gewerkschaftssatzung geprüft und bestätigt hatten, dass unser V
   v2 [CONFUSED] pred=[] | Der Streikführer erklärte die genauen Verfahrensvorschriften, die bisher ignoriert worden 
-  v3 [CONFUSED] pred=['das Gegenteil bestätigt', 'wir wurden eingeschüchtert', 'erst recht'] | Die Unternehmensleitung hatte immer behauptet, unser Protest verstoße gegen geltendes Arbe
+  v3 [ok] pred=['das Gegenteil bestätigt', 'wir wurden eingeschüchtert', 'erst recht'] | Die Unternehmensleitung hatte immer behauptet, unser Protest verstoße gegen geltendes Arbe
 --------------------------------------------------------------------------------
 Sentence: Ich war völlig durch den Wind, als ich sie das erste Mal gesehen hab.
 True idioms: ['durch den Wind']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['völlig durch den Wind'] | Wir waren gerade dabei, bei stürmischer See die Segel zu reffen und der starke Seegang mac
-  v2 [CONFUSED] pred=['durch den Wind'] | Bei dem Fotoshooting am Strand heulte der Sturm und wir mussten ständig die Ausrüstung sic
-  v3 [CONFUSED] pred=['durch den Wind'] | Während meiner ersten Flugstunde im Simulator kämpfte ich mit starken Seitenböen und Turbu
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['völlig durch den Wind'] | Wir waren gerade dabei, bei stürmischer See die Segel zu reffen und der starke Seegang mac
+  v2 [ok] pred=['durch den Wind'] | Bei dem Fotoshooting am Strand heulte der Sturm und wir mussten ständig die Ausrüstung sic
+  v3 [ok] pred=['durch den Wind'] | Während meiner ersten Flugstunde im Simulator kämpfte ich mit starken Seitenböen und Turbu
 --------------------------------------------------------------------------------
 Sentence: Lass mich erst mal überlegen, ich bin noch etwas durch den Wind.
 True idioms: ['durch den Wind']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['durch den Wind'] | Nachdem er vom Deck des Segelboots kam, wo er stundenlang gegen die starken Böen gekämpft 
-  v2 [CONFUSED] pred=['durch den Wind'] | Der Meteorologe hatte den ganzen Vormittag damit verbracht, die Satellitenbilder des nahen
-  v3 [CONFUSED] pred=['durch den Wind'] | Nach der rasanten Fahrt im offenen Cabrio auf der Autobahn kam sie mit zerzausten Haaren i
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['durch den Wind'] | Nachdem er vom Deck des Segelboots kam, wo er stundenlang gegen die starken Böen gekämpft 
+  v2 [ok] pred=['durch den Wind'] | Der Meteorologe hatte den ganzen Vormittag damit verbracht, die Satellitenbilder des nahen
+  v3 [ok] pred=['durch den Wind'] | Nach der rasanten Fahrt im offenen Cabrio auf der Autobahn kam sie mit zerzausten Haaren i
 --------------------------------------------------------------------------------
 Sentence: Glaubst du an die große Liebe?
 True idioms: ['große Liebe']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['die große Liebe'] | Sie standen vor der riesigen, umstrittenen Skulptur im Museum, deren Titel auf einer Plake
-  v2 [CONFUSED] pred=['die große Liebe'] | Der Regisseur beschrieb die Hauptfigur des Stücks als eine überlebensgroße Gestalt namens 
-  v3 [CONFUSED] pred=['die große Liebe'] | Nachdem sie stundenlang über verschiedene psychometrische Modelle debattiert hatten, die e
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['die große Liebe'] | Sie standen vor der riesigen, umstrittenen Skulptur im Museum, deren Titel auf einer Plake
+  v2 [ok] pred=['die große Liebe'] | Der Regisseur beschrieb die Hauptfigur des Stücks als eine überlebensgroße Gestalt namens 
+  v3 [ok] pred=['die große Liebe'] | Nachdem sie stundenlang über verschiedene psychometrische Modelle debattiert hatten, die e
 --------------------------------------------------------------------------------
 Sentence: Um als deutscher Beamter entlassen zu werden, muss man schon silberne Löffel klauen.
 True idioms: ['silberne Löffel klauen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['silberne Löffel klauen'] | Während der jährlichen Inventur des historischen Silberbestecks im Rathauskeller fragte de
-  v2 [CONFUSED] pred=['silberne Löffel klauen'] | In der Kantine des Ministeriums, die für ihr exquisites altes Besteck berühmt ist, sprache
-  v3 [CONFUSED] pred=['silberne Löffel klauen'] | Bei der Diskussion über die historischen Disziplinarverfahren im preußischen Beamtentum un
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['silberne Löffel klauen'] | Während der jährlichen Inventur des historischen Silberbestecks im Rathauskeller fragte de
+  v2 [ok] pred=['silberne Löffel klauen'] | In der Kantine des Ministeriums, die für ihr exquisites altes Besteck berühmt ist, sprache
+  v3 [ok] pred=['silberne Löffel klauen'] | Bei der Diskussion über die historischen Disziplinarverfahren im preußischen Beamtentum un
 --------------------------------------------------------------------------------
 Sentence: Gerade bei Menschen, die viel Wert auf ihren Titel legen, kann man hier leicht ins Fettnäpfchen treten.
 True idioms: ['ins Fettnäpfchen treten']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['ins Fettnäpfchen treten'] | Beim Aufbau der Ausstellung über das ländliche Leben, wo eine alte Küche mit auf dem Boden
-  v2 [CONFUSED] pred=['ins Fettnäpfchen treten'] | In der hektischen Bankettküche, wo Köche über glatte Böden eilen und hier und da Töpfe mit
-  v3 [CONFUSED] pred=['ins Fettnäpfchen treten'] | Der Regisseur ermahnte den Schauspieler, sich auf der mit Requisiten übersäten Bühne, zu d
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['ins Fettnäpfchen treten'] | Beim Aufbau der Ausstellung über das ländliche Leben, wo eine alte Küche mit auf dem Boden
+  v2 [ok] pred=['ins Fettnäpfchen treten'] | In der hektischen Bankettküche, wo Köche über glatte Böden eilen und hier und da Töpfe mit
+  v3 [ok] pred=['ins Fettnäpfchen treten'] | Der Regisseur ermahnte den Schauspieler, sich auf der mit Requisiten übersäten Bühne, zu d
 --------------------------------------------------------------------------------
 Sentence: Gleich nach der Begrüßung – sich in das Fauteuil zu setzen, wozu ihm K. einlud, hatte er keine Zeit – bat er K. um ein kurzes Gespräch unter vier Augen.
 True idioms: ['unter vier Augen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['unter vier Augen'] | Der Techniker hatte gerade das neue biometrische Sicherheitssystem mit einem Iris-Scanner 
-  v2 [CONFUSED] pred=['unter vier Augen'] | Im Pokerspiel, bei dem K.s Gegner gerade zwei Könige und zwei Asse aufgedeckt hatte, war d
-  v3 [CONFUSED] pred=['unter vier Augen'] | Der Archäologe präsentierte seinen Fund, eine antike Maske mit zwei Gesichtern, deren Edel
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['unter vier Augen'] | Der Techniker hatte gerade das neue biometrische Sicherheitssystem mit einem Iris-Scanner 
+  v2 [ok] pred=['unter vier Augen'] | Im Pokerspiel, bei dem K.s Gegner gerade zwei Könige und zwei Asse aufgedeckt hatte, war d
+  v3 [ok] pred=['unter vier Augen'] | Der Archäologe präsentierte seinen Fund, eine antike Maske mit zwei Gesichtern, deren Edel
 --------------------------------------------------------------------------------
 Sentence: Sie wohnen ohne Trauschein zusammen.
 True idioms: []
@@ -379,332 +379,332 @@ Confused variants: 3/3 (100%)
 --------------------------------------------------------------------------------
 Sentence: Wir sollten das nicht zwischen Tür und Angel besprechen. Kommen Sie doch morgen früh noch mal in mein Büro, ja?
 True idioms: ['zwischen Tür und Angel']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['zwischen Tür und Angel'] | Der Tischler prüfte den schmalen Spalt, in dem die schwere Eichentür klemmte, und erklärte
-  v2 [CONFUSED] pred=['zwischen Tür und Angel'] | Gedrängt in den engen Raum hinter der offenen Bürotür, um dem vorbeirennenden Chef auszuwe
-  v3 [CONFUSED] pred=['zwischen Tür und Angel'] | Während der Architekt die fehlerhafte Montage der Brandschutztür inspizierte und genau auf
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['zwischen Tür und Angel'] | Der Tischler prüfte den schmalen Spalt, in dem die schwere Eichentür klemmte, und erklärte
+  v2 [ok] pred=['zwischen Tür und Angel'] | Gedrängt in den engen Raum hinter der offenen Bürotür, um dem vorbeirennenden Chef auszuwe
+  v3 [ok] pred=['zwischen Tür und Angel'] | Während der Architekt die fehlerhafte Montage der Brandschutztür inspizierte und genau auf
 --------------------------------------------------------------------------------
 Sentence: Er schenkte ihr ein offenes Ohr.
 True idioms: ['offenes Ohr']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['ein offenes Ohr'] | In seinem Atelier, umgeben von Gipsabdrücken verschiedener Körperteile, wie dem Ohr, für s
-  v2 [CONFUSED] pred=['ein offenes Ohr'] | Der Prothetiker hatte wochenlang an dem lebensechten Ersatz für ihr im Unfall verlorenes S
-  v3 [CONFUSED] pred=['ein offenes Ohr'] | Bei der Vorstellung seiner surrealistischen Schmuckkollektion, die einzigartige Stücke wie
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['ein offenes Ohr'] | In seinem Atelier, umgeben von Gipsabdrücken verschiedener Körperteile, wie dem Ohr, für s
+  v2 [ok] pred=['ein offenes Ohr'] | Der Prothetiker hatte wochenlang an dem lebensechten Ersatz für ihr im Unfall verlorenes S
+  v3 [ok] pred=['ein offenes Ohr'] | Bei der Vorstellung seiner surrealistischen Schmuckkollektion, die einzigartige Stücke wie
 --------------------------------------------------------------------------------
 Sentence: Die Politiker kannste alle in einen Sack stecken und draufhauen – da triffste immer den Richtigen.
 True idioms: ['in einen Sack stecken und draufhauen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['in einen Sack stecken und draufhauen', 'da triffste immer den Richtigen'] | Auf dem Dorffest, wo wir die schlechten Kartoffeln für die Viehfütterung aussortierten, si
-  v2 [CONFUSED] pred=['in einen Sack stecken und draufhauen', 'da triffste immer den Richtigen'] | Im Qualitätssicherungslabor der Spielzeugfabrik, wo die neue Serie unbeliebter Politiker-A
-  v3 [CONFUSED] pred=['in einen Sack stecken', 'draufhauen', 'triffste immer den Richtigen'] | Bei der Probe für das Mittelalter-Theaterstück, in dem korrupte Landvögte symbolisch in ei
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['in einen Sack stecken und draufhauen', 'da triffste immer den Richtigen'] | Auf dem Dorffest, wo wir die schlechten Kartoffeln für die Viehfütterung aussortierten, si
+  v2 [ok] pred=['in einen Sack stecken und draufhauen', 'da triffste immer den Richtigen'] | Im Qualitätssicherungslabor der Spielzeugfabrik, wo die neue Serie unbeliebter Politiker-A
+  v3 [ok] pred=['in einen Sack stecken', 'draufhauen', 'triffste immer den Richtigen'] | Bei der Probe für das Mittelalter-Theaterstück, in dem korrupte Landvögte symbolisch in ei
 --------------------------------------------------------------------------------
 Sentence: Alle Verwaltungen der USA schienen gleichzeitig am Ende der Fahnenstange angelangt. Die Staaten kämpften mit Defiziten in Milliardenhöhe.
 True idioms: ['Ende der Fahnenstange']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['am Ende der Fahnenstange'] | Beim jährlichen Flaggenhiss-Wettbewerb der Bundesstaaten, einer traditionellen Zeremonie z
-  v2 [CONFUSED] pred=['am Ende der Fahnenstange'] | Der Bericht des Infrastrukturausschusses beschrieb sowohl die abgeschlossene landesweite I
-  v3 [CONFUSED] pred=['am Ende der Fahnenstange'] | In der groß angelegten Regierungssimulation, bei der die verfügbaren Ressourcen jedes Staa
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['am Ende der Fahnenstange'] | Beim jährlichen Flaggenhiss-Wettbewerb der Bundesstaaten, einer traditionellen Zeremonie z
+  v2 [ok] pred=['am Ende der Fahnenstange'] | Der Bericht des Infrastrukturausschusses beschrieb sowohl die abgeschlossene landesweite I
+  v3 [ok] pred=['am Ende der Fahnenstange'] | In der groß angelegten Regierungssimulation, bei der die verfügbaren Ressourcen jedes Staa
 --------------------------------------------------------------------------------
 Sentence: Vorbereitung ist die halbe Miete.
 True idioms: ['halbe Miete']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Vorbereitung ist die halbe Miete'] | Die beiden Studenten besprachen ihren Finanzplan für die neue Wohngemeinschaft; da der ein
-  v2 [CONFUSED] pred=['die halbe Miete'] | Beim angespannten Wohnungsmarkt in der Innenstadt erklärte der Makler den Bewerbern, dass 
-  v3 [CONFUSED] pred=['Vorbereitung ist die halbe Miete'] | Das Startup-Team arbeitete Tag und Nacht an der Präsentation für die Investoren, denn der 
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Vorbereitung ist die halbe Miete'] | Die beiden Studenten besprachen ihren Finanzplan für die neue Wohngemeinschaft; da der ein
+  v2 [ok] pred=['die halbe Miete'] | Beim angespannten Wohnungsmarkt in der Innenstadt erklärte der Makler den Bewerbern, dass 
+  v3 [ok] pred=['Vorbereitung ist die halbe Miete'] | Das Startup-Team arbeitete Tag und Nacht an der Präsentation für die Investoren, denn der 
 --------------------------------------------------------------------------------
 Sentence: Gegenseitiges Verstehen ist die halbe Miete! Zum Thema Verständigung mit deinem Welpen und somit auch mit deinem später erwachsenen Hund ist noch einiges zu sagen.
 True idioms: ['halbe Miete']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['die halbe Miete'] | Bei den Verhandlungen mit dem Vermieter, der wegen des Hundes Bedenken hatte, haben wir be
-  v2 [CONFUSED] pred=['die halbe Miete'] | Als wir den Mietvertrag für unsere erste gemeinsame Wohnung unterschrieben und gleichzeiti
-  v3 [CONFUSED] pred=['die halbe Miete'] | Für unsere Hundetagesstätte zahlen wir eine erhebliche Pacht, und der Erfolg, der diese Ko
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['die halbe Miete'] | Bei den Verhandlungen mit dem Vermieter, der wegen des Hundes Bedenken hatte, haben wir be
+  v2 [ok] pred=['die halbe Miete'] | Als wir den Mietvertrag für unsere erste gemeinsame Wohnung unterschrieben und gleichzeiti
+  v3 [ok] pred=['die halbe Miete'] | Für unsere Hundetagesstätte zahlen wir eine erhebliche Pacht, und der Erfolg, der diese Ko
 --------------------------------------------------------------------------------
 Sentence: Eine unverwechselbare Position, bei der die CDU Flagge zeigen musste, war das Recht auf Leben. Hier galt es, eindeutig Stellung zu beziehen, ungeachtet dessen, wie die Entscheidung der Mehrheit in unserem Lande ausfiel.
 True idioms: ['Flagge zeigen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Flagge zeigen', 'Stellung beziehen'] | Während des Parteitags wurde hitzig über die Gestaltung der neuen Banner für die anstehend
-  v2 [CONFUSED] pred=['Flagge zeigen', 'Stellung beziehen'] | Bei der Eröffnung der Ausstellung über politische Symbole der Nachkriegszeit, umgeben von 
-  v3 [CONFUSED] pred=['Flagge zeigen', 'Stellung beziehen'] | Auf der Fregatte während der internationalen Flottenparade gab es eine Diskussion über die
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Flagge zeigen', 'Stellung beziehen'] | Während des Parteitags wurde hitzig über die Gestaltung der neuen Banner für die anstehend
+  v2 [ok] pred=['Flagge zeigen', 'Stellung beziehen'] | Bei der Eröffnung der Ausstellung über politische Symbole der Nachkriegszeit, umgeben von 
+  v3 [ok] pred=['Flagge zeigen', 'Stellung beziehen'] | Auf der Fregatte während der internationalen Flottenparade gab es eine Diskussion über die
 --------------------------------------------------------------------------------
 Sentence: Ohne Beute mussten die Täter Fersengeld geben.
 True idioms: ['Fersengeld geben']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Fersengeld geben'] | In der exklusiven Schuhmanufaktur, die für ihre speziellen Einlagen und Fersenpolster beka
-  v2 [CONFUSED] pred=['Fersengeld geben'] | Die Diebesgilde hatte eine eigene Währung für interne Strafzahlungen, die sie nach dem Spi
-  v3 [CONFUSED] pred=['Fersengeld geben'] | In dem bizarren Spielcasino, wo alle Schulden symbolisch mit Zahlungen für orthopädische H
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Fersengeld geben'] | In der exklusiven Schuhmanufaktur, die für ihre speziellen Einlagen und Fersenpolster beka
+  v2 [ok] pred=['Fersengeld geben'] | Die Diebesgilde hatte eine eigene Währung für interne Strafzahlungen, die sie nach dem Spi
+  v3 [ok] pred=['Fersengeld geben'] | In dem bizarren Spielcasino, wo alle Schulden symbolisch mit Zahlungen für orthopädische H
 --------------------------------------------------------------------------------
 Sentence: Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.
 True idioms: ['einen Strick drehen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['einen Strick drehen'] | Auf dem Mittelaltermarkt, direkt neben dem Stand des Seilers, der gerade Hanffasern sponn,
-  v2 [CONFUSED] pred=['einen Strick drehen'] | Im Bastelkurs versuchte sie, aus dem brüchigen Stroh eine Kordel zu fertigen, was ihr Koll
-  v3 [CONFUSED] pred=['einen Strick drehen'] | Der Segellehrer zeigte dem Anfänger, wie man aus dem dünnen Tauwerk eine feste Schlinge le
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['einen Strick drehen'] | Auf dem Mittelaltermarkt, direkt neben dem Stand des Seilers, der gerade Hanffasern sponn,
+  v2 [ok] pred=['einen Strick drehen'] | Im Bastelkurs versuchte sie, aus dem brüchigen Stroh eine Kordel zu fertigen, was ihr Koll
+  v3 [ok] pred=['einen Strick drehen'] | Der Segellehrer zeigte dem Anfänger, wie man aus dem dünnen Tauwerk eine feste Schlinge le
 --------------------------------------------------------------------------------
 Sentence: Wir haben gequatscht bis in die Puppen / Und vorher gingen wir sinnlos Shoppen
 True idioms: ['bis in die Puppen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['bis in die Puppen'] | Wir waren bei der nächtlichen Inventur im riesigen Spielwarengeschäft, während wir uns Reg
-  v2 [CONFUSED] pred=['bis in die Puppen'] | Als leidenschaftliche Puppenmacherinnen, besprachen sie jedes Detail ihrer neuesten Kreati
-  v3 [CONFUSED] pred=['In den Puppen', 'bis in die Puppen'] | Wir wanderten durch den Tiergarten, vorbei an den Tiergehegen bis hin zum historischen Tei
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['bis in die Puppen'] | Wir waren bei der nächtlichen Inventur im riesigen Spielwarengeschäft, während wir uns Reg
+  v2 [ok] pred=['bis in die Puppen'] | Als leidenschaftliche Puppenmacherinnen, besprachen sie jedes Detail ihrer neuesten Kreati
+  v3 [ok] pred=['In den Puppen', 'bis in die Puppen'] | Wir wanderten durch den Tiergarten, vorbei an den Tiergehegen bis hin zum historischen Tei
 --------------------------------------------------------------------------------
 Sentence: Die provokante Werbekampagne ist ordentlich ins Auge gegangen.
 True idioms: ['ins Auge gegangen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['ins Auge gegangen'] | Bei der Enthüllung der neuen Marketingstrategie mit hellen Farben, die dem Auge besonders 
-  v2 [CONFUSED] pred=['ins Auge gegangen'] | Nachdem das Unternehmen für Augenlaserkorrekturen eine Kampagne mit extrem hellen, blenden
-  v3 [CONFUSED] pred=['ins Auge gegangen'] | Während der Live-Präsentation im Freien, als ein plötzlicher Windstoß die riesige Werbepla
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['ins Auge gegangen'] | Bei der Enthüllung der neuen Marketingstrategie mit hellen Farben, die dem Auge besonders 
+  v2 [ok] pred=['ins Auge gegangen'] | Nachdem das Unternehmen für Augenlaserkorrekturen eine Kampagne mit extrem hellen, blenden
+  v3 [ok] pred=['ins Auge gegangen'] | Während der Live-Präsentation im Freien, als ein plötzlicher Windstoß die riesige Werbepla
 --------------------------------------------------------------------------------
 Sentence: Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?
 True idioms: ['aus dem Handgelenk']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['aus dem Handgelenk'] | Die Ingenieure beobachteten den humanoiden Prototyp, dessen physische Bewegungen perfektio
-  v2 [CONFUSED] pred=['aus dem Handgelenk'] | Das Publikum sah dem Künstler zu, der während der Simultanpartie gleichzeitig winzige Port
-  v3 [CONFUSED] pred=['aus dem Handgelenk'] | Während der Zaubervorführung, die mentale Fähigkeiten mit Taschenspielertricks kombinierte
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['aus dem Handgelenk'] | Die Ingenieure beobachteten den humanoiden Prototyp, dessen physische Bewegungen perfektio
+  v2 [ok] pred=['aus dem Handgelenk'] | Das Publikum sah dem Künstler zu, der während der Simultanpartie gleichzeitig winzige Port
+  v3 [ok] pred=['aus dem Handgelenk'] | Während der Zaubervorführung, die mentale Fähigkeiten mit Taschenspielertricks kombinierte
 --------------------------------------------------------------------------------
 Sentence: In dem Augenblick verschwand das Schloß, und sie saßen wieder in der alten Hütte. „Nun hast dus,“ sagte der Mann, „jetzt können wir wieder am Hungertuch nagen.“ „Ach,“ sprach die Frau, „ich will den Reichthum lieber nicht, wenn ich nicht weiß von wem er kommt, sonst habe ich doch keine Ruhe.“
 True idioms: ['am Hungertuch nagen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['am Hungertuch nagen'] | Als die Wirkung des seltsamen Tuches aus Weizen, die ihnen ein prunkvolles Leben vorgegauk
-  v2 [CONFUSED] pred=['am Hungertuch nagen'] | Der Regisseur rief „Schnitt!“ und die Bühnenarbeiter demontierten sofort die aufwendige Ku
-  v3 [CONFUSED] pred=['am Hungertuch nagen'] | Der Zauber des unersättlichen Webers war gebrochen, und das magische Gewebe, das ihnen als
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['am Hungertuch nagen'] | Als die Wirkung des seltsamen Tuches aus Weizen, die ihnen ein prunkvolles Leben vorgegauk
+  v2 [ok] pred=['am Hungertuch nagen'] | Der Regisseur rief „Schnitt!“ und die Bühnenarbeiter demontierten sofort die aufwendige Ku
+  v3 [ok] pred=['am Hungertuch nagen'] | Der Zauber des unersättlichen Webers war gebrochen, und das magische Gewebe, das ihnen als
 --------------------------------------------------------------------------------
 Sentence: Mit uns kannst du wirklich keinen Staat machen.
 True idioms: ['Staat machen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['mit uns kannst du wirklich keinen Staat machen'] | Die Gruppe von Strategiespiel-Anfängern saß vor der digitalen Weltkarte, ihre Zivilisation
-  v2 [CONFUSED] pred=['mit uns kannst du wirklich keinen Staat machen'] | Für unser Erdkundeprojekt sollten wir ein Modell eines fiktiven Landes erstellen, aber nac
-  v3 [CONFUSED] pred=['mit uns kannst du wirklich keinen Staat machen'] | Die kleine Gruppe von Idealisten traf sich im Keller, um über die Gründung ihrer eigenen s
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['mit uns kannst du wirklich keinen Staat machen'] | Die Gruppe von Strategiespiel-Anfängern saß vor der digitalen Weltkarte, ihre Zivilisation
+  v2 [ok] pred=['mit uns kannst du wirklich keinen Staat machen'] | Für unser Erdkundeprojekt sollten wir ein Modell eines fiktiven Landes erstellen, aber nac
+  v3 [ok] pred=['mit uns kannst du wirklich keinen Staat machen'] | Die kleine Gruppe von Idealisten traf sich im Keller, um über die Gründung ihrer eigenen s
 --------------------------------------------------------------------------------
 Sentence: Ich habe eine mündliche Zusage, aber ich will noch nichts sagen, bis alles in trockenen Tüchern ist.
 True idioms: ['in trockenen Tüchern']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['alles in trockenen Tüchern ist'] | In der Textilreinigung für trockene Säuberungsmethoden, wo wir sowohl über meine Beförderu
-  v2 [CONFUSED] pred=['in trockenen Tüchern'] | Der Archivar zeigte mir die fragilen, frisch restaurierten Manuskripte, die zwischen spezi
-  v3 [CONFUSED] pred=['in trockenen Tüchern'] | Nach dem Wassereinbruch im Keller halfen wir, die durchnässten Habseligkeiten mit trockene
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['alles in trockenen Tüchern ist'] | In der Textilreinigung für trockene Säuberungsmethoden, wo wir sowohl über meine Beförderu
+  v2 [ok] pred=['in trockenen Tüchern'] | Der Archivar zeigte mir die fragilen, frisch restaurierten Manuskripte, die zwischen spezi
+  v3 [ok] pred=['in trockenen Tüchern'] | Nach dem Wassereinbruch im Keller halfen wir, die durchnässten Habseligkeiten mit trockene
 --------------------------------------------------------------------------------
 Sentence: Das Wasserwirtschaftsamt kann auch zum Zuge kommen. Es dauert ziemlich lange, bis das Unternehmen in trockenen Tüchern ist.
 True idioms: ['in trockenen Tüchern']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['in trockenen Tüchern'] | Nach der verheerenden Überschwemmung in dem neuen Unternehmen für Textilfärberei für trock
-  v2 [CONFUSED] pred=['in trockenen Tüchern'] | Die Planungen für das große Freiluft-Festival im Naturschutzgebiet sind äußerst komplex, d
-  v3 [CONFUSED] pred=['in trockenen Tüchern'] | Die neue Großwäscherei verhandelt seit Wochen über den neuen Exklusivvertrag mit dem Klini
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['in trockenen Tüchern'] | Nach der verheerenden Überschwemmung in dem neuen Unternehmen für Textilfärberei für trock
+  v2 [ok] pred=['in trockenen Tüchern'] | Die Planungen für das große Freiluft-Festival im Naturschutzgebiet sind äußerst komplex, d
+  v3 [ok] pred=['in trockenen Tüchern'] | Die neue Großwäscherei verhandelt seit Wochen über den neuen Exklusivvertrag mit dem Klini
 --------------------------------------------------------------------------------
 Sentence: Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.
 True idioms: ['in trockenen Tüchern']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['in trockenen Tüchern'] | Ich hatte gerade meine Badesachen aus dem Meer geholt und die nasse Tasche tropfte auf den
-  v2 [CONFUSED] pred=['in trockenen Tüchern'] | Als Restaurator-Lehrling transportierte ich ein frisch gereinigtes, noch feuchtes Seidenba
-  v3 [CONFUSED] pred=['die Ruhe bewahren', 'in trockenen Tüchern'] | Meine Aufgabe war es, eine zerbrechliche Glasfigur auszuliefern, die zum Schutz in feuchte
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['in trockenen Tüchern'] | Ich hatte gerade meine Badesachen aus dem Meer geholt und die nasse Tasche tropfte auf den
+  v2 [ok] pred=['in trockenen Tüchern'] | Als Restaurator-Lehrling transportierte ich ein frisch gereinigtes, noch feuchtes Seidenba
+  v3 [ok] pred=['die Ruhe bewahren', 'in trockenen Tüchern'] | Meine Aufgabe war es, eine zerbrechliche Glasfigur auszuliefern, die zum Schutz in feuchte
 --------------------------------------------------------------------------------
 Sentence: Selbst als in der Nacht von Sonntag auf Montag die beiden Spitzen der Regierung, sichtlich gezeichnet vom Gesprächsmarathon, verkündigten, man habe sich auf ein aktualisiertes Regierungsprogramm einigen können, war der Pakt noch lange nicht in trockenen Tüchern.
 True idioms: ['in trockenen Tüchern']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['in trockenen Tüchern'] | Im Kanzleramt war es wegen eines Wasserrohrbruchs zu chaotischen Szenen gekommen, bei dene
-  v2 [CONFUSED] pred=['in trockenen Tüchern'] | Die Verhandlungen fanden in einem historischen Waschhaus statt, das symbolisch für die nöt
-  v3 [CONFUSED] pred=['in trockenen Tüchern'] | Die Restauratoren im Nationalarchiv arbeiteten fieberhaft daran, den durch Feuchtigkeit be
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['in trockenen Tüchern'] | Im Kanzleramt war es wegen eines Wasserrohrbruchs zu chaotischen Szenen gekommen, bei dene
+  v2 [ok] pred=['in trockenen Tüchern'] | Die Verhandlungen fanden in einem historischen Waschhaus statt, das symbolisch für die nöt
+  v3 [ok] pred=['in trockenen Tüchern'] | Die Restauratoren im Nationalarchiv arbeiteten fieberhaft daran, den durch Feuchtigkeit be
 --------------------------------------------------------------------------------
 Sentence: Ich habe mich krank gemeldet, weil ich gestern Abend einen über den Durst getrunken habe.
 True idioms: ['über den Durst getrunken']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['über den Durst getrunken'] | Mein Trainer hatte einen exakten Hydrationsplan für die Zeit vor dem Marathon aufgestellt,
-  v2 [CONFUSED] pred=['über den Durst getrunken'] | Während des Überlebenstrainings in der Wüste war unser Wasser streng rationiert und unser 
-  v3 [CONFUSED] pred=['über den Durst getrunken'] | Der Arzt bereitete mich auf den Nierenfunktionstest vor und betonte, dass ich eine ganz be
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['über den Durst getrunken'] | Mein Trainer hatte einen exakten Hydrationsplan für die Zeit vor dem Marathon aufgestellt,
+  v2 [ok] pred=['über den Durst getrunken'] | Während des Überlebenstrainings in der Wüste war unser Wasser streng rationiert und unser 
+  v3 [ok] pred=['über den Durst getrunken'] | Der Arzt bereitete mich auf den Nierenfunktionstest vor und betonte, dass ich eine ganz be
 --------------------------------------------------------------------------------
 Sentence: Ich begriff 1963 die Bundesrepublik weder als Zünglein an der Waage noch als amerikanischen Gegenpol, noch als Speerspitze des Kalten Krieges, sondern fand, daß die Bundesrepublik ihren eigenen Part im Konzert des Westens spielen und ihren eigenen Beitrag leisten müsse - jener Verantwortung gemäß, die sie habe und die ihr niemand abnehme.
 True idioms: ['Zünglein an der Waage']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Zünglein an der Waage', 'Speerspitze des Kalten Krieges', 'Part im Konzert des Westens spielen'] | ich konzipierte im Deutschen Museum eine Ausstellung über die Nachkriegszeit und restaurie
-  v2 [CONFUSED] pred=['Zünglein an der Waage', 'Speerspitze des Kalten Krieges', 'Part im Konzert des Westens'] | In meiner Dissertation über die Metaphorik in der politischen Sprache der 60er Jahre, bei 
-  v3 [CONFUSED] pred=['Zünglein an der Waage', 'Speerspitze des Kalten Krieges', 'Konzert des Westens'] | Beim Durchsehen der Nachlässe meines Großvaters, eines Uhrmachers und leidenschaftlichen K
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Zünglein an der Waage', 'Speerspitze des Kalten Krieges', 'Part im Konzert des Westens spielen'] | ich konzipierte im Deutschen Museum eine Ausstellung über die Nachkriegszeit und restaurie
+  v2 [ok] pred=['Zünglein an der Waage', 'Speerspitze des Kalten Krieges', 'Part im Konzert des Westens'] | In meiner Dissertation über die Metaphorik in der politischen Sprache der 60er Jahre, bei 
+  v3 [ok] pred=['Zünglein an der Waage', 'Speerspitze des Kalten Krieges', 'Konzert des Westens'] | Beim Durchsehen der Nachlässe meines Großvaters, eines Uhrmachers und leidenschaftlichen K
 --------------------------------------------------------------------------------
 Sentence: Zwei Mädchen in dieser Klasse, Chantel und Andrea, wollen ihren neuen Klassenkameraden Courtney zum Narren halten.
 True idioms: ['zum Narren halten']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['zum Narren halten'] | Bei der Rollenverteilung für das neue Theaterstück, das am Hof eines Königs spielt und in 
-  v2 [CONFUSED] pred=['zum Narren halten'] | Nachdem der Kunstlehrer Bilder von historischen Hofnarren und ihren aufwendigen Kostümen g
-  v3 [CONFUSED] pred=['zum Narren halten'] | Während des Sportunterrichts, in dem die Schüler eine menschliche Pyramide für die Zirkus-
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['zum Narren halten'] | Bei der Rollenverteilung für das neue Theaterstück, das am Hof eines Königs spielt und in 
+  v2 [ok] pred=['zum Narren halten'] | Nachdem der Kunstlehrer Bilder von historischen Hofnarren und ihren aufwendigen Kostümen g
+  v3 [ok] pred=['zum Narren halten'] | Während des Sportunterrichts, in dem die Schüler eine menschliche Pyramide für die Zirkus-
 --------------------------------------------------------------------------------
 Sentence: Michael Portillo beschrieb seine derzeitige Verwendung, traf den Direktor und blieb über Nacht.
 True idioms: []
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=[] | Angesichts der eskalierenden Regierungskrise und der Notwendigkeit, schnell eine neue Kabi
-  v2 [CONFUSED] pred=[] | Um den rasanten Aufstieg einer Medienpersönlichkeit zu illustrieren, deren Karriere sich n
-  v3 [CONFUSED] pred=[] | Der Plan für seine Einarbeitung war extrem aggressiv und auf sofortige Ergebnisse ausgeleg
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=[] | Angesichts der eskalierenden Regierungskrise und der Notwendigkeit, schnell eine neue Kabi
+  v2 [ok] pred=[] | Um den rasanten Aufstieg einer Medienpersönlichkeit zu illustrieren, deren Karriere sich n
+  v3 [ok] pred=[] | Der Plan für seine Einarbeitung war extrem aggressiv und auf sofortige Ergebnisse ausgeleg
 --------------------------------------------------------------------------------
 Sentence: Der gute Ruf von Volkswagen stand in Afrika auf dem Spiel.
 True idioms: ['auf dem Spiel']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['auf dem Spiel stehen'] | Die neue Marketingstrategie beinhaltete ein riesiges, interaktives Brettspiel, das den afr
-  v2 [CONFUSED] pred=['auf dem Spiel'] | Für die Firmenpräsentation wurde ein symbolisches Brettspiel entwickelt, in dem personifiz
-  v3 [CONFUSED] pred=['auf dem Spiel'] | Die Manager verhandelten den Deal bei einer symbolischen Partie Poker, bei der das Ansehen
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['auf dem Spiel stehen'] | Die neue Marketingstrategie beinhaltete ein riesiges, interaktives Brettspiel, das den afr
+  v2 [ok] pred=['auf dem Spiel'] | Für die Firmenpräsentation wurde ein symbolisches Brettspiel entwickelt, in dem personifiz
+  v3 [ok] pred=['auf dem Spiel'] | Die Manager verhandelten den Deal bei einer symbolischen Partie Poker, bei der das Ansehen
 --------------------------------------------------------------------------------
 Sentence: Der PC Energie Bericht ergab, dass fast die Hälfte aller beruflich genutzten PCs in den USA über Nacht regelmäßig nicht ausgeschaltet werden.
 True idioms: []
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=[] | Niemand im Forschungsteam glaubte, dass die komplexen Daten so schnell ausgewertet werden 
-  v2 [CONFUSED] pred=[] | Die Unternehmensführung dachte, sie hätte ihre neuen Energiesparmaßnahmen erfolgreich umge
-  v3 [CONFUSED] pred=[] | Nach einem unangekündigten Systemupdate, das die Energieprofile vieler Rechner drastisch v
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=[] | Niemand im Forschungsteam glaubte, dass die komplexen Daten so schnell ausgewertet werden 
+  v2 [ok] pred=[] | Die Unternehmensführung dachte, sie hätte ihre neuen Energiesparmaßnahmen erfolgreich umge
+  v3 [ok] pred=[] | Nach einem unangekündigten Systemupdate, das die Energieprofile vieler Rechner drastisch v
 --------------------------------------------------------------------------------
 Sentence: 2002 erklärte sie, die palästinensischen Terroranschläge seien zwar nicht zu rechtfertigen, doch habe die israelische Politik ihnen „den Weg geebnet“.
 True idioms: ['den Weg geebnet']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['den Weg geebnet'] | In einer Retrospektive ihrer Karriere als Stadtplanerin, die für den umstrittenen Ausbau d
-  v2 [CONFUSED] pred=['den Weg geebnet'] | Im Protokoll der Sonderkommission, die sowohl die Vergabe von Bauaufträgen für neue Transi
-  v3 [CONFUSED] pred=['den Weg geebnet'] | Nach dem Scheitern des Infrastrukturprojekts 'Wege zur Koexistenz', das neue Verbindungsst
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['den Weg geebnet'] | In einer Retrospektive ihrer Karriere als Stadtplanerin, die für den umstrittenen Ausbau d
+  v2 [ok] pred=['den Weg geebnet'] | Im Protokoll der Sonderkommission, die sowohl die Vergabe von Bauaufträgen für neue Transi
+  v3 [ok] pred=['den Weg geebnet'] | Nach dem Scheitern des Infrastrukturprojekts 'Wege zur Koexistenz', das neue Verbindungsst
 --------------------------------------------------------------------------------
 Sentence: Das ist die Zuchtrute Gottes, mit der Moses sein Volk in Schach gehalten hat!
 True idioms: ['in Schach gehalten']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['die Zuchtrute Gottes', 'in Schach gehalten hat'] | In der Archäologie-Abteilung des Museums, vor einer Vitrine, die ein kunstvoll geschnitzte
-  v2 [CONFUSED] pred=['die Zuchtrute Gottes', 'in Schach gehalten'] | Während der Podiumsdiskussion über strategische Führung in antiken Schachspielen, bei der 
-  v3 [CONFUSED] pred=['Zuchtrute Gottes', 'in Schach gehalten'] | Der exzentrische Milliardär präsentierte stolz ein altes Holzstück neben einem Elfenbein-S
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['die Zuchtrute Gottes', 'in Schach gehalten hat'] | In der Archäologie-Abteilung des Museums, vor einer Vitrine, die ein kunstvoll geschnitzte
+  v2 [ok] pred=['die Zuchtrute Gottes', 'in Schach gehalten'] | Während der Podiumsdiskussion über strategische Führung in antiken Schachspielen, bei der 
+  v3 [ok] pred=['Zuchtrute Gottes', 'in Schach gehalten'] | Der exzentrische Milliardär präsentierte stolz ein altes Holzstück neben einem Elfenbein-S
 --------------------------------------------------------------------------------
 Sentence: Behörden und die Schwulenbewegung arbeiteten erfolgreich Hand in Hand.
 True idioms: ['Hand in Hand']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Hand in Hand'] | Während der großen Parade, wurde zur Überwindung von Barrieren eine symbolische Menschenke
-  v2 [CONFUSED] pred=['Hand in Hand'] | Bei der gemeinsamen Katastrophenschutzübung, wurde das richtige Vorgehen zum Bilden einer 
-  v3 [CONFUSED] pred=['Hand in Hand'] | In der Kunstwerkstatt, gestalteten sie eine Skulptur als Symbol der Einheit und machten da
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Hand in Hand'] | Während der großen Parade, wurde zur Überwindung von Barrieren eine symbolische Menschenke
+  v2 [ok] pred=['Hand in Hand'] | Bei der gemeinsamen Katastrophenschutzübung, wurde das richtige Vorgehen zum Bilden einer 
+  v3 [ok] pred=['Hand in Hand'] | In der Kunstwerkstatt, gestalteten sie eine Skulptur als Symbol der Einheit und machten da
 --------------------------------------------------------------------------------
 Sentence: Hier wird nun deutlich, dass Marek nicht tot ist, sondern mit den anderen gemeinsame Sache gemacht hat.
 True idioms: ['gemeinsame Sache gemacht']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['gemeinsame Sache gemacht hat'] | Als die Ermittler das aufwendig aus Schrottteilen gefertigte Fluchtfahrzeug in der verlass
-  v2 [CONFUSED] pred=['gemeinsame Sache gemacht hat'] | Nachdem der Auktionator das Triptychon enthüllte, dessen einzelne Teile von verschiedenen,
-  v3 [CONFUSED] pred=['gemeinsame Sache gemacht hat'] | Bei der Testamentseröffnung wurde ein letztes, gemeinschaftlich verfasstes Manuskript über
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['gemeinsame Sache gemacht hat'] | Als die Ermittler das aufwendig aus Schrottteilen gefertigte Fluchtfahrzeug in der verlass
+  v2 [ok] pred=['gemeinsame Sache gemacht hat'] | Nachdem der Auktionator das Triptychon enthüllte, dessen einzelne Teile von verschiedenen,
+  v3 [ok] pred=['gemeinsame Sache gemacht hat'] | Bei der Testamentseröffnung wurde ein letztes, gemeinschaftlich verfasstes Manuskript über
 --------------------------------------------------------------------------------
 Sentence: Zwischen den beiden Detekteien entwickelt sich eine Art Konkurrenzkampf, da sie sich trotz aller Freundschaft immer wieder gewollt oder ungewollt in die Quere kommen.
 True idioms: ['in die Quere kommen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['in die Quere kommen'] | Ihr aktueller Fall dreht sich um Korruption bei der Stadtplanung, weshalb sie ständig Baup
-  v2 [CONFUSED] pred=['in die Quere kommen'] | Die Ermittlungen konzentrieren sich auf ein weitläufiges Lagerhaus mit unzähligen, schmale
-  v3 [CONFUSED] pred=['in die Quere kommen'] | Die Ermittler müssen einem Verdächtigen während des jährlichen Stadtmarathons folgen, bei 
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['in die Quere kommen'] | Ihr aktueller Fall dreht sich um Korruption bei der Stadtplanung, weshalb sie ständig Baup
+  v2 [ok] pred=['in die Quere kommen'] | Die Ermittlungen konzentrieren sich auf ein weitläufiges Lagerhaus mit unzähligen, schmale
+  v3 [ok] pred=['in die Quere kommen'] | Die Ermittler müssen einem Verdächtigen während des jährlichen Stadtmarathons folgen, bei 
 --------------------------------------------------------------------------------
 Sentence: Schlechter ging es da den Hilfskräften, die oft nur von der Hand in den Mund lebten.
 True idioms: ['von der Hand in den Mund lebten']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['von der Hand in den Mund'] | Bei der Versorgung der schwerverletzten Unfallopfer, die nicht mehr selbstständig essen ko
-  v2 [CONFUSED] pred=['von der Hand in den Mund'] | In der Aufzuchtstation für verwaiste Tierjungen war die Fütterungszeit die größte Herausfo
-  v3 [CONFUSED] pred=['von der Hand in den Mund'] | Während der Theaterprobe für das Stück über eine große Hungersnot mussten die Hauptdarstel
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['von der Hand in den Mund'] | Bei der Versorgung der schwerverletzten Unfallopfer, die nicht mehr selbstständig essen ko
+  v2 [ok] pred=['von der Hand in den Mund'] | In der Aufzuchtstation für verwaiste Tierjungen war die Fütterungszeit die größte Herausfo
+  v3 [ok] pred=['von der Hand in den Mund'] | Während der Theaterprobe für das Stück über eine große Hungersnot mussten die Hauptdarstel
 --------------------------------------------------------------------------------
 Sentence: Dabei blieb er allerdings politisch eher ein Hinterbänkler und blieb stets ein Dorn im Auge der Ministerialbürokratie.
 True idioms: ['Dorn im Auge']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['ein Dorn im Auge'] | Nach einem unglücklichen Vorfall während einer Besichtigung der ministeriellen Gewächshäus
-  v2 [CONFUSED] pred=['ein Dorn im Auge'] | Seine einzige künstlerische Hinterlassenschaft im Ministeriumsgebäude war eine umstrittene
-  v3 [CONFUSED] pred=['ein Dorn im Auge'] | In den internen Sicherheitsakten des Hotels wurde seine Akte mit einem Symbol versehen – e
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['ein Dorn im Auge'] | Nach einem unglücklichen Vorfall während einer Besichtigung der ministeriellen Gewächshäus
+  v2 [ok] pred=['ein Dorn im Auge'] | Seine einzige künstlerische Hinterlassenschaft im Ministeriumsgebäude war eine umstrittene
+  v3 [ok] pred=['ein Dorn im Auge'] | In den internen Sicherheitsakten des Hotels wurde seine Akte mit einem Symbol versehen – e
 --------------------------------------------------------------------------------
 Sentence: Die Output-Signale hängen nicht nur von der Kombination der Inputs, sondern auch von der richtigen Reihenfolge der Inputs ab: Mit anderen Worten, das richtige password muss eingegeben werden.
 True idioms: ['Mit anderen Worten']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Mit anderen Worten'] | Im Übersetzungsseminar wurde darüber debattiert, wie die Wahl der Synonyme die semantische
-  v2 [CONFUSED] pred=['Mit anderen Worten'] | Der Paartherapeut erklärte dem zerstrittenen Ehepaar, wie ihre Kommunikation scheiterte, d
-  v3 [CONFUSED] pred=['Mit anderen Worten'] | Beim Experimentieren mit dem neuen modularen Synthesizer, dessen Klangmuster sich dynamisc
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Mit anderen Worten'] | Im Übersetzungsseminar wurde darüber debattiert, wie die Wahl der Synonyme die semantische
+  v2 [ok] pred=['Mit anderen Worten'] | Der Paartherapeut erklärte dem zerstrittenen Ehepaar, wie ihre Kommunikation scheiterte, d
+  v3 [ok] pred=['Mit anderen Worten'] | Beim Experimentieren mit dem neuen modularen Synthesizer, dessen Klangmuster sich dynamisc
 --------------------------------------------------------------------------------
 Sentence: Zu dem Zeitpunkt erlaubten NZPO2 und ich, den Schnaps auszugeben, der den Absturz überstanden hatte, und wir feierten eine Party (makaber, aber wir mussten einfach Dampf ablassen).
 True idioms: ['Dampf ablassen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['Dampf ablassen'] | Nachdem wir die kritischen Systeme des havarierten Dampfschiffs gesichert hatten und der K
-  v2 [CONFUSED] pred=['Dampf ablassen'] | In der Feldküche, nachdem das Regal mit den Vorräten zusammengebrochen war und der große S
-  v3 [CONFUSED] pred=['Dampf ablassen'] | Unsere Forschungsstation am Geysirfeld hatte einen kompletten Systemausfall, und die geoth
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['Dampf ablassen'] | Nachdem wir die kritischen Systeme des havarierten Dampfschiffs gesichert hatten und der K
+  v2 [ok] pred=['Dampf ablassen'] | In der Feldküche, nachdem das Regal mit den Vorräten zusammengebrochen war und der große S
+  v3 [ok] pred=['Dampf ablassen'] | Unsere Forschungsstation am Geysirfeld hatte einen kompletten Systemausfall, und die geoth
 --------------------------------------------------------------------------------
 Sentence: Die Geschichte von Rhampsinit wird heute als eine Art Satire bewertet, in denen ein König von einem bescheidenen Bürger zum Narren gehalten wird.
 True idioms: ['zum Narren gehalten']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['zum Narren gehalten'] | Bei der Planung für das mittelalterliche Stadtfest diskutierte der Regisseur die Inszenier
-  v2 [CONFUSED] pred=['zum Narren gehalten'] | Der Kunsthistoriker zeigte auf das Detail im Manuskript und erklärte die Ikonographie, bei
-  v3 [CONFUSED] pred=['zum Narren gehalten'] | Bei der Kostümprobe für das Theaterstück wurde lange überlegt, wie die Figur des Narren am
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['zum Narren gehalten'] | Bei der Planung für das mittelalterliche Stadtfest diskutierte der Regisseur die Inszenier
+  v2 [ok] pred=['zum Narren gehalten'] | Der Kunsthistoriker zeigte auf das Detail im Manuskript und erklärte die Ikonographie, bei
+  v3 [ok] pred=['zum Narren gehalten'] | Bei der Kostümprobe für das Theaterstück wurde lange überlegt, wie die Figur des Narren am
 --------------------------------------------------------------------------------
 Sentence: Das Gespräch zwischen den beiden ergibt, dass noch eine weitere Schwester existiert, Cammie, und dass Cammie oft über Nacht im Haus ihrer Freundin Sheila bleibt.
 True idioms: []
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=[] | Inmitten einer Flut von Enthüllungen, die das Familiengefüge innerhalb von Stunden erschüt
-  v2 [CONFUSED] pred=[] | Sie diskutierten das Muster von Familienmitgliedern, die abrupt auftauchten und ebenso une
-  v3 [CONFUSED] pred=[] | Während sie versuchten, die überstürzten Ereignisse der letzten Tage zu ordnen, in denen s
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=[] | Inmitten einer Flut von Enthüllungen, die das Familiengefüge innerhalb von Stunden erschüt
+  v2 [ok] pred=[] | Sie diskutierten das Muster von Familienmitgliedern, die abrupt auftauchten und ebenso une
+  v3 [ok] pred=[] | Während sie versuchten, die überstürzten Ereignisse der letzten Tage zu ordnen, in denen s
 --------------------------------------------------------------------------------
 Sentence: Oftmals wurde die Kohle über Nacht gestohlen.
 True idioms: []
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=[] | Der alte Casino-Besitzer, der sowohl seine Einnahmen als auch den Brennstoff für seine ant
+Confused variants: 2/3 (67%)
+  v1 [ok] pred=[] | Der alte Casino-Besitzer, der sowohl seine Einnahmen als auch den Brennstoff für seine ant
   v2 [CONFUSED] pred=['über Nacht gestohlen'] | Während der Lagerverwalter die Inventur der Brennstoffreserven für den Winter durchging un
   v3 [CONFUSED] pred=['die Kohle über Nacht gestohlen'] | Nach dem plötzlichen und unerklärlichen Absturz der Aktien des Energieunternehmens, der di
 --------------------------------------------------------------------------------
 Sentence: Daraufhin sagt Sarah, dass Jonathon ihre große Liebe sei.
 True idioms: ['große Liebe']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['große Liebe'] | In der Paartherapie, werden die beiden gebeten wurden, ihre Gefühle füreinander zu klassif
-  v2 [CONFUSED] pred=['große Liebe'] | Bei der Besprechung des neuen Theaterstücks über mythologische Figuren, in dem die Liebe a
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=['große Liebe'] | In der Paartherapie, werden die beiden gebeten wurden, ihre Gefühle füreinander zu klassif
+  v2 [ok] pred=['große Liebe'] | Bei der Besprechung des neuen Theaterstücks über mythologische Figuren, in dem die Liebe a
   v3 [CONFUSED] pred=[] | Nachdem der für seine enorme Körpergröße bekannte Jonathon den ersten Preis für den schwer
 --------------------------------------------------------------------------------
 Sentence: Wohl oder übel muss Beppi jetzt ernster genommen werden als bisher.
 True idioms: ['Wohl oder übel']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['wohl oder übel'] | In der hitzigen Debatte der Ethikkommission über das neue Forschungsprojekt muss Beppi, wo
-  v2 [CONFUSED] pred=['wohl oder übel'] | Die Spieldesigner wägten wochenlang ab, ob die Hauptfigur ein Held oder ein Schurke werden
-  v3 [CONFUSED] pred=['wohl oder übel'] | Nachdem die Jury die zwei Finalgerichte des Kochwettbewerbs kontrovers diskutiert hatte, m
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['wohl oder übel'] | In der hitzigen Debatte der Ethikkommission über das neue Forschungsprojekt muss Beppi, wo
+  v2 [ok] pred=['wohl oder übel'] | Die Spieldesigner wägten wochenlang ab, ob die Hauptfigur ein Held oder ein Schurke werden
+  v3 [ok] pred=['wohl oder übel'] | Nachdem die Jury die zwei Finalgerichte des Kochwettbewerbs kontrovers diskutiert hatte, m
 --------------------------------------------------------------------------------
 Sentence: Christian trauerte lange seiner großen Liebe nach.
 True idioms: ['großen Liebe']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['seiner großen Liebe nach'] | Nachdem Michales Meisterwerk, eine drei Meter hohe Marmorskulptur mit dem Titel 'Liebe', b
-  v2 [CONFUSED] pred=['seiner großen Liebe nach'] | Als seine grosse preisgekrönte Dogge, die er ‚Amour' nannte, eingeschläfert werden musste 
-  v3 [CONFUSED] pred=['seiner großen Liebe nach'] | In seinem Gewächshaus, wo er Jahre damit verbracht hatte, eine seltene und außergewöhnlich
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['seiner großen Liebe nach'] | Nachdem Michales Meisterwerk, eine drei Meter hohe Marmorskulptur mit dem Titel 'Liebe', b
+  v2 [ok] pred=['seiner großen Liebe nach'] | Als seine grosse preisgekrönte Dogge, die er ‚Amour' nannte, eingeschläfert werden musste 
+  v3 [ok] pred=['seiner großen Liebe nach'] | In seinem Gewächshaus, wo er Jahre damit verbracht hatte, eine seltene und außergewöhnlich
 --------------------------------------------------------------------------------
 Sentence: Oft studierte er mit seinem Vater unter vier Augen, und was er von ihm gehört hatte, schrieb er in sein persönliches Notizbuch.
 True idioms: ['unter vier Augen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['unter vier Augen'] | Als angehender Optiker in der Praxis seines Vaters, wo die genaue Anpassung von Linsen und
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=['unter vier Augen'] | Als angehender Optiker in der Praxis seines Vaters, wo die genaue Anpassung von Linsen und
   v2 [CONFUSED] pred=[] | Im Kunstatelier, fertigten sie gemeinsam ein expressives Doppelporträt an und die lebensec
-  v3 [CONFUSED] pred=['unter vier Augen'] | Im biologischen Labor, wo sie Proben durch ein leistungsstarkes Binokularmikroskop analysi
+  v3 [ok] pred=['unter vier Augen'] | Im biologischen Labor, wo sie Proben durch ein leistungsstarkes Binokularmikroskop analysi
 --------------------------------------------------------------------------------
 Sentence: Lemon Drop sind sehr ertragreiche Chilipflanzen, in einem Jahr kann eine Pflanze über 100 Früchte tragen.
 True idioms: []
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=[] | Nachdem er monatelang seine ganze Energie in das neue Gartenbeet gesteckt hatte, konnte ma
-  v2 [CONFUSED] pred=[] | Für Investoren, die nach einer Anlage mit hohem Ertrag suchen, gibt es eine überraschende 
-  v3 [CONFUSED] pred=[] | Um den Kindern zu zeigen, wie sich harte Arbeit und Geduld auszahlen können, haben wir im 
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=[] | Nachdem er monatelang seine ganze Energie in das neue Gartenbeet gesteckt hatte, konnte ma
+  v2 [ok] pred=[] | Für Investoren, die nach einer Anlage mit hohem Ertrag suchen, gibt es eine überraschende 
+  v3 [ok] pred=[] | Um den Kindern zu zeigen, wie sich harte Arbeit und Geduld auszahlen können, haben wir im 
 --------------------------------------------------------------------------------
 Sentence: Am folgenden Tag erklärten zwei führende Mitglieder der jüdischen Gemeinde, dass Jacksons Versuch, ein Lied gegen Diskriminierung zu verfassen, wohl nach hinten losgegangen sei.
 True idioms: ['nach hinten losgegangen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['nach hinten losgegangen'] | Während der Proben für das Musikvideo von Jacksons Lied, bei denen eine alte Requisitenpis
-  v2 [CONFUSED] pred=['nach hinten losgegangen'] | Die Bühnentechniker diskutierten mit Jackson über die aufwändige Pyrotechnik, die für die 
-  v3 [CONFUSED] pred=['nach hinten losgegangen'] | Für die Präsentation von Jacksons Lied wurde eine komplexe kinetische Skulptur entworfen, 
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['nach hinten losgegangen'] | Während der Proben für das Musikvideo von Jacksons Lied, bei denen eine alte Requisitenpis
+  v2 [ok] pred=['nach hinten losgegangen'] | Die Bühnentechniker diskutierten mit Jackson über die aufwändige Pyrotechnik, die für die 
+  v3 [ok] pred=['nach hinten losgegangen'] | Für die Präsentation von Jacksons Lied wurde eine komplexe kinetische Skulptur entworfen, 
 --------------------------------------------------------------------------------
 Sentence: Eriksson ist entsetzt, dass ihre Tanten Eva bei diesem Wetter einen so langen Weg haben laufen lassen nur um Kartoffelmehl zu holen.
 True idioms: []
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=[] | Im Kontext der angespannten Familiendynamik, in der Evas Unabhängigkeitsbestrebungen als V
+Confused variants: 1/3 (33%)
+  v1 [ok] pred=[] | Im Kontext der angespannten Familiendynamik, in der Evas Unabhängigkeitsbestrebungen als V
   v2 [CONFUSED] pred=['ihr Schicksal überlassen'] | Als Eriksson die neueste Dorfklatsch-Version von Evas Rauswurf hörte, die besagte, man hab
-  v3 [CONFUSED] pred=[] | Unmittelbar nachdem Eva verkündet hatte, das Haus für immer zu verlassen, und die Tanten i
+  v3 [ok] pred=[] | Unmittelbar nachdem Eva verkündet hatte, das Haus für immer zu verlassen, und die Tanten i
 --------------------------------------------------------------------------------
 Sentence: Der vorherrschende Glaube in NAWSA war, dass der Erfolg in einem großen Staat des Ostens das Zünglein an der Waage für die allgemeine Kampagne sein würde.
 True idioms: ['Zünglein an der Waage']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['das Zünglein an der Waage'] | Im Juweliergeschäft, wo die Aktivistinnen sowohl politische Strategien diskutierten als au
-  v2 [CONFUSED] pred=['das Zünglein an der Waage'] | Bei der Planung einer großen Parade entwarfen die Suffragetten einen Motivwagen, der die J
-  v3 [CONFUSED] pred=['das Zünglein an der Waage'] | In der Debatte des nationalen Komitees für Eich- und Messwesen, wo es um die Einführung ei
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['das Zünglein an der Waage'] | Im Juweliergeschäft, wo die Aktivistinnen sowohl politische Strategien diskutierten als au
+  v2 [ok] pred=['das Zünglein an der Waage'] | Bei der Planung einer großen Parade entwarfen die Suffragetten einen Motivwagen, der die J
+  v3 [ok] pred=['das Zünglein an der Waage'] | In der Debatte des nationalen Komitees für Eich- und Messwesen, wo es um die Einführung ei
 --------------------------------------------------------------------------------
 Sentence: Oder sollten sie gezielt K. im Auge behalten?
 True idioms: ['im Auge behalten']
-Confused variants: 3/3 (100%)
+Confused variants: 2/3 (67%)
   v1 [CONFUSED] pred=[] | Die Ärzte diskutierten die Behandlungsoptionen für den Patienten, bei dem ein winziger Spl
-  v2 [CONFUSED] pred=['im Auge behalten'] | Die Ermittler analysierten das Überwachungsvideo und bemerkten eine seltsame Reflexion in 
+  v2 [ok] pred=['im Auge behalten'] | Die Ermittler analysierten das Überwachungsvideo und bemerkten eine seltsame Reflexion in 
   v3 [CONFUSED] pred=[] | Im Mikroskop war die markierte Zellstruktur deutlich zu erkennen, aber ihre genaue Funktio
 --------------------------------------------------------------------------------
 Sentence: Er führte einige Neuerungen und Verbesserungen ein, die zum Teil auch bei dieser Amphora zum Tragen kommen.
 True idioms: ['zum Tragen kommen']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['zum Tragen kommen'] | Der neue Kurator erklärte nicht nur die thematische Neuausrichtung der Sammlung, sondern a
-  v2 [CONFUSED] pred=['zum Tragen kommen'] | Im Töpferatelier ging es heute um zwei Themen, die der Meister erläuterte: innovative Glas
-  v3 [CONFUSED] pred=['zum Tragen kommen'] | Bei der Logistikschulung für den Versand zerbrechlicher Güter wurde ein neues Verpackungss
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['zum Tragen kommen'] | Der neue Kurator erklärte nicht nur die thematische Neuausrichtung der Sammlung, sondern a
+  v2 [ok] pred=['zum Tragen kommen'] | Im Töpferatelier ging es heute um zwei Themen, die der Meister erläuterte: innovative Glas
+  v3 [ok] pred=['zum Tragen kommen'] | Bei der Logistikschulung für den Versand zerbrechlicher Güter wurde ein neues Verpackungss
 --------------------------------------------------------------------------------
 Sentence: Die Neue Demokratische Partei (Nachfolgerin der CCF) und die Social Credit Party spielten im neuen Parlament das Zünglein an der Waage.
 True idioms: ['Zünglein an der Waage']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['das Zünglein an der Waage'] | Bei der Eröffnungszeremonie wurde eine riesige Kunstinstallation in Form einer antiken Bal
-  v2 [CONFUSED] pred=['das Zünglein an der Waage'] | Im Rahmen einer historischen Aufführung, die die Gründung des Staates nachstellte und bei 
-  v3 [CONFUSED] pred=['das Zünglein an der Waage'] | Für eine politische Simulation, die komplexe Mehrheitsverhältnisse mit einem großen Bretts
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['das Zünglein an der Waage'] | Bei der Eröffnungszeremonie wurde eine riesige Kunstinstallation in Form einer antiken Bal
+  v2 [ok] pred=['das Zünglein an der Waage'] | Im Rahmen einer historischen Aufführung, die die Gründung des Staates nachstellte und bei 
+  v3 [ok] pred=['das Zünglein an der Waage'] | Für eine politische Simulation, die komplexe Mehrheitsverhältnisse mit einem großen Bretts
 --------------------------------------------------------------------------------
 Sentence: Baldwin kehrte allerdings mit leeren Händen nach Richmond zurück, als er und Lincoln feststellten, dass sie aneinander vorbeigeredet hatten.
 True idioms: ['mit leeren Händen']
@@ -715,8 +715,8 @@ Confused variants: 3/3 (100%)
 --------------------------------------------------------------------------------
 Sentence: Sandy und Rose sind die zwei Mädchen, für die Jean Brodie die meisten Hoffnungen hat, dass sie eines Tages zur crème de la crème gehören werden.
 True idioms: ['crème de la crème']
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['crème de la crème'] | In der renommierten Kochakademie, wo die Abschlussprüfung darin bestand, eine exklusive De
-  v2 [CONFUSED] pred=['crème de la crème'] | Im Labor eines Luxus-Kosmetikherstellers, der eine neue, exklusive Gesichtspflegelinie nam
-  v3 [CONFUSED] pred=['Die Crème de la Crème', 'crème de la crème'] | Bei der Vorbereitung auf den nationalen Wettbewerb für junge Pâtissiers, dessen exklusive 
+Confused variants: 0/3 (0%)
+  v1 [ok] pred=['crème de la crème'] | In der renommierten Kochakademie, wo die Abschlussprüfung darin bestand, eine exklusive De
+  v2 [ok] pred=['crème de la crème'] | Im Labor eines Luxus-Kosmetikherstellers, der eine neue, exklusive Gesichtspflegelinie nam
+  v3 [ok] pred=['Die Crème de la Crème', 'crème de la crème'] | Bei der Vorbereitung auf den nationalen Wettbewerb für junge Pâtissiers, dessen exklusive 
 --------------------------------------------------------------------------------
