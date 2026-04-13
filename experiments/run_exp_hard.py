@@ -57,6 +57,12 @@ parser.add_argument(
     help="Directory with responses",
 )
 parser.add_argument(
+    "--resume_dir",
+    type=str,
+    default=None,
+    help="Resume a partial SC run from this directory (skips completed batches)",
+)
+parser.add_argument(
     "--data_path",
     type=str,
     default=None,
@@ -242,19 +248,28 @@ def main():
         task_res = pd.DataFrame(columns=MERGE_COLUMNS)
         task_res.to_csv(task_res_file, index=False)
 
-    # Create experiment directory with new structure
-    # logs/hard_idioms/german/hard_idioms_gpt-4o-mini_zero_shot_shots_0_sc1_tmp0.3_seed42_german/run_001/
-    # Include language subdirectory for tasks that support language specification
-    if config["lang"] and config["task"] in ["parseme", "id10m", "hard_idioms"]:
-        mother_dir = os.path.join(config["logs_dir"], config["task"], config["lang"])  # logs/hard_idioms/german/
+    # Handle resume: reuse an existing partial-run directory
+    resume_dir = cmd_args.resume_dir
+    if resume_dir:
+        exp_dir = os.path.abspath(resume_dir)
+        if not os.path.isdir(exp_dir):
+            raise ValueError(f"--resume_dir does not exist: {exp_dir}")
+        run_number = os.path.basename(exp_dir)
+        logger.info(f"Resuming run from {exp_dir}")
     else:
-        mother_dir = os.path.join(config["logs_dir"], config["task"])  # logs/hard_idioms/
-    base_exp_dir = os.path.join(mother_dir, exp_name)  # logs/hard_idioms/german/hard_idioms_gpt-4o-mini_.../
-    exp_dir = create_run_directory(base_exp_dir)  # logs/hard_idioms/german/hard_idioms_gpt-4o-mini_.../run_001/
-    
-    logger.info(f"Created experiment directory: {exp_dir}")
-    run_number = os.path.basename(exp_dir)
-    logger.info(f"This is {run_number} for this experiment configuration")
+        # Create experiment directory with new structure
+        # logs/hard_idioms/german/hard_idioms_gpt-4o-mini_zero_shot_shots_0_sc1_tmp0.3_seed42_german/run_001/
+        # Include language subdirectory for tasks that support language specification
+        if config["lang"] and config["task"] in ["parseme", "id10m", "hard_idioms"]:
+            mother_dir = os.path.join(config["logs_dir"], config["task"], config["lang"])  # logs/hard_idioms/german/
+        else:
+            mother_dir = os.path.join(config["logs_dir"], config["task"])  # logs/hard_idioms/
+        base_exp_dir = os.path.join(mother_dir, exp_name)  # logs/hard_idioms/german/hard_idioms_gpt-4o-mini_.../
+        exp_dir = create_run_directory(base_exp_dir)  # logs/hard_idioms/german/hard_idioms_gpt-4o-mini_.../run_001/
+
+        logger.info(f"Created experiment directory: {exp_dir}")
+        run_number = os.path.basename(exp_dir)
+        logger.info(f"This is {run_number} for this experiment configuration")
 
     # Add experiment metadata
     config["experiment_start_date"] = datetime.now().strftime("%Y-%m-%d")
@@ -274,6 +289,17 @@ def main():
             name=exp_name,
             reinit=True,
         )
+
+    def convert_nan_to_none(obj):
+        """Recursively convert NaN values to None for JSON serialization"""
+        if isinstance(obj, dict):
+            return {k: convert_nan_to_none(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [convert_nan_to_none(item) for item in obj]
+        elif isinstance(obj, float) and pd.isna(obj):
+            return None
+        else:
+            return obj
 
     # Load data
     test = task_utils.get_data(
@@ -332,15 +358,23 @@ def main():
         # prepare data
         user_inputs = task_utils.get_user_inputs(test)
 
-        # Aggregate results
-        responses = []
-        for _, row in test.iterrows():
-            _data = {key: row[key] for key in test.columns}
-            _data["responses"] = []
-            responses.append(_data)
+        # Aggregate results — load partial responses if resuming, else start fresh
+        partial_responses_file = os.path.join(exp_dir, "responses.json")
+        if resume_dir and os.path.exists(partial_responses_file):
+            with open(partial_responses_file, "r", encoding="utf-8-sig") as f:
+                responses = json.load(f)
+            start_run = min(len(r["responses"]) for r in responses)
+            logger.info(f"Resuming from SC batch {start_run} (already have {start_run}/{config['sc_runs']} batches)")
+        else:
+            responses = []
+            for _, row in test.iterrows():
+                _data = {key: row[key] for key in test.columns}
+                _data["responses"] = []
+                responses.append(_data)
+            start_run = 0
 
         # Run with multiple seeds/runs
-        for run_index in range(config["sc_runs"]):
+        for run_index in range(start_run, config["sc_runs"]):
             if config["batched"]:
                 logger.info(f"Running batch for run {run_index}")
                 try:
@@ -415,17 +449,11 @@ def main():
                     logger.error(f"Error parsing response: {e}")
                     responses[i]["responses"].append({})
 
-    # Save results - convert NaN to None for proper JSON serialization
-    def convert_nan_to_none(obj):
-        """Recursively convert NaN values to None for JSON serialization"""
-        if isinstance(obj, dict):
-            return {k: convert_nan_to_none(v) for k, v in obj.items()}
-        elif isinstance(obj, list):
-            return [convert_nan_to_none(item) for item in obj]
-        elif isinstance(obj, float) and pd.isna(obj):
-            return None
-        else:
-            return obj
+            # Checkpoint: save after every successful SC batch so we can resume on failure
+            _checkpoint_clean = convert_nan_to_none(responses)
+            with open(os.path.join(exp_dir, "responses.json"), "w", encoding="utf-8-sig") as f:
+                json.dump(_checkpoint_clean, f, indent=1, ensure_ascii=False)
+            logger.info(f"Checkpointed responses after SC batch {run_index + 1}/{config['sc_runs']}")
 
     responses_clean = convert_nan_to_none(responses)
 

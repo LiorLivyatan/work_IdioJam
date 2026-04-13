@@ -1,0 +1,20 @@
+batched: true
+config_file: config.yaml
+data_path: null
+debug: false
+experiment_start_date: '2026-04-12'
+experiment_start_timestamp: '2026-04-12 12:13:03'
+lang: english
+logs_dir: experiments/logs
+model: claude-sonnet-4-20250514
+model_checkpoint: claude-sonnet-4-20250514
+num_samples: 5
+prompt_type: zero_shot
+responses_dir: null
+results_dir: experiments/results
+sc_runs: 1
+seed: 42
+shots: 0
+task: hard_idioms
+temperature: 0.3
+use_rate_limiter: false
