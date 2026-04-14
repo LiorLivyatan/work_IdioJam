@@ -249,8 +249,8 @@ def plot_histogram(drift_counts: dict, lang: str, prompt_type: str, seed: int, o
 
     ax.set_xlabel("Number of Models Confused", fontsize=LABEL_FONT)
     ax.set_ylabel("Number of Hard Variants",   fontsize=LABEL_FONT)
-    ax.set_xticks(range(0, max_val + 1))
-    ax.set_xlim(-0.5, max_val + 0.5)
+    ax.set_xticks(range(1, max_val + 1))
+    ax.set_xlim(0.5, max_val + 0.5)
     ax.set_ylim(0, max(freq.values()) * 1.15 + 5)
 
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -287,8 +287,8 @@ def plot_side_by_side(drift_en: dict, drift_de: dict, prompt_type: str, seed: in
 
         ax.set_xlabel("Number of Models Confused", fontsize=LABEL_FONT)
         ax.set_ylabel("Number of Hard Variants",   fontsize=LABEL_FONT)
-        ax.set_xticks(range(0, max_val + 1))
-        ax.set_xlim(-0.5, max_val + 0.5)
+        ax.set_xticks(range(1, max_val + 1))
+        ax.set_xlim(0.5, max_val + 0.5)
         ax.set_ylim(0, max(freq.values()) * 1.15 + 5)
         ax.set_title(title, fontsize=LABEL_FONT)
 
