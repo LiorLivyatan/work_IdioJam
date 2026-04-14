@@ -20,6 +20,7 @@ Usage:
 """
 
 import argparse
+import csv
 import json
 import re
 import sys
@@ -110,20 +111,26 @@ def is_confused(true_idioms: list, pred_idioms: list) -> bool:
 
 def compute_variant_drifts(lang: str, prompt_type: str, seed: int):
     """
-    Returns a dict  variant_sentence -> int  (number of models with negative drift).
+    Returns:
+      drift_counts  dict[variant_sentence -> int]  (models with negative drift)
+      variant_rows  list[dict]  (full per-variant data for CSV export)
     """
     hard_lang_dir  = HARD_DIR  / lang / "updated"
     id10m_lang_dir = ID10M_DIR / lang / "updated"
 
-    prompt_dir   = "few_shot" if "few_shot" in prompt_type else "zero_shot"
-    seed_dir     = f"seed_{seed}"
+    prompt_dir = "few_shot" if "few_shot" in prompt_type else "zero_shot"
+    seed_dir   = f"seed_{seed}"
 
-    # Collect model dirs that have both datasets
     model_hard_dirs = {d.name: d for d in hard_lang_dir.iterdir() if d.is_dir()
                        and d.name != "results_summary.csv"}
 
-    drift_counts: dict[str, int] = defaultdict(int)   # variant_sentence -> count
-    models_used  = []
+    # Per-variant accumulators
+    # variant_sentence -> {metadata, confused_models, id10m_confused_models}
+    variant_meta: dict[str, dict] = {}   # filled from first model that sees variant
+    hard_confused_by:  dict[str, list] = defaultdict(list)
+    id10m_confused_by: dict[str, list] = defaultdict(list)
+
+    models_used = []
 
     for hard_model_name, hard_base in sorted(model_hard_dirs.items()):
         if hard_model_name in EXCLUDE_MODELS:
@@ -133,7 +140,6 @@ def compute_variant_drifts(lang: str, prompt_type: str, seed: int):
         if not hard_resp_path.exists():
             continue
 
-        # Find matching id10m dir (handle casing aliases)
         id10m_model_name = HARD_TO_ID10M_ALIASES.get(hard_model_name, hard_model_name)
         id10m_resp_path  = id10m_lang_dir / id10m_model_name / prompt_dir / seed_dir / "responses.json"
         if not id10m_resp_path.exists():
@@ -141,32 +147,84 @@ def compute_variant_drifts(lang: str, prompt_type: str, seed: int):
 
         models_used.append(hard_model_name)
 
-        # Build id10m lookup:  normalized_sentence -> confused?
+        # id10m lookup: normalized_sentence -> confused?
         id10m_data   = load_json(id10m_resp_path)
         id10m_lookup = {}
         for item in id10m_data:
-            norm  = normalize(item.get("sentence", ""))
-            true  = coerce_list(item.get("true_idioms", []))
-            pred  = extract_predicted(item)
+            norm = normalize(item.get("sentence", ""))
+            true = coerce_list(item.get("true_idioms", []))
+            pred = extract_predicted(item)
             id10m_lookup[norm] = is_confused(true, pred)
 
-        # Iterate hard variants
         hard_data = load_json(hard_resp_path)
         for item in hard_data:
-            variant_sent = item.get("variant_sentence", "").strip()
-            orig_norm    = normalize(item.get("sentence", ""))
-            true         = coerce_list(item.get("true_idioms", []))
-            pred         = extract_predicted(item)
+            vs        = item.get("variant_sentence", "").strip()
+            orig_norm = normalize(item.get("sentence", ""))
+            true      = coerce_list(item.get("true_idioms", []))
+            pred      = extract_predicted(item)
 
-            hard_confused = is_confused(true, pred)
-            id10m_confused = id10m_lookup.get(orig_norm, False)
+            if vs not in variant_meta:
+                variant_meta[vs] = {
+                    "variant_sentence": vs,
+                    "sentence":         item.get("sentence", ""),
+                    "true_idioms":      true,
+                }
 
-            # Negative drift: confused on hard variant but correct on plain sentence
-            if hard_confused and not id10m_confused:
-                drift_counts[variant_sent] += 1
+            if is_confused(true, pred):
+                hard_confused_by[vs].append(hard_model_name)
+            if id10m_lookup.get(orig_norm, False):
+                id10m_confused_by[vs].append(hard_model_name)
 
-    print(f"  [{lang}] Models used ({len(models_used)}): {models_used}")
-    return drift_counts
+    total_models = len(models_used)
+    print(f"  [{lang}] Models used ({total_models}): {models_used}")
+
+    # Build output structures
+    drift_counts: dict[str, int] = {}
+    variant_rows: list[dict]     = []
+
+    for vs, meta in variant_meta.items():
+        confused       = hard_confused_by[vs]
+        id10m_confused = id10m_confused_by[vs]
+        real_confused  = [m for m in confused if m not in id10m_confused]
+
+        drift_counts[vs] = len(real_confused)
+
+        confusion_rate      = f"{100*len(confused)/total_models:.1f}%" if total_models else "0%"
+        id10m_confusion_rate = f"{100*len(id10m_confused)/total_models:.1f}%" if total_models else "0%"
+
+        variant_rows.append({
+            "variant_sentence":           vs,
+            "sentence":                   meta["sentence"],
+            "true_idioms":                str(meta["true_idioms"]),
+            "num_models_confused":        len(confused),
+            "total_models":               total_models,
+            "confusion_rate":             confusion_rate,
+            "confused_models":            ", ".join(confused),
+            "id10m_num_models_confused":  len(id10m_confused),
+            "id10m_total_models":         total_models,
+            "id10m_confusion_rate":       id10m_confusion_rate,
+            "id10m_confused_models":      ", ".join(id10m_confused),
+            "real_confused_models":       ", ".join(real_confused),
+            "num_real_confusions":        len(real_confused),
+        })
+
+    return drift_counts, variant_rows
+
+
+def save_variant_csv(variant_rows: list, lang: str, prompt_type: str, seed: int, out_dir: Path):
+    out_dir.mkdir(parents=True, exist_ok=True)
+    fname = out_dir / f"variant_confusion_summary_{prompt_type}_seed{seed}.csv"
+    fields = [
+        "variant_sentence", "sentence", "true_idioms",
+        "num_models_confused", "total_models", "confusion_rate", "confused_models",
+        "id10m_num_models_confused", "id10m_total_models", "id10m_confusion_rate",
+        "id10m_confused_models", "real_confused_models", "num_real_confusions",
+    ]
+    with open(fname, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=fields)
+        w.writeheader()
+        w.writerows(variant_rows)
+    print(f"  [{lang}] CSV saved → {fname}  ({len(variant_rows)} rows)")
 
 
 def plot_histogram(drift_counts: dict, lang: str, prompt_type: str, seed: int, out_dir: Path):
@@ -254,8 +312,12 @@ def main():
 
     print(f"Computing confusion drifts — prompt={args.prompt_type}  seed={args.seed}")
 
-    drift_en = compute_variant_drifts("english", args.prompt_type, args.seed)
-    drift_de = compute_variant_drifts("german",  args.prompt_type, args.seed)
+    drift_en, rows_en = compute_variant_drifts("english", args.prompt_type, args.seed)
+    drift_de, rows_de = compute_variant_drifts("german",  args.prompt_type, args.seed)
+
+    csv_dir = REPO_ROOT / "results" / "comparisons"
+    save_variant_csv(rows_en, "english", args.prompt_type, args.seed, csv_dir / "english")
+    save_variant_csv(rows_de, "german",  args.prompt_type, args.seed, csv_dir / "german")
 
     plot_histogram(drift_en, "english", args.prompt_type, args.seed, PLOTS_DIR)
     plot_histogram(drift_de, "german",  args.prompt_type, args.seed, PLOTS_DIR)
