@@ -72,6 +72,7 @@ EXPERIMENT_MATRIX = [
     dict(model="meta-llama/llama-4-scout",                   prompt_types=["zero_shot", "few_shot"], seeds=[42, 43, 44]),
     dict(model="qwen/qwen-2.5-72b-instruct",                 prompt_types=["zero_shot", "few_shot"], seeds=[42, 43, 44]),
     # Premium models — zero_shot + few_shot, seed 42 only
+    dict(model="claude-sonnet-4-20250514",                  prompt_types=["zero_shot", "few_shot"], seeds=[42]),
     dict(model="gemini-2.5-pro",                            prompt_types=["zero_shot", "few_shot"], seeds=[42]),
     dict(model="o3-mini",                                   prompt_types=["zero_shot"],             seeds=[42]),
     dict(model="deepseek/deepseek-r1",                      prompt_types=["zero_shot"],             seeds=[42]),
@@ -142,10 +143,13 @@ def build_config(model: str, prompt_cfg: dict, seed: int) -> dict:
     )
 
 
-def run_inference_on_subset(config: dict) -> list[dict]:
+def run_inference_on_subset(config: dict, run_dir: Path) -> list[dict]:
     """
     Run the model on the 105-row subset. Returns a list of response dicts
     (same structure as responses.json: each entry has metadata + 'responses' key).
+
+    Checkpoints responses_105.json after each successful SC batch so a failed
+    run can be resumed without re-calling the API for completed batches.
     """
     set_seed(config["seed"])
 
@@ -168,12 +172,20 @@ def run_inference_on_subset(config: dict) -> list[dict]:
     chain = prompt | llm
     user_inputs = HARD_IDIOMS_UTILS["get_user_inputs"](test)
 
-    # Build response containers
-    responses = []
-    for _, row in test.iterrows():
-        responses.append({key: row[key] for key in test.columns} | {"responses": []})
+    # Resume from checkpoint if one exists
+    checkpoint_path = run_dir / "responses_105.json"
+    if checkpoint_path.exists():
+        with open(checkpoint_path, encoding="utf-8-sig") as f:
+            responses = json.load(f)
+        start_run = min(len(r["responses"]) for r in responses)
+        logger.info(f"  Resuming from SC batch {start_run} (have {start_run}/{config['sc_runs']} batches)")
+    else:
+        responses = []
+        for _, row in test.iterrows():
+            responses.append({key: row[key] for key in test.columns} | {"responses": []})
+        start_run = 0
 
-    for run_index in range(config["sc_runs"]):
+    for run_index in range(start_run, config["sc_runs"]):
         logger.info(f"  SC run {run_index + 1}/{config['sc_runs']}")
         if config["batched"]:
             try:
@@ -196,6 +208,10 @@ def run_inference_on_subset(config: dict) -> list[dict]:
             except Exception as e:
                 logger.error(f"  parse_response error row {i}: {e}")
                 responses[i]["responses"].append({})
+
+        # Checkpoint after each successful SC batch
+        save_json(responses, checkpoint_path)
+        logger.info(f"  Checkpointed after SC batch {run_index + 1}/{config['sc_runs']}")
 
     return responses
 
@@ -395,7 +411,7 @@ def main():
         # --- Step 1: Inference on 105-row subset ---
         if not args.skip_inference:
             logger.info("Step 1: Running inference on 105-row subset...")
-            new_responses = run_inference_on_subset(config)
+            new_responses = run_inference_on_subset(config, run_dir)
             save_json(new_responses, run_dir / "responses_105.json")
             logger.info(f"Saved responses_105.json ({len(new_responses)} rows)")
         else:
