@@ -1,79 +1,70 @@
 {
   "experiment_info": {
-    "total_matched_sentences": 187,
-    "comparison_timestamp": "2026-04-10T23:15:43.539933"
+    "total_matched_sentences": 178,
+    "comparison_timestamp": "2026-04-14T13:53:59.128308"
   },
   "id10m_metrics": {
-    "total": 187,
-    "accuracy": 0.8288770053475936,
-    "precision": 0.8636363636363636,
-    "recall": 0.95,
-    "specificity": 0.1111111111111111,
-    "f1_score": 0.9047619047619048,
-    "balanced_accuracy": 0.5305555555555556,
-    "mcc": 0.09128709291752769,
-    "correct_detection": 152,
+    "total": 178,
+    "accuracy": 0.8595505617977528,
+    "precision": 0.8982035928143712,
+    "recall": 0.9493670886075949,
+    "specificity": 0.15,
+    "f1_score": 0.923076923076923,
+    "balanced_accuracy": 0.5496835443037974,
+    "mcc": 0.1303261388288989,
+    "correct_detection": 150,
     "correct_rejection": 3,
-    "false_positive": 24,
+    "false_positive": 17,
     "false_negative": 8
   },
   "hard_idioms_metrics": {
-    "total": 561,
-    "accuracy": 0.9055258467023173,
-    "precision": 0.9178082191780822,
-    "recall": 0.9770833333333333,
-    "specificity": 0.48148148148148145,
-    "f1_score": 0.9465186680121089,
-    "balanced_accuracy": 0.7292824074074074,
-    "mcc": 0.5656768483893017,
-    "correct_detection": 469,
-    "correct_rejection": 39,
-    "false_positive": 42,
+    "total": 534,
+    "accuracy": 0.9344569288389513,
+    "precision": 0.9507186858316222,
+    "recall": 0.9767932489451476,
+    "specificity": 0.6,
+    "f1_score": 0.9635796045785641,
+    "balanced_accuracy": 0.7883966244725737,
+    "mcc": 0.6429416419761174,
+    "correct_detection": 463,
+    "correct_rejection": 36,
+    "false_positive": 24,
     "false_negative": 11
   },
   "advanced_metrics": {
-    "context_degradation_index": -0.0924731182795699,
-    "variant_consistency_score": 0.952465834818776,
-    "context_confusion_rate": 0.008912655971479501,
+    "context_degradation_index": -0.08714596949891062,
+    "variant_consistency_score": 0.9600499375780275,
+    "context_confusion_rate": 0.009363295880149813,
     "literal_to_idiom_flip_rate": 1.0,
-    "error_amplification_factor": 0.5520833333333334,
-    "phrase_overlap_confusions": 0.0748663101604278,
-    "confusion_resistance_score": 0.03225806451612903,
-    "average_prediction_stability": 0.06738828663477818,
+    "error_amplification_factor": 0.466666666666667,
+    "phrase_overlap_confusions": 0.0449438202247191,
+    "confusion_resistance_score": 0.032679738562091505,
+    "average_prediction_stability": 0.06549887954562615,
     "prediction_stability_scores": [
       0.4714045207910317,
       0.0,
+      0.4714045207910317,
       0.0,
       0.4714045207910317,
       0.0,
-      0.0,
-      0.4714045207910317,
-      0.0,
-      0.0,
-      0.0,
-      0.4714045207910317,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.9428090415820634,
-      0.4714045207910317,
       0.0,
       0.0,
       0.4714045207910317,
       0.0,
-      0.4714045207910317,
       0.0,
       0.0,
       0.9428090415820634,
       0.0,
       0.0,
+      0.4714045207910317,
+      0.0,
+      0.0,
+      0.0,
+      0.9428090415820634,
       0.0,
       0.816496580927726,
       0.0,
       0.4714045207910317,
-      0.0,
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -233,19 +224,19 @@
   "context_effects": {
     "helped": 13,
     "hurt": 0,
-    "mixed": 11,
-    "no_change": 163,
-    "pct_helped": 6.951871657754011,
+    "mixed": 9,
+    "no_change": 156,
+    "pct_helped": 7.303370786516854,
     "pct_hurt": 0.0,
-    "pct_mixed": 5.88235294117647,
-    "pct_no_change": 87.16577540106952
+    "pct_mixed": 5.056179775280898,
+    "pct_no_change": 87.64044943820225
   },
   "variant_level_stats": {
-    "average_confusion_rate": 0.0944741532976827,
+    "average_confusion_rate": 0.06554307116104868,
     "median_confusion_rate": 0.0,
-    "highly_vulnerable": 13,
-    "moderately_vulnerable": 3,
-    "resistant": 171
+    "highly_vulnerable": 8,
+    "moderately_vulnerable": 2,
+    "resistant": 168
   },
   "detailed_confusion": {
     "per_sentence": [
@@ -1169,45 +1160,6 @@
         "confusion_rate": 0.0
       },
       {
-        "sentence": "They asked me if we can go dutch.",
-        "true_idioms": [
-          "go dutch"
-        ],
-        "id10m_confusion_type": "correct_detection",
-        "confused_variants": 0,
-        "total_variants": 3,
-        "variant_details": [
-          {
-            "variant_number": 1,
-            "variant_sentence": "We were finalizing our European tour itinerary, discussing travel budgets, when they asked me if we can go dutch.",
-            "predicted_idioms": [
-              "go dutch"
-            ],
-            "confusion_type": "correct_detection",
-            "is_confused": false
-          },
-          {
-            "variant_number": 2,
-            "variant_sentence": "We were eating some German bread with Belgian chocolate when they asked me if we can go dutch.",
-            "predicted_idioms": [
-              "go dutch"
-            ],
-            "confusion_type": "correct_detection",
-            "is_confused": false
-          },
-          {
-            "variant_number": 3,
-            "variant_sentence": "While we were planning the community garden and event for the national Flemish holiday, they asked me if we can go dutch.",
-            "predicted_idioms": [
-              "go dutch"
-            ],
-            "confusion_type": "correct_detection",
-            "is_confused": false
-          }
-        ],
-        "confusion_rate": 0.0
-      },
-      {
         "sentence": "I really got a kick out of that clown's juggling act.",
         "true_idioms": [
           "got a kick out of"
@@ -1239,45 +1191,6 @@
             "variant_sentence": "Still rubbing my shin from the malfunctioning mechanical donkey ride we'd just been on right next to the main stage, I really got a kick out of that clown's juggling act.",
             "predicted_idioms": [
               "got a kick out of"
-            ],
-            "confusion_type": "correct_detection",
-            "is_confused": false
-          }
-        ],
-        "confusion_rate": 0.0
-      },
-      {
-        "sentence": "The old computer just doesn't hold a candle to the latest models.",
-        "true_idioms": [
-          "hold a candle"
-        ],
-        "id10m_confusion_type": "correct_detection",
-        "confused_variants": 0,
-        "total_variants": 3,
-        "variant_details": [
-          {
-            "variant_number": 1,
-            "variant_sentence": "I wanted to make everything romantic, so I got candles and placed some on my desk. It reminded me that the old computer just doesn't hold a candle to the latest models.\n",
-            "predicted_idioms": [
-              "hold a candle to"
-            ],
-            "confusion_type": "correct_detection",
-            "is_confused": false
-          },
-          {
-            "variant_number": 2,
-            "variant_sentence": "Even though it could light the fight and even light the candles, in the robotics competition, after its third failed attempt at a delicate task, the lead engineer concluded that the old computer just doesn't hold a candle to the latest models.\n",
-            "predicted_idioms": [
-              "hold a candle to"
-            ],
-            "confusion_type": "correct_detection",
-            "is_confused": false
-          },
-          {
-            "variant_number": 3,
-            "variant_sentence": "As the props master for the Victorian-era play set up the writer's desk, he sighed that the old computer just doesn't hold a candle to the latest models.",
-            "predicted_idioms": [
-              "hold a candle"
             ],
             "confusion_type": "correct_detection",
             "is_confused": false
@@ -6315,19 +6228,19 @@
       }
     ],
     "overall_stats": {
-      "total_sentences": 155,
-      "total_variants": 465,
+      "total_sentences": 153,
+      "total_variants": 459,
       "total_confused_variants": 5,
-      "overall_confusion_rate": 0.010752688172043012,
+      "overall_confusion_rate": 0.010893246187363835,
       "sentences_with_any_confusion": 5,
       "sentences_with_all_confused": 0,
-      "sentences_with_no_confusion": 150
+      "sentences_with_no_confusion": 148
     },
     "literal_idiomatic_breakdown": {
       "literal_confused": 3,
       "literal_total": 9,
       "idiomatic_confused": 2,
-      "idiomatic_total": 456
+      "idiomatic_total": 450
     },
     "per_idiom_breakdown": {
       "break the ice": {
@@ -6420,17 +6333,7 @@
         "total": 3,
         "confusion_rate": 0.0
       },
-      "go dutch": {
-        "confused": 0,
-        "total": 3,
-        "confusion_rate": 0.0
-      },
       "got a kick out of": {
-        "confused": 0,
-        "total": 3,
-        "confusion_rate": 0.0
-      },
-      "hold a candle": {
         "confused": 0,
         "total": 3,
         "confusion_rate": 0.0
@@ -7058,49 +6961,6 @@
       }
     },
     {
-      "normalized_sentence": "The ship broke the ice all the way.",
-      "true_idioms": [],
-      "id10m": {
-        "sentence": "The ship broke the ice all the way.",
-        "predicted_idioms": [
-          "broke the ice"
-        ],
-        "confusion_type": "false_positive"
-      },
-      "hard_idioms_variants": [
-        {
-          "variant_number": 1,
-          "variant_sentence": "During the tense diplomatic summit held aboard the arctic research vessel, the lead negotiator's unexpected joke finally got everyone to relax, and as the vessel resumed its journey, the ship broke the ice all the way.",
-          "predicted_idioms": [
-            "broke the ice"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 2,
-          "variant_sentence": "After the CEO's presentation finally won over the skeptical northern clients for the new trade route, the live video feed showed their new flagship vessel making its inaugural journey, proving that the ship broke the ice all the way.",
-          "predicted_idioms": [
-            "broke the ice"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 3,
-          "variant_sentence": "Demonstrating the new AI moderator codenamed 'SHIP' on a hostile forum, the developer pointed to the screen where the program's progress was visualized as a vessel clearing a frozen sea and announced that the ship broke the ice all the way.",
-          "predicted_idioms": [
-            "broke the ice"
-          ],
-          "confusion_type": "false_positive"
-        }
-      ],
-      "context_effect": "no_change",
-      "variant_confusion_stats": {
-        "total": 3,
-        "confused": 3,
-        "confusion_rate": 1.0
-      }
-    },
-    {
       "normalized_sentence": "This is a perfect way to break the ice and start the conversation.",
       "true_idioms": [
         "break the ice"
@@ -7180,49 +7040,6 @@
         "total": 3,
         "confused": 1,
         "confusion_rate": 0.3333333333333333
-      }
-    },
-    {
-      "normalized_sentence": "I thought you rang the bell.",
-      "true_idioms": [],
-      "id10m": {
-        "sentence": "I thought you rang the bell.",
-        "predicted_idioms": [
-          ""
-        ],
-        "confusion_type": "false_positive"
-      },
-      "hard_idioms_variants": [
-        {
-          "variant_number": 1,
-          "variant_sentence": "As we sorted through the old case files trying to remember the witness's name, a chime from the front door echoed through the office, and I looked at my partner and said \"I thought you rang the bell\".",
-          "predicted_idioms": [
-            ""
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 2,
-          "variant_sentence": "In the final moments of the intense negotiation, our competitor conceded on a major point right as the hourly wall clock chimed, prompting me to glance at my team leader and murmur \"I thought you rang the bell\".",
-          "predicted_idioms": [
-            "rang the bell"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 3,
-          "variant_sentence": "At the quarterly sales meeting, the manager projected the final numbers which massively exceeded our target, and just as his computer played a loud notification sound, I leaned over to the top salesperson and whispered that I thought you rang the bell.",
-          "predicted_idioms": [
-            "rang the bell"
-          ],
-          "confusion_type": "false_positive"
-        }
-      ],
-      "context_effect": "no_change",
-      "variant_confusion_stats": {
-        "total": 3,
-        "confused": 3,
-        "confusion_rate": 1.0
       }
     },
     {
@@ -7452,49 +7269,6 @@
       }
     },
     {
-      "normalized_sentence": "Would you like a piece of cake.",
-      "true_idioms": [],
-      "id10m": {
-        "sentence": "Would you like a piece of cake.",
-        "predicted_idioms": [
-          ""
-        ],
-        "confusion_type": "false_positive"
-      },
-      "hard_idioms_variants": [
-        {
-          "variant_number": 1,
-          "variant_sentence": "\nAfter explaining the incredibly complex quantum physics problem to the advanced students, the professor turned to the new recruit who looked overwhelmed and asked 'Would you like a piece of cake'.",
-          "predicted_idioms": [
-            ""
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 2,
-          "variant_sentence": "The drill sergeant surveyed the two remaining challenges for the recruits: a ten-mile run in full gear or sorting the mess hall cutlery, and then asked the exhausted private 'Would you like a piece of cake'.",
-          "predicted_idioms": [
-            "piece of cake"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 3,
-          "variant_sentence": "My friend, who was trying to learn English idioms while also hosting a party, gestured between the impossible puzzle on the table and the dessert he just brought out and asked me 'Would you like a piece of cake'.",
-          "predicted_idioms": [
-            ""
-          ],
-          "confusion_type": "false_positive"
-        }
-      ],
-      "context_effect": "no_change",
-      "variant_confusion_stats": {
-        "total": 3,
-        "confused": 3,
-        "confusion_rate": 1.0
-      }
-    },
-    {
       "normalized_sentence": "Her aunt is a great cook, do you want a piece of cake?",
       "true_idioms": [],
       "id10m": {
@@ -7651,47 +7425,6 @@
         "total": 3,
         "confused": 1,
         "confusion_rate": 0.3333333333333333
-      }
-    },
-    {
-      "normalized_sentence": "Is soaking in hot water good for us?",
-      "true_idioms": [],
-      "id10m": {
-        "sentence": "Is soaking in hot water good for us?",
-        "predicted_idioms": [
-          ""
-        ],
-        "confusion_type": "false_positive"
-      },
-      "hard_idioms_variants": [
-        {
-          "variant_number": 1,
-          "variant_sentence": "At the corporate stress-management retreat held in a spa, where executives discussed the character-building aspects of facing professional crises, one manager turned to the facilitator and asked 'Is soaking in hot water good for us?'.",
-          "predicted_idioms": [
-            "character-building"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 2,
-          "variant_sentence": "After a long debate about Nietzsche's concept of what doesn't kill you makes you stronger, the two philosophers sat quietly by the steaming onsen, and one finally mused to the other 'Is soaking in hot water good for us?'.",
-          "predicted_idioms": [
-            "what doesn't kill you makes you stronger"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 3,
-          "variant_sentence": "Finally relaxing in their new jacuzzi after months of intense marriage counseling that nearly ended their relationship, she looked at him pensively and wondered aloud 'Is soaking in hot water good for us?'.",
-          "predicted_idioms": [],
-          "confusion_type": "correct_rejection"
-        }
-      ],
-      "context_effect": "mixed",
-      "variant_confusion_stats": {
-        "total": 3,
-        "confused": 2,
-        "confusion_rate": 0.6666666666666666
       }
     },
     {
@@ -7855,45 +7588,6 @@
       }
     },
     {
-      "normalized_sentence": "What can I bring you? Maybe bread and butter?",
-      "true_idioms": [],
-      "id10m": {
-        "sentence": "What can I bring you? Maybe bread and butter?",
-        "predicted_idioms": [
-          ""
-        ],
-        "confusion_type": "false_positive"
-      },
-      "hard_idioms_variants": [
-        {
-          "variant_number": 1,
-          "variant_sentence": "Seeing the client's overwhelmed expression when faced with complex investment portfolios, the financial advisor decided to focus on the most basic, reliable income-generating assets, gesturing to a simplified chart and asking 'What can I bring you? Maybe bread and butter?'.",
-          "predicted_idioms": [
-            "bread and butter"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 2,
-          "variant_sentence": "After the culinary apprentice's elaborate foam collapsed for the third time, the head chef pushed aside the complex equipment and gestured towards the pantry, asking the trainee 'What can I bring you? Maybe bread and butter?'.",
-          "predicted_idioms": [],
-          "confusion_type": "correct_rejection"
-        },
-        {
-          "variant_number": 3,
-          "variant_sentence": "The startup founder, trying to understand what essential skills the candidate could contribute to ensure the company's basic survival, noticed the waiter was busy and turned back to the interviewee to ask 'What can I bring you? Maybe bread and butter?'.",
-          "predicted_idioms": [],
-          "confusion_type": "correct_rejection"
-        }
-      ],
-      "context_effect": "mixed",
-      "variant_confusion_stats": {
-        "total": 3,
-        "confused": 1,
-        "confusion_rate": 0.3333333333333333
-      }
-    },
-    {
       "normalized_sentence": "I only bought a lemon and two oranges.",
       "true_idioms": [],
       "id10m": {
@@ -8009,92 +7703,6 @@
             "completely tanked",
             "total bust",
             "take my mind off"
-          ],
-          "confusion_type": "false_positive"
-        }
-      ],
-      "context_effect": "no_change",
-      "variant_confusion_stats": {
-        "total": 3,
-        "confused": 3,
-        "confusion_rate": 1.0
-      }
-    },
-    {
-      "normalized_sentence": "The submarine is getting into deep water.",
-      "true_idioms": [],
-      "id10m": {
-        "sentence": "The submarine is getting into deep water.",
-        "predicted_idioms": [
-          "getting into deep water"
-        ],
-        "confusion_type": "false_positive"
-      },
-      "hard_idioms_variants": [
-        {
-          "variant_number": 1,
-          "variant_sentence": "As the sonar confirmed they had crossed the contested maritime boundary and foreign patrol boats began active pursuit, the captain knew the submarine is getting into deep water.",
-          "predicted_idioms": [
-            "getting into deep water"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 2,
-          "variant_sentence": "With multiple hull integrity warnings flashing on the console during the experimental dive test far below the continental shelf, the chief engineer realized the submarine is getting into deep water.",
-          "predicted_idioms": [
-            "getting into deep water"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 3,
-          "variant_sentence": "When the covert data transmission was suddenly jammed and enemy sonar pings started echoing all around them, the commander understood the submarine is getting into deep water.",
-          "predicted_idioms": [
-            "getting into deep water"
-          ],
-          "confusion_type": "false_positive"
-        }
-      ],
-      "context_effect": "no_change",
-      "variant_confusion_stats": {
-        "total": 3,
-        "confused": 3,
-        "confusion_rate": 1.0
-      }
-    },
-    {
-      "normalized_sentence": "The fairy tale tells about a caste in the sky where a king and a queen live.",
-      "true_idioms": [],
-      "id10m": {
-        "sentence": "The fairy tale tells about a caste in the sky where a king and a queen live.",
-        "predicted_idioms": [
-          "a caste in the sky"
-        ],
-        "confusion_type": "false_positive"
-      },
-      "hard_idioms_variants": [
-        {
-          "variant_number": 1,
-          "variant_sentence": "While listening to an audio tour of a medieval fortress, the narrator described its influence on folklore, noting that in one story, the towering architecture symbolized social stratification, then stated that the fairy tale tells about a caste in the sky where a king and a queen live.",
-          "predicted_idioms": [
-            "a caste in the sky"
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 2,
-          "variant_sentence": "In their lecture on how fiction reflects societal structures, the professor used an obscure myth as an example of divinely ordained social hierarchies, explaining that the fairy tale tells about a caste in the sky where a king and a queen live.",
-          "predicted_idioms": [
-            ""
-          ],
-          "confusion_type": "false_positive"
-        },
-        {
-          "variant_number": 3,
-          "variant_sentence": "Describing the plot of a new video game which combines high-fantasy architecture with complex social mechanics, the lead designer explained that its central premise is that the fairy tale tells about a caste in the sky where a king and a queen live.",
-          "predicted_idioms": [
-            ""
           ],
           "confusion_type": "false_positive"
         }
@@ -9228,51 +8836,6 @@
       }
     },
     {
-      "normalized_sentence": "They asked me if we can go dutch.",
-      "true_idioms": [
-        "go dutch"
-      ],
-      "id10m": {
-        "sentence": "They asked me if we can go dutch.",
-        "predicted_idioms": [
-          "go dutch"
-        ],
-        "confusion_type": "correct_detection"
-      },
-      "hard_idioms_variants": [
-        {
-          "variant_number": 1,
-          "variant_sentence": "We were finalizing our European tour itinerary, discussing travel budgets, when they asked me if we can go dutch.",
-          "predicted_idioms": [
-            "go dutch"
-          ],
-          "confusion_type": "correct_detection"
-        },
-        {
-          "variant_number": 2,
-          "variant_sentence": "We were eating some German bread with Belgian chocolate when they asked me if we can go dutch.",
-          "predicted_idioms": [
-            "go dutch"
-          ],
-          "confusion_type": "correct_detection"
-        },
-        {
-          "variant_number": 3,
-          "variant_sentence": "While we were planning the community garden and event for the national Flemish holiday, they asked me if we can go dutch.",
-          "predicted_idioms": [
-            "go dutch"
-          ],
-          "confusion_type": "correct_detection"
-        }
-      ],
-      "context_effect": "no_change",
-      "variant_confusion_stats": {
-        "total": 3,
-        "confused": 0,
-        "confusion_rate": 0.0
-      }
-    },
-    {
       "normalized_sentence": "I really got a kick out of that clown's juggling act.",
       "true_idioms": [
         "got a kick out of"
@@ -9306,51 +8869,6 @@
           "variant_sentence": "Still rubbing my shin from the malfunctioning mechanical donkey ride we'd just been on right next to the main stage, I really got a kick out of that clown's juggling act.",
           "predicted_idioms": [
             "got a kick out of"
-          ],
-          "confusion_type": "correct_detection"
-        }
-      ],
-      "context_effect": "no_change",
-      "variant_confusion_stats": {
-        "total": 3,
-        "confused": 0,
-        "confusion_rate": 0.0
-      }
-    },
-    {
-      "normalized_sentence": "The old computer just doesn't hold a candle to the latest models.",
-      "true_idioms": [
-        "hold a candle"
-      ],
-      "id10m": {
-        "sentence": "The old computer just doesn't hold a candle to the latest models.",
-        "predicted_idioms": [
-          "hold a candle"
-        ],
-        "confusion_type": "correct_detection"
-      },
-      "hard_idioms_variants": [
-        {
-          "variant_number": 1,
-          "variant_sentence": "I wanted to make everything romantic, so I got candles and placed some on my desk. It reminded me that the old computer just doesn't hold a candle to the latest models.\n",
-          "predicted_idioms": [
-            "hold a candle to"
-          ],
-          "confusion_type": "correct_detection"
-        },
-        {
-          "variant_number": 2,
-          "variant_sentence": "Even though it could light the fight and even light the candles, in the robotics competition, after its third failed attempt at a delicate task, the lead engineer concluded that the old computer just doesn't hold a candle to the latest models.\n",
-          "predicted_idioms": [
-            "hold a candle to"
-          ],
-          "confusion_type": "correct_detection"
-        },
-        {
-          "variant_number": 3,
-          "variant_sentence": "As the props master for the Victorian-era play set up the writer's desk, he sighed that the old computer just doesn't hold a candle to the latest models.",
-          "predicted_idioms": [
-            "hold a candle"
           ],
           "confusion_type": "correct_detection"
         }

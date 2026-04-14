@@ -4,65 +4,65 @@ ID10M vs Hard_idioms Comparison Report
 OVERALL PERFORMANCE METRICS (matched sentences only)
 ------------------------------
 ID10M Dataset:
-  Total sentences: 187
-  Accuracy:   0.813
-  Precision:  0.861
-  Recall:     0.931
-  Specificity:0.111
-  F1-Score:   0.895
-  Bal. Acc:   0.521
-  MCC:        0.057
-  TP:149  TN:3  FP:24  FN:11
+  Total sentences: 178
+  Accuracy:   0.843
+  Precision:  0.896
+  Recall:     0.930
+  Specificity:0.150
+  F1-Score:   0.913
+  Bal. Acc:   0.540
+  MCC:        0.094
+  TP:147  TN:3  FP:17  FN:11
 
 Hard_idioms Dataset (variants of matched sentences):
-  Total rows:  561
-  Accuracy:   0.882
-  Precision:  0.892
+  Total rows:  534
+  Accuracy:   0.912
+  Precision:  0.924
   Recall:     0.981
-  Specificity:0.296
-  F1-Score:   0.935
-  Bal. Acc:   0.639
-  MCC:        0.415
-  TP:471  TN:24  FP:57  FN:9
+  Specificity:0.367
+  F1-Score:   0.952
+  Bal. Acc:   0.674
+  MCC:        0.470
+  TP:465  TN:22  FP:38  FN:9
 
 CONTEXT EFFECTS SUMMARY
 -------------------------
-Total matched sentences: 187
-Context helped: 11 (5.9%)
+Total matched sentences: 178
+Context helped: 11 (6.2%)
 Context hurt:   0 (0.0%)
-Mixed:          11 (5.9%)
-No change:      165 (88.2%)
+Mixed:          9 (5.1%)
+No change:      158 (88.8%)
 
 ADVANCED CONTEXT-CONFUSION METRICS
 -----------------------------------
-Context Degradation Index (CDI): -0.086  (-8.6% relative drop)
-Variant Consistency Score (VCS): 0.948
+Context Degradation Index (CDI): -0.082  (-8.2% relative drop)
+Variant Consistency Score (VCS): 0.955
 Context Confusion Rate (CCR):    0.011  (1.1% of predictions turned wrong)
 Literal-to-Idiom Flip Rate (LIFR): 1.000
-Error Amplification Factor (EAF): 0.629
-Phrase Overlap Confusion Rate:   0.102
-Confusion Resistance Score:      0.039
-Avg Prediction Stability Index:  0.132
+Error Amplification Factor (EAF): 0.560
+Phrase Overlap Confusion Rate:   0.071
+Confusion Resistance Score:      0.040
+Avg Prediction Stability Index:  0.133
 
 VARIANT-LEVEL STATS
 --------------------
-Avg confusion rate: 0.118
+Avg confusion rate: 0.088
 Median:             0.000
-Highly vulnerable (≥80%): 16
-Moderately vulnerable:    7
-Resistant (<40%):         164
+Highly vulnerable (≥80%): 11
+Moderately vulnerable:    5
+Resistant (<40%):         162
 
 DETAILED CONFUSION ANALYSIS (id10m-correct sentences only)
 ==================================================
-Sentences analyzed: 152
-Total variants:     456
+Sentences analyzed: 150
+Total variants:     450
 Confused variants:  6 (1.3%)
   Sentences with any confusion:  3
   Sentences all-confused:        0
-  Sentences never confused:      149
+  Sentences never confused:      147
 
 Literal variants:   9 total, 6 confused (66.7%)
-Idiomatic variants: 447 total, 0 confused (0.0%)
+Idiomatic variants: 441 total, 0 confused (0.0%)
 
 PER-IDIOM CONFUSION RATES
 -------------------------
@@ -85,9 +85,7 @@ better late than never                       0     3    0.0%
 comparing apples to oranges                  0     3    0.0%
 raining cats and dogs                        0     3    0.0%
 walking on air                               0     3    0.0%
-go dutch                                     0     3    0.0%
 got a kick out of                            0     3    0.0%
-hold a candle                                0     3    0.0%
 hold a grudge                                0     3    0.0%
 light a fire under                           0     3    0.0%
 get a move on                                0     3    0.0%
@@ -366,26 +364,12 @@ Confused variants: 0/3 (0%)
   v2 [ok] pred=['walking on air'] | The zero-gravity simulation was disorienting but exhilarating, and the lead engineer overs
   v3 [ok] pred=['walking on air'] | During the tech demo for the new augmented reality glasses that projected a solid-looking 
 --------------------------------------------------------------------------------
-Sentence: They asked me if we can go dutch.
-True idioms: ['go dutch']
-Confused variants: 0/3 (0%)
-  v1 [ok] pred=['go dutch'] | We were finalizing our European tour itinerary, discussing travel budgets, when they asked
-  v2 [ok] pred=['go dutch'] | We were eating some German bread with Belgian chocolate when they asked me if we can go du
-  v3 [ok] pred=['go dutch'] | While we were planning the community garden and event for the national Flemish holiday, th
---------------------------------------------------------------------------------
 Sentence: I really got a kick out of that clown's juggling act.
 True idioms: ['got a kick out of']
 Confused variants: 0/3 (0%)
   v1 [ok] pred=['moonlights as', 'got a kick out of'] | After my friend, the semi-professional soccer player who moonlights as a circus performer,
   v2 [ok] pred=['got a kick out of'] | While reviewing the performance data for the new animatronic entertainer, whose leg mechan
   v3 [ok] pred=['got a kick out of'] | Still rubbing my shin from the malfunctioning mechanical donkey ride we'd just been on rig
---------------------------------------------------------------------------------
-Sentence: The old computer just doesn't hold a candle to the latest models.
-True idioms: ['hold a candle']
-Confused variants: 0/3 (0%)
-  v1 [ok] pred=['hold a candle to'] | I wanted to make everything romantic, so I got candles and placed some on my desk. It remi
-  v2 [ok] pred=['hold a candle to'] | Even though it could light the fight and even light the candles, in the robotics competiti
-  v3 [ok] pred=['hold a candle to'] | As the props master for the Victorian-era play set up the writer's desk, he sighed that th
 --------------------------------------------------------------------------------
 Sentence: That guy sure can hold a grudge when something goes wrong.
 True idioms: ['hold a grudge']

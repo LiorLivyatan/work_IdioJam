@@ -41,44 +41,6 @@
     "language": "english"
   },
   {
-    "sentence": "The ship broke the ice all the way.",
-    "tokens": [
-      "The ",
-      "ship ",
-      "broke ",
-      "the ",
-      "ice ",
-      "all ",
-      "the ",
-      "way",
-      "."
-    ],
-    "tags": [
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O"
-    ],
-    "tag_ids": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "true_idioms": [],
-    "language": "english"
-  },
-  {
     "sentence": "This is a perfect way to break the ice and start the conversation.",
     "tokens": [
       "This ",
@@ -160,38 +122,6 @@
     "tag_ids": [
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "true_idioms": [],
-    "language": "english"
-  },
-  {
-    "sentence": "I thought you rang the bell.",
-    "tokens": [
-      "I ",
-      "thought ",
-      "you ",
-      "rang ",
-      "the ",
-      "bell",
-      "."
-    ],
-    "tags": [
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O"
-    ],
-    "tag_ids": [
       0,
       0,
       0,
@@ -450,41 +380,6 @@
     "language": "english"
   },
   {
-    "sentence": "Would you like a piece of cake.",
-    "tokens": [
-      "Would ",
-      "you ",
-      "like ",
-      "a ",
-      "piece ",
-      "of ",
-      "cake",
-      "."
-    ],
-    "tags": [
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O"
-    ],
-    "tag_ids": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "true_idioms": [],
-    "language": "english"
-  },
-  {
     "sentence": "Her aunt is a great cook, do you want a piece of cake?",
     "tokens": [
       "Her ",
@@ -640,44 +535,6 @@
     ],
     "tag_ids": [
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "true_idioms": [],
-    "language": "english"
-  },
-  {
-    "sentence": "Is soaking in hot water good for us?",
-    "tokens": [
-      "Is ",
-      "soaking ",
-      "in ",
-      "hot ",
-      "water ",
-      "good ",
-      "for ",
-      "us",
-      "?"
-    ],
-    "tags": [
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O"
-    ],
-    "tag_ids": [
       0,
       0,
       0,
@@ -886,50 +743,6 @@
     "language": "english"
   },
   {
-    "sentence": "What can I bring you? Maybe bread and butter?",
-    "tokens": [
-      "What ",
-      "can ",
-      "I ",
-      "bring ",
-      "you",
-      "? ",
-      "Maybe ",
-      "bread ",
-      "and ",
-      "butter",
-      "?"
-    ],
-    "tags": [
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O"
-    ],
-    "tag_ids": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "true_idioms": [],
-    "language": "english"
-  },
-  {
     "sentence": "I only bought a lemon and two oranges.",
     "tokens": [
       "I ",
@@ -1043,106 +856,6 @@
       "O"
     ],
     "tag_ids": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "true_idioms": [],
-    "language": "english"
-  },
-  {
-    "sentence": "The submarine is getting into deep water.",
-    "tokens": [
-      "The ",
-      "submarine ",
-      "is ",
-      "getting ",
-      "into ",
-      "deep ",
-      "water",
-      "."
-    ],
-    "tags": [
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O"
-    ],
-    "tag_ids": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "true_idioms": [],
-    "language": "english"
-  },
-  {
-    "sentence": "The fairy tale tells about a caste in the sky where a king and a queen live.",
-    "tokens": [
-      "The ",
-      "fairy ",
-      "tale ",
-      "tells ",
-      "about ",
-      "a ",
-      "caste ",
-      "in ",
-      "the ",
-      "sky ",
-      "where ",
-      "a ",
-      "king ",
-      "and ",
-      "a ",
-      "queen ",
-      "live",
-      "."
-    ],
-    "tags": [
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O"
-    ],
-    "tag_ids": [
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0,
@@ -2329,46 +2042,6 @@
     "language": "english"
   },
   {
-    "sentence": "They asked me if we can go dutch.",
-    "tokens": [
-      "They ",
-      "asked ",
-      "me ",
-      "if ",
-      "we ",
-      "can ",
-      "go ",
-      "dutch",
-      "."
-    ],
-    "tags": [
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "B-IDIOM",
-      "I-IDIOM",
-      "O"
-    ],
-    "tag_ids": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      0
-    ],
-    "true_idioms": [
-      "go dutch"
-    ],
-    "language": "english"
-  },
-  {
     "sentence": "I really got a kick out of that clown's juggling act.",
     "tokens": [
       "I ",
@@ -2417,61 +2090,6 @@
     ],
     "true_idioms": [
       "got a kick out of"
-    ],
-    "language": "english"
-  },
-  {
-    "sentence": "The old computer just doesn't hold a candle to the latest models.",
-    "tokens": [
-      "The ",
-      "old ",
-      "computer ",
-      "just ",
-      "does",
-      "n't ",
-      "hold ",
-      "a ",
-      "candle ",
-      "to ",
-      "the ",
-      "latest ",
-      "models",
-      "."
-    ],
-    "tags": [
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O",
-      "B-IDIOM",
-      "I-IDIOM",
-      "I-IDIOM",
-      "O",
-      "O",
-      "O",
-      "O",
-      "O"
-    ],
-    "tag_ids": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      2,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "true_idioms": [
-      "hold a candle"
     ],
     "language": "english"
   },

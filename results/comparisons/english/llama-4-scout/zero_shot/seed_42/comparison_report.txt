@@ -4,65 +4,65 @@ ID10M vs Hard_idioms Comparison Report
 OVERALL PERFORMANCE METRICS (matched sentences only)
 ------------------------------
 ID10M Dataset:
-  Total sentences: 187
-  Accuracy:   0.909
-  Precision:  0.961
-  Recall:     0.931
-  Specificity:0.778
-  F1-Score:   0.946
-  Bal. Acc:   0.855
-  MCC:        0.662
-  TP:149  TN:21  FP:6  FN:11
+  Total sentences: 178
+  Accuracy:   0.916
+  Precision:  0.974
+  Recall:     0.930
+  Specificity:0.800
+  F1-Score:   0.951
+  Bal. Acc:   0.865
+  MCC:        0.643
+  TP:147  TN:16  FP:4  FN:11
 
 Hard_idioms Dataset (variants of matched sentences):
-  Total rows:  561
-  Accuracy:   0.891
-  Precision:  0.947
-  Recall:     0.925
-  Specificity:0.691
-  F1-Score:   0.936
-  Bal. Acc:   0.808
-  MCC:        0.585
-  TP:444  TN:56  FP:25  FN:36
+  Total rows:  534
+  Accuracy:   0.914
+  Precision:  0.978
+  Recall:     0.924
+  Specificity:0.833
+  F1-Score:   0.950
+  Bal. Acc:   0.879
+  MCC:        0.651
+  TP:438  TN:50  FP:10  FN:36
 
 CONTEXT EFFECTS SUMMARY
 -------------------------
-Total matched sentences: 187
-Context helped: 8 (4.3%)
-Context hurt:   5 (2.7%)
-Mixed:          23 (12.3%)
-No change:      151 (80.7%)
+Total matched sentences: 178
+Context helped: 8 (4.5%)
+Context hurt:   3 (1.7%)
+Mixed:          20 (11.2%)
+No change:      147 (82.6%)
 
 ADVANCED CONTEXT-CONFUSION METRICS
 -----------------------------------
-Context Degradation Index (CDI): 0.020  (2.0% relative drop)
-Variant Consistency Score (VCS): 0.886
-Context Confusion Rate (CCR):    0.075  (7.5% of predictions turned wrong)
-Literal-to-Idiom Flip Rate (LIFR): 0.524
-Error Amplification Factor (EAF): 1.196
-Phrase Overlap Confusion Rate:   0.045
-Confusion Resistance Score:      0.247
-Avg Prediction Stability Index:  0.135
+Context Degradation Index (CDI): 0.002  (0.2% relative drop)
+Variant Consistency Score (VCS): 0.895
+Context Confusion Rate (CCR):    0.060  (6.0% of predictions turned wrong)
+Literal-to-Idiom Flip Rate (LIFR): 0.438
+Error Amplification Factor (EAF): 1.022
+Phrase Overlap Confusion Rate:   0.019
+Confusion Resistance Score:      0.196
+Avg Prediction Stability Index:  0.132
 
 VARIANT-LEVEL STATS
 --------------------
-Avg confusion rate: 0.109
+Avg confusion rate: 0.086
 Median:             0.000
-Highly vulnerable (≥80%): 9
-Moderately vulnerable:    11
-Resistant (<40%):         167
+Highly vulnerable (≥80%): 6
+Moderately vulnerable:    8
+Resistant (<40%):         164
 
 DETAILED CONFUSION ANALYSIS (id10m-correct sentences only)
 ==================================================
-Sentences analyzed: 170
-Total variants:     510
-Confused variants:  42 (8.2%)
-  Sentences with any confusion:  23
-  Sentences all-confused:        5
-  Sentences never confused:      147
+Sentences analyzed: 163
+Total variants:     489
+Confused variants:  32 (6.5%)
+  Sentences with any confusion:  19
+  Sentences all-confused:        3
+  Sentences never confused:      144
 
-Literal variants:   63 total, 19 confused (30.2%)
-Idiomatic variants: 447 total, 23 confused (5.1%)
+Literal variants:   48 total, 9 confused (18.8%)
+Idiomatic variants: 441 total, 23 confused (5.2%)
 
 PER-IDIOM CONFUSION RATES
 -------------------------
@@ -90,8 +90,6 @@ no pain no gain                              0     3    0.0%
 when pigs fly                                0     6    0.0%
 better late than never                       0     3    0.0%
 comparing apples to oranges                  0     3    0.0%
-go dutch                                     0     3    0.0%
-hold a candle                                0     3    0.0%
 hold a grudge                                0     3    0.0%
 get a move on                                0     3    0.0%
 kicked the bucket                            0     3    0.0%
@@ -226,13 +224,6 @@ Confused variants: 0/3 (0%)
   v2 [ok] pred=[] | In the combat simulation designed to test cognitive load under stress, the soldier failed 
   v3 [ok] pred=[] | The professor's lecture on literary symbolism was so intense, he described the protagonist
 --------------------------------------------------------------------------------
-Sentence: I thought you rang the bell.
-True idioms: []
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['rang the bell'] | As we sorted through the old case files trying to remember the witness's name, a chime fro
-  v2 [CONFUSED] pred=['rang the bell'] | In the final moments of the intense negotiation, our competitor conceded on a major point 
-  v3 [CONFUSED] pred=['rang the bell'] | At the quarterly sales meeting, the manager projected the final numbers which massively ex
---------------------------------------------------------------------------------
 Sentence: The patient rang the bell 20 minutes ago.
 True idioms: []
 Confused variants: 1/3 (33%)
@@ -289,13 +280,6 @@ Confused variants: 1/3 (33%)
   v2 [CONFUSED] pred=['bathing in hot water'] | Reviewing the disastrous environmental impact report from their geothermal energy project,
   v3 [ok] pred=[] | The university's ethics committee grilled the lead researcher whose controversial thermore
 --------------------------------------------------------------------------------
-Sentence: Is soaking in hot water good for us?
-True idioms: []
-Confused variants: 2/3 (67%)
-  v1 [CONFUSED] pred=['soaking in hot water'] | At the corporate stress-management retreat held in a spa, where executives discussed the c
-  v2 [CONFUSED] pred=["what doesn't kill you makes you stronger"] | After a long debate about Nietzsche's concept of what doesn't kill you makes you stronger,
-  v3 [ok] pred=[] | Finally relaxing in their new jacuzzi after months of intense marriage counseling that nea
---------------------------------------------------------------------------------
 Sentence: I love bread and butter for breakfast.
 True idioms: []
 Confused variants: 1/3 (33%)
@@ -309,13 +293,6 @@ Confused variants: 0/3 (0%)
   v1 [ok] pred=[] | At the tense business lunch, the CEO explained to the new executive which two product line
   v2 [ok] pred=[] | The old fisherman was teaching his grandson about running the family business, explaining 
   v3 [ok] pred=[] | My son asked what his core responsibilities would be now that he was joining our family's 
---------------------------------------------------------------------------------
-Sentence: What can I bring you? Maybe bread and butter?
-True idioms: []
-Confused variants: 2/3 (67%)
-  v1 [CONFUSED] pred=['bread and butter'] | Seeing the client's overwhelmed expression when faced with complex investment portfolios, 
-  v2 [ok] pred=[] | After the culinary apprentice's elaborate foam collapsed for the third time, the head chef
-  v3 [CONFUSED] pred=['bread and butter'] | The startup founder, trying to understand what essential skills the candidate could contri
 --------------------------------------------------------------------------------
 Sentence: I only bought a lemon and two oranges.
 True idioms: []
@@ -337,20 +314,6 @@ Confused variants: 2/3 (67%)
   v1 [CONFUSED] pred=['get-together', 'buy a lemon'] | My brother just got swindled at that shady used car dealership, and now we're all trying t
   v2 [CONFUSED] pred=['use a stiff drink', 'buy a lemon'] | After spending all afternoon trying to fix this brand new tablet that just won't work, I'm
   v3 [ok] pred=[] | That tech stock I invested in completely tanked, proving to be a total bust, so to take my
---------------------------------------------------------------------------------
-Sentence: The submarine is getting into deep water.
-True idioms: []
-Confused variants: 3/3 (100%)
-  v1 [CONFUSED] pred=['getting into deep water'] | As the sonar confirmed they had crossed the contested maritime boundary and foreign patrol
-  v2 [CONFUSED] pred=['getting into deep water'] | With multiple hull integrity warnings flashing on the console during the experimental dive
-  v3 [CONFUSED] pred=['getting into deep water'] | When the covert data transmission was suddenly jammed and enemy sonar pings started echoin
---------------------------------------------------------------------------------
-Sentence: The fairy tale tells about a caste in the sky where a king and a queen live.
-True idioms: []
-Confused variants: 0/3 (0%)
-  v1 [ok] pred=[] | While listening to an audio tour of a medieval fortress, the narrator described its influe
-  v2 [ok] pred=[] | In their lecture on how fiction reflects societal structures, the professor used an obscur
-  v3 [ok] pred=[] | Describing the plot of a new video game which combines high-fantasy architecture with comp
 --------------------------------------------------------------------------------
 Sentence: Ostriches bury their head in the sand.
 True idioms: []
@@ -485,26 +448,12 @@ Confused variants: 2/3 (67%)
   v2 [CONFUSED] pred=[] | The zero-gravity simulation was disorienting but exhilarating, and the lead engineer overs
   v3 [CONFUSED] pred=[] | During the tech demo for the new augmented reality glasses that projected a solid-looking 
 --------------------------------------------------------------------------------
-Sentence: They asked me if we can go dutch.
-True idioms: ['go dutch']
-Confused variants: 0/3 (0%)
-  v1 [ok] pred=['go dutch'] | We were finalizing our European tour itinerary, discussing travel budgets, when they asked
-  v2 [ok] pred=['go dutch'] | We were eating some German bread with Belgian chocolate when they asked me if we can go du
-  v3 [ok] pred=['go dutch'] | While we were planning the community garden and event for the national Flemish holiday, th
---------------------------------------------------------------------------------
 Sentence: I really got a kick out of that clown's juggling act.
 True idioms: ['got a kick out of']
 Confused variants: 3/3 (100%)
   v1 [CONFUSED] pred=[] | After my friend, the semi-professional soccer player who moonlights as a circus performer,
   v2 [CONFUSED] pred=['get a kick out of'] | While reviewing the performance data for the new animatronic entertainer, whose leg mechan
   v3 [CONFUSED] pred=[] | Still rubbing my shin from the malfunctioning mechanical donkey ride we'd just been on rig
---------------------------------------------------------------------------------
-Sentence: The old computer just doesn't hold a candle to the latest models.
-True idioms: ['hold a candle']
-Confused variants: 0/3 (0%)
-  v1 [ok] pred=['hold a candle to'] | I wanted to make everything romantic, so I got candles and placed some on my desk. It remi
-  v2 [ok] pred=['hold a candle to'] | Even though it could light the fight and even light the candles, in the robotics competiti
-  v3 [ok] pred=['hold a candle to'] | As the props master for the Victorian-era play set up the writer's desk, he sighed that th
 --------------------------------------------------------------------------------
 Sentence: That guy sure can hold a grudge when something goes wrong.
 True idioms: ['hold a grudge']
