@@ -1,4 +1,5 @@
 model,prompt_type,seed,shots,sc_runs,temperature,accuracy,precision,recall,f1,hallucinations
+model,prompt_type,seed,shots,sc_runs,temperature,accuracy,precision,recall,f1,hallucinations
 gpt-4o-mini,zero_shot,42,0,1,0.3,0.965343,0.765999,0.754361,0.75942,0
 gpt-4o-mini,zero_shot,43,0,1,0.3,0.965677,0.770692,0.758701,0.764011,0
 gpt-4o-mini,zero_shot,44,0,1,0.3,0.966394,0.774968,0.764254,0.769052,0
@@ -29,3 +30,5 @@ qwen/qwen-2.5-72b-instruct,few_shot,43,10,5,0.8,0.973947,0.800937,0.856248,0.826
 qwen/qwen-2.5-72b-instruct,few_shot,44,10,5,0.8,0.96606,0.748669,0.847398,0.790871,0
 o3-mini,zero_shot,42,0,1,0.3,0.967494,0.770178,0.794066,0.780249,0
 deepseek/deepseek-r1,zero_shot,42,0,1,0.3,0.966012,0.748465,0.871185,0.800094,14
+claude-sonnet-4-20250514,zero_shot,42,0,1,0.3,0.973039,0.79373,0.884573,0.833717,0
+claude-sonnet-4-20250514,few_shot,42,10,5,0.8,0.98107,0.855273,0.878583,0.865867,0

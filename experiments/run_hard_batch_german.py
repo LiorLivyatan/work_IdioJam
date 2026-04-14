@@ -25,6 +25,7 @@ Usage:
 import os
 import sys
 import json
+import time
 import yaml
 import argparse
 import logging
@@ -182,20 +183,15 @@ def run_inference_on_subset(config: dict, run_dir: Path) -> list[dict]:
 
     for run_index in range(start_run, config["sc_runs"]):
         logger.info(f"  SC run {run_index + 1}/{config['sc_runs']}")
-        if config["batched"]:
+        raw = []
+        for i, inp in enumerate(user_inputs):
+            if i > 0:
+                time.sleep(1)  # pace requests to avoid 529 overloaded on Tier 1
             try:
-                raw = chain.batch(user_inputs)
+                raw.append(chain.invoke(inp))
             except Exception as e:
-                logger.error(f"Batch run {run_index} failed: {e}")
-                continue
-        else:
-            raw = []
-            for i, inp in enumerate(user_inputs):
-                try:
-                    raw.append(chain.invoke(inp))
-                except Exception as e:
-                    logger.warning(f"  Row {i} failed: {e}")
-                    raw.append(None)
+                logger.warning(f"  Row {i} failed: {e}")
+                raw.append(None)
 
         for i, resp in enumerate(raw):
             try:
@@ -204,7 +200,21 @@ def run_inference_on_subset(config: dict, run_dir: Path) -> list[dict]:
                 logger.error(f"  parse_response error row {i}: {e}")
                 responses[i]["responses"].append({})
 
-        # Checkpoint after each successful SC batch
+        # Retry any rows that still failed (None → {})
+        failed = [i for i in range(len(responses))
+                  if not responses[i]["responses"][-1] or "parsed" not in responses[i]["responses"][-1]]
+        if failed:
+            logger.info(f"  Retrying {len(failed)} failed rows...")
+            for i in failed:
+                time.sleep(2)
+                try:
+                    result = chain.invoke(user_inputs[i])
+                    responses[i]["responses"][-1] = parse_response(result, structured)
+                    logger.info(f"    Row {i} retry succeeded")
+                except Exception as e:
+                    logger.warning(f"    Row {i} retry failed: {e}")
+
+        # Checkpoint after each SC batch
         save_json(responses, checkpoint_path)
         logger.info(f"  Checkpointed after SC batch {run_index + 1}/{config['sc_runs']}")
 
@@ -411,6 +421,19 @@ def main():
             with open(path_54, encoding="utf-8-sig") as f:
                 new_responses = json.load(f)
             logger.info(f"Loaded existing responses_54.json ({len(new_responses)} rows)")
+
+        # Patch empty {} responses (rows that failed after all retries)
+        failed_rows = sum(
+            1 for r in new_responses
+            if any(not resp or "parsed" not in resp for resp in r["responses"])
+        )
+        if failed_rows:
+            logger.warning(f"{failed_rows} rows have empty responses — treating as no-prediction")
+            for r in new_responses:
+                r["responses"] = [
+                    resp if (resp and "parsed" in resp) else {"parsed": {}, "parsing_error": "overloaded"}
+                    for resp in r["responses"]
+                ]
 
         # --- Step 2: Merge old 357 + new 54 ---
         if old_run_dir is not None:
