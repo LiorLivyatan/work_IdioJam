@@ -856,11 +856,19 @@ def run_all(lang: str, filter_str: Optional[str], dry_run: bool):
 
     if not dry_run and summary_rows:
         table_path = out_base / "model_comparison_table.csv"
+        # Load existing rows and merge (replace matching rows, append new ones)
+        existing_rows = []
+        if table_path.exists():
+            with open(table_path, newline="", encoding="utf-8") as f:
+                existing_rows = list(csv.DictReader(f))
+        new_keys = {(r["model"], r["prompt_type"], str(r["seed"]), r["language"]) for r in summary_rows}
+        kept = [r for r in existing_rows if (r["model"], r["prompt_type"], str(r["seed"]), r["language"]) not in new_keys]
+        all_rows = kept + summary_rows
         with open(table_path, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=SUMMARY_FIELDS)
             w.writeheader()
-            w.writerows(summary_rows)
-        logger.info(f"[{lang}] Wrote model_comparison_table.csv ({len(summary_rows)} rows)")
+            w.writerows(all_rows)
+        logger.info(f"[{lang}] Wrote model_comparison_table.csv ({len(all_rows)} rows)")
 
 
 def main():
