@@ -1,0 +1,10424 @@
+{
+  "eine an den Haaren herbeigezogene Behauptung": [
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "an",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "den",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Haaren",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "herbeigezogene",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Behauptung",
+      "tag": "O"
+    }
+  ],
+  "Stein des Anstoßes sind die folgenden Zeilen: „Vater unser im Himmel/ Geheiligt werde die Lüge/ Mein Fleisch verkomme/ Mein Wille geschehe/ Und den Himmel gib uns auf Erden/ Und vergib uns unsere Gier/ Drum führe uns jetzt in Versuchung/ Und dann erlöse uns von all dem Bösen/ Ich geb euch Liebe/ Ich geb euch Hoffnung/ Doch nur zum Schein/ Denn die Massen woll’n betrogen sein.“": [
+    {
+      "word": "Stein",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "des",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Anstoßes",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "sind",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "folgenden",
+      "tag": "O"
+    },
+    {
+      "word": "Zeilen:",
+      "tag": "O"
+    },
+    {
+      "word": "„Vater",
+      "tag": "O"
+    },
+    {
+      "word": "unser",
+      "tag": "O"
+    },
+    {
+      "word": "im",
+      "tag": "O"
+    },
+    {
+      "word": "Himmel/",
+      "tag": "O"
+    },
+    {
+      "word": "Geheiligt",
+      "tag": "O"
+    },
+    {
+      "word": "werde",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Lüge/",
+      "tag": "O"
+    },
+    {
+      "word": "Mein",
+      "tag": "O"
+    },
+    {
+      "word": "Fleisch",
+      "tag": "O"
+    },
+    {
+      "word": "verkomme/",
+      "tag": "O"
+    },
+    {
+      "word": "Mein",
+      "tag": "O"
+    },
+    {
+      "word": "Wille",
+      "tag": "O"
+    },
+    {
+      "word": "geschehe/",
+      "tag": "O"
+    },
+    {
+      "word": "Und",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Himmel",
+      "tag": "O"
+    },
+    {
+      "word": "gib",
+      "tag": "O"
+    },
+    {
+      "word": "uns",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "Erden/",
+      "tag": "O"
+    },
+    {
+      "word": "Und",
+      "tag": "O"
+    },
+    {
+      "word": "vergib",
+      "tag": "O"
+    },
+    {
+      "word": "uns",
+      "tag": "O"
+    },
+    {
+      "word": "unsere",
+      "tag": "O"
+    },
+    {
+      "word": "Gier/",
+      "tag": "O"
+    },
+    {
+      "word": "Drum",
+      "tag": "O"
+    },
+    {
+      "word": "führe",
+      "tag": "O"
+    },
+    {
+      "word": "uns",
+      "tag": "O"
+    },
+    {
+      "word": "jetzt",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Versuchung/",
+      "tag": "O"
+    },
+    {
+      "word": "Und",
+      "tag": "O"
+    },
+    {
+      "word": "dann",
+      "tag": "O"
+    },
+    {
+      "word": "erlöse",
+      "tag": "O"
+    },
+    {
+      "word": "uns",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "all",
+      "tag": "O"
+    },
+    {
+      "word": "dem",
+      "tag": "O"
+    },
+    {
+      "word": "Bösen/",
+      "tag": "O"
+    },
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "geb",
+      "tag": "O"
+    },
+    {
+      "word": "euch",
+      "tag": "O"
+    },
+    {
+      "word": "Liebe/",
+      "tag": "O"
+    },
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "geb",
+      "tag": "O"
+    },
+    {
+      "word": "euch",
+      "tag": "O"
+    },
+    {
+      "word": "Hoffnung/",
+      "tag": "O"
+    },
+    {
+      "word": "Doch",
+      "tag": "O"
+    },
+    {
+      "word": "nur",
+      "tag": "O"
+    },
+    {
+      "word": "zum",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Schein/",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Denn",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Massen",
+      "tag": "O"
+    },
+    {
+      "word": "woll’n",
+      "tag": "O"
+    },
+    {
+      "word": "betrogen",
+      "tag": "O"
+    },
+    {
+      "word": "sein.“",
+      "tag": "O"
+    }
+  ],
+  "Schließlich ließ er sich vollgeschwitzt außer Puste auf seine vier Buchstaben plotzen.": [
+    {
+      "word": "Schließlich",
+      "tag": "O"
+    },
+    {
+      "word": "ließ",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "vollgeschwitzt",
+      "tag": "O"
+    },
+    {
+      "word": "außer",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Puste",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "seine",
+      "tag": "O"
+    },
+    {
+      "word": "vier",
+      "tag": "O"
+    },
+    {
+      "word": "Buchstaben",
+      "tag": "O"
+    },
+    {
+      "word": "plotzen.",
+      "tag": "O"
+    }
+  ],
+  "Meine Befehle sind in den Wind gesprochen. Es ist unmöglich, unter diesen Umständen zu führen. Es ist aus. Der Krieg ist verloren.": [
+    {
+      "word": "Meine",
+      "tag": "O"
+    },
+    {
+      "word": "Befehle",
+      "tag": "O"
+    },
+    {
+      "word": "sind",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "den",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Wind",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gesprochen.",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Es",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "unmöglich,",
+      "tag": "O"
+    },
+    {
+      "word": "unter",
+      "tag": "O"
+    },
+    {
+      "word": "diesen",
+      "tag": "O"
+    },
+    {
+      "word": "Umständen",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "führen.",
+      "tag": "O"
+    },
+    {
+      "word": "Es",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "aus.",
+      "tag": "O"
+    },
+    {
+      "word": "Der",
+      "tag": "O"
+    },
+    {
+      "word": "Krieg",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "verloren.",
+      "tag": "O"
+    }
+  ],
+  "Unerwartet stand mein Bruder mit Sack und Pack vor meiner Haustür und bat um Herberge.": [
+    {
+      "word": "Unerwartet",
+      "tag": "O"
+    },
+    {
+      "word": "stand",
+      "tag": "O"
+    },
+    {
+      "word": "mein",
+      "tag": "O"
+    },
+    {
+      "word": "Bruder",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "Sack",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Pack",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "vor",
+      "tag": "O"
+    },
+    {
+      "word": "meiner",
+      "tag": "O"
+    },
+    {
+      "word": "Haustür",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "bat",
+      "tag": "O"
+    },
+    {
+      "word": "um",
+      "tag": "O"
+    },
+    {
+      "word": "Herberge.",
+      "tag": "O"
+    }
+  ],
+  "Zumindest die Vorbehalte gegenüber den Ultraorthodoxen scheinen die Kibbuzniks mit der weiteren Gesellschaft zu teilen. Besonders die Unterstützungsleistungen, die jene beziehen, bildeten an den Protesten in Tel Aviv einen zusätzlichen Stein des Anstoßes.": [
+    {
+      "word": "Zumindest",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Vorbehalte",
+      "tag": "O"
+    },
+    {
+      "word": "gegenüber",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Ultraorthodoxen",
+      "tag": "O"
+    },
+    {
+      "word": "scheinen",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Kibbuzniks",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "weiteren",
+      "tag": "O"
+    },
+    {
+      "word": "Gesellschaft",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "teilen.",
+      "tag": "O"
+    },
+    {
+      "word": "Besonders",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Unterstützungsleistungen,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "jene",
+      "tag": "O"
+    },
+    {
+      "word": "beziehen,",
+      "tag": "O"
+    },
+    {
+      "word": "bildeten",
+      "tag": "O"
+    },
+    {
+      "word": "an",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Protesten",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Tel",
+      "tag": "O"
+    },
+    {
+      "word": "Aviv",
+      "tag": "O"
+    },
+    {
+      "word": "einen",
+      "tag": "O"
+    },
+    {
+      "word": "zusätzlichen",
+      "tag": "O"
+    },
+    {
+      "word": "Stein",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "des",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Anstoßes.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Gleich nach der Begrüßung – sich in das Fauteuil zu setzen, wozu ihm K. einlud, hatte er keine Zeit – bat er K. um ein kurzes Gespräch unter vier Augen.": [
+    {
+      "word": "Gleich",
+      "tag": "O"
+    },
+    {
+      "word": "nach",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Begrüßung",
+      "tag": "O"
+    },
+    {
+      "word": "–",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "Fauteuil",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "setzen,",
+      "tag": "O"
+    },
+    {
+      "word": "wozu",
+      "tag": "O"
+    },
+    {
+      "word": "ihm",
+      "tag": "O"
+    },
+    {
+      "word": "K.",
+      "tag": "O"
+    },
+    {
+      "word": "einlud,",
+      "tag": "O"
+    },
+    {
+      "word": "hatte",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "keine",
+      "tag": "O"
+    },
+    {
+      "word": "Zeit",
+      "tag": "O"
+    },
+    {
+      "word": "–",
+      "tag": "O"
+    },
+    {
+      "word": "bat",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "K.",
+      "tag": "O"
+    },
+    {
+      "word": "um",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "kurzes",
+      "tag": "O"
+    },
+    {
+      "word": "Gespräch",
+      "tag": "O"
+    },
+    {
+      "word": "unter",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "vier",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Augen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Ich habe mich krank gemeldet, weil ich gestern Abend einen über den Durst getrunken habe.": [
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "habe",
+      "tag": "O"
+    },
+    {
+      "word": "mich",
+      "tag": "O"
+    },
+    {
+      "word": "krank",
+      "tag": "O"
+    },
+    {
+      "word": "gemeldet,",
+      "tag": "O"
+    },
+    {
+      "word": "weil",
+      "tag": "O"
+    },
+    {
+      "word": "ich",
+      "tag": "O"
+    },
+    {
+      "word": "gestern",
+      "tag": "O"
+    },
+    {
+      "word": "Abend",
+      "tag": "O"
+    },
+    {
+      "word": "einen",
+      "tag": "O"
+    },
+    {
+      "word": "über",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "den",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Durst",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "getrunken",
+      "tag": "O"
+    },
+    {
+      "word": "habe.",
+      "tag": "O"
+    }
+  ],
+  "Der gute Ruf von Volkswagen stand in Afrika auf dem Spiel.": [
+    {
+      "word": "Der",
+      "tag": "O"
+    },
+    {
+      "word": "gute",
+      "tag": "O"
+    },
+    {
+      "word": "Ruf",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "Volkswagen",
+      "tag": "O"
+    },
+    {
+      "word": "stand",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Afrika",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "dem",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Spiel.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Ein begleitender menschlicher Fahrer mit einem \"roten Knopf\" garantierte, dass das Fahrzeug nicht außer Kontrolle geraten und eine Gefahr für die Öffentlichkeit werden konnte.": [
+    {
+      "word": "Ein",
+      "tag": "O"
+    },
+    {
+      "word": "begleitender",
+      "tag": "O"
+    },
+    {
+      "word": "menschlicher",
+      "tag": "O"
+    },
+    {
+      "word": "Fahrer",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "einem",
+      "tag": "O"
+    },
+    {
+      "word": "\"roten",
+      "tag": "O"
+    },
+    {
+      "word": "Knopf\"",
+      "tag": "O"
+    },
+    {
+      "word": "garantierte,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "Fahrzeug",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "außer",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Kontrolle",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geraten",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Gefahr",
+      "tag": "O"
+    },
+    {
+      "word": "für",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Öffentlichkeit",
+      "tag": "O"
+    },
+    {
+      "word": "werden",
+      "tag": "O"
+    },
+    {
+      "word": "konnte.",
+      "tag": "O"
+    }
+  ],
+  "Da hat der Kanzlerkandidat Gerhard Schröder beim Barte des Propheten geschworen, die Renten nicht zu kürzen.": [
+    {
+      "word": "Da",
+      "tag": "O"
+    },
+    {
+      "word": "hat",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Kanzlerkandidat",
+      "tag": "O"
+    },
+    {
+      "word": "Gerhard",
+      "tag": "O"
+    },
+    {
+      "word": "Schröder",
+      "tag": "O"
+    },
+    {
+      "word": "beim",
+      "tag": "O"
+    },
+    {
+      "word": "Barte",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Propheten",
+      "tag": "O"
+    },
+    {
+      "word": "geschworen,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Renten",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "kürzen.",
+      "tag": "O"
+    }
+  ],
+  "Oftmals wurde die Kohle über Nacht gestohlen.": [
+    {
+      "word": "Oftmals",
+      "tag": "O"
+    },
+    {
+      "word": "wurde",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Kohle",
+      "tag": "O"
+    },
+    {
+      "word": "über",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Nacht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gestohlen.",
+      "tag": "O"
+    }
+  ],
+  "Im Juli desselben Jahres nahm sie Abschied von ihrem Heimatsort, ging nach Yan’an und widmete sich von ganzem Herzen der Sache des Kriegs gegen die japanische Aggression.": [
+    {
+      "word": "Im",
+      "tag": "O"
+    },
+    {
+      "word": "Juli",
+      "tag": "O"
+    },
+    {
+      "word": "desselben",
+      "tag": "O"
+    },
+    {
+      "word": "Jahres",
+      "tag": "O"
+    },
+    {
+      "word": "nahm",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "Abschied",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "ihrem",
+      "tag": "O"
+    },
+    {
+      "word": "Heimatsort,",
+      "tag": "O"
+    },
+    {
+      "word": "ging",
+      "tag": "O"
+    },
+    {
+      "word": "nach",
+      "tag": "O"
+    },
+    {
+      "word": "Yan’an",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "widmete",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "ganzem",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Herzen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Sache",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Kriegs",
+      "tag": "O"
+    },
+    {
+      "word": "gegen",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "japanische",
+      "tag": "O"
+    },
+    {
+      "word": "Aggression.",
+      "tag": "O"
+    }
+  ],
+  "Mit uns kannst du wirklich keinen Staat machen.": [
+    {
+      "word": "Mit",
+      "tag": "O"
+    },
+    {
+      "word": "uns",
+      "tag": "O"
+    },
+    {
+      "word": "kannst",
+      "tag": "O"
+    },
+    {
+      "word": "du",
+      "tag": "O"
+    },
+    {
+      "word": "wirklich",
+      "tag": "O"
+    },
+    {
+      "word": "keinen",
+      "tag": "O"
+    },
+    {
+      "word": "Staat",
+      "tag": "O"
+    },
+    {
+      "word": "machen.",
+      "tag": "O"
+    }
+  ],
+  "Das ist die Zuchtrute Gottes, mit der Moses sein Volk in Schach gehalten hat!": [
+    {
+      "word": "Das",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Zuchtrute",
+      "tag": "O"
+    },
+    {
+      "word": "Gottes,",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Moses",
+      "tag": "O"
+    },
+    {
+      "word": "sein",
+      "tag": "O"
+    },
+    {
+      "word": "Volk",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Schach",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gehalten",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "hat!",
+      "tag": "O"
+    }
+  ],
+  "Ania Fucz kam erst recht spät zum Kickboxen.": [
+    {
+      "word": "Ania",
+      "tag": "O"
+    },
+    {
+      "word": "Fucz",
+      "tag": "O"
+    },
+    {
+      "word": "kam",
+      "tag": "O"
+    },
+    {
+      "word": "erst",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "recht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "spät",
+      "tag": "O"
+    },
+    {
+      "word": "zum",
+      "tag": "O"
+    },
+    {
+      "word": "Kickboxen.",
+      "tag": "O"
+    }
+  ],
+  "Durch den Wind wurden 27 Häuser in der Region zerstört.": [
+    {
+      "word": "Durch",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Wind",
+      "tag": "O"
+    },
+    {
+      "word": "wurden",
+      "tag": "O"
+    },
+    {
+      "word": "27",
+      "tag": "O"
+    },
+    {
+      "word": "Häuser",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Region",
+      "tag": "O"
+    },
+    {
+      "word": "zerstört.",
+      "tag": "O"
+    }
+  ],
+  "Er hat wieder mal mein Feuerzeug mitgehen lassen.": [
+    {
+      "word": "Er",
+      "tag": "O"
+    },
+    {
+      "word": "hat",
+      "tag": "O"
+    },
+    {
+      "word": "wieder",
+      "tag": "O"
+    },
+    {
+      "word": "mal",
+      "tag": "O"
+    },
+    {
+      "word": "mein",
+      "tag": "O"
+    },
+    {
+      "word": "Feuerzeug",
+      "tag": "O"
+    },
+    {
+      "word": "mitgehen",
+      "tag": "O"
+    },
+    {
+      "word": "lassen.",
+      "tag": "O"
+    }
+  ],
+  "Im Mai 2006 prügelte er sich in Paris auf offener Straße mit zwei jüdischen Teenagern, von denen er einen mit Tränengas besprühte.": [
+    {
+      "word": "Im",
+      "tag": "O"
+    },
+    {
+      "word": "Mai",
+      "tag": "O"
+    },
+    {
+      "word": "2006",
+      "tag": "O"
+    },
+    {
+      "word": "prügelte",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Paris",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "offener",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Straße",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "zwei",
+      "tag": "O"
+    },
+    {
+      "word": "jüdischen",
+      "tag": "O"
+    },
+    {
+      "word": "Teenagern,",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "denen",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "einen",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "Tränengas",
+      "tag": "O"
+    },
+    {
+      "word": "besprühte.",
+      "tag": "O"
+    }
+  ],
+  "Die Politiker kannste alle in einen Sack stecken und draufhauen – da triffste immer den Richtigen.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Politiker",
+      "tag": "O"
+    },
+    {
+      "word": "kannste",
+      "tag": "O"
+    },
+    {
+      "word": "alle",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "einen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Sack",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "stecken",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "draufhauen",
+      "tag": "O"
+    },
+    {
+      "word": "–",
+      "tag": "O"
+    },
+    {
+      "word": "da",
+      "tag": "O"
+    },
+    {
+      "word": "triffste",
+      "tag": "O"
+    },
+    {
+      "word": "immer",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Richtigen.",
+      "tag": "O"
+    }
+  ],
+  "Jetzt haben sie ihren Sohn dreißig Jahre lang verwöhnt und kaum hat er eine Freundin, zieht er mir nichts, dir nichts aus.": [
+    {
+      "word": "Jetzt",
+      "tag": "O"
+    },
+    {
+      "word": "haben",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "ihren",
+      "tag": "O"
+    },
+    {
+      "word": "Sohn",
+      "tag": "O"
+    },
+    {
+      "word": "dreißig",
+      "tag": "O"
+    },
+    {
+      "word": "Jahre",
+      "tag": "O"
+    },
+    {
+      "word": "lang",
+      "tag": "O"
+    },
+    {
+      "word": "verwöhnt",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "kaum",
+      "tag": "O"
+    },
+    {
+      "word": "hat",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Freundin,",
+      "tag": "O"
+    },
+    {
+      "word": "zieht",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "mir",
+      "tag": "O"
+    },
+    {
+      "word": "nichts,",
+      "tag": "O"
+    },
+    {
+      "word": "dir",
+      "tag": "O"
+    },
+    {
+      "word": "nichts",
+      "tag": "O"
+    },
+    {
+      "word": "aus.",
+      "tag": "O"
+    }
+  ],
+  "Der PC Energie Bericht ergab, dass fast die Hälfte aller beruflich genutzten PCs in den USA über Nacht regelmäßig nicht ausgeschaltet werden.": [
+    {
+      "word": "Der",
+      "tag": "O"
+    },
+    {
+      "word": "PC",
+      "tag": "O"
+    },
+    {
+      "word": "Energie",
+      "tag": "O"
+    },
+    {
+      "word": "Bericht",
+      "tag": "O"
+    },
+    {
+      "word": "ergab,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "fast",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Hälfte",
+      "tag": "O"
+    },
+    {
+      "word": "aller",
+      "tag": "O"
+    },
+    {
+      "word": "beruflich",
+      "tag": "O"
+    },
+    {
+      "word": "genutzten",
+      "tag": "O"
+    },
+    {
+      "word": "PCs",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "USA",
+      "tag": "O"
+    },
+    {
+      "word": "über",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Nacht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "regelmäßig",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "ausgeschaltet",
+      "tag": "O"
+    },
+    {
+      "word": "werden.",
+      "tag": "O"
+    }
+  ],
+  "Ohne Beute mussten die Täter Fersengeld geben.": [
+    {
+      "word": "Ohne",
+      "tag": "O"
+    },
+    {
+      "word": "Beute",
+      "tag": "O"
+    },
+    {
+      "word": "mussten",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Täter",
+      "tag": "O"
+    },
+    {
+      "word": "Fersengeld",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geben.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Dies zusammen mit seinen Lebenserfahrungen und Erziehung brachte Birney zu der Erkenntnis, dass die Sklaverei ein für alle Mal abgeschafft werden müsse.": [
+    {
+      "word": "Dies",
+      "tag": "O"
+    },
+    {
+      "word": "zusammen",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "seinen",
+      "tag": "O"
+    },
+    {
+      "word": "Lebenserfahrungen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Erziehung",
+      "tag": "O"
+    },
+    {
+      "word": "brachte",
+      "tag": "O"
+    },
+    {
+      "word": "Birney",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Erkenntnis,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Sklaverei",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "für",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "alle",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Mal",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "abgeschafft",
+      "tag": "O"
+    },
+    {
+      "word": "werden",
+      "tag": "O"
+    },
+    {
+      "word": "müsse.",
+      "tag": "O"
+    }
+  ],
+  "Ich werde schon über die Runden kommen.": [
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "werde",
+      "tag": "O"
+    },
+    {
+      "word": "schon",
+      "tag": "O"
+    },
+    {
+      "word": "über",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Runden",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kommen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "In den letzten 20 Jahren seines Bestehens war das Taunusheim das Zuhause von bis zu 18 Kindern und Jugendlichen im Alter von 6 bis 18 Jahren, welche rund um die Uhr in zwei Gruppen betreut wurden.": [
+    {
+      "word": "In",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "letzten",
+      "tag": "O"
+    },
+    {
+      "word": "20",
+      "tag": "O"
+    },
+    {
+      "word": "Jahren",
+      "tag": "O"
+    },
+    {
+      "word": "seines",
+      "tag": "O"
+    },
+    {
+      "word": "Bestehens",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "Taunusheim",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "Zuhause",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "bis",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "18",
+      "tag": "O"
+    },
+    {
+      "word": "Kindern",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Jugendlichen",
+      "tag": "O"
+    },
+    {
+      "word": "im",
+      "tag": "O"
+    },
+    {
+      "word": "Alter",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "6",
+      "tag": "O"
+    },
+    {
+      "word": "bis",
+      "tag": "O"
+    },
+    {
+      "word": "18",
+      "tag": "O"
+    },
+    {
+      "word": "Jahren,",
+      "tag": "O"
+    },
+    {
+      "word": "welche",
+      "tag": "O"
+    },
+    {
+      "word": "rund",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "um",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Uhr",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "zwei",
+      "tag": "O"
+    },
+    {
+      "word": "Gruppen",
+      "tag": "O"
+    },
+    {
+      "word": "betreut",
+      "tag": "O"
+    },
+    {
+      "word": "wurden.",
+      "tag": "O"
+    }
+  ],
+  "Am folgenden Tag erklärten zwei führende Mitglieder der jüdischen Gemeinde, dass Jacksons Versuch, ein Lied gegen Diskriminierung zu verfassen, wohl nach hinten losgegangen sei.": [
+    {
+      "word": "Am",
+      "tag": "O"
+    },
+    {
+      "word": "folgenden",
+      "tag": "O"
+    },
+    {
+      "word": "Tag",
+      "tag": "O"
+    },
+    {
+      "word": "erklärten",
+      "tag": "O"
+    },
+    {
+      "word": "zwei",
+      "tag": "O"
+    },
+    {
+      "word": "führende",
+      "tag": "O"
+    },
+    {
+      "word": "Mitglieder",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "jüdischen",
+      "tag": "O"
+    },
+    {
+      "word": "Gemeinde,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "Jacksons",
+      "tag": "O"
+    },
+    {
+      "word": "Versuch,",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "Lied",
+      "tag": "O"
+    },
+    {
+      "word": "gegen",
+      "tag": "O"
+    },
+    {
+      "word": "Diskriminierung",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "verfassen,",
+      "tag": "O"
+    },
+    {
+      "word": "wohl",
+      "tag": "O"
+    },
+    {
+      "word": "nach",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "hinten",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "losgegangen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "sei.",
+      "tag": "O"
+    }
+  ],
+  "Baldwin kehrte allerdings mit leeren Händen nach Richmond zurück, als er und Lincoln feststellten, dass sie aneinander vorbeigeredet hatten.": [
+    {
+      "word": "Baldwin",
+      "tag": "O"
+    },
+    {
+      "word": "kehrte",
+      "tag": "O"
+    },
+    {
+      "word": "allerdings",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "leeren",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Händen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "nach",
+      "tag": "O"
+    },
+    {
+      "word": "Richmond",
+      "tag": "O"
+    },
+    {
+      "word": "zurück,",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Lincoln",
+      "tag": "O"
+    },
+    {
+      "word": "feststellten,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "aneinander",
+      "tag": "O"
+    },
+    {
+      "word": "vorbeigeredet",
+      "tag": "O"
+    },
+    {
+      "word": "hatten.",
+      "tag": "O"
+    }
+  ],
+  "Oder sollten sie gezielt K. im Auge behalten?": [
+    {
+      "word": "Oder",
+      "tag": "O"
+    },
+    {
+      "word": "sollten",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "gezielt",
+      "tag": "O"
+    },
+    {
+      "word": "K.",
+      "tag": "O"
+    },
+    {
+      "word": "im",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Auge",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "behalten?",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Schlechter ging es da den Hilfskräften, die oft nur von der Hand in den Mund lebten.": [
+    {
+      "word": "Schlechter",
+      "tag": "O"
+    },
+    {
+      "word": "ging",
+      "tag": "O"
+    },
+    {
+      "word": "es",
+      "tag": "O"
+    },
+    {
+      "word": "da",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Hilfskräften,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "oft",
+      "tag": "O"
+    },
+    {
+      "word": "nur",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "der",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Hand",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "den",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Mund",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "lebten.",
+      "tag": "O"
+    }
+  ],
+  "Wir haben sie am Tag vorher angerufen und da hat sie über Nacht ein Gedicht für Omas Geburtstag aus dem Ärmel geschüttelt.": [
+    {
+      "word": "Wir",
+      "tag": "O"
+    },
+    {
+      "word": "haben",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "am",
+      "tag": "O"
+    },
+    {
+      "word": "Tag",
+      "tag": "O"
+    },
+    {
+      "word": "vorher",
+      "tag": "O"
+    },
+    {
+      "word": "angerufen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "da",
+      "tag": "O"
+    },
+    {
+      "word": "hat",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "über",
+      "tag": "O"
+    },
+    {
+      "word": "Nacht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "Gedicht",
+      "tag": "O"
+    },
+    {
+      "word": "für",
+      "tag": "O"
+    },
+    {
+      "word": "Omas",
+      "tag": "O"
+    },
+    {
+      "word": "Geburtstag",
+      "tag": "O"
+    },
+    {
+      "word": "aus",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "dem",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Ärmel",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geschüttelt.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Die provokante Werbekampagne ist ordentlich ins Auge gegangen.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "provokante",
+      "tag": "O"
+    },
+    {
+      "word": "Werbekampagne",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "ordentlich",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "ins",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Auge",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gegangen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Wir sollten das nicht zwischen Tür und Angel besprechen. Kommen Sie doch morgen früh noch mal in mein Büro, ja?": [
+    {
+      "word": "Wir",
+      "tag": "O"
+    },
+    {
+      "word": "sollten",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "zwischen",
+      "tag": "O"
+    },
+    {
+      "word": "Tür",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Angel",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "besprechen.",
+      "tag": "O"
+    },
+    {
+      "word": "Kommen",
+      "tag": "O"
+    },
+    {
+      "word": "Sie",
+      "tag": "O"
+    },
+    {
+      "word": "doch",
+      "tag": "O"
+    },
+    {
+      "word": "morgen",
+      "tag": "O"
+    },
+    {
+      "word": "früh",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "mal",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "mein",
+      "tag": "O"
+    },
+    {
+      "word": "Büro,",
+      "tag": "O"
+    },
+    {
+      "word": "ja?",
+      "tag": "O"
+    }
+  ],
+  "Immer mit der Ruhe, alter Knabe, schön die Ruhe bewahren, ermahnte ich mich, während ich vom Roller stieg und ihn unangekettet vor dem Hôtel du Palais stehen ließ. Die Sache war noch nicht in trockenen Tüchern.": [
+    {
+      "word": "Immer",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Ruhe,",
+      "tag": "O"
+    },
+    {
+      "word": "alter",
+      "tag": "O"
+    },
+    {
+      "word": "Knabe,",
+      "tag": "O"
+    },
+    {
+      "word": "schön",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Ruhe",
+      "tag": "O"
+    },
+    {
+      "word": "bewahren,",
+      "tag": "O"
+    },
+    {
+      "word": "ermahnte",
+      "tag": "O"
+    },
+    {
+      "word": "ich",
+      "tag": "O"
+    },
+    {
+      "word": "mich,",
+      "tag": "O"
+    },
+    {
+      "word": "während",
+      "tag": "O"
+    },
+    {
+      "word": "ich",
+      "tag": "O"
+    },
+    {
+      "word": "vom",
+      "tag": "O"
+    },
+    {
+      "word": "Roller",
+      "tag": "O"
+    },
+    {
+      "word": "stieg",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "ihn",
+      "tag": "O"
+    },
+    {
+      "word": "unangekettet",
+      "tag": "O"
+    },
+    {
+      "word": "vor",
+      "tag": "O"
+    },
+    {
+      "word": "dem",
+      "tag": "O"
+    },
+    {
+      "word": "Hôtel",
+      "tag": "O"
+    },
+    {
+      "word": "du",
+      "tag": "O"
+    },
+    {
+      "word": "Palais",
+      "tag": "O"
+    },
+    {
+      "word": "stehen",
+      "tag": "O"
+    },
+    {
+      "word": "ließ.",
+      "tag": "O"
+    },
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Sache",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "trockenen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Tüchern.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Daraufhin sagt Sarah, dass Jonathon ihre große Liebe sei.": [
+    {
+      "word": "Daraufhin",
+      "tag": "O"
+    },
+    {
+      "word": "sagt",
+      "tag": "O"
+    },
+    {
+      "word": "Sarah,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "Jonathon",
+      "tag": "O"
+    },
+    {
+      "word": "ihre",
+      "tag": "O"
+    },
+    {
+      "word": "große",
+      "tag": "O"
+    },
+    {
+      "word": "Liebe",
+      "tag": "O"
+    },
+    {
+      "word": "sei.",
+      "tag": "O"
+    }
+  ],
+  "Pollo und Monica holen den lebenden Feuerwehrmann heraus, der erklärt, dass einige Häftlinge versuchten, den Feuerwehrwagen zu übernehmen, weshalb er außer Kontrolle geriet.": [
+    {
+      "word": "Pollo",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Monica",
+      "tag": "O"
+    },
+    {
+      "word": "holen",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "lebenden",
+      "tag": "O"
+    },
+    {
+      "word": "Feuerwehrmann",
+      "tag": "O"
+    },
+    {
+      "word": "heraus,",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "erklärt,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "einige",
+      "tag": "O"
+    },
+    {
+      "word": "Häftlinge",
+      "tag": "O"
+    },
+    {
+      "word": "versuchten,",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Feuerwehrwagen",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "übernehmen,",
+      "tag": "O"
+    },
+    {
+      "word": "weshalb",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "außer",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Kontrolle",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geriet.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Kommt, Jungs! Gebt mal bisschen Butter bei die Fische und wir gewinnen das Spiel!": [
+    {
+      "word": "Kommt,",
+      "tag": "O"
+    },
+    {
+      "word": "Jungs!",
+      "tag": "O"
+    },
+    {
+      "word": "Gebt",
+      "tag": "O"
+    },
+    {
+      "word": "mal",
+      "tag": "O"
+    },
+    {
+      "word": "bisschen",
+      "tag": "O"
+    },
+    {
+      "word": "Butter",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "bei",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Fische",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "wir",
+      "tag": "O"
+    },
+    {
+      "word": "gewinnen",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "Spiel!",
+      "tag": "O"
+    }
+  ],
+  "Hör’ jetzt endlich auf die beleidigte Leberwurst zu spielen.": [
+    {
+      "word": "Hör’",
+      "tag": "O"
+    },
+    {
+      "word": "jetzt",
+      "tag": "O"
+    },
+    {
+      "word": "endlich",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "beleidigte",
+      "tag": "O"
+    },
+    {
+      "word": "Leberwurst",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "spielen.",
+      "tag": "O"
+    }
+  ],
+  "Ich hab mir dein Geschrei jetzt zur Genüge angehört.": [
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "hab",
+      "tag": "O"
+    },
+    {
+      "word": "mir",
+      "tag": "O"
+    },
+    {
+      "word": "dein",
+      "tag": "O"
+    },
+    {
+      "word": "Geschrei",
+      "tag": "O"
+    },
+    {
+      "word": "jetzt",
+      "tag": "O"
+    },
+    {
+      "word": "zur",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Genüge",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "angehört.",
+      "tag": "O"
+    }
+  ],
+  "Diese Verordnung veränderte den Status der Häuptlinge, also der traditionellen indigenen Stammesführer, von Grund auf.": [
+    {
+      "word": "Diese",
+      "tag": "O"
+    },
+    {
+      "word": "Verordnung",
+      "tag": "O"
+    },
+    {
+      "word": "veränderte",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Status",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Häuptlinge,",
+      "tag": "O"
+    },
+    {
+      "word": "also",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "traditionellen",
+      "tag": "O"
+    },
+    {
+      "word": "indigenen",
+      "tag": "O"
+    },
+    {
+      "word": "Stammesführer,",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Grund",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "auf.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Er führte einige Neuerungen und Verbesserungen ein, die zum Teil auch bei dieser Amphora zum Tragen kommen.": [
+    {
+      "word": "Er",
+      "tag": "O"
+    },
+    {
+      "word": "führte",
+      "tag": "O"
+    },
+    {
+      "word": "einige",
+      "tag": "O"
+    },
+    {
+      "word": "Neuerungen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Verbesserungen",
+      "tag": "O"
+    },
+    {
+      "word": "ein,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "zum",
+      "tag": "O"
+    },
+    {
+      "word": "Teil",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "bei",
+      "tag": "O"
+    },
+    {
+      "word": "dieser",
+      "tag": "O"
+    },
+    {
+      "word": "Amphora",
+      "tag": "O"
+    },
+    {
+      "word": "zum",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Tragen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kommen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Der vorherrschende Glaube in NAWSA war, dass der Erfolg in einem großen Staat des Ostens das Zünglein an der Waage für die allgemeine Kampagne sein würde.": [
+    {
+      "word": "Der",
+      "tag": "O"
+    },
+    {
+      "word": "vorherrschende",
+      "tag": "O"
+    },
+    {
+      "word": "Glaube",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "NAWSA",
+      "tag": "O"
+    },
+    {
+      "word": "war,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Erfolg",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "einem",
+      "tag": "O"
+    },
+    {
+      "word": "großen",
+      "tag": "O"
+    },
+    {
+      "word": "Staat",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Ostens",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "Zünglein",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "an",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "der",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Waage",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "für",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "allgemeine",
+      "tag": "O"
+    },
+    {
+      "word": "Kampagne",
+      "tag": "O"
+    },
+    {
+      "word": "sein",
+      "tag": "O"
+    },
+    {
+      "word": "würde.",
+      "tag": "O"
+    }
+  ],
+  "Wie der Name deutlich macht, werden marktbasierte Klimaschutzinstrumente hier keine Rolle spielen.": [
+    {
+      "word": "Wie",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Name",
+      "tag": "O"
+    },
+    {
+      "word": "deutlich",
+      "tag": "O"
+    },
+    {
+      "word": "macht,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "werden",
+      "tag": "O"
+    },
+    {
+      "word": "marktbasierte",
+      "tag": "O"
+    },
+    {
+      "word": "Klimaschutzinstrumente",
+      "tag": "O"
+    },
+    {
+      "word": "hier",
+      "tag": "O"
+    },
+    {
+      "word": "keine",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Rolle",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "spielen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Doch wenn, beim Barte des Propheten, die eben noch dem Untergang geweihte Firma nach zwei Monaten am gleichen Ort unter anderem Namen neu ersteht wie Phönix aus dem Wüstensand und ihre ornamentreichen Knotenwunder jetzt zu noch unglaublicheren Hammerpreisen annonciert, dann kann auch der treueste Anhänger orientalischer Märchenerzähler ins Grübeln kommen.": [
+    {
+      "word": "Doch",
+      "tag": "O"
+    },
+    {
+      "word": "wenn,",
+      "tag": "O"
+    },
+    {
+      "word": "beim",
+      "tag": "O"
+    },
+    {
+      "word": "Barte",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Propheten,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "eben",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "dem",
+      "tag": "O"
+    },
+    {
+      "word": "Untergang",
+      "tag": "O"
+    },
+    {
+      "word": "geweihte",
+      "tag": "O"
+    },
+    {
+      "word": "Firma",
+      "tag": "O"
+    },
+    {
+      "word": "nach",
+      "tag": "O"
+    },
+    {
+      "word": "zwei",
+      "tag": "O"
+    },
+    {
+      "word": "Monaten",
+      "tag": "O"
+    },
+    {
+      "word": "am",
+      "tag": "O"
+    },
+    {
+      "word": "gleichen",
+      "tag": "O"
+    },
+    {
+      "word": "Ort",
+      "tag": "O"
+    },
+    {
+      "word": "unter",
+      "tag": "O"
+    },
+    {
+      "word": "anderem",
+      "tag": "O"
+    },
+    {
+      "word": "Namen",
+      "tag": "O"
+    },
+    {
+      "word": "neu",
+      "tag": "O"
+    },
+    {
+      "word": "ersteht",
+      "tag": "O"
+    },
+    {
+      "word": "wie",
+      "tag": "O"
+    },
+    {
+      "word": "Phönix",
+      "tag": "O"
+    },
+    {
+      "word": "aus",
+      "tag": "O"
+    },
+    {
+      "word": "dem",
+      "tag": "O"
+    },
+    {
+      "word": "Wüstensand",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "ihre",
+      "tag": "O"
+    },
+    {
+      "word": "ornamentreichen",
+      "tag": "O"
+    },
+    {
+      "word": "Knotenwunder",
+      "tag": "O"
+    },
+    {
+      "word": "jetzt",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "unglaublicheren",
+      "tag": "O"
+    },
+    {
+      "word": "Hammerpreisen",
+      "tag": "O"
+    },
+    {
+      "word": "annonciert,",
+      "tag": "O"
+    },
+    {
+      "word": "dann",
+      "tag": "O"
+    },
+    {
+      "word": "kann",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "treueste",
+      "tag": "O"
+    },
+    {
+      "word": "Anhänger",
+      "tag": "O"
+    },
+    {
+      "word": "orientalischer",
+      "tag": "O"
+    },
+    {
+      "word": "Märchenerzähler",
+      "tag": "O"
+    },
+    {
+      "word": "ins",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Grübeln",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kommen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Eine Generation, die ein paar Dinge geändert hat, aber auch viele andere Arten von Veränderungen erfuhr, über die sie keine Kontrolle hatte, so dass einige von uns auf der Strecke bleiben mussten.": [
+    {
+      "word": "Eine",
+      "tag": "O"
+    },
+    {
+      "word": "Generation,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "paar",
+      "tag": "O"
+    },
+    {
+      "word": "Dinge",
+      "tag": "O"
+    },
+    {
+      "word": "geändert",
+      "tag": "O"
+    },
+    {
+      "word": "hat,",
+      "tag": "O"
+    },
+    {
+      "word": "aber",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "viele",
+      "tag": "O"
+    },
+    {
+      "word": "andere",
+      "tag": "O"
+    },
+    {
+      "word": "Arten",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "Veränderungen",
+      "tag": "O"
+    },
+    {
+      "word": "erfuhr,",
+      "tag": "O"
+    },
+    {
+      "word": "über",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "keine",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Kontrolle",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "hatte,",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "einige",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "uns",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "der",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Strecke",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bleiben",
+      "tag": "O"
+    },
+    {
+      "word": "mussten.",
+      "tag": "O"
+    }
+  ],
+  "Ab 1960 standen rund um die Uhr zwei mit taktischen Atomwaffen beladene Canberra in Alarmbereitschaft, die innerhalb von 15 Minuten startklar waren.": [
+    {
+      "word": "Ab",
+      "tag": "O"
+    },
+    {
+      "word": "1960",
+      "tag": "O"
+    },
+    {
+      "word": "standen",
+      "tag": "O"
+    },
+    {
+      "word": "rund",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "um",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Uhr",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "zwei",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "taktischen",
+      "tag": "O"
+    },
+    {
+      "word": "Atomwaffen",
+      "tag": "O"
+    },
+    {
+      "word": "beladene",
+      "tag": "O"
+    },
+    {
+      "word": "Canberra",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Alarmbereitschaft,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "innerhalb",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "15",
+      "tag": "O"
+    },
+    {
+      "word": "Minuten",
+      "tag": "O"
+    },
+    {
+      "word": "startklar",
+      "tag": "O"
+    },
+    {
+      "word": "waren.",
+      "tag": "O"
+    }
+  ],
+  "Um als deutscher Beamter entlassen zu werden, muss man schon silberne Löffel klauen.": [
+    {
+      "word": "Um",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "deutscher",
+      "tag": "O"
+    },
+    {
+      "word": "Beamter",
+      "tag": "O"
+    },
+    {
+      "word": "entlassen",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "werden,",
+      "tag": "O"
+    },
+    {
+      "word": "muss",
+      "tag": "O"
+    },
+    {
+      "word": "man",
+      "tag": "O"
+    },
+    {
+      "word": "schon",
+      "tag": "O"
+    },
+    {
+      "word": "silberne",
+      "tag": "O"
+    },
+    {
+      "word": "Löffel",
+      "tag": "O"
+    },
+    {
+      "word": "klauen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Eriksson ist entsetzt, dass ihre Tanten Eva bei diesem Wetter einen so langen Weg haben laufen lassen nur um Kartoffelmehl zu holen.": [
+    {
+      "word": "Eriksson",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "entsetzt,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "ihre",
+      "tag": "O"
+    },
+    {
+      "word": "Tanten",
+      "tag": "O"
+    },
+    {
+      "word": "Eva",
+      "tag": "O"
+    },
+    {
+      "word": "bei",
+      "tag": "O"
+    },
+    {
+      "word": "diesem",
+      "tag": "O"
+    },
+    {
+      "word": "Wetter",
+      "tag": "O"
+    },
+    {
+      "word": "einen",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "langen",
+      "tag": "O"
+    },
+    {
+      "word": "Weg",
+      "tag": "O"
+    },
+    {
+      "word": "haben",
+      "tag": "O"
+    },
+    {
+      "word": "laufen",
+      "tag": "O"
+    },
+    {
+      "word": "lassen",
+      "tag": "O"
+    },
+    {
+      "word": "nur",
+      "tag": "O"
+    },
+    {
+      "word": "um",
+      "tag": "O"
+    },
+    {
+      "word": "Kartoffelmehl",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "holen.",
+      "tag": "O"
+    }
+  ],
+  "Obwohl Zhang nach den 1940er Jahren intellektuell mundtot gemacht wurde, war er bis dahin ein außergewöhnlich produktiver Schreiber.": [
+    {
+      "word": "Obwohl",
+      "tag": "O"
+    },
+    {
+      "word": "Zhang",
+      "tag": "O"
+    },
+    {
+      "word": "nach",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "1940er",
+      "tag": "O"
+    },
+    {
+      "word": "Jahren",
+      "tag": "O"
+    },
+    {
+      "word": "intellektuell",
+      "tag": "O"
+    },
+    {
+      "word": "mundtot",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "gemacht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "wurde,",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "bis",
+      "tag": "O"
+    },
+    {
+      "word": "dahin",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "außergewöhnlich",
+      "tag": "O"
+    },
+    {
+      "word": "produktiver",
+      "tag": "O"
+    },
+    {
+      "word": "Schreiber.",
+      "tag": "O"
+    }
+  ],
+  "Er warf sich – mir nichts, dir nichts – ins Kampfgetümmel.": [
+    {
+      "word": "Er",
+      "tag": "O"
+    },
+    {
+      "word": "warf",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "–",
+      "tag": "O"
+    },
+    {
+      "word": "mir",
+      "tag": "O"
+    },
+    {
+      "word": "nichts,",
+      "tag": "O"
+    },
+    {
+      "word": "dir",
+      "tag": "O"
+    },
+    {
+      "word": "nichts",
+      "tag": "O"
+    },
+    {
+      "word": "–",
+      "tag": "O"
+    },
+    {
+      "word": "ins",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Kampfgetümmel.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Niemand verschwindet einfach so.": [
+    {
+      "word": "Niemand",
+      "tag": "O"
+    },
+    {
+      "word": "verschwindet",
+      "tag": "O"
+    },
+    {
+      "word": "einfach",
+      "tag": "O"
+    },
+    {
+      "word": "so.",
+      "tag": "O"
+    }
+  ],
+  "Wie dem auch sei, die Grenze existiert, und eine Ostfront ist geschaffen worden, welche Nazideutschland nicht zu erstürmen wagt.": [
+    {
+      "word": "Wie",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "dem",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "auch",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "sei,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Grenze",
+      "tag": "O"
+    },
+    {
+      "word": "existiert,",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Ostfront",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "geschaffen",
+      "tag": "O"
+    },
+    {
+      "word": "worden,",
+      "tag": "O"
+    },
+    {
+      "word": "welche",
+      "tag": "O"
+    },
+    {
+      "word": "Nazideutschland",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "erstürmen",
+      "tag": "O"
+    },
+    {
+      "word": "wagt.",
+      "tag": "O"
+    }
+  ],
+  "Er hat seine Meinung von heute auf morgen geändert.": [
+    {
+      "word": "Er",
+      "tag": "O"
+    },
+    {
+      "word": "hat",
+      "tag": "O"
+    },
+    {
+      "word": "seine",
+      "tag": "O"
+    },
+    {
+      "word": "Meinung",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "heute",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "auf",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "morgen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geändert.",
+      "tag": "O"
+    }
+  ],
+  "Pass auf, dass du ihm nicht auf den Schlips trittst.": [
+    {
+      "word": "Pass",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "auf,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "du",
+      "tag": "O"
+    },
+    {
+      "word": "ihm",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "den",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Schlips",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "trittst.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Infolgedessen ist jede Analyse der Wirtschaft als analytisch abgrenzbare und von ihrem sozio-kulturellen und politischen Kontext isolierte Einheit von vornherein fehlerhaft.": [
+    {
+      "word": "Infolgedessen",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "jede",
+      "tag": "O"
+    },
+    {
+      "word": "Analyse",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Wirtschaft",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "analytisch",
+      "tag": "O"
+    },
+    {
+      "word": "abgrenzbare",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "ihrem",
+      "tag": "O"
+    },
+    {
+      "word": "sozio-kulturellen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "politischen",
+      "tag": "O"
+    },
+    {
+      "word": "Kontext",
+      "tag": "O"
+    },
+    {
+      "word": "isolierte",
+      "tag": "O"
+    },
+    {
+      "word": "Einheit",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "vornherein",
+      "tag": "O"
+    },
+    {
+      "word": "fehlerhaft.",
+      "tag": "O"
+    }
+  ],
+  "An dieser ist ein Rettungswagen rund um die Uhr einsatzbereit, der auch außerhalb des Flughafenbereichs für die normale Notfallrettung eingesetzt wird.": [
+    {
+      "word": "An",
+      "tag": "O"
+    },
+    {
+      "word": "dieser",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "Rettungswagen",
+      "tag": "O"
+    },
+    {
+      "word": "rund",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "um",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Uhr",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "einsatzbereit,",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "außerhalb",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Flughafenbereichs",
+      "tag": "O"
+    },
+    {
+      "word": "für",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "normale",
+      "tag": "O"
+    },
+    {
+      "word": "Notfallrettung",
+      "tag": "O"
+    },
+    {
+      "word": "eingesetzt",
+      "tag": "O"
+    },
+    {
+      "word": "wird.",
+      "tag": "O"
+    }
+  ],
+  "Während seiner langen Jahre im Kongress brach er ab und zu mit seinen Südstaatenkollegen und folgte seinem eigenen Gewissen.": [
+    {
+      "word": "Während",
+      "tag": "O"
+    },
+    {
+      "word": "seiner",
+      "tag": "O"
+    },
+    {
+      "word": "langen",
+      "tag": "O"
+    },
+    {
+      "word": "Jahre",
+      "tag": "O"
+    },
+    {
+      "word": "im",
+      "tag": "O"
+    },
+    {
+      "word": "Kongress",
+      "tag": "O"
+    },
+    {
+      "word": "brach",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "ab",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "zu",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "seinen",
+      "tag": "O"
+    },
+    {
+      "word": "Südstaatenkollegen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "folgte",
+      "tag": "O"
+    },
+    {
+      "word": "seinem",
+      "tag": "O"
+    },
+    {
+      "word": "eigenen",
+      "tag": "O"
+    },
+    {
+      "word": "Gewissen.",
+      "tag": "O"
+    }
+  ],
+  "Gegenseitiges Verstehen ist die halbe Miete! Zum Thema Verständigung mit deinem Welpen und somit auch mit deinem später erwachsenen Hund ist noch einiges zu sagen.": [
+    {
+      "word": "Gegenseitiges",
+      "tag": "O"
+    },
+    {
+      "word": "Verstehen",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "halbe",
+      "tag": "O"
+    },
+    {
+      "word": "Miete!",
+      "tag": "O"
+    },
+    {
+      "word": "Zum",
+      "tag": "O"
+    },
+    {
+      "word": "Thema",
+      "tag": "O"
+    },
+    {
+      "word": "Verständigung",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "deinem",
+      "tag": "O"
+    },
+    {
+      "word": "Welpen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "somit",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "deinem",
+      "tag": "O"
+    },
+    {
+      "word": "später",
+      "tag": "O"
+    },
+    {
+      "word": "erwachsenen",
+      "tag": "O"
+    },
+    {
+      "word": "Hund",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "einiges",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "sagen.",
+      "tag": "O"
+    }
+  ],
+  "Das war eine ganz harmlose Bemerkung. Daraus kann dir niemand einen Strick drehen.": [
+    {
+      "word": "Das",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "ganz",
+      "tag": "O"
+    },
+    {
+      "word": "harmlose",
+      "tag": "O"
+    },
+    {
+      "word": "Bemerkung.",
+      "tag": "O"
+    },
+    {
+      "word": "Daraus",
+      "tag": "O"
+    },
+    {
+      "word": "kann",
+      "tag": "O"
+    },
+    {
+      "word": "dir",
+      "tag": "O"
+    },
+    {
+      "word": "niemand",
+      "tag": "O"
+    },
+    {
+      "word": "einen",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Strick",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "drehen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Alle Verwaltungen der USA schienen gleichzeitig am Ende der Fahnenstange angelangt. Die Staaten kämpften mit Defiziten in Milliardenhöhe.": [
+    {
+      "word": "Alle",
+      "tag": "O"
+    },
+    {
+      "word": "Verwaltungen",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "USA",
+      "tag": "O"
+    },
+    {
+      "word": "schienen",
+      "tag": "O"
+    },
+    {
+      "word": "gleichzeitig",
+      "tag": "O"
+    },
+    {
+      "word": "am",
+      "tag": "O"
+    },
+    {
+      "word": "Ende",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "der",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Fahnenstange",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "angelangt.",
+      "tag": "O"
+    },
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Staaten",
+      "tag": "O"
+    },
+    {
+      "word": "kämpften",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "Defiziten",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Milliardenhöhe.",
+      "tag": "O"
+    }
+  ],
+  "Das Feuer war bis 21:00 Uhr (00:00 UTC 3. September) außer Kontrolle geraten, es gab große Flammen und gelegentliche Explosionen, und wurde von Feuerwehrleuten aus vier Sektoren bekämpft.": [
+    {
+      "word": "Das",
+      "tag": "O"
+    },
+    {
+      "word": "Feuer",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "bis",
+      "tag": "O"
+    },
+    {
+      "word": "21:00",
+      "tag": "O"
+    },
+    {
+      "word": "Uhr",
+      "tag": "O"
+    },
+    {
+      "word": "(00:00",
+      "tag": "O"
+    },
+    {
+      "word": "UTC",
+      "tag": "O"
+    },
+    {
+      "word": "3.",
+      "tag": "O"
+    },
+    {
+      "word": "September)",
+      "tag": "O"
+    },
+    {
+      "word": "außer",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Kontrolle",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geraten,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "es",
+      "tag": "O"
+    },
+    {
+      "word": "gab",
+      "tag": "O"
+    },
+    {
+      "word": "große",
+      "tag": "O"
+    },
+    {
+      "word": "Flammen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "gelegentliche",
+      "tag": "O"
+    },
+    {
+      "word": "Explosionen,",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "wurde",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "Feuerwehrleuten",
+      "tag": "O"
+    },
+    {
+      "word": "aus",
+      "tag": "O"
+    },
+    {
+      "word": "vier",
+      "tag": "O"
+    },
+    {
+      "word": "Sektoren",
+      "tag": "O"
+    },
+    {
+      "word": "bekämpft.",
+      "tag": "O"
+    }
+  ],
+  "Die Israeliten zogen mit Kind und Kegel von Ägypten nach Palästina.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Israeliten",
+      "tag": "O"
+    },
+    {
+      "word": "zogen",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "Kind",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Kegel",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "Ägypten",
+      "tag": "O"
+    },
+    {
+      "word": "nach",
+      "tag": "O"
+    },
+    {
+      "word": "Palästina.",
+      "tag": "O"
+    }
+  ],
+  "Glaubst du an die große Liebe?": [
+    {
+      "word": "Glaubst",
+      "tag": "O"
+    },
+    {
+      "word": "du",
+      "tag": "O"
+    },
+    {
+      "word": "an",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "große",
+      "tag": "O"
+    },
+    {
+      "word": "Liebe?",
+      "tag": "O"
+    }
+  ],
+  "Exzellente Produktion- ein richtig fetter Sound; eine Menge Energie und exzellente Lieder, die man nicht mehr aus dem Kopf bekommt.": [
+    {
+      "word": "Exzellente",
+      "tag": "O"
+    },
+    {
+      "word": "Produktion-",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "richtig",
+      "tag": "O"
+    },
+    {
+      "word": "fetter",
+      "tag": "O"
+    },
+    {
+      "word": "Sound;",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Menge",
+      "tag": "O"
+    },
+    {
+      "word": "Energie",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "exzellente",
+      "tag": "O"
+    },
+    {
+      "word": "Lieder,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "man",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "mehr",
+      "tag": "O"
+    },
+    {
+      "word": "aus",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "dem",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Kopf",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bekommt.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Behörden und die Schwulenbewegung arbeiteten erfolgreich Hand in Hand.": [
+    {
+      "word": "Behörden",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Schwulenbewegung",
+      "tag": "O"
+    },
+    {
+      "word": "arbeiteten",
+      "tag": "O"
+    },
+    {
+      "word": "erfolgreich",
+      "tag": "O"
+    },
+    {
+      "word": "Hand",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Hand.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Die Mutter besucht ihre Tochter nur ab und zu, aber während einer dieser Gelegenheiten kommt ihr die Idee, ihre Tochter sei ein potenzielles Fotomodell.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Mutter",
+      "tag": "O"
+    },
+    {
+      "word": "besucht",
+      "tag": "O"
+    },
+    {
+      "word": "ihre",
+      "tag": "O"
+    },
+    {
+      "word": "Tochter",
+      "tag": "O"
+    },
+    {
+      "word": "nur",
+      "tag": "O"
+    },
+    {
+      "word": "ab",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "zu,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "aber",
+      "tag": "O"
+    },
+    {
+      "word": "während",
+      "tag": "O"
+    },
+    {
+      "word": "einer",
+      "tag": "O"
+    },
+    {
+      "word": "dieser",
+      "tag": "O"
+    },
+    {
+      "word": "Gelegenheiten",
+      "tag": "O"
+    },
+    {
+      "word": "kommt",
+      "tag": "O"
+    },
+    {
+      "word": "ihr",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Idee,",
+      "tag": "O"
+    },
+    {
+      "word": "ihre",
+      "tag": "O"
+    },
+    {
+      "word": "Tochter",
+      "tag": "O"
+    },
+    {
+      "word": "sei",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "potenzielles",
+      "tag": "O"
+    },
+    {
+      "word": "Fotomodell.",
+      "tag": "O"
+    }
+  ],
+  "DVDs sind von gestern. Du brauchst Blu-Ray.": [
+    {
+      "word": "DVDs",
+      "tag": "O"
+    },
+    {
+      "word": "sind",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "gestern.",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Du",
+      "tag": "O"
+    },
+    {
+      "word": "brauchst",
+      "tag": "O"
+    },
+    {
+      "word": "Blu-Ray.",
+      "tag": "O"
+    }
+  ],
+  "Ein bemerkenswert früher Versuch, eine zoophile soziale Struktur zu schaffen, die sich auf den sozialen und psychologischen Support spezialisierte, war die Newsgroup soc.support.zoophilia, welche 1994 vorgeschlagen wurde, aber um ein Haar an der benötigten 2/3-Mehrheit scheiterte.": [
+    {
+      "word": "Ein",
+      "tag": "O"
+    },
+    {
+      "word": "bemerkenswert",
+      "tag": "O"
+    },
+    {
+      "word": "früher",
+      "tag": "O"
+    },
+    {
+      "word": "Versuch,",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "zoophile",
+      "tag": "O"
+    },
+    {
+      "word": "soziale",
+      "tag": "O"
+    },
+    {
+      "word": "Struktur",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "schaffen,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "sozialen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "psychologischen",
+      "tag": "O"
+    },
+    {
+      "word": "Support",
+      "tag": "O"
+    },
+    {
+      "word": "spezialisierte,",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Newsgroup",
+      "tag": "O"
+    },
+    {
+      "word": "soc.support.zoophilia,",
+      "tag": "O"
+    },
+    {
+      "word": "welche",
+      "tag": "O"
+    },
+    {
+      "word": "1994",
+      "tag": "O"
+    },
+    {
+      "word": "vorgeschlagen",
+      "tag": "O"
+    },
+    {
+      "word": "wurde,",
+      "tag": "O"
+    },
+    {
+      "word": "aber",
+      "tag": "O"
+    },
+    {
+      "word": "um",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "ein",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Haar",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "an",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "benötigten",
+      "tag": "O"
+    },
+    {
+      "word": "2/3-Mehrheit",
+      "tag": "O"
+    },
+    {
+      "word": "scheiterte.",
+      "tag": "O"
+    }
+  ],
+  "Das ganze Projekt steht auf der Kippe.": [
+    {
+      "word": "Das",
+      "tag": "O"
+    },
+    {
+      "word": "ganze",
+      "tag": "O"
+    },
+    {
+      "word": "Projekt",
+      "tag": "O"
+    },
+    {
+      "word": "steht",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "der",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Kippe.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Wir wurden eingeschüchtert, damit wir den Streik absagen, aber jetzt streiken wir erst recht.": [
+    {
+      "word": "Wir",
+      "tag": "O"
+    },
+    {
+      "word": "wurden",
+      "tag": "O"
+    },
+    {
+      "word": "eingeschüchtert,",
+      "tag": "O"
+    },
+    {
+      "word": "damit",
+      "tag": "O"
+    },
+    {
+      "word": "wir",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Streik",
+      "tag": "O"
+    },
+    {
+      "word": "absagen,",
+      "tag": "O"
+    },
+    {
+      "word": "aber",
+      "tag": "O"
+    },
+    {
+      "word": "jetzt",
+      "tag": "O"
+    },
+    {
+      "word": "streiken",
+      "tag": "O"
+    },
+    {
+      "word": "wir",
+      "tag": "O"
+    },
+    {
+      "word": "erst",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "recht.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Er schenkte ihr ein offenes Ohr.": [
+    {
+      "word": "Er",
+      "tag": "O"
+    },
+    {
+      "word": "schenkte",
+      "tag": "O"
+    },
+    {
+      "word": "ihr",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "offenes",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Ohr.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Der Brand begann, als ein kleines Feuer im Palace Cafe auf der Südseite der Straße am Memorial Day etwa um 4 Uhr morgens außer Kontrolle geriet.": [
+    {
+      "word": "Der",
+      "tag": "O"
+    },
+    {
+      "word": "Brand",
+      "tag": "O"
+    },
+    {
+      "word": "begann,",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "kleines",
+      "tag": "O"
+    },
+    {
+      "word": "Feuer",
+      "tag": "O"
+    },
+    {
+      "word": "im",
+      "tag": "O"
+    },
+    {
+      "word": "Palace",
+      "tag": "O"
+    },
+    {
+      "word": "Cafe",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Südseite",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Straße",
+      "tag": "O"
+    },
+    {
+      "word": "am",
+      "tag": "O"
+    },
+    {
+      "word": "Memorial",
+      "tag": "O"
+    },
+    {
+      "word": "Day",
+      "tag": "O"
+    },
+    {
+      "word": "etwa",
+      "tag": "O"
+    },
+    {
+      "word": "um",
+      "tag": "O"
+    },
+    {
+      "word": "4",
+      "tag": "O"
+    },
+    {
+      "word": "Uhr",
+      "tag": "O"
+    },
+    {
+      "word": "morgens",
+      "tag": "O"
+    },
+    {
+      "word": "außer",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Kontrolle",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geriet.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Die Musik ist meine große Liebe.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Musik",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "meine",
+      "tag": "O"
+    },
+    {
+      "word": "große",
+      "tag": "O"
+    },
+    {
+      "word": "Liebe.",
+      "tag": "O"
+    }
+  ],
+  "Ich danke allen von ganzem Herzen, die mir dies ermöglicht haben.": [
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "danke",
+      "tag": "O"
+    },
+    {
+      "word": "allen",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "ganzem",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Herzen,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "mir",
+      "tag": "O"
+    },
+    {
+      "word": "dies",
+      "tag": "O"
+    },
+    {
+      "word": "ermöglicht",
+      "tag": "O"
+    },
+    {
+      "word": "haben.",
+      "tag": "O"
+    }
+  ],
+  "Sandy und Rose sind die zwei Mädchen, für die Jean Brodie die meisten Hoffnungen hat, dass sie eines Tages zur crème de la crème gehören werden.": [
+    {
+      "word": "Sandy",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Rose",
+      "tag": "O"
+    },
+    {
+      "word": "sind",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "zwei",
+      "tag": "O"
+    },
+    {
+      "word": "Mädchen,",
+      "tag": "O"
+    },
+    {
+      "word": "für",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Jean",
+      "tag": "O"
+    },
+    {
+      "word": "Brodie",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "meisten",
+      "tag": "O"
+    },
+    {
+      "word": "Hoffnungen",
+      "tag": "O"
+    },
+    {
+      "word": "hat,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "eines",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Tages",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "zur",
+      "tag": "O"
+    },
+    {
+      "word": "crème",
+      "tag": "O"
+    },
+    {
+      "word": "de",
+      "tag": "O"
+    },
+    {
+      "word": "la",
+      "tag": "O"
+    },
+    {
+      "word": "crème",
+      "tag": "O"
+    },
+    {
+      "word": "gehören",
+      "tag": "O"
+    },
+    {
+      "word": "werden.",
+      "tag": "O"
+    }
+  ],
+  "Ein Rettungswagen der Firma MKT ist zudem rund um die Uhr an der FW 8 stationiert.": [
+    {
+      "word": "Ein",
+      "tag": "O"
+    },
+    {
+      "word": "Rettungswagen",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Firma",
+      "tag": "O"
+    },
+    {
+      "word": "MKT",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "zudem",
+      "tag": "O"
+    },
+    {
+      "word": "rund",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "um",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Uhr",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "an",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "FW",
+      "tag": "O"
+    },
+    {
+      "word": "8",
+      "tag": "O"
+    },
+    {
+      "word": "stationiert.",
+      "tag": "O"
+    }
+  ],
+  "Dabei blieb er allerdings politisch eher ein Hinterbänkler und blieb stets ein Dorn im Auge der Ministerialbürokratie.": [
+    {
+      "word": "Dabei",
+      "tag": "O"
+    },
+    {
+      "word": "blieb",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "allerdings",
+      "tag": "O"
+    },
+    {
+      "word": "politisch",
+      "tag": "O"
+    },
+    {
+      "word": "eher",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "Hinterbänkler",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "blieb",
+      "tag": "O"
+    },
+    {
+      "word": "stets",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "Dorn",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "im",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Auge",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Ministerialbürokratie.",
+      "tag": "O"
+    }
+  ],
+  "Christian trauerte lange seiner großen Liebe nach.": [
+    {
+      "word": "Christian",
+      "tag": "O"
+    },
+    {
+      "word": "trauerte",
+      "tag": "O"
+    },
+    {
+      "word": "lange",
+      "tag": "O"
+    },
+    {
+      "word": "seiner",
+      "tag": "O"
+    },
+    {
+      "word": "großen",
+      "tag": "O"
+    },
+    {
+      "word": "Liebe",
+      "tag": "O"
+    },
+    {
+      "word": "nach.",
+      "tag": "O"
+    }
+  ],
+  "Zu dem Zeitpunkt erlaubten NZPO2 und ich, den Schnaps auszugeben, der den Absturz überstanden hatte, und wir feierten eine Party (makaber, aber wir mussten einfach Dampf ablassen).": [
+    {
+      "word": "Zu",
+      "tag": "O"
+    },
+    {
+      "word": "dem",
+      "tag": "O"
+    },
+    {
+      "word": "Zeitpunkt",
+      "tag": "O"
+    },
+    {
+      "word": "erlaubten",
+      "tag": "O"
+    },
+    {
+      "word": "NZPO2",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "ich,",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Schnaps",
+      "tag": "O"
+    },
+    {
+      "word": "auszugeben,",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Absturz",
+      "tag": "O"
+    },
+    {
+      "word": "überstanden",
+      "tag": "O"
+    },
+    {
+      "word": "hatte,",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "wir",
+      "tag": "O"
+    },
+    {
+      "word": "feierten",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Party",
+      "tag": "O"
+    },
+    {
+      "word": "(makaber,",
+      "tag": "O"
+    },
+    {
+      "word": "aber",
+      "tag": "O"
+    },
+    {
+      "word": "wir",
+      "tag": "O"
+    },
+    {
+      "word": "mussten",
+      "tag": "O"
+    },
+    {
+      "word": "einfach",
+      "tag": "O"
+    },
+    {
+      "word": "Dampf",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "ablassen).",
+      "tag": "O"
+    }
+  ],
+  "In jüngster Zeit werden ab und zu auch die Grünen eingeladen.": [
+    {
+      "word": "In",
+      "tag": "O"
+    },
+    {
+      "word": "jüngster",
+      "tag": "O"
+    },
+    {
+      "word": "Zeit",
+      "tag": "O"
+    },
+    {
+      "word": "werden",
+      "tag": "O"
+    },
+    {
+      "word": "ab",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "zu",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Grünen",
+      "tag": "O"
+    },
+    {
+      "word": "eingeladen.",
+      "tag": "O"
+    }
+  ],
+  "Als die Xinhai-Revolution Shaanxi erreichte, wodurch acht Ausländer zu Tode kamen, wurde eine Evakuierung aller Missionare und Ausländer geplant.": [
+    {
+      "word": "Als",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Xinhai-Revolution",
+      "tag": "O"
+    },
+    {
+      "word": "Shaanxi",
+      "tag": "O"
+    },
+    {
+      "word": "erreichte,",
+      "tag": "O"
+    },
+    {
+      "word": "wodurch",
+      "tag": "O"
+    },
+    {
+      "word": "acht",
+      "tag": "O"
+    },
+    {
+      "word": "Ausländer",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Tode",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kamen,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "wurde",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Evakuierung",
+      "tag": "O"
+    },
+    {
+      "word": "aller",
+      "tag": "O"
+    },
+    {
+      "word": "Missionare",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Ausländer",
+      "tag": "O"
+    },
+    {
+      "word": "geplant.",
+      "tag": "O"
+    }
+  ],
+  "Ich begriff 1963 die Bundesrepublik weder als Zünglein an der Waage noch als amerikanischen Gegenpol, noch als Speerspitze des Kalten Krieges, sondern fand, daß die Bundesrepublik ihren eigenen Part im Konzert des Westens spielen und ihren eigenen Beitrag leisten müsse - jener Verantwortung gemäß, die sie habe und die ihr niemand abnehme.": [
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "begriff",
+      "tag": "O"
+    },
+    {
+      "word": "1963",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Bundesrepublik",
+      "tag": "O"
+    },
+    {
+      "word": "weder",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "Zünglein",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "an",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "der",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Waage",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "amerikanischen",
+      "tag": "O"
+    },
+    {
+      "word": "Gegenpol,",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "Speerspitze",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Kalten",
+      "tag": "O"
+    },
+    {
+      "word": "Krieges,",
+      "tag": "O"
+    },
+    {
+      "word": "sondern",
+      "tag": "O"
+    },
+    {
+      "word": "fand,",
+      "tag": "O"
+    },
+    {
+      "word": "daß",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Bundesrepublik",
+      "tag": "O"
+    },
+    {
+      "word": "ihren",
+      "tag": "O"
+    },
+    {
+      "word": "eigenen",
+      "tag": "O"
+    },
+    {
+      "word": "Part",
+      "tag": "O"
+    },
+    {
+      "word": "im",
+      "tag": "O"
+    },
+    {
+      "word": "Konzert",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Westens",
+      "tag": "O"
+    },
+    {
+      "word": "spielen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "ihren",
+      "tag": "O"
+    },
+    {
+      "word": "eigenen",
+      "tag": "O"
+    },
+    {
+      "word": "Beitrag",
+      "tag": "O"
+    },
+    {
+      "word": "leisten",
+      "tag": "O"
+    },
+    {
+      "word": "müsse",
+      "tag": "O"
+    },
+    {
+      "word": "-",
+      "tag": "O"
+    },
+    {
+      "word": "jener",
+      "tag": "O"
+    },
+    {
+      "word": "Verantwortung",
+      "tag": "O"
+    },
+    {
+      "word": "gemäß,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "habe",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "ihr",
+      "tag": "O"
+    },
+    {
+      "word": "niemand",
+      "tag": "O"
+    },
+    {
+      "word": "abnehme.",
+      "tag": "O"
+    }
+  ],
+  "In der Episode beginnt der „Mann in Schwarz“ (Terry O’Quinn) seinen Plan zur Zerstörung der Insel in die Tat umzusetzen, während Jack Shephard (Matthew Fox) versucht, ihn ein für alle Mal aufzuhalten.": [
+    {
+      "word": "In",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Episode",
+      "tag": "O"
+    },
+    {
+      "word": "beginnt",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "„Mann",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Schwarz“",
+      "tag": "O"
+    },
+    {
+      "word": "(Terry",
+      "tag": "O"
+    },
+    {
+      "word": "O’Quinn)",
+      "tag": "O"
+    },
+    {
+      "word": "seinen",
+      "tag": "O"
+    },
+    {
+      "word": "Plan",
+      "tag": "O"
+    },
+    {
+      "word": "zur",
+      "tag": "O"
+    },
+    {
+      "word": "Zerstörung",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Insel",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Tat",
+      "tag": "O"
+    },
+    {
+      "word": "umzusetzen,",
+      "tag": "O"
+    },
+    {
+      "word": "während",
+      "tag": "O"
+    },
+    {
+      "word": "Jack",
+      "tag": "O"
+    },
+    {
+      "word": "Shephard",
+      "tag": "O"
+    },
+    {
+      "word": "(Matthew",
+      "tag": "O"
+    },
+    {
+      "word": "Fox)",
+      "tag": "O"
+    },
+    {
+      "word": "versucht,",
+      "tag": "O"
+    },
+    {
+      "word": "ihn",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "für",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "alle",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Mal",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "aufzuhalten.",
+      "tag": "O"
+    }
+  ],
+  "Selbst als in der Nacht von Sonntag auf Montag die beiden Spitzen der Regierung, sichtlich gezeichnet vom Gesprächsmarathon, verkündigten, man habe sich auf ein aktualisiertes Regierungsprogramm einigen können, war der Pakt noch lange nicht in trockenen Tüchern.": [
+    {
+      "word": "Selbst",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Nacht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "Sonntag",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Montag",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "beiden",
+      "tag": "O"
+    },
+    {
+      "word": "Spitzen",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Regierung,",
+      "tag": "O"
+    },
+    {
+      "word": "sichtlich",
+      "tag": "O"
+    },
+    {
+      "word": "gezeichnet",
+      "tag": "O"
+    },
+    {
+      "word": "vom",
+      "tag": "O"
+    },
+    {
+      "word": "Gesprächsmarathon,",
+      "tag": "O"
+    },
+    {
+      "word": "verkündigten,",
+      "tag": "O"
+    },
+    {
+      "word": "man",
+      "tag": "O"
+    },
+    {
+      "word": "habe",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "aktualisiertes",
+      "tag": "O"
+    },
+    {
+      "word": "Regierungsprogramm",
+      "tag": "O"
+    },
+    {
+      "word": "einigen",
+      "tag": "O"
+    },
+    {
+      "word": "können,",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Pakt",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "lange",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "trockenen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Tüchern.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Völlig ausgeschlossen, daß dieser Mann fünfundzwanzig Jahre nicht Schach gespielt haben soll! Er hat doch jeden Zug, jede Gegenpointe auf fünf, auf sechs Züge vorausberechnet. So etwas kann niemand aus dem Handgelenk. Das ist doch völlig ausgeschlossen – nicht wahr?": [
+    {
+      "word": "Völlig",
+      "tag": "O"
+    },
+    {
+      "word": "ausgeschlossen,",
+      "tag": "O"
+    },
+    {
+      "word": "daß",
+      "tag": "O"
+    },
+    {
+      "word": "dieser",
+      "tag": "O"
+    },
+    {
+      "word": "Mann",
+      "tag": "O"
+    },
+    {
+      "word": "fünfundzwanzig",
+      "tag": "O"
+    },
+    {
+      "word": "Jahre",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "Schach",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gespielt",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "haben",
+      "tag": "O"
+    },
+    {
+      "word": "soll!",
+      "tag": "O"
+    },
+    {
+      "word": "Er",
+      "tag": "O"
+    },
+    {
+      "word": "hat",
+      "tag": "O"
+    },
+    {
+      "word": "doch",
+      "tag": "O"
+    },
+    {
+      "word": "jeden",
+      "tag": "O"
+    },
+    {
+      "word": "Zug,",
+      "tag": "O"
+    },
+    {
+      "word": "jede",
+      "tag": "O"
+    },
+    {
+      "word": "Gegenpointe",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "fünf,",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "sechs",
+      "tag": "O"
+    },
+    {
+      "word": "Züge",
+      "tag": "O"
+    },
+    {
+      "word": "vorausberechnet.",
+      "tag": "O"
+    },
+    {
+      "word": "So",
+      "tag": "O"
+    },
+    {
+      "word": "etwas",
+      "tag": "O"
+    },
+    {
+      "word": "kann",
+      "tag": "O"
+    },
+    {
+      "word": "niemand",
+      "tag": "O"
+    },
+    {
+      "word": "aus",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "dem",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Handgelenk.",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Das",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "doch",
+      "tag": "O"
+    },
+    {
+      "word": "völlig",
+      "tag": "O"
+    },
+    {
+      "word": "ausgeschlossen",
+      "tag": "O"
+    },
+    {
+      "word": "–",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "wahr?",
+      "tag": "O"
+    }
+  ],
+  "Das Gespräch zwischen den beiden ergibt, dass noch eine weitere Schwester existiert, Cammie, und dass Cammie oft über Nacht im Haus ihrer Freundin Sheila bleibt.": [
+    {
+      "word": "Das",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Gespräch",
+      "tag": "O"
+    },
+    {
+      "word": "zwischen",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "beiden",
+      "tag": "O"
+    },
+    {
+      "word": "ergibt,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "weitere",
+      "tag": "O"
+    },
+    {
+      "word": "Schwester",
+      "tag": "O"
+    },
+    {
+      "word": "existiert,",
+      "tag": "O"
+    },
+    {
+      "word": "Cammie,",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "Cammie",
+      "tag": "O"
+    },
+    {
+      "word": "oft",
+      "tag": "O"
+    },
+    {
+      "word": "über",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Nacht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "im",
+      "tag": "O"
+    },
+    {
+      "word": "Haus",
+      "tag": "O"
+    },
+    {
+      "word": "ihrer",
+      "tag": "O"
+    },
+    {
+      "word": "Freundin",
+      "tag": "O"
+    },
+    {
+      "word": "Sheila",
+      "tag": "O"
+    },
+    {
+      "word": "bleibt.",
+      "tag": "O"
+    }
+  ],
+  "Die Verwurzelung des Meisters des Aachener Altars in der Kölner Malerei steht außer Frage.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Verwurzelung",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Meisters",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Aachener",
+      "tag": "O"
+    },
+    {
+      "word": "Altars",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Kölner",
+      "tag": "O"
+    },
+    {
+      "word": "Malerei",
+      "tag": "O"
+    },
+    {
+      "word": "steht",
+      "tag": "O"
+    },
+    {
+      "word": "außer",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Frage.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Ich habe eine mündliche Zusage, aber ich will noch nichts sagen, bis alles in trockenen Tüchern ist.": [
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "habe",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "mündliche",
+      "tag": "O"
+    },
+    {
+      "word": "Zusage,",
+      "tag": "O"
+    },
+    {
+      "word": "aber",
+      "tag": "O"
+    },
+    {
+      "word": "ich",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "nichts",
+      "tag": "O"
+    },
+    {
+      "word": "sagen,",
+      "tag": "O"
+    },
+    {
+      "word": "bis",
+      "tag": "O"
+    },
+    {
+      "word": "alles",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "trockenen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Tüchern",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ist.",
+      "tag": "O"
+    }
+  ],
+  "Sie trug wesentlich dazu bei, dass der zuvor beliebte König in Ungnade fiel.": [
+    {
+      "word": "Sie",
+      "tag": "O"
+    },
+    {
+      "word": "trug",
+      "tag": "O"
+    },
+    {
+      "word": "wesentlich",
+      "tag": "O"
+    },
+    {
+      "word": "dazu",
+      "tag": "O"
+    },
+    {
+      "word": "bei,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "zuvor",
+      "tag": "O"
+    },
+    {
+      "word": "beliebte",
+      "tag": "O"
+    },
+    {
+      "word": "König",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Ungnade",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "fiel.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Hat er noch was gesagt? — Nee. Er war kurz angebunden.": [
+    {
+      "word": "Hat",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "gesagt?",
+      "tag": "O"
+    },
+    {
+      "word": "—",
+      "tag": "O"
+    },
+    {
+      "word": "Nee.",
+      "tag": "O"
+    },
+    {
+      "word": "Er",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "kurz",
+      "tag": "O"
+    },
+    {
+      "word": "angebunden.",
+      "tag": "O"
+    }
+  ],
+  "Der vormalige „Lieblingsgeneral des Führers“ war bei Hitler in Ungnade gefallen, weil er kritische Lagevorträge zur Situation an der Westfront gehalten hatte.": [
+    {
+      "word": "Der",
+      "tag": "O"
+    },
+    {
+      "word": "vormalige",
+      "tag": "O"
+    },
+    {
+      "word": "„Lieblingsgeneral",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Führers“",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "bei",
+      "tag": "O"
+    },
+    {
+      "word": "Hitler",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Ungnade",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gefallen,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "weil",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "kritische",
+      "tag": "O"
+    },
+    {
+      "word": "Lagevorträge",
+      "tag": "O"
+    },
+    {
+      "word": "zur",
+      "tag": "O"
+    },
+    {
+      "word": "Situation",
+      "tag": "O"
+    },
+    {
+      "word": "an",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Westfront",
+      "tag": "O"
+    },
+    {
+      "word": "gehalten",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "hatte.",
+      "tag": "O"
+    }
+  ],
+  "Oft studierte er mit seinem Vater unter vier Augen, und was er von ihm gehört hatte, schrieb er in sein persönliches Notizbuch.": [
+    {
+      "word": "Oft",
+      "tag": "O"
+    },
+    {
+      "word": "studierte",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "seinem",
+      "tag": "O"
+    },
+    {
+      "word": "Vater",
+      "tag": "O"
+    },
+    {
+      "word": "unter",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "vier",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Augen,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "ihm",
+      "tag": "O"
+    },
+    {
+      "word": "gehört",
+      "tag": "O"
+    },
+    {
+      "word": "hatte,",
+      "tag": "O"
+    },
+    {
+      "word": "schrieb",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "sein",
+      "tag": "O"
+    },
+    {
+      "word": "persönliches",
+      "tag": "O"
+    },
+    {
+      "word": "Notizbuch.",
+      "tag": "O"
+    }
+  ],
+  "Das Wasserwirtschaftsamt kann auch zum Zuge kommen. Es dauert ziemlich lange, bis das Unternehmen in trockenen Tüchern ist.": [
+    {
+      "word": "Das",
+      "tag": "O"
+    },
+    {
+      "word": "Wasserwirtschaftsamt",
+      "tag": "O"
+    },
+    {
+      "word": "kann",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "zum",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Zuge",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kommen.",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Es",
+      "tag": "O"
+    },
+    {
+      "word": "dauert",
+      "tag": "O"
+    },
+    {
+      "word": "ziemlich",
+      "tag": "O"
+    },
+    {
+      "word": "lange,",
+      "tag": "O"
+    },
+    {
+      "word": "bis",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "Unternehmen",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "trockenen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Tüchern",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ist.",
+      "tag": "O"
+    }
+  ],
+  "In den Monaten zuvor war die Umsetzung des Minsker Abkommens wiederholt ins Stocken geraten.": [
+    {
+      "word": "In",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Monaten",
+      "tag": "O"
+    },
+    {
+      "word": "zuvor",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Umsetzung",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Minsker",
+      "tag": "O"
+    },
+    {
+      "word": "Abkommens",
+      "tag": "O"
+    },
+    {
+      "word": "wiederholt",
+      "tag": "O"
+    },
+    {
+      "word": "ins",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Stocken",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geraten.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Alice und die Ärzte pflegten die Familie rund um die Uhr.": [
+    {
+      "word": "Alice",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Ärzte",
+      "tag": "O"
+    },
+    {
+      "word": "pflegten",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Familie",
+      "tag": "O"
+    },
+    {
+      "word": "rund",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "um",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Uhr.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Sei nicht so’ne beleidigte Leberwurst!": [
+    {
+      "word": "Sei",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "so’ne",
+      "tag": "O"
+    },
+    {
+      "word": "beleidigte",
+      "tag": "O"
+    },
+    {
+      "word": "Leberwurst!",
+      "tag": "O"
+    }
+  ],
+  "Lemon Drop sind sehr ertragreiche Chilipflanzen, in einem Jahr kann eine Pflanze über 100 Früchte tragen.": [
+    {
+      "word": "Lemon",
+      "tag": "O"
+    },
+    {
+      "word": "Drop",
+      "tag": "O"
+    },
+    {
+      "word": "sind",
+      "tag": "O"
+    },
+    {
+      "word": "sehr",
+      "tag": "O"
+    },
+    {
+      "word": "ertragreiche",
+      "tag": "O"
+    },
+    {
+      "word": "Chilipflanzen,",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "einem",
+      "tag": "O"
+    },
+    {
+      "word": "Jahr",
+      "tag": "O"
+    },
+    {
+      "word": "kann",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Pflanze",
+      "tag": "O"
+    },
+    {
+      "word": "über",
+      "tag": "O"
+    },
+    {
+      "word": "100",
+      "tag": "O"
+    },
+    {
+      "word": "Früchte",
+      "tag": "O"
+    },
+    {
+      "word": "tragen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Im Drehbuch wissen wir, wer Mazer Rackham wirklich ist, und wir wissen auch, was auf dem Spiel steht, wenn Ender seine Spiele spielt.": [
+    {
+      "word": "Im",
+      "tag": "O"
+    },
+    {
+      "word": "Drehbuch",
+      "tag": "O"
+    },
+    {
+      "word": "wissen",
+      "tag": "O"
+    },
+    {
+      "word": "wir,",
+      "tag": "O"
+    },
+    {
+      "word": "wer",
+      "tag": "O"
+    },
+    {
+      "word": "Mazer",
+      "tag": "O"
+    },
+    {
+      "word": "Rackham",
+      "tag": "O"
+    },
+    {
+      "word": "wirklich",
+      "tag": "O"
+    },
+    {
+      "word": "ist,",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "wir",
+      "tag": "O"
+    },
+    {
+      "word": "wissen",
+      "tag": "O"
+    },
+    {
+      "word": "auch,",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "dem",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Spiel",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "steht,",
+      "tag": "O"
+    },
+    {
+      "word": "wenn",
+      "tag": "O"
+    },
+    {
+      "word": "Ender",
+      "tag": "O"
+    },
+    {
+      "word": "seine",
+      "tag": "O"
+    },
+    {
+      "word": "Spiele",
+      "tag": "O"
+    },
+    {
+      "word": "spielt.",
+      "tag": "O"
+    }
+  ],
+  "Dadurch ist es Finanzinstituten weltweit möglich, ihren elektronischen Zahlungsverkehr in Franken und Euro mit der Schweiz rund um die Uhr in Echtzeit abzuwickeln.": [
+    {
+      "word": "Dadurch",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "es",
+      "tag": "O"
+    },
+    {
+      "word": "Finanzinstituten",
+      "tag": "O"
+    },
+    {
+      "word": "weltweit",
+      "tag": "O"
+    },
+    {
+      "word": "möglich,",
+      "tag": "O"
+    },
+    {
+      "word": "ihren",
+      "tag": "O"
+    },
+    {
+      "word": "elektronischen",
+      "tag": "O"
+    },
+    {
+      "word": "Zahlungsverkehr",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Franken",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Euro",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Schweiz",
+      "tag": "O"
+    },
+    {
+      "word": "rund",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "um",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Uhr",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Echtzeit",
+      "tag": "O"
+    },
+    {
+      "word": "abzuwickeln.",
+      "tag": "O"
+    }
+  ],
+  "Jetzt mal Butter bei die Fische: Hast du's gemacht oder nicht?": [
+    {
+      "word": "Jetzt",
+      "tag": "O"
+    },
+    {
+      "word": "mal",
+      "tag": "O"
+    },
+    {
+      "word": "Butter",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "bei",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Fische:",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Hast",
+      "tag": "O"
+    },
+    {
+      "word": "du's",
+      "tag": "O"
+    },
+    {
+      "word": "gemacht",
+      "tag": "O"
+    },
+    {
+      "word": "oder",
+      "tag": "O"
+    },
+    {
+      "word": "nicht?",
+      "tag": "O"
+    }
+  ],
+  "Die Neue Demokratische Partei (Nachfolgerin der CCF) und die Social Credit Party spielten im neuen Parlament das Zünglein an der Waage.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Neue",
+      "tag": "O"
+    },
+    {
+      "word": "Demokratische",
+      "tag": "O"
+    },
+    {
+      "word": "Partei",
+      "tag": "O"
+    },
+    {
+      "word": "(Nachfolgerin",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "CCF)",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Social",
+      "tag": "O"
+    },
+    {
+      "word": "Credit",
+      "tag": "O"
+    },
+    {
+      "word": "Party",
+      "tag": "O"
+    },
+    {
+      "word": "spielten",
+      "tag": "O"
+    },
+    {
+      "word": "im",
+      "tag": "O"
+    },
+    {
+      "word": "neuen",
+      "tag": "O"
+    },
+    {
+      "word": "Parlament",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Zünglein",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "an",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "der",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Waage.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Letztens hab ich im Laden zwei CDs mitgehen lassen.": [
+    {
+      "word": "Letztens",
+      "tag": "O"
+    },
+    {
+      "word": "hab",
+      "tag": "O"
+    },
+    {
+      "word": "ich",
+      "tag": "O"
+    },
+    {
+      "word": "im",
+      "tag": "O"
+    },
+    {
+      "word": "Laden",
+      "tag": "O"
+    },
+    {
+      "word": "zwei",
+      "tag": "O"
+    },
+    {
+      "word": "CDs",
+      "tag": "O"
+    },
+    {
+      "word": "mitgehen",
+      "tag": "O"
+    },
+    {
+      "word": "lassen.",
+      "tag": "O"
+    }
+  ],
+  "Ich bin doch nicht von gestern!": [
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "bin",
+      "tag": "O"
+    },
+    {
+      "word": "doch",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "gestern!",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Es folgten Jahre mit „normaler“ Instrumentierung, ab und zu unterstützt von Geige oder Saxophon.": [
+    {
+      "word": "Es",
+      "tag": "O"
+    },
+    {
+      "word": "folgten",
+      "tag": "O"
+    },
+    {
+      "word": "Jahre",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "„normaler“",
+      "tag": "O"
+    },
+    {
+      "word": "Instrumentierung,",
+      "tag": "O"
+    },
+    {
+      "word": "ab",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "zu",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "unterstützt",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "Geige",
+      "tag": "O"
+    },
+    {
+      "word": "oder",
+      "tag": "O"
+    },
+    {
+      "word": "Saxophon.",
+      "tag": "O"
+    }
+  ],
+  "Wo seid ihr überall gewesen? – Nürnberg, Würzburg, Bamberg, so die Ecke.": [
+    {
+      "word": "Wo",
+      "tag": "O"
+    },
+    {
+      "word": "seid",
+      "tag": "O"
+    },
+    {
+      "word": "ihr",
+      "tag": "O"
+    },
+    {
+      "word": "überall",
+      "tag": "O"
+    },
+    {
+      "word": "gewesen?",
+      "tag": "O"
+    },
+    {
+      "word": "–",
+      "tag": "O"
+    },
+    {
+      "word": "Nürnberg,",
+      "tag": "O"
+    },
+    {
+      "word": "Würzburg,",
+      "tag": "O"
+    },
+    {
+      "word": "Bamberg,",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Ecke.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Als die Beziehung ans Licht kommt, gibt es zunächst Probleme, die mit Christians Hilfe aber wieder beigelegt werden können.": [
+    {
+      "word": "Als",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Beziehung",
+      "tag": "O"
+    },
+    {
+      "word": "ans",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Licht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kommt,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gibt",
+      "tag": "O"
+    },
+    {
+      "word": "es",
+      "tag": "O"
+    },
+    {
+      "word": "zunächst",
+      "tag": "O"
+    },
+    {
+      "word": "Probleme,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "Christians",
+      "tag": "O"
+    },
+    {
+      "word": "Hilfe",
+      "tag": "O"
+    },
+    {
+      "word": "aber",
+      "tag": "O"
+    },
+    {
+      "word": "wieder",
+      "tag": "O"
+    },
+    {
+      "word": "beigelegt",
+      "tag": "O"
+    },
+    {
+      "word": "werden",
+      "tag": "O"
+    },
+    {
+      "word": "können.",
+      "tag": "O"
+    }
+  ],
+  "Außerdem ist er einer der Unterstützer der Kampagne \"Justice for Andrew Jones\", die zum Ziel hat, die Mörder eines Jugendlichen vor Gericht zu bringen, der 2003 in Liverpool auf offener Straße zu Tode geprügelt wurde.": [
+    {
+      "word": "Außerdem",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "einer",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Unterstützer",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Kampagne",
+      "tag": "O"
+    },
+    {
+      "word": "\"Justice",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "Andrew",
+      "tag": "O"
+    },
+    {
+      "word": "Jones\",",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "zum",
+      "tag": "O"
+    },
+    {
+      "word": "Ziel",
+      "tag": "O"
+    },
+    {
+      "word": "hat,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Mörder",
+      "tag": "O"
+    },
+    {
+      "word": "eines",
+      "tag": "O"
+    },
+    {
+      "word": "Jugendlichen",
+      "tag": "O"
+    },
+    {
+      "word": "vor",
+      "tag": "O"
+    },
+    {
+      "word": "Gericht",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "bringen,",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "2003",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Liverpool",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "offener",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Straße",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "zu",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Tode",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geprügelt",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "wurde.",
+      "tag": "O"
+    }
+  ],
+  "Ich war völlig durch den Wind, als ich sie das erste Mal gesehen hab.": [
+    {
+      "word": "Ich",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "völlig",
+      "tag": "O"
+    },
+    {
+      "word": "durch",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "den",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Wind,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "ich",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "erste",
+      "tag": "O"
+    },
+    {
+      "word": "Mal",
+      "tag": "O"
+    },
+    {
+      "word": "gesehen",
+      "tag": "O"
+    },
+    {
+      "word": "hab.",
+      "tag": "O"
+    }
+  ],
+  "Aber in der Sichtweise dieser Verfassung und vor den Augen des Gesetzes gibt es in diesem Land keine überlegene, dominierende, herrschende Klasse von Bürgern.": [
+    {
+      "word": "Aber",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Sichtweise",
+      "tag": "O"
+    },
+    {
+      "word": "dieser",
+      "tag": "O"
+    },
+    {
+      "word": "Verfassung",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "vor",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "den",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Augen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Gesetzes",
+      "tag": "O"
+    },
+    {
+      "word": "gibt",
+      "tag": "O"
+    },
+    {
+      "word": "es",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "diesem",
+      "tag": "O"
+    },
+    {
+      "word": "Land",
+      "tag": "O"
+    },
+    {
+      "word": "keine",
+      "tag": "O"
+    },
+    {
+      "word": "überlegene,",
+      "tag": "O"
+    },
+    {
+      "word": "dominierende,",
+      "tag": "O"
+    },
+    {
+      "word": "herrschende",
+      "tag": "O"
+    },
+    {
+      "word": "Klasse",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "Bürgern.",
+      "tag": "O"
+    }
+  ],
+  "Die Output-Signale hängen nicht nur von der Kombination der Inputs, sondern auch von der richtigen Reihenfolge der Inputs ab: Mit anderen Worten, das richtige password muss eingegeben werden.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Output-Signale",
+      "tag": "O"
+    },
+    {
+      "word": "hängen",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "nur",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Kombination",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Inputs,",
+      "tag": "O"
+    },
+    {
+      "word": "sondern",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "richtigen",
+      "tag": "O"
+    },
+    {
+      "word": "Reihenfolge",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Inputs",
+      "tag": "O"
+    },
+    {
+      "word": "ab:",
+      "tag": "O"
+    },
+    {
+      "word": "Mit",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "anderen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Worten,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "richtige",
+      "tag": "O"
+    },
+    {
+      "word": "password",
+      "tag": "O"
+    },
+    {
+      "word": "muss",
+      "tag": "O"
+    },
+    {
+      "word": "eingegeben",
+      "tag": "O"
+    },
+    {
+      "word": "werden.",
+      "tag": "O"
+    }
+  ],
+  "Wir haben gequatscht bis in die Puppen / Und vorher gingen wir sinnlos Shoppen": [
+    {
+      "word": "Wir",
+      "tag": "O"
+    },
+    {
+      "word": "haben",
+      "tag": "O"
+    },
+    {
+      "word": "gequatscht",
+      "tag": "O"
+    },
+    {
+      "word": "bis",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Puppen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "/",
+      "tag": "O"
+    },
+    {
+      "word": "Und",
+      "tag": "O"
+    },
+    {
+      "word": "vorher",
+      "tag": "O"
+    },
+    {
+      "word": "gingen",
+      "tag": "O"
+    },
+    {
+      "word": "wir",
+      "tag": "O"
+    },
+    {
+      "word": "sinnlos",
+      "tag": "O"
+    },
+    {
+      "word": "Shoppen",
+      "tag": "O"
+    }
+  ],
+  "Wenn du dich verzählst, musst du von vorn anfangen.": [
+    {
+      "word": "Wenn",
+      "tag": "O"
+    },
+    {
+      "word": "du",
+      "tag": "O"
+    },
+    {
+      "word": "dich",
+      "tag": "O"
+    },
+    {
+      "word": "verzählst,",
+      "tag": "O"
+    },
+    {
+      "word": "musst",
+      "tag": "O"
+    },
+    {
+      "word": "du",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "vorn",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "anfangen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Michael Portillo beschrieb seine derzeitige Verwendung, traf den Direktor und blieb über Nacht.": [
+    {
+      "word": "Michael",
+      "tag": "O"
+    },
+    {
+      "word": "Portillo",
+      "tag": "O"
+    },
+    {
+      "word": "beschrieb",
+      "tag": "O"
+    },
+    {
+      "word": "seine",
+      "tag": "O"
+    },
+    {
+      "word": "derzeitige",
+      "tag": "O"
+    },
+    {
+      "word": "Verwendung,",
+      "tag": "O"
+    },
+    {
+      "word": "traf",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Direktor",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "blieb",
+      "tag": "O"
+    },
+    {
+      "word": "über",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Nacht.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "2002 erklärte sie, die palästinensischen Terroranschläge seien zwar nicht zu rechtfertigen, doch habe die israelische Politik ihnen „den Weg geebnet“.": [
+    {
+      "word": "2002",
+      "tag": "O"
+    },
+    {
+      "word": "erklärte",
+      "tag": "O"
+    },
+    {
+      "word": "sie,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "palästinensischen",
+      "tag": "O"
+    },
+    {
+      "word": "Terroranschläge",
+      "tag": "O"
+    },
+    {
+      "word": "seien",
+      "tag": "O"
+    },
+    {
+      "word": "zwar",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "rechtfertigen,",
+      "tag": "O"
+    },
+    {
+      "word": "doch",
+      "tag": "O"
+    },
+    {
+      "word": "habe",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "israelische",
+      "tag": "O"
+    },
+    {
+      "word": "Politik",
+      "tag": "O"
+    },
+    {
+      "word": "ihnen",
+      "tag": "O"
+    },
+    {
+      "word": "„den",
+      "tag": "O"
+    },
+    {
+      "word": "Weg",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geebnet“.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Aber auch andere Mütter haben schöne Töchter, die sich Honda, Toyota, Souza Cruz, Bandeirante, UOL, GM, Ford, Esso, Fiat, TIM und Pirelli nennen, um nur einige der nichtdeutschen ausländischen Firmen unter den 500 Größten aufzuführen.": [
+    {
+      "word": "Aber",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "andere",
+      "tag": "O"
+    },
+    {
+      "word": "Mütter",
+      "tag": "O"
+    },
+    {
+      "word": "haben",
+      "tag": "O"
+    },
+    {
+      "word": "schöne",
+      "tag": "O"
+    },
+    {
+      "word": "Töchter,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "Honda,",
+      "tag": "O"
+    },
+    {
+      "word": "Toyota,",
+      "tag": "O"
+    },
+    {
+      "word": "Souza",
+      "tag": "O"
+    },
+    {
+      "word": "Cruz,",
+      "tag": "O"
+    },
+    {
+      "word": "Bandeirante,",
+      "tag": "O"
+    },
+    {
+      "word": "UOL,",
+      "tag": "O"
+    },
+    {
+      "word": "GM,",
+      "tag": "O"
+    },
+    {
+      "word": "Ford,",
+      "tag": "O"
+    },
+    {
+      "word": "Esso,",
+      "tag": "O"
+    },
+    {
+      "word": "Fiat,",
+      "tag": "O"
+    },
+    {
+      "word": "TIM",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Pirelli",
+      "tag": "O"
+    },
+    {
+      "word": "nennen,",
+      "tag": "O"
+    },
+    {
+      "word": "um",
+      "tag": "O"
+    },
+    {
+      "word": "nur",
+      "tag": "O"
+    },
+    {
+      "word": "einige",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "nichtdeutschen",
+      "tag": "O"
+    },
+    {
+      "word": "ausländischen",
+      "tag": "O"
+    },
+    {
+      "word": "Firmen",
+      "tag": "O"
+    },
+    {
+      "word": "unter",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "500",
+      "tag": "O"
+    },
+    {
+      "word": "Größten",
+      "tag": "O"
+    },
+    {
+      "word": "aufzuführen.",
+      "tag": "O"
+    }
+  ],
+  "In dem Augenblick verschwand das Schloß, und sie saßen wieder in der alten Hütte. „Nun hast dus,“ sagte der Mann, „jetzt können wir wieder am Hungertuch nagen.“ „Ach,“ sprach die Frau, „ich will den Reichthum lieber nicht, wenn ich nicht weiß von wem er kommt, sonst habe ich doch keine Ruhe.“": [
+    {
+      "word": "In",
+      "tag": "O"
+    },
+    {
+      "word": "dem",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Augenblick",
+      "tag": "O"
+    },
+    {
+      "word": "verschwand",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "Schloß,",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "saßen",
+      "tag": "O"
+    },
+    {
+      "word": "wieder",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "alten",
+      "tag": "O"
+    },
+    {
+      "word": "Hütte.",
+      "tag": "O"
+    },
+    {
+      "word": "„Nun",
+      "tag": "O"
+    },
+    {
+      "word": "hast",
+      "tag": "O"
+    },
+    {
+      "word": "dus,“",
+      "tag": "O"
+    },
+    {
+      "word": "sagte",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Mann,",
+      "tag": "O"
+    },
+    {
+      "word": "„jetzt",
+      "tag": "O"
+    },
+    {
+      "word": "können",
+      "tag": "O"
+    },
+    {
+      "word": "wir",
+      "tag": "O"
+    },
+    {
+      "word": "wieder",
+      "tag": "O"
+    },
+    {
+      "word": "am",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Hungertuch",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "nagen.“",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "„Ach,“",
+      "tag": "O"
+    },
+    {
+      "word": "sprach",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Frau,",
+      "tag": "O"
+    },
+    {
+      "word": "„ich",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Reichthum",
+      "tag": "O"
+    },
+    {
+      "word": "lieber",
+      "tag": "O"
+    },
+    {
+      "word": "nicht,",
+      "tag": "O"
+    },
+    {
+      "word": "wenn",
+      "tag": "O"
+    },
+    {
+      "word": "ich",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "weiß",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "wem",
+      "tag": "O"
+    },
+    {
+      "word": "er",
+      "tag": "O"
+    },
+    {
+      "word": "kommt,",
+      "tag": "O"
+    },
+    {
+      "word": "sonst",
+      "tag": "O"
+    },
+    {
+      "word": "habe",
+      "tag": "O"
+    },
+    {
+      "word": "ich",
+      "tag": "O"
+    },
+    {
+      "word": "doch",
+      "tag": "O"
+    },
+    {
+      "word": "keine",
+      "tag": "O"
+    },
+    {
+      "word": "Ruhe.“",
+      "tag": "O"
+    }
+  ],
+  "Als auch eine jüdische Nachbarin zu Tode kommt, beschließt Anna, auch aktiven Widerstand zu betreiben.": [
+    {
+      "word": "Als",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "jüdische",
+      "tag": "O"
+    },
+    {
+      "word": "Nachbarin",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Tode",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kommt,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "beschließt",
+      "tag": "O"
+    },
+    {
+      "word": "Anna,",
+      "tag": "O"
+    },
+    {
+      "word": "auch",
+      "tag": "O"
+    },
+    {
+      "word": "aktiven",
+      "tag": "O"
+    },
+    {
+      "word": "Widerstand",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "betreiben.",
+      "tag": "O"
+    }
+  ],
+  "Eine unverwechselbare Position, bei der die CDU Flagge zeigen musste, war das Recht auf Leben. Hier galt es, eindeutig Stellung zu beziehen, ungeachtet dessen, wie die Entscheidung der Mehrheit in unserem Lande ausfiel.": [
+    {
+      "word": "Eine",
+      "tag": "O"
+    },
+    {
+      "word": "unverwechselbare",
+      "tag": "O"
+    },
+    {
+      "word": "Position,",
+      "tag": "O"
+    },
+    {
+      "word": "bei",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "CDU",
+      "tag": "O"
+    },
+    {
+      "word": "Flagge",
+      "tag": "O"
+    },
+    {
+      "word": "zeigen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "musste,",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "das",
+      "tag": "O"
+    },
+    {
+      "word": "Recht",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "Leben.",
+      "tag": "O"
+    },
+    {
+      "word": "Hier",
+      "tag": "O"
+    },
+    {
+      "word": "galt",
+      "tag": "O"
+    },
+    {
+      "word": "es,",
+      "tag": "O"
+    },
+    {
+      "word": "eindeutig",
+      "tag": "O"
+    },
+    {
+      "word": "Stellung",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "beziehen,",
+      "tag": "O"
+    },
+    {
+      "word": "ungeachtet",
+      "tag": "O"
+    },
+    {
+      "word": "dessen,",
+      "tag": "O"
+    },
+    {
+      "word": "wie",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Entscheidung",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "Mehrheit",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "unserem",
+      "tag": "O"
+    },
+    {
+      "word": "Lande",
+      "tag": "O"
+    },
+    {
+      "word": "ausfiel.",
+      "tag": "O"
+    }
+  ],
+  "Das interessiert mich nicht die Bohne.": [
+    {
+      "word": "Das",
+      "tag": "O"
+    },
+    {
+      "word": "interessiert",
+      "tag": "O"
+    },
+    {
+      "word": "mich",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Bohne.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Wohl oder übel muss Beppi jetzt ernster genommen werden als bisher.": [
+    {
+      "word": "Wohl",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "oder",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "übel",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "muss",
+      "tag": "O"
+    },
+    {
+      "word": "Beppi",
+      "tag": "O"
+    },
+    {
+      "word": "jetzt",
+      "tag": "O"
+    },
+    {
+      "word": "ernster",
+      "tag": "O"
+    },
+    {
+      "word": "genommen",
+      "tag": "O"
+    },
+    {
+      "word": "werden",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "bisher.",
+      "tag": "O"
+    }
+  ],
+  "Die Geschichte von Rhampsinit wird heute als eine Art Satire bewertet, in denen ein König von einem bescheidenen Bürger zum Narren gehalten wird.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Geschichte",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "Rhampsinit",
+      "tag": "O"
+    },
+    {
+      "word": "wird",
+      "tag": "O"
+    },
+    {
+      "word": "heute",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Art",
+      "tag": "O"
+    },
+    {
+      "word": "Satire",
+      "tag": "O"
+    },
+    {
+      "word": "bewertet,",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "denen",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "König",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "einem",
+      "tag": "O"
+    },
+    {
+      "word": "bescheidenen",
+      "tag": "O"
+    },
+    {
+      "word": "Bürger",
+      "tag": "O"
+    },
+    {
+      "word": "zum",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Narren",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gehalten",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "wird.",
+      "tag": "O"
+    }
+  ],
+  "Gerade bei Menschen, die viel Wert auf ihren Titel legen, kann man hier leicht ins Fettnäpfchen treten.": [
+    {
+      "word": "Gerade",
+      "tag": "O"
+    },
+    {
+      "word": "bei",
+      "tag": "O"
+    },
+    {
+      "word": "Menschen,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "viel",
+      "tag": "O"
+    },
+    {
+      "word": "Wert",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "ihren",
+      "tag": "O"
+    },
+    {
+      "word": "Titel",
+      "tag": "O"
+    },
+    {
+      "word": "legen,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kann",
+      "tag": "O"
+    },
+    {
+      "word": "man",
+      "tag": "O"
+    },
+    {
+      "word": "hier",
+      "tag": "O"
+    },
+    {
+      "word": "leicht",
+      "tag": "O"
+    },
+    {
+      "word": "ins",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Fettnäpfchen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "treten.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Mit verschwindenden Schuldnern und leihunwilligen Banken ist es kein Wunder, dass nach fast drei Jahren mit Niedrigzinsrekorden und massiven Liquiditätsspritzen die Industrieökonomien immer noch so schlecht dastehen.": [
+    {
+      "word": "Mit",
+      "tag": "O"
+    },
+    {
+      "word": "verschwindenden",
+      "tag": "O"
+    },
+    {
+      "word": "Schuldnern",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "leihunwilligen",
+      "tag": "O"
+    },
+    {
+      "word": "Banken",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "es",
+      "tag": "O"
+    },
+    {
+      "word": "kein",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Wunder,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "nach",
+      "tag": "O"
+    },
+    {
+      "word": "fast",
+      "tag": "O"
+    },
+    {
+      "word": "drei",
+      "tag": "O"
+    },
+    {
+      "word": "Jahren",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "Niedrigzinsrekorden",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "massiven",
+      "tag": "O"
+    },
+    {
+      "word": "Liquiditätsspritzen",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Industrieökonomien",
+      "tag": "O"
+    },
+    {
+      "word": "immer",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "schlecht",
+      "tag": "O"
+    },
+    {
+      "word": "dastehen.",
+      "tag": "O"
+    }
+  ],
+  "Die BusinessWeek publiziert jedes Jahr eine Liste der besten und aussichtsreichsten Studienprogramme, die Designdenken mit Wirtschaftsdenken verknüpfen (D-schools 2009 und D-school Programme 2009, die man im Auge behalten sollte).": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "BusinessWeek",
+      "tag": "O"
+    },
+    {
+      "word": "publiziert",
+      "tag": "O"
+    },
+    {
+      "word": "jedes",
+      "tag": "O"
+    },
+    {
+      "word": "Jahr",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Liste",
+      "tag": "O"
+    },
+    {
+      "word": "der",
+      "tag": "O"
+    },
+    {
+      "word": "besten",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "aussichtsreichsten",
+      "tag": "O"
+    },
+    {
+      "word": "Studienprogramme,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Designdenken",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "Wirtschaftsdenken",
+      "tag": "O"
+    },
+    {
+      "word": "verknüpfen",
+      "tag": "O"
+    },
+    {
+      "word": "(D-schools",
+      "tag": "O"
+    },
+    {
+      "word": "2009",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "D-school",
+      "tag": "O"
+    },
+    {
+      "word": "Programme",
+      "tag": "O"
+    },
+    {
+      "word": "2009,",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "man",
+      "tag": "O"
+    },
+    {
+      "word": "im",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Auge",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "behalten",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "sollte).",
+      "tag": "O"
+    }
+  ],
+  "Sie wohnen ohne Trauschein zusammen.": [
+    {
+      "word": "Sie",
+      "tag": "O"
+    },
+    {
+      "word": "wohnen",
+      "tag": "O"
+    },
+    {
+      "word": "ohne",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Trauschein",
+      "tag": "O"
+    },
+    {
+      "word": "zusammen.",
+      "tag": "O"
+    }
+  ],
+  "Am Friedrichstraßenbunker lungern sie mit Kind und Kegel, mit Taschen und Flaschen, warten auf Bomben, auf Alarm, warten geduldig vor verschlossenen Toren.": [
+    {
+      "word": "Am",
+      "tag": "O"
+    },
+    {
+      "word": "Friedrichstraßenbunker",
+      "tag": "O"
+    },
+    {
+      "word": "lungern",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "Kind",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Kegel,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "Taschen",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Flaschen,",
+      "tag": "O"
+    },
+    {
+      "word": "warten",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "Bomben,",
+      "tag": "O"
+    },
+    {
+      "word": "auf",
+      "tag": "O"
+    },
+    {
+      "word": "Alarm,",
+      "tag": "O"
+    },
+    {
+      "word": "warten",
+      "tag": "O"
+    },
+    {
+      "word": "geduldig",
+      "tag": "O"
+    },
+    {
+      "word": "vor",
+      "tag": "O"
+    },
+    {
+      "word": "verschlossenen",
+      "tag": "O"
+    },
+    {
+      "word": "Toren.",
+      "tag": "O"
+    }
+  ],
+  "Der damalige Bundeskanzler hatte dem Unternehmen Bürgschaften und Darlehen in Höhe von 128 Millionen Euro zugesagt, nachdem es Milliarden in den Sand gesetzt hatte": [
+    {
+      "word": "Der",
+      "tag": "O"
+    },
+    {
+      "word": "damalige",
+      "tag": "O"
+    },
+    {
+      "word": "Bundeskanzler",
+      "tag": "O"
+    },
+    {
+      "word": "hatte",
+      "tag": "O"
+    },
+    {
+      "word": "dem",
+      "tag": "O"
+    },
+    {
+      "word": "Unternehmen",
+      "tag": "O"
+    },
+    {
+      "word": "Bürgschaften",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Darlehen",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Höhe",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "128",
+      "tag": "O"
+    },
+    {
+      "word": "Millionen",
+      "tag": "O"
+    },
+    {
+      "word": "Euro",
+      "tag": "O"
+    },
+    {
+      "word": "zugesagt,",
+      "tag": "O"
+    },
+    {
+      "word": "nachdem",
+      "tag": "O"
+    },
+    {
+      "word": "es",
+      "tag": "O"
+    },
+    {
+      "word": "Milliarden",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "den",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Sand",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gesetzt",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "hatte",
+      "tag": "O"
+    }
+  ],
+  "Die EU-Kommission will die Mitgliedsländer an die Kandare nehmen: Unsolides Wirtschaften wird bestraft.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "EU-Kommission",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "Mitgliedsländer",
+      "tag": "O"
+    },
+    {
+      "word": "an",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Kandare",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "nehmen:",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Unsolides",
+      "tag": "O"
+    },
+    {
+      "word": "Wirtschaften",
+      "tag": "O"
+    },
+    {
+      "word": "wird",
+      "tag": "O"
+    },
+    {
+      "word": "bestraft.",
+      "tag": "O"
+    }
+  ],
+  "Die Praxis scheint um 1847 in Ungnade gefallen zu sein, als Dewees vorschlug, dass eine Krankenschwester oder ein anderer Fachmann für diese Aufgabe eher geeignet sei als ein Tier.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Praxis",
+      "tag": "O"
+    },
+    {
+      "word": "scheint",
+      "tag": "O"
+    },
+    {
+      "word": "um",
+      "tag": "O"
+    },
+    {
+      "word": "1847",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Ungnade",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gefallen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "sein,",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "Dewees",
+      "tag": "O"
+    },
+    {
+      "word": "vorschlug,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Krankenschwester",
+      "tag": "O"
+    },
+    {
+      "word": "oder",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "anderer",
+      "tag": "O"
+    },
+    {
+      "word": "Fachmann",
+      "tag": "O"
+    },
+    {
+      "word": "für",
+      "tag": "O"
+    },
+    {
+      "word": "diese",
+      "tag": "O"
+    },
+    {
+      "word": "Aufgabe",
+      "tag": "O"
+    },
+    {
+      "word": "eher",
+      "tag": "O"
+    },
+    {
+      "word": "geeignet",
+      "tag": "O"
+    },
+    {
+      "word": "sei",
+      "tag": "O"
+    },
+    {
+      "word": "als",
+      "tag": "O"
+    },
+    {
+      "word": "ein",
+      "tag": "O"
+    },
+    {
+      "word": "Tier.",
+      "tag": "O"
+    }
+  ],
+  "Das muss, beim Barte des Propheten, ganz wundervoll sein!": [
+    {
+      "word": "Das",
+      "tag": "O"
+    },
+    {
+      "word": "muss,",
+      "tag": "O"
+    },
+    {
+      "word": "beim",
+      "tag": "O"
+    },
+    {
+      "word": "Barte",
+      "tag": "O"
+    },
+    {
+      "word": "des",
+      "tag": "O"
+    },
+    {
+      "word": "Propheten,",
+      "tag": "O"
+    },
+    {
+      "word": "ganz",
+      "tag": "O"
+    },
+    {
+      "word": "wundervoll",
+      "tag": "O"
+    },
+    {
+      "word": "sein!",
+      "tag": "O"
+    }
+  ],
+  "Zwei Mädchen in dieser Klasse, Chantel und Andrea, wollen ihren neuen Klassenkameraden Courtney zum Narren halten.": [
+    {
+      "word": "Zwei",
+      "tag": "O"
+    },
+    {
+      "word": "Mädchen",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "dieser",
+      "tag": "O"
+    },
+    {
+      "word": "Klasse,",
+      "tag": "O"
+    },
+    {
+      "word": "Chantel",
+      "tag": "O"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "Andrea,",
+      "tag": "O"
+    },
+    {
+      "word": "wollen",
+      "tag": "O"
+    },
+    {
+      "word": "ihren",
+      "tag": "O"
+    },
+    {
+      "word": "neuen",
+      "tag": "O"
+    },
+    {
+      "word": "Klassenkameraden",
+      "tag": "O"
+    },
+    {
+      "word": "Courtney",
+      "tag": "O"
+    },
+    {
+      "word": "zum",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Narren",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "halten.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Zwischen den beiden Detekteien entwickelt sich eine Art Konkurrenzkampf, da sie sich trotz aller Freundschaft immer wieder gewollt oder ungewollt in die Quere kommen.": [
+    {
+      "word": "Zwischen",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "beiden",
+      "tag": "O"
+    },
+    {
+      "word": "Detekteien",
+      "tag": "O"
+    },
+    {
+      "word": "entwickelt",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "Art",
+      "tag": "O"
+    },
+    {
+      "word": "Konkurrenzkampf,",
+      "tag": "O"
+    },
+    {
+      "word": "da",
+      "tag": "O"
+    },
+    {
+      "word": "sie",
+      "tag": "O"
+    },
+    {
+      "word": "sich",
+      "tag": "O"
+    },
+    {
+      "word": "trotz",
+      "tag": "O"
+    },
+    {
+      "word": "aller",
+      "tag": "O"
+    },
+    {
+      "word": "Freundschaft",
+      "tag": "O"
+    },
+    {
+      "word": "immer",
+      "tag": "O"
+    },
+    {
+      "word": "wieder",
+      "tag": "O"
+    },
+    {
+      "word": "gewollt",
+      "tag": "O"
+    },
+    {
+      "word": "oder",
+      "tag": "O"
+    },
+    {
+      "word": "ungewollt",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "die",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Quere",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kommen.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Der Bahnhof war aber nicht nur von feindlichen Angriffen betroffen: Am 12.September 1944 beschädigte eine außer Kontrolle geratene und abstürzende V1 den Bahnhof.": [
+    {
+      "word": "Der",
+      "tag": "O"
+    },
+    {
+      "word": "Bahnhof",
+      "tag": "O"
+    },
+    {
+      "word": "war",
+      "tag": "O"
+    },
+    {
+      "word": "aber",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "nur",
+      "tag": "O"
+    },
+    {
+      "word": "von",
+      "tag": "O"
+    },
+    {
+      "word": "feindlichen",
+      "tag": "O"
+    },
+    {
+      "word": "Angriffen",
+      "tag": "O"
+    },
+    {
+      "word": "betroffen:",
+      "tag": "O"
+    },
+    {
+      "word": "Am",
+      "tag": "O"
+    },
+    {
+      "word": "12.September",
+      "tag": "O"
+    },
+    {
+      "word": "1944",
+      "tag": "O"
+    },
+    {
+      "word": "beschädigte",
+      "tag": "O"
+    },
+    {
+      "word": "eine",
+      "tag": "O"
+    },
+    {
+      "word": "außer",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Kontrolle",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "geratene",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "und",
+      "tag": "O"
+    },
+    {
+      "word": "abstürzende",
+      "tag": "O"
+    },
+    {
+      "word": "V1",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "Bahnhof.",
+      "tag": "O"
+    }
+  ],
+  "Die Niederlage unseres Konkurrenten muss uns erst recht anspornen, heute Abend Bestleistung zu bringen.": [
+    {
+      "word": "Die",
+      "tag": "O"
+    },
+    {
+      "word": "Niederlage",
+      "tag": "O"
+    },
+    {
+      "word": "unseres",
+      "tag": "O"
+    },
+    {
+      "word": "Konkurrenten",
+      "tag": "O"
+    },
+    {
+      "word": "muss",
+      "tag": "O"
+    },
+    {
+      "word": "uns",
+      "tag": "O"
+    },
+    {
+      "word": "erst",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "recht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "anspornen,",
+      "tag": "O"
+    },
+    {
+      "word": "heute",
+      "tag": "O"
+    },
+    {
+      "word": "Abend",
+      "tag": "O"
+    },
+    {
+      "word": "Bestleistung",
+      "tag": "O"
+    },
+    {
+      "word": "zu",
+      "tag": "O"
+    },
+    {
+      "word": "bringen.",
+      "tag": "O"
+    }
+  ],
+  "Lass mich erst mal überlegen, ich bin noch etwas durch den Wind.": [
+    {
+      "word": "Lass",
+      "tag": "O"
+    },
+    {
+      "word": "mich",
+      "tag": "O"
+    },
+    {
+      "word": "erst",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "mal",
+      "tag": "O"
+    },
+    {
+      "word": "überlegen,",
+      "tag": "O"
+    },
+    {
+      "word": "ich",
+      "tag": "O"
+    },
+    {
+      "word": "bin",
+      "tag": "O"
+    },
+    {
+      "word": "noch",
+      "tag": "O"
+    },
+    {
+      "word": "etwas",
+      "tag": "O"
+    },
+    {
+      "word": "durch",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "den",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "Wind.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Vorbereitung ist die halbe Miete.": [
+    {
+      "word": "Vorbereitung",
+      "tag": "O"
+    },
+    {
+      "word": "ist",
+      "tag": "O"
+    },
+    {
+      "word": "die",
+      "tag": "O"
+    },
+    {
+      "word": "halbe",
+      "tag": "O"
+    },
+    {
+      "word": "Miete.",
+      "tag": "O"
+    }
+  ],
+  "Hier wird nun deutlich, dass Marek nicht tot ist, sondern mit den anderen gemeinsame Sache gemacht hat.": [
+    {
+      "word": "Hier",
+      "tag": "O"
+    },
+    {
+      "word": "wird",
+      "tag": "O"
+    },
+    {
+      "word": "nun",
+      "tag": "O"
+    },
+    {
+      "word": "deutlich,",
+      "tag": "O"
+    },
+    {
+      "word": "dass",
+      "tag": "O"
+    },
+    {
+      "word": "Marek",
+      "tag": "O"
+    },
+    {
+      "word": "nicht",
+      "tag": "O"
+    },
+    {
+      "word": "tot",
+      "tag": "O"
+    },
+    {
+      "word": "ist,",
+      "tag": "O"
+    },
+    {
+      "word": "sondern",
+      "tag": "O"
+    },
+    {
+      "word": "mit",
+      "tag": "O"
+    },
+    {
+      "word": "den",
+      "tag": "O"
+    },
+    {
+      "word": "anderen",
+      "tag": "O"
+    },
+    {
+      "word": "gemeinsame",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "Sache",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "gemacht",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "hat.",
+      "tag": "O"
+    }
+  ]
+}

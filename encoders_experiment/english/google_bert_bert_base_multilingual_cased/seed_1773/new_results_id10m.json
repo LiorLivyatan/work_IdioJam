@@ -1,0 +1,10730 @@
+{
+  "This software has to work out of the box, without any fancy installation.": [
+    {
+      "word": "This",
+      "tag": "O"
+    },
+    {
+      "word": "software",
+      "tag": "O"
+    },
+    {
+      "word": "has",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "work",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "out",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "box,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "without",
+      "tag": "O"
+    },
+    {
+      "word": "any",
+      "tag": "O"
+    },
+    {
+      "word": "fancy",
+      "tag": "O"
+    },
+    {
+      "word": "installation.",
+      "tag": "O"
+    }
+  ],
+  "Hang a Louie up at the next stoplight.": [
+    {
+      "word": "Hang",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "Louie",
+      "tag": "O"
+    },
+    {
+      "word": "up",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "next",
+      "tag": "O"
+    },
+    {
+      "word": "stoplight.",
+      "tag": "O"
+    }
+  ],
+  "He finished writing his paper and slid it under the door just in the nick of time.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "finished",
+      "tag": "O"
+    },
+    {
+      "word": "writing",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "paper",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "slid",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "under",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "door",
+      "tag": "O"
+    },
+    {
+      "word": "just",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "nick",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "time.",
+      "tag": "O"
+    }
+  ],
+  "He started out with the rather obvious alternative of talking to Junior; Hesh’s scheme was more imaginative; and Tony’s idea of torching the restaurant really is out of the box.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "started",
+      "tag": "O"
+    },
+    {
+      "word": "out",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "rather",
+      "tag": "O"
+    },
+    {
+      "word": "obvious",
+      "tag": "O"
+    },
+    {
+      "word": "alternative",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "talking",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "Junior;",
+      "tag": "O"
+    },
+    {
+      "word": "Hesh’s",
+      "tag": "O"
+    },
+    {
+      "word": "scheme",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "more",
+      "tag": "O"
+    },
+    {
+      "word": "imaginative;",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "Tony’s",
+      "tag": "O"
+    },
+    {
+      "word": "idea",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "torching",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "restaurant",
+      "tag": "O"
+    },
+    {
+      "word": "really",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "out",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "box.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "We were just standing around shooting the breeze.": [
+    {
+      "word": "We",
+      "tag": "O"
+    },
+    {
+      "word": "were",
+      "tag": "O"
+    },
+    {
+      "word": "just",
+      "tag": "O"
+    },
+    {
+      "word": "standing",
+      "tag": "O"
+    },
+    {
+      "word": "around",
+      "tag": "O"
+    },
+    {
+      "word": "shooting",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "breeze.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "It'll be a cold day in hell when that happens.": [
+    {
+      "word": "It'll",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "cold",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "day",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "hell",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "when",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "happens.",
+      "tag": "O"
+    }
+  ],
+  "There, on the ramparts of the forts, stood Nicholas Koorn, armed to the teeth, flourishing a brass-hilted sword.": [
+    {
+      "word": "There,",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "ramparts",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "forts,",
+      "tag": "O"
+    },
+    {
+      "word": "stood",
+      "tag": "O"
+    },
+    {
+      "word": "Nicholas",
+      "tag": "O"
+    },
+    {
+      "word": "Koorn,",
+      "tag": "O"
+    },
+    {
+      "word": "armed",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "teeth,",
+      "tag": "O"
+    },
+    {
+      "word": "flourishing",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "brass-hilted",
+      "tag": "O"
+    },
+    {
+      "word": "sword.",
+      "tag": "O"
+    }
+  ],
+  "Harold: How is Sarah? I don't want to jump her while she's on the rag.": [
+    {
+      "word": "Harold:",
+      "tag": "O"
+    },
+    {
+      "word": "How",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "Sarah?",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "don't",
+      "tag": "O"
+    },
+    {
+      "word": "want",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "jump",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "while",
+      "tag": "O"
+    },
+    {
+      "word": "she's",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "rag.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "She said she wanted to build a new house from scratch.": [
+    {
+      "word": "She",
+      "tag": "O"
+    },
+    {
+      "word": "said",
+      "tag": "O"
+    },
+    {
+      "word": "she",
+      "tag": "O"
+    },
+    {
+      "word": "wanted",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "build",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "house",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "scratch.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "The author's novels from her salad years lacked the sophistication and depth of her later works.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "author's",
+      "tag": "O"
+    },
+    {
+      "word": "novels",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "salad",
+      "tag": "O"
+    },
+    {
+      "word": "years",
+      "tag": "O"
+    },
+    {
+      "word": "lacked",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "sophistication",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "depth",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "later",
+      "tag": "O"
+    },
+    {
+      "word": "works.",
+      "tag": "O"
+    }
+  ],
+  "I want to make sure we're all on the same page with the game plan for the Acme account.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "want",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "make",
+      "tag": "O"
+    },
+    {
+      "word": "sure",
+      "tag": "O"
+    },
+    {
+      "word": "we're",
+      "tag": "O"
+    },
+    {
+      "word": "all",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "same",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "page",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "game",
+      "tag": "O"
+    },
+    {
+      "word": "plan",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "Acme",
+      "tag": "O"
+    },
+    {
+      "word": "account.",
+      "tag": "O"
+    }
+  ],
+  "After having shown us three hours of instructional and safety videos, the inspector was simply beating a dead horse by telling us to buckle up as we got into the van.": [
+    {
+      "word": "After",
+      "tag": "O"
+    },
+    {
+      "word": "having",
+      "tag": "O"
+    },
+    {
+      "word": "shown",
+      "tag": "O"
+    },
+    {
+      "word": "us",
+      "tag": "O"
+    },
+    {
+      "word": "three",
+      "tag": "O"
+    },
+    {
+      "word": "hours",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "instructional",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "safety",
+      "tag": "O"
+    },
+    {
+      "word": "videos,",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "inspector",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "simply",
+      "tag": "O"
+    },
+    {
+      "word": "beating",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "dead",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "horse",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "by",
+      "tag": "O"
+    },
+    {
+      "word": "telling",
+      "tag": "O"
+    },
+    {
+      "word": "us",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "buckle",
+      "tag": "O"
+    },
+    {
+      "word": "up",
+      "tag": "O"
+    },
+    {
+      "word": "as",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "got",
+      "tag": "O"
+    },
+    {
+      "word": "into",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "van.",
+      "tag": "O"
+    }
+  ],
+  "I must have switched cups, this is not my cup of tea.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "must",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "switched",
+      "tag": "O"
+    },
+    {
+      "word": "cups,",
+      "tag": "O"
+    },
+    {
+      "word": "this",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "not",
+      "tag": "O"
+    },
+    {
+      "word": "my",
+      "tag": "O"
+    },
+    {
+      "word": "cup",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "tea.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "To add insult to the injury, the man went away without helping us.": [
+    {
+      "word": "To",
+      "tag": "O"
+    },
+    {
+      "word": "add",
+      "tag": "O"
+    },
+    {
+      "word": "insult",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "injury,",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "man",
+      "tag": "O"
+    },
+    {
+      "word": "went",
+      "tag": "O"
+    },
+    {
+      "word": "away",
+      "tag": "O"
+    },
+    {
+      "word": "without",
+      "tag": "O"
+    },
+    {
+      "word": "helping",
+      "tag": "O"
+    },
+    {
+      "word": "us.",
+      "tag": "O"
+    }
+  ],
+  "What are the effects of bathing in hot water?": [
+    {
+      "word": "What",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "effects",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "bathing",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "hot",
+      "tag": "O"
+    },
+    {
+      "word": "water?",
+      "tag": "O"
+    }
+  ],
+  "When the boss assigned the project to Tom, the rest of us were relieved to be off the hook.": [
+    {
+      "word": "When",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "boss",
+      "tag": "O"
+    },
+    {
+      "word": "assigned",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "project",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "Tom,",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "rest",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "us",
+      "tag": "O"
+    },
+    {
+      "word": "were",
+      "tag": "O"
+    },
+    {
+      "word": "relieved",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "off",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "hook.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "It's a straightforward job, but it's no bed of roses, with such long hours.": [
+    {
+      "word": "It's",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "straightforward",
+      "tag": "O"
+    },
+    {
+      "word": "job,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "it's",
+      "tag": "O"
+    },
+    {
+      "word": "no",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "bed",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "roses,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "such",
+      "tag": "O"
+    },
+    {
+      "word": "long",
+      "tag": "O"
+    },
+    {
+      "word": "hours.",
+      "tag": "O"
+    }
+  ],
+  "His face rings a bell. I wonder if I know him from somewhere.": [
+    {
+      "word": "His",
+      "tag": "O"
+    },
+    {
+      "word": "face",
+      "tag": "O"
+    },
+    {
+      "word": "rings",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bell.",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "wonder",
+      "tag": "O"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "know",
+      "tag": "O"
+    },
+    {
+      "word": "him",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "O"
+    },
+    {
+      "word": "somewhere.",
+      "tag": "O"
+    }
+  ],
+  "George embarrassed his aunt by answering the door in his birthday suit.": [
+    {
+      "word": "George",
+      "tag": "O"
+    },
+    {
+      "word": "embarrassed",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "aunt",
+      "tag": "O"
+    },
+    {
+      "word": "by",
+      "tag": "O"
+    },
+    {
+      "word": "answering",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "door",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "birthday",
+      "tag": "O"
+    },
+    {
+      "word": "suit.",
+      "tag": "O"
+    }
+  ],
+  "If he doesn't win the next round, then his goose is cooked.": [
+    {
+      "word": "If",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "doesn't",
+      "tag": "O"
+    },
+    {
+      "word": "win",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "next",
+      "tag": "O"
+    },
+    {
+      "word": "round,",
+      "tag": "O"
+    },
+    {
+      "word": "then",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "goose",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "cooked.",
+      "tag": "B-IDIOM"
+    }
+  ],
+  "He attended the meeting to ride shotgun for the sales team, in case anyone had a technical question.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "attended",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "meeting",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "ride",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "shotgun",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "sales",
+      "tag": "O"
+    },
+    {
+      "word": "team,",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "case",
+      "tag": "O"
+    },
+    {
+      "word": "anyone",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "technical",
+      "tag": "O"
+    },
+    {
+      "word": "question.",
+      "tag": "O"
+    }
+  ],
+  "If I had been more on the ball I would have asked when he called me.": [
+    {
+      "word": "If",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "been",
+      "tag": "O"
+    },
+    {
+      "word": "more",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ball",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "would",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "asked",
+      "tag": "O"
+    },
+    {
+      "word": "when",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "called",
+      "tag": "O"
+    },
+    {
+      "word": "me.",
+      "tag": "O"
+    }
+  ],
+  "A rock has broken the ice covering a lake.": [
+    {
+      "word": "A",
+      "tag": "O"
+    },
+    {
+      "word": "rock",
+      "tag": "O"
+    },
+    {
+      "word": "has",
+      "tag": "O"
+    },
+    {
+      "word": "broken",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ice",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "covering",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "lake.",
+      "tag": "O"
+    }
+  ],
+  "I think I don't need to tell you that, actions speak louder than words.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "think",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "don't",
+      "tag": "O"
+    },
+    {
+      "word": "need",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "tell",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "that,",
+      "tag": "O"
+    },
+    {
+      "word": "actions",
+      "tag": "O"
+    },
+    {
+      "word": "speak",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "louder",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "than",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "words.",
+      "tag": "O"
+    }
+  ],
+  "Only the top banana can make a decision of that magnitude.": [
+    {
+      "word": "Only",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "top",
+      "tag": "O"
+    },
+    {
+      "word": "banana",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "make",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "decision",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "magnitude.",
+      "tag": "O"
+    }
+  ],
+  "Aerodynamics, my foot! The thing drives like a billboard.": [
+    {
+      "word": "Aerodynamics,",
+      "tag": "O"
+    },
+    {
+      "word": "my",
+      "tag": "O"
+    },
+    {
+      "word": "foot!",
+      "tag": "O"
+    },
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "thing",
+      "tag": "O"
+    },
+    {
+      "word": "drives",
+      "tag": "O"
+    },
+    {
+      "word": "like",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "billboard.",
+      "tag": "O"
+    }
+  ],
+  "I'm tired of being your second fiddle!": [
+    {
+      "word": "I'm",
+      "tag": "O"
+    },
+    {
+      "word": "tired",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "being",
+      "tag": "O"
+    },
+    {
+      "word": "your",
+      "tag": "O"
+    },
+    {
+      "word": "second",
+      "tag": "O"
+    },
+    {
+      "word": "fiddle!",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "By accepting both jobs, I killed two birds with one stone": [
+    {
+      "word": "By",
+      "tag": "O"
+    },
+    {
+      "word": "accepting",
+      "tag": "O"
+    },
+    {
+      "word": "both",
+      "tag": "O"
+    },
+    {
+      "word": "jobs,",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "killed",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "two",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "birds",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "with",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "one",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "stone",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "And in all her letters since, she had spoken of her aunt as a silly, vain, worldly woman, weeping crocodile tears, for an old husband whose death had released her from the tedium of his company.": [
+    {
+      "word": "And",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "all",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "letters",
+      "tag": "O"
+    },
+    {
+      "word": "since,",
+      "tag": "O"
+    },
+    {
+      "word": "she",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "spoken",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "aunt",
+      "tag": "O"
+    },
+    {
+      "word": "as",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "silly,",
+      "tag": "O"
+    },
+    {
+      "word": "vain,",
+      "tag": "O"
+    },
+    {
+      "word": "worldly",
+      "tag": "O"
+    },
+    {
+      "word": "woman,",
+      "tag": "O"
+    },
+    {
+      "word": "weeping",
+      "tag": "O"
+    },
+    {
+      "word": "crocodile",
+      "tag": "O"
+    },
+    {
+      "word": "tears,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "an",
+      "tag": "O"
+    },
+    {
+      "word": "old",
+      "tag": "O"
+    },
+    {
+      "word": "husband",
+      "tag": "O"
+    },
+    {
+      "word": "whose",
+      "tag": "O"
+    },
+    {
+      "word": "death",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "released",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "tedium",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "company.",
+      "tag": "O"
+    }
+  ],
+  "See if you can make head or tail of the last section in this chapter. I'm baffled.": [
+    {
+      "word": "See",
+      "tag": "O"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "make",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "head",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "or",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "tail",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "last",
+      "tag": "O"
+    },
+    {
+      "word": "section",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "this",
+      "tag": "O"
+    },
+    {
+      "word": "chapter.",
+      "tag": "O"
+    },
+    {
+      "word": "I'm",
+      "tag": "O"
+    },
+    {
+      "word": "baffled.",
+      "tag": "O"
+    }
+  ],
+  "What's the matter with Fred? Oh, he's just having a bad hair day.": [
+    {
+      "word": "What's",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "matter",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "Fred?",
+      "tag": "O"
+    },
+    {
+      "word": "Oh,",
+      "tag": "O"
+    },
+    {
+      "word": "he's",
+      "tag": "O"
+    },
+    {
+      "word": "just",
+      "tag": "O"
+    },
+    {
+      "word": "having",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "bad",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "hair",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "day.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Ouch, I just hit my funny bone.": [
+    {
+      "word": "Ouch,",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "just",
+      "tag": "O"
+    },
+    {
+      "word": "hit",
+      "tag": "O"
+    },
+    {
+      "word": "my",
+      "tag": "O"
+    },
+    {
+      "word": "funny",
+      "tag": "O"
+    },
+    {
+      "word": "bone.",
+      "tag": "O"
+    }
+  ],
+  "Give me the bigger hammer. This little one just doesn't cut the mustard.": [
+    {
+      "word": "Give",
+      "tag": "O"
+    },
+    {
+      "word": "me",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "bigger",
+      "tag": "O"
+    },
+    {
+      "word": "hammer.",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "This",
+      "tag": "O"
+    },
+    {
+      "word": "little",
+      "tag": "O"
+    },
+    {
+      "word": "one",
+      "tag": "O"
+    },
+    {
+      "word": "just",
+      "tag": "O"
+    },
+    {
+      "word": "doesn't",
+      "tag": "O"
+    },
+    {
+      "word": "cut",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "mustard.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Many are warning Spears that he is bad news and is trying to use her.": [
+    {
+      "word": "Many",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "warning",
+      "tag": "O"
+    },
+    {
+      "word": "Spears",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "bad",
+      "tag": "O"
+    },
+    {
+      "word": "news",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "trying",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "use",
+      "tag": "O"
+    },
+    {
+      "word": "her.",
+      "tag": "O"
+    }
+  ],
+  "It went much against the grain with him": [
+    {
+      "word": "It",
+      "tag": "O"
+    },
+    {
+      "word": "went",
+      "tag": "O"
+    },
+    {
+      "word": "much",
+      "tag": "O"
+    },
+    {
+      "word": "against",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "grain",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "him",
+      "tag": "O"
+    }
+  ],
+  "Come on, you can do it, it's not rocket science!": [
+    {
+      "word": "Come",
+      "tag": "O"
+    },
+    {
+      "word": "on,",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "do",
+      "tag": "O"
+    },
+    {
+      "word": "it,",
+      "tag": "O"
+    },
+    {
+      "word": "it's",
+      "tag": "O"
+    },
+    {
+      "word": "not",
+      "tag": "O"
+    },
+    {
+      "word": "rocket",
+      "tag": "O"
+    },
+    {
+      "word": "science!",
+      "tag": "O"
+    }
+  ],
+  "He's all out the best preacher I've ever heard.": [
+    {
+      "word": "He's",
+      "tag": "O"
+    },
+    {
+      "word": "all",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "out",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "best",
+      "tag": "O"
+    },
+    {
+      "word": "preacher",
+      "tag": "O"
+    },
+    {
+      "word": "I've",
+      "tag": "O"
+    },
+    {
+      "word": "ever",
+      "tag": "O"
+    },
+    {
+      "word": "heard.",
+      "tag": "O"
+    }
+  ],
+  "Finally we gave him the silent treatment, and for weeks before he died we neither spoke to him nor did he speak to us.": [
+    {
+      "word": "Finally",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "gave",
+      "tag": "O"
+    },
+    {
+      "word": "him",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "silent",
+      "tag": "O"
+    },
+    {
+      "word": "treatment,",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "weeks",
+      "tag": "O"
+    },
+    {
+      "word": "before",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "died",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "neither",
+      "tag": "O"
+    },
+    {
+      "word": "spoke",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "him",
+      "tag": "O"
+    },
+    {
+      "word": "nor",
+      "tag": "O"
+    },
+    {
+      "word": "did",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "speak",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "us.",
+      "tag": "O"
+    }
+  ],
+  "When pigs fly, he'll treat people with respect.": [
+    {
+      "word": "When",
+      "tag": "O"
+    },
+    {
+      "word": "pigs",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "fly,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "he'll",
+      "tag": "O"
+    },
+    {
+      "word": "treat",
+      "tag": "O"
+    },
+    {
+      "word": "people",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "respect.",
+      "tag": "O"
+    }
+  ],
+  "I wouldn't trade you away for all the tea in China.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "wouldn't",
+      "tag": "O"
+    },
+    {
+      "word": "trade",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "away",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "all",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "tea",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "China.",
+      "tag": "O"
+    }
+  ],
+  "Let's just say I know because a little bird told me.": [
+    {
+      "word": "Let's",
+      "tag": "O"
+    },
+    {
+      "word": "just",
+      "tag": "O"
+    },
+    {
+      "word": "say",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "know",
+      "tag": "O"
+    },
+    {
+      "word": "because",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "little",
+      "tag": "O"
+    },
+    {
+      "word": "bird",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "told",
+      "tag": "O"
+    },
+    {
+      "word": "me.",
+      "tag": "O"
+    }
+  ],
+  "I was a burglary detective for three years before I joined the Speaker's Bureau, and you might say I managed to acquire a few things at a five-finger discount, if you catch my drift.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "burglary",
+      "tag": "O"
+    },
+    {
+      "word": "detective",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "three",
+      "tag": "O"
+    },
+    {
+      "word": "years",
+      "tag": "O"
+    },
+    {
+      "word": "before",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "joined",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "Speaker's",
+      "tag": "O"
+    },
+    {
+      "word": "Bureau,",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "might",
+      "tag": "O"
+    },
+    {
+      "word": "say",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "managed",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "acquire",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "few",
+      "tag": "O"
+    },
+    {
+      "word": "things",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "five-finger",
+      "tag": "O"
+    },
+    {
+      "word": "discount,",
+      "tag": "O"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "catch",
+      "tag": "O"
+    },
+    {
+      "word": "my",
+      "tag": "O"
+    },
+    {
+      "word": "drift.",
+      "tag": "O"
+    }
+  ],
+  "He's either taking it easy or taking the piss by arriving at the eleventh hour.": [
+    {
+      "word": "He's",
+      "tag": "O"
+    },
+    {
+      "word": "either",
+      "tag": "O"
+    },
+    {
+      "word": "taking",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "easy",
+      "tag": "O"
+    },
+    {
+      "word": "or",
+      "tag": "O"
+    },
+    {
+      "word": "taking",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "piss",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "by",
+      "tag": "O"
+    },
+    {
+      "word": "arriving",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "eleventh",
+      "tag": "O"
+    },
+    {
+      "word": "hour.",
+      "tag": "O"
+    }
+  ],
+  "Luckily, the members of the committee were on the same wavelength, so we didn't have endless discussions about what words meant.": [
+    {
+      "word": "Luckily,",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "members",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "committee",
+      "tag": "O"
+    },
+    {
+      "word": "were",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "same",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "wavelength,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "didn't",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "endless",
+      "tag": "O"
+    },
+    {
+      "word": "discussions",
+      "tag": "O"
+    },
+    {
+      "word": "about",
+      "tag": "O"
+    },
+    {
+      "word": "what",
+      "tag": "O"
+    },
+    {
+      "word": "words",
+      "tag": "O"
+    },
+    {
+      "word": "meant.",
+      "tag": "O"
+    }
+  ],
+  "These latest modifications are mere window dressing; the same problems remain.": [
+    {
+      "word": "These",
+      "tag": "O"
+    },
+    {
+      "word": "latest",
+      "tag": "O"
+    },
+    {
+      "word": "modifications",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "mere",
+      "tag": "O"
+    },
+    {
+      "word": "window",
+      "tag": "O"
+    },
+    {
+      "word": "dressing;",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "same",
+      "tag": "O"
+    },
+    {
+      "word": "problems",
+      "tag": "O"
+    },
+    {
+      "word": "remain.",
+      "tag": "O"
+    }
+  ],
+  "This insurance company is an expert at cutting red tape to process your claim faster.": [
+    {
+      "word": "This",
+      "tag": "O"
+    },
+    {
+      "word": "insurance",
+      "tag": "O"
+    },
+    {
+      "word": "company",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "an",
+      "tag": "O"
+    },
+    {
+      "word": "expert",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "cutting",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "red",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "tape",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "process",
+      "tag": "O"
+    },
+    {
+      "word": "your",
+      "tag": "O"
+    },
+    {
+      "word": "claim",
+      "tag": "O"
+    },
+    {
+      "word": "faster.",
+      "tag": "O"
+    }
+  ],
+  "The test was a piece of cake!": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "test",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "piece",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "cake!",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "The old horse finally kicked the bucket.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "old",
+      "tag": "O"
+    },
+    {
+      "word": "horse",
+      "tag": "O"
+    },
+    {
+      "word": "finally",
+      "tag": "O"
+    },
+    {
+      "word": "kicked",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bucket.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Back muscles must be used to keep balance on the ball.": [
+    {
+      "word": "Back",
+      "tag": "O"
+    },
+    {
+      "word": "muscles",
+      "tag": "O"
+    },
+    {
+      "word": "must",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "used",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "keep",
+      "tag": "O"
+    },
+    {
+      "word": "balance",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "on",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ball.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "It's even money that it will rain today.": [
+    {
+      "word": "It's",
+      "tag": "O"
+    },
+    {
+      "word": "even",
+      "tag": "O"
+    },
+    {
+      "word": "money",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "rain",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "today.",
+      "tag": "O"
+    }
+  ],
+  "It is difficult, but possible to quit smoking cold turkey.": [
+    {
+      "word": "It",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "difficult,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "possible",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "quit",
+      "tag": "O"
+    },
+    {
+      "word": "smoking",
+      "tag": "O"
+    },
+    {
+      "word": "cold",
+      "tag": "O"
+    },
+    {
+      "word": "turkey.",
+      "tag": "O"
+    }
+  ],
+  "That road comes to a dead end at the lake.": [
+    {
+      "word": "That",
+      "tag": "O"
+    },
+    {
+      "word": "road",
+      "tag": "O"
+    },
+    {
+      "word": "comes",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "dead",
+      "tag": "O"
+    },
+    {
+      "word": "end",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "lake.",
+      "tag": "O"
+    }
+  ],
+  "The patient is feeling a little better, but she's not out of the woods yet.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "patient",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "feeling",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "little",
+      "tag": "O"
+    },
+    {
+      "word": "better,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "she's",
+      "tag": "O"
+    },
+    {
+      "word": "not",
+      "tag": "O"
+    },
+    {
+      "word": "out",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "woods",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "yet.",
+      "tag": "O"
+    }
+  ],
+  "Would you please buy a lemon for my cake?": [
+    {
+      "word": "Would",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "please",
+      "tag": "O"
+    },
+    {
+      "word": "buy",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "lemon",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "my",
+      "tag": "O"
+    },
+    {
+      "word": "cake?",
+      "tag": "O"
+    }
+  ],
+  "His new car has all the bells and whistles, but it doesn't move through traffic jams any faster.": [
+    {
+      "word": "His",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "car",
+      "tag": "O"
+    },
+    {
+      "word": "has",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "all",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bells",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "whistles,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "doesn't",
+      "tag": "O"
+    },
+    {
+      "word": "move",
+      "tag": "O"
+    },
+    {
+      "word": "through",
+      "tag": "O"
+    },
+    {
+      "word": "traffic",
+      "tag": "O"
+    },
+    {
+      "word": "jams",
+      "tag": "O"
+    },
+    {
+      "word": "any",
+      "tag": "O"
+    },
+    {
+      "word": "faster.",
+      "tag": "O"
+    }
+  ],
+  "Winemakers are over the moon to be able to showcase the individual nuances within their vineyards.": [
+    {
+      "word": "Winemakers",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "over",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "moon",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "able",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "showcase",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "individual",
+      "tag": "O"
+    },
+    {
+      "word": "nuances",
+      "tag": "O"
+    },
+    {
+      "word": "within",
+      "tag": "O"
+    },
+    {
+      "word": "their",
+      "tag": "O"
+    },
+    {
+      "word": "vineyards.",
+      "tag": "O"
+    }
+  ],
+  "He said he bought it at the markets but I think it fell off a truck.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "said",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "bought",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "markets",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "think",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "fell",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "off",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "truck.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Her aunt is a great cook, do you want a piece of cake?": [
+    {
+      "word": "Her",
+      "tag": "O"
+    },
+    {
+      "word": "aunt",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "great",
+      "tag": "O"
+    },
+    {
+      "word": "cook,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "do",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "want",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "piece",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "cake?",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "You know, cos he was like taking the piss out of them and they took the piss out of him.": [
+    {
+      "word": "You",
+      "tag": "O"
+    },
+    {
+      "word": "know,",
+      "tag": "O"
+    },
+    {
+      "word": "cos",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "like",
+      "tag": "O"
+    },
+    {
+      "word": "taking",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "piss",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "out",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "them",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "they",
+      "tag": "O"
+    },
+    {
+      "word": "took",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "piss",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "out",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "him.",
+      "tag": "O"
+    }
+  ],
+  "He was still a babe in arms when his father died overseas.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "still",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "babe",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "arms",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "when",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "father",
+      "tag": "O"
+    },
+    {
+      "word": "died",
+      "tag": "O"
+    },
+    {
+      "word": "overseas.",
+      "tag": "O"
+    }
+  ],
+  "This is not my cup of tea, it's yours, in fact I hate black tea.": [
+    {
+      "word": "This",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "not",
+      "tag": "O"
+    },
+    {
+      "word": "my",
+      "tag": "O"
+    },
+    {
+      "word": "cup",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "tea,",
+      "tag": "O"
+    },
+    {
+      "word": "it's",
+      "tag": "O"
+    },
+    {
+      "word": "yours,",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "fact",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "hate",
+      "tag": "O"
+    },
+    {
+      "word": "black",
+      "tag": "O"
+    },
+    {
+      "word": "tea.",
+      "tag": "O"
+    }
+  ],
+  "Stars of the stage and the silver screen gathered for the awards ceremony.": [
+    {
+      "word": "Stars",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "stage",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "silver",
+      "tag": "O"
+    },
+    {
+      "word": "screen",
+      "tag": "O"
+    },
+    {
+      "word": "gathered",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "awards",
+      "tag": "O"
+    },
+    {
+      "word": "ceremony.",
+      "tag": "O"
+    }
+  ],
+  "We didn't tell our friends that we were dating, but I think they put two and two together.": [
+    {
+      "word": "We",
+      "tag": "O"
+    },
+    {
+      "word": "didn't",
+      "tag": "O"
+    },
+    {
+      "word": "tell",
+      "tag": "O"
+    },
+    {
+      "word": "our",
+      "tag": "O"
+    },
+    {
+      "word": "friends",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "were",
+      "tag": "O"
+    },
+    {
+      "word": "dating,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "think",
+      "tag": "O"
+    },
+    {
+      "word": "they",
+      "tag": "O"
+    },
+    {
+      "word": "put",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "two",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "two",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "together.",
+      "tag": "O"
+    }
+  ],
+  "Oh please go on the game. It's a steady job and you'd be working from home.": [
+    {
+      "word": "Oh",
+      "tag": "O"
+    },
+    {
+      "word": "please",
+      "tag": "O"
+    },
+    {
+      "word": "go",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "on",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "game.",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "It's",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "steady",
+      "tag": "O"
+    },
+    {
+      "word": "job",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "you'd",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "working",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "O"
+    },
+    {
+      "word": "home.",
+      "tag": "O"
+    }
+  ],
+  "Sam let the cat out of the bag about his new job.": [
+    {
+      "word": "Sam",
+      "tag": "O"
+    },
+    {
+      "word": "let",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "cat",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "out",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bag",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "about",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "job.",
+      "tag": "O"
+    }
+  ],
+  "I stayed in a lot of hotels in New York with the Dead and with Jerry's band, but the Navarro, more than any other, became our home away from home.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "stayed",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "lot",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "hotels",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "New",
+      "tag": "O"
+    },
+    {
+      "word": "York",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "Dead",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "Jerry's",
+      "tag": "O"
+    },
+    {
+      "word": "band,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "Navarro,",
+      "tag": "O"
+    },
+    {
+      "word": "more",
+      "tag": "O"
+    },
+    {
+      "word": "than",
+      "tag": "O"
+    },
+    {
+      "word": "any",
+      "tag": "O"
+    },
+    {
+      "word": "other,",
+      "tag": "O"
+    },
+    {
+      "word": "became",
+      "tag": "O"
+    },
+    {
+      "word": "our",
+      "tag": "O"
+    },
+    {
+      "word": "home",
+      "tag": "O"
+    },
+    {
+      "word": "away",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "O"
+    },
+    {
+      "word": "home.",
+      "tag": "O"
+    }
+  ],
+  "The figures are going to be in the red this year.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "figures",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "going",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "red",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "this",
+      "tag": "O"
+    },
+    {
+      "word": "year.",
+      "tag": "O"
+    }
+  ],
+  "She could not bear to lose the land she had got by a swindle; and then she could not bear the loss of her lover. So she fell between two stools.": [
+    {
+      "word": "She",
+      "tag": "O"
+    },
+    {
+      "word": "could",
+      "tag": "O"
+    },
+    {
+      "word": "not",
+      "tag": "O"
+    },
+    {
+      "word": "bear",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "lose",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "land",
+      "tag": "O"
+    },
+    {
+      "word": "she",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "got",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "by",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "swindle;",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "then",
+      "tag": "O"
+    },
+    {
+      "word": "she",
+      "tag": "O"
+    },
+    {
+      "word": "could",
+      "tag": "O"
+    },
+    {
+      "word": "not",
+      "tag": "O"
+    },
+    {
+      "word": "bear",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "loss",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "lover.",
+      "tag": "O"
+    },
+    {
+      "word": "So",
+      "tag": "O"
+    },
+    {
+      "word": "she",
+      "tag": "O"
+    },
+    {
+      "word": "fell",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "between",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "two",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "stools.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "The police will turn a blind eye once.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "police",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "turn",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "blind",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "eye",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "once.",
+      "tag": "O"
+    }
+  ],
+  "Let me see if I can light a fire under the waiter to get our order sooner.": [
+    {
+      "word": "Let",
+      "tag": "O"
+    },
+    {
+      "word": "me",
+      "tag": "O"
+    },
+    {
+      "word": "see",
+      "tag": "O"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "light",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "fire",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "under",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "waiter",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "get",
+      "tag": "O"
+    },
+    {
+      "word": "our",
+      "tag": "O"
+    },
+    {
+      "word": "order",
+      "tag": "O"
+    },
+    {
+      "word": "sooner.",
+      "tag": "O"
+    }
+  ],
+  "We have known wives to forget that they had husbands…, especially when they supposed that a tax bill or a notification to do military duty might be in the offing!": [
+    {
+      "word": "We",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "known",
+      "tag": "O"
+    },
+    {
+      "word": "wives",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "forget",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "they",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "husbands…,",
+      "tag": "O"
+    },
+    {
+      "word": "especially",
+      "tag": "O"
+    },
+    {
+      "word": "when",
+      "tag": "O"
+    },
+    {
+      "word": "they",
+      "tag": "O"
+    },
+    {
+      "word": "supposed",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "tax",
+      "tag": "O"
+    },
+    {
+      "word": "bill",
+      "tag": "O"
+    },
+    {
+      "word": "or",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "notification",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "do",
+      "tag": "O"
+    },
+    {
+      "word": "military",
+      "tag": "O"
+    },
+    {
+      "word": "duty",
+      "tag": "O"
+    },
+    {
+      "word": "might",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "offing!",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Every year he resolves to turn over a new leaf and start exercising.": [
+    {
+      "word": "Every",
+      "tag": "O"
+    },
+    {
+      "word": "year",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "resolves",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "turn",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "over",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "new",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "leaf",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "start",
+      "tag": "O"
+    },
+    {
+      "word": "exercising.",
+      "tag": "O"
+    }
+  ],
+  "I love bread and butter for breakfast.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "love",
+      "tag": "O"
+    },
+    {
+      "word": "bread",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "butter",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "breakfast.",
+      "tag": "O"
+    }
+  ],
+  "As you're so tired, why not try to catch forty winks before you leave?": [
+    {
+      "word": "As",
+      "tag": "O"
+    },
+    {
+      "word": "you're",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "tired,",
+      "tag": "O"
+    },
+    {
+      "word": "why",
+      "tag": "O"
+    },
+    {
+      "word": "not",
+      "tag": "O"
+    },
+    {
+      "word": "try",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "catch",
+      "tag": "O"
+    },
+    {
+      "word": "forty",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "winks",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "before",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "leave?",
+      "tag": "O"
+    }
+  ],
+  "After meeting him, she was walking on air.": [
+    {
+      "word": "After",
+      "tag": "O"
+    },
+    {
+      "word": "meeting",
+      "tag": "O"
+    },
+    {
+      "word": "him,",
+      "tag": "O"
+    },
+    {
+      "word": "she",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "walking",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "on",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "air.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Come on, spill the beans now, I wanna know!": [
+    {
+      "word": "Come",
+      "tag": "O"
+    },
+    {
+      "word": "on,",
+      "tag": "O"
+    },
+    {
+      "word": "spill",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "beans",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "now,",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "wanna",
+      "tag": "O"
+    },
+    {
+      "word": "know!",
+      "tag": "O"
+    }
+  ],
+  "She finally came out of the closet to her religious family regarding her atheism.": [
+    {
+      "word": "She",
+      "tag": "O"
+    },
+    {
+      "word": "finally",
+      "tag": "O"
+    },
+    {
+      "word": "came",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "out",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "closet",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "religious",
+      "tag": "O"
+    },
+    {
+      "word": "family",
+      "tag": "O"
+    },
+    {
+      "word": "regarding",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "atheism.",
+      "tag": "O"
+    }
+  ],
+  "We go to the cinema once in a blue moon.": [
+    {
+      "word": "We",
+      "tag": "O"
+    },
+    {
+      "word": "go",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "cinema",
+      "tag": "O"
+    },
+    {
+      "word": "once",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "blue",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "moon.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "My daughter turns into a pumpkin at 10:00, so you need to have her home before then.": [
+    {
+      "word": "My",
+      "tag": "O"
+    },
+    {
+      "word": "daughter",
+      "tag": "O"
+    },
+    {
+      "word": "turns",
+      "tag": "O"
+    },
+    {
+      "word": "into",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "pumpkin",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "10:00,",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "need",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "home",
+      "tag": "O"
+    },
+    {
+      "word": "before",
+      "tag": "O"
+    },
+    {
+      "word": "then.",
+      "tag": "O"
+    }
+  ],
+  "Our marriage went through a difficult time, but now it is on the mend.": [
+    {
+      "word": "Our",
+      "tag": "O"
+    },
+    {
+      "word": "marriage",
+      "tag": "O"
+    },
+    {
+      "word": "went",
+      "tag": "O"
+    },
+    {
+      "word": "through",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "difficult",
+      "tag": "O"
+    },
+    {
+      "word": "time,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "now",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "mend.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Be like dad, keep mum.": [
+    {
+      "word": "Be",
+      "tag": "O"
+    },
+    {
+      "word": "like",
+      "tag": "O"
+    },
+    {
+      "word": "dad,",
+      "tag": "O"
+    },
+    {
+      "word": "keep",
+      "tag": "O"
+    },
+    {
+      "word": "mum.",
+      "tag": "O"
+    }
+  ],
+  "There were so many errors in the program that the programmer decided to rewrite it from scratch.": [
+    {
+      "word": "There",
+      "tag": "O"
+    },
+    {
+      "word": "were",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "many",
+      "tag": "O"
+    },
+    {
+      "word": "errors",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "program",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "programmer",
+      "tag": "O"
+    },
+    {
+      "word": "decided",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "rewrite",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "scratch.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "The government at home, and the people of the colonies, are getting to have bad blood between them.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "government",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "home,",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "people",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "colonies,",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "getting",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "bad",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "blood",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "between",
+      "tag": "O"
+    },
+    {
+      "word": "them.",
+      "tag": "O"
+    }
+  ],
+  "Someone really needs to go put the kibosh on that noisy party.": [
+    {
+      "word": "Someone",
+      "tag": "O"
+    },
+    {
+      "word": "really",
+      "tag": "O"
+    },
+    {
+      "word": "needs",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "go",
+      "tag": "O"
+    },
+    {
+      "word": "put",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "kibosh",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "noisy",
+      "tag": "O"
+    },
+    {
+      "word": "party.",
+      "tag": "O"
+    }
+  ],
+  "Right off the bat, I can see that you need to see a doctor.": [
+    {
+      "word": "Right",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "off",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bat,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "see",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "need",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "see",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "doctor.",
+      "tag": "O"
+    }
+  ],
+  "Written tests are his Achilles' heel.": [
+    {
+      "word": "Written",
+      "tag": "O"
+    },
+    {
+      "word": "tests",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "Achilles'",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "heel.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "I let the cat out of the bag about my new girlfriend.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "let",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "cat",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "out",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bag",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "about",
+      "tag": "O"
+    },
+    {
+      "word": "my",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "girlfriend.",
+      "tag": "O"
+    }
+  ],
+  "balloons are floating up in the air.": [
+    {
+      "word": "balloons",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "floating",
+      "tag": "O"
+    },
+    {
+      "word": "up",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "air.",
+      "tag": "O"
+    }
+  ],
+  "You can breathe easy knowing that your savings account is insured against loss.": [
+    {
+      "word": "You",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "breathe",
+      "tag": "O"
+    },
+    {
+      "word": "easy",
+      "tag": "O"
+    },
+    {
+      "word": "knowing",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "your",
+      "tag": "O"
+    },
+    {
+      "word": "savings",
+      "tag": "O"
+    },
+    {
+      "word": "account",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "insured",
+      "tag": "O"
+    },
+    {
+      "word": "against",
+      "tag": "O"
+    },
+    {
+      "word": "loss.",
+      "tag": "O"
+    }
+  ],
+  "Here are your sardines with bread and butter.": [
+    {
+      "word": "Here",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "your",
+      "tag": "O"
+    },
+    {
+      "word": "sardines",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "bread",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "butter.",
+      "tag": "O"
+    }
+  ],
+  "His wisecracks always tickle my funny bone.": [
+    {
+      "word": "His",
+      "tag": "O"
+    },
+    {
+      "word": "wisecracks",
+      "tag": "O"
+    },
+    {
+      "word": "always",
+      "tag": "O"
+    },
+    {
+      "word": "tickle",
+      "tag": "O"
+    },
+    {
+      "word": "my",
+      "tag": "O"
+    },
+    {
+      "word": "funny",
+      "tag": "O"
+    },
+    {
+      "word": "bone.",
+      "tag": "O"
+    }
+  ],
+  "I think I can get over 100 dollars.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "think",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "get",
+      "tag": "O"
+    },
+    {
+      "word": "over",
+      "tag": "O"
+    },
+    {
+      "word": "100",
+      "tag": "O"
+    },
+    {
+      "word": "dollars.",
+      "tag": "O"
+    }
+  ],
+  "I'm about ready to turn into a pumpkin. You can stay up later if you want.": [
+    {
+      "word": "I'm",
+      "tag": "O"
+    },
+    {
+      "word": "about",
+      "tag": "O"
+    },
+    {
+      "word": "ready",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "turn",
+      "tag": "O"
+    },
+    {
+      "word": "into",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "pumpkin.",
+      "tag": "O"
+    },
+    {
+      "word": "You",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "stay",
+      "tag": "O"
+    },
+    {
+      "word": "up",
+      "tag": "O"
+    },
+    {
+      "word": "later",
+      "tag": "O"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "want.",
+      "tag": "O"
+    }
+  ],
+  "The new chairman is happy to take a back seat when it comes to day-to-day operations.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "chairman",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "happy",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "take",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "back",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "seat",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "when",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "comes",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "day-to-day",
+      "tag": "O"
+    },
+    {
+      "word": "operations.",
+      "tag": "O"
+    }
+  ],
+  "Folks in our neighborhood come from every walk of life, prince and pauper, investor and janitor.": [
+    {
+      "word": "Folks",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "our",
+      "tag": "O"
+    },
+    {
+      "word": "neighborhood",
+      "tag": "O"
+    },
+    {
+      "word": "come",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "every",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "walk",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "life,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "prince",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "pauper,",
+      "tag": "O"
+    },
+    {
+      "word": "investor",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "janitor.",
+      "tag": "O"
+    }
+  ],
+  "Unfortunately, it fell between two stools: it was not good enough to be a competition car and those who wanted a roadburner preferred the Iso Grifo, which was better equipped.": [
+    {
+      "word": "Unfortunately,",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "fell",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "between",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "two",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "stools:",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "not",
+      "tag": "O"
+    },
+    {
+      "word": "good",
+      "tag": "O"
+    },
+    {
+      "word": "enough",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "competition",
+      "tag": "O"
+    },
+    {
+      "word": "car",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "those",
+      "tag": "O"
+    },
+    {
+      "word": "who",
+      "tag": "O"
+    },
+    {
+      "word": "wanted",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "roadburner",
+      "tag": "O"
+    },
+    {
+      "word": "preferred",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "Iso",
+      "tag": "O"
+    },
+    {
+      "word": "Grifo,",
+      "tag": "O"
+    },
+    {
+      "word": "which",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "better",
+      "tag": "O"
+    },
+    {
+      "word": "equipped.",
+      "tag": "O"
+    }
+  ],
+  "Everybody and his cousin will be in line for opening night with free popcorn!": [
+    {
+      "word": "Everybody",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "cousin",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "line",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "opening",
+      "tag": "O"
+    },
+    {
+      "word": "night",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "free",
+      "tag": "O"
+    },
+    {
+      "word": "popcorn!",
+      "tag": "O"
+    }
+  ],
+  "At first it seemed a good idea, but now it's getting close I'm having second thoughts.": [
+    {
+      "word": "At",
+      "tag": "O"
+    },
+    {
+      "word": "first",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "seemed",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "good",
+      "tag": "O"
+    },
+    {
+      "word": "idea,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "now",
+      "tag": "O"
+    },
+    {
+      "word": "it's",
+      "tag": "O"
+    },
+    {
+      "word": "getting",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "close",
+      "tag": "O"
+    },
+    {
+      "word": "I'm",
+      "tag": "O"
+    },
+    {
+      "word": "having",
+      "tag": "O"
+    },
+    {
+      "word": "second",
+      "tag": "O"
+    },
+    {
+      "word": "thoughts.",
+      "tag": "O"
+    }
+  ],
+  "It exists in a grey area between legal and illegal.": [
+    {
+      "word": "It",
+      "tag": "O"
+    },
+    {
+      "word": "exists",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "grey",
+      "tag": "O"
+    },
+    {
+      "word": "area",
+      "tag": "O"
+    },
+    {
+      "word": "between",
+      "tag": "O"
+    },
+    {
+      "word": "legal",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "illegal.",
+      "tag": "O"
+    }
+  ],
+  "Is that new teammate properly on board yet?": [
+    {
+      "word": "Is",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "teammate",
+      "tag": "O"
+    },
+    {
+      "word": "properly",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "board",
+      "tag": "O"
+    },
+    {
+      "word": "yet?",
+      "tag": "O"
+    }
+  ],
+  "Including a few fun details in large group introductions can be a great way to break the ice.": [
+    {
+      "word": "Including",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "few",
+      "tag": "O"
+    },
+    {
+      "word": "fun",
+      "tag": "O"
+    },
+    {
+      "word": "details",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "large",
+      "tag": "O"
+    },
+    {
+      "word": "group",
+      "tag": "O"
+    },
+    {
+      "word": "introductions",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "great",
+      "tag": "O"
+    },
+    {
+      "word": "way",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "break",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ice.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "I think that red dress looks really good on you, but your mileage may vary, of course.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "think",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "red",
+      "tag": "O"
+    },
+    {
+      "word": "dress",
+      "tag": "O"
+    },
+    {
+      "word": "looks",
+      "tag": "O"
+    },
+    {
+      "word": "really",
+      "tag": "O"
+    },
+    {
+      "word": "good",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "you,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "your",
+      "tag": "O"
+    },
+    {
+      "word": "mileage",
+      "tag": "O"
+    },
+    {
+      "word": "may",
+      "tag": "O"
+    },
+    {
+      "word": "vary,",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "course.",
+      "tag": "O"
+    }
+  ],
+  "Donald Rumsfeld had become a sex symbol. She observed that he was called a “virtual rock star” on CNN, a “babe magnet” on Fox, and “Rumstud” by the president.": [
+    {
+      "word": "Donald",
+      "tag": "O"
+    },
+    {
+      "word": "Rumsfeld",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "become",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "sex",
+      "tag": "O"
+    },
+    {
+      "word": "symbol.",
+      "tag": "O"
+    },
+    {
+      "word": "She",
+      "tag": "O"
+    },
+    {
+      "word": "observed",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "called",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "“virtual",
+      "tag": "O"
+    },
+    {
+      "word": "rock",
+      "tag": "O"
+    },
+    {
+      "word": "star”",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "CNN,",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "“babe",
+      "tag": "O"
+    },
+    {
+      "word": "magnet”",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "Fox,",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "“Rumstud”",
+      "tag": "O"
+    },
+    {
+      "word": "by",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "president.",
+      "tag": "O"
+    }
+  ],
+  "Ostriches bury their head in the sand.": [
+    {
+      "word": "Ostriches",
+      "tag": "O"
+    },
+    {
+      "word": "bury",
+      "tag": "O"
+    },
+    {
+      "word": "their",
+      "tag": "O"
+    },
+    {
+      "word": "head",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "sand.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "I'm telling you, if you sign that paper, you're playing with fire.": [
+    {
+      "word": "I'm",
+      "tag": "O"
+    },
+    {
+      "word": "telling",
+      "tag": "O"
+    },
+    {
+      "word": "you,",
+      "tag": "O"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "sign",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "paper,",
+      "tag": "O"
+    },
+    {
+      "word": "you're",
+      "tag": "O"
+    },
+    {
+      "word": "playing",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "with",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "fire.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Nature took its course, and Marie did give birth to a bundle of joy, but she soon discovered that motherhood was not all bliss.": [
+    {
+      "word": "Nature",
+      "tag": "O"
+    },
+    {
+      "word": "took",
+      "tag": "O"
+    },
+    {
+      "word": "its",
+      "tag": "O"
+    },
+    {
+      "word": "course,",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "Marie",
+      "tag": "O"
+    },
+    {
+      "word": "did",
+      "tag": "O"
+    },
+    {
+      "word": "give",
+      "tag": "O"
+    },
+    {
+      "word": "birth",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "bundle",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "joy,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "she",
+      "tag": "O"
+    },
+    {
+      "word": "soon",
+      "tag": "O"
+    },
+    {
+      "word": "discovered",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "motherhood",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "not",
+      "tag": "O"
+    },
+    {
+      "word": "all",
+      "tag": "O"
+    },
+    {
+      "word": "bliss.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "I really got a kick out of that clown's juggling act.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "really",
+      "tag": "O"
+    },
+    {
+      "word": "got",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "kick",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "out",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "clown's",
+      "tag": "O"
+    },
+    {
+      "word": "juggling",
+      "tag": "O"
+    },
+    {
+      "word": "act.",
+      "tag": "O"
+    }
+  ],
+  "She was determined to win the contract, by hook or by crook.": [
+    {
+      "word": "She",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "determined",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "win",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "contract,",
+      "tag": "O"
+    },
+    {
+      "word": "by",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "hook",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "or",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "by",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "crook.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "They worked around the clock to finish the project on time.": [
+    {
+      "word": "They",
+      "tag": "O"
+    },
+    {
+      "word": "worked",
+      "tag": "O"
+    },
+    {
+      "word": "around",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "clock",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "finish",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "project",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "time.",
+      "tag": "O"
+    }
+  ],
+  "That project is on the back burner until we deal with higher priorities.": [
+    {
+      "word": "That",
+      "tag": "O"
+    },
+    {
+      "word": "project",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "back",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "burner",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "until",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "deal",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "higher",
+      "tag": "O"
+    },
+    {
+      "word": "priorities.",
+      "tag": "O"
+    }
+  ],
+  "We went to a karaoke bar and had a barrel of laughs.": [
+    {
+      "word": "We",
+      "tag": "O"
+    },
+    {
+      "word": "went",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "karaoke",
+      "tag": "O"
+    },
+    {
+      "word": "bar",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "barrel",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "laughs.",
+      "tag": "O"
+    }
+  ],
+  "I'd need you to buy a lemon and some sugar for tonight.": [
+    {
+      "word": "I'd",
+      "tag": "O"
+    },
+    {
+      "word": "need",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "buy",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "lemon",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "some",
+      "tag": "O"
+    },
+    {
+      "word": "sugar",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "tonight.",
+      "tag": "O"
+    }
+  ],
+  "He was hilarious, and remained the top banana on the tour for years.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "hilarious,",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "remained",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "top",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "banana",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "tour",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "years.",
+      "tag": "O"
+    }
+  ],
+  "If Tony Blair is such an utterly busted flush of a leader, why are so many Tories and their outriders so keen to have this Prime Minister gone before he can fight another election?": [
+    {
+      "word": "If",
+      "tag": "O"
+    },
+    {
+      "word": "Tony",
+      "tag": "O"
+    },
+    {
+      "word": "Blair",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "such",
+      "tag": "O"
+    },
+    {
+      "word": "an",
+      "tag": "O"
+    },
+    {
+      "word": "utterly",
+      "tag": "O"
+    },
+    {
+      "word": "busted",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "flush",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "leader,",
+      "tag": "O"
+    },
+    {
+      "word": "why",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "many",
+      "tag": "O"
+    },
+    {
+      "word": "Tories",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "their",
+      "tag": "O"
+    },
+    {
+      "word": "outriders",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "keen",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "this",
+      "tag": "O"
+    },
+    {
+      "word": "Prime",
+      "tag": "O"
+    },
+    {
+      "word": "Minister",
+      "tag": "O"
+    },
+    {
+      "word": "gone",
+      "tag": "O"
+    },
+    {
+      "word": "before",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "fight",
+      "tag": "O"
+    },
+    {
+      "word": "another",
+      "tag": "O"
+    },
+    {
+      "word": "election?",
+      "tag": "O"
+    }
+  ],
+  "One of the kids on the school bus broke wind.": [
+    {
+      "word": "One",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "kids",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "school",
+      "tag": "O"
+    },
+    {
+      "word": "bus",
+      "tag": "O"
+    },
+    {
+      "word": "broke",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "wind.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "The bullet hit the book in his pocket.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "bullet",
+      "tag": "O"
+    },
+    {
+      "word": "hit",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "book",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "his",
+      "tag": "O"
+    },
+    {
+      "word": "pocket.",
+      "tag": "O"
+    }
+  ],
+  "People with your skills are a dime a dozen these days.": [
+    {
+      "word": "People",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "your",
+      "tag": "O"
+    },
+    {
+      "word": "skills",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "dime",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "dozen",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "these",
+      "tag": "O"
+    },
+    {
+      "word": "days.",
+      "tag": "O"
+    }
+  ],
+  "In one of the rare cinematic depictions of an older woman as sexually attractive and active, Moreau also contributes to the end of Syl′s innocence by seducing him in the summer house. No mutton dressed as lamb could have done better!": [
+    {
+      "word": "In",
+      "tag": "O"
+    },
+    {
+      "word": "one",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "rare",
+      "tag": "O"
+    },
+    {
+      "word": "cinematic",
+      "tag": "O"
+    },
+    {
+      "word": "depictions",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "an",
+      "tag": "O"
+    },
+    {
+      "word": "older",
+      "tag": "O"
+    },
+    {
+      "word": "woman",
+      "tag": "O"
+    },
+    {
+      "word": "as",
+      "tag": "O"
+    },
+    {
+      "word": "sexually",
+      "tag": "O"
+    },
+    {
+      "word": "attractive",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "active,",
+      "tag": "O"
+    },
+    {
+      "word": "Moreau",
+      "tag": "O"
+    },
+    {
+      "word": "also",
+      "tag": "O"
+    },
+    {
+      "word": "contributes",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "end",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "Syl′s",
+      "tag": "O"
+    },
+    {
+      "word": "innocence",
+      "tag": "O"
+    },
+    {
+      "word": "by",
+      "tag": "O"
+    },
+    {
+      "word": "seducing",
+      "tag": "O"
+    },
+    {
+      "word": "him",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "summer",
+      "tag": "O"
+    },
+    {
+      "word": "house.",
+      "tag": "O"
+    },
+    {
+      "word": "No",
+      "tag": "O"
+    },
+    {
+      "word": "mutton",
+      "tag": "O"
+    },
+    {
+      "word": "dressed",
+      "tag": "O"
+    },
+    {
+      "word": "as",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "lamb",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "could",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "done",
+      "tag": "O"
+    },
+    {
+      "word": "better!",
+      "tag": "O"
+    }
+  ],
+  "The fix I made was just a penny in the fusebox; we need to revisit it and fix the problem for real.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "fix",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "made",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "just",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "penny",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "fusebox;",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "need",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "revisit",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "fix",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "problem",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "real.",
+      "tag": "O"
+    }
+  ],
+  "Doing volunteer work to help others is truly worth one's while.": [
+    {
+      "word": "Doing",
+      "tag": "O"
+    },
+    {
+      "word": "volunteer",
+      "tag": "O"
+    },
+    {
+      "word": "work",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "help",
+      "tag": "O"
+    },
+    {
+      "word": "others",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "truly",
+      "tag": "O"
+    },
+    {
+      "word": "worth",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "one's",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "while.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Baby you gotta work hard, no pain no gain": [
+    {
+      "word": "Baby",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "gotta",
+      "tag": "O"
+    },
+    {
+      "word": "work",
+      "tag": "O"
+    },
+    {
+      "word": "hard,",
+      "tag": "O"
+    },
+    {
+      "word": "no",
+      "tag": "O"
+    },
+    {
+      "word": "pain",
+      "tag": "O"
+    },
+    {
+      "word": "no",
+      "tag": "O"
+    },
+    {
+      "word": "gain",
+      "tag": "O"
+    }
+  ],
+  "The new bond issue now appears to be on the bubble, with support eroding.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "bond",
+      "tag": "O"
+    },
+    {
+      "word": "issue",
+      "tag": "O"
+    },
+    {
+      "word": "now",
+      "tag": "O"
+    },
+    {
+      "word": "appears",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bubble,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "support",
+      "tag": "O"
+    },
+    {
+      "word": "eroding.",
+      "tag": "O"
+    }
+  ],
+  "You can crank the engine until the cows come home, but it won’t start without fuel.": [
+    {
+      "word": "You",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "crank",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "engine",
+      "tag": "O"
+    },
+    {
+      "word": "until",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "cows",
+      "tag": "O"
+    },
+    {
+      "word": "come",
+      "tag": "O"
+    },
+    {
+      "word": "home,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "won’t",
+      "tag": "O"
+    },
+    {
+      "word": "start",
+      "tag": "O"
+    },
+    {
+      "word": "without",
+      "tag": "O"
+    },
+    {
+      "word": "fuel.",
+      "tag": "O"
+    }
+  ],
+  "That new car was really the cat's pyjamas.": [
+    {
+      "word": "That",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "car",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "really",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "cat's",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "pyjamas.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "She's a sharp cookie and will have no trouble seeing a sales pitch for what it is.": [
+    {
+      "word": "She's",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "sharp",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "cookie",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "no",
+      "tag": "O"
+    },
+    {
+      "word": "trouble",
+      "tag": "O"
+    },
+    {
+      "word": "seeing",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "sales",
+      "tag": "O"
+    },
+    {
+      "word": "pitch",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "what",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "is.",
+      "tag": "O"
+    }
+  ],
+  "Do some animals really bury their head in the sand?": [
+    {
+      "word": "Do",
+      "tag": "O"
+    },
+    {
+      "word": "some",
+      "tag": "O"
+    },
+    {
+      "word": "animals",
+      "tag": "O"
+    },
+    {
+      "word": "really",
+      "tag": "O"
+    },
+    {
+      "word": "bury",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "their",
+      "tag": "O"
+    },
+    {
+      "word": "head",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "sand?",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "The battery lasts a day in my phone, but your mileage may vary.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "battery",
+      "tag": "O"
+    },
+    {
+      "word": "lasts",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "day",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "my",
+      "tag": "O"
+    },
+    {
+      "word": "phone,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "your",
+      "tag": "O"
+    },
+    {
+      "word": "mileage",
+      "tag": "O"
+    },
+    {
+      "word": "may",
+      "tag": "O"
+    },
+    {
+      "word": "vary.",
+      "tag": "O"
+    }
+  ],
+  "As if the hostile takeover weren't enough, to add insult to injury they scrapped ninety percent of our products and replaced them with their own.": [
+    {
+      "word": "As",
+      "tag": "O"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "hostile",
+      "tag": "O"
+    },
+    {
+      "word": "takeover",
+      "tag": "O"
+    },
+    {
+      "word": "weren't",
+      "tag": "O"
+    },
+    {
+      "word": "enough,",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "add",
+      "tag": "O"
+    },
+    {
+      "word": "insult",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "injury",
+      "tag": "O"
+    },
+    {
+      "word": "they",
+      "tag": "O"
+    },
+    {
+      "word": "scrapped",
+      "tag": "O"
+    },
+    {
+      "word": "ninety",
+      "tag": "O"
+    },
+    {
+      "word": "percent",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "our",
+      "tag": "O"
+    },
+    {
+      "word": "products",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "replaced",
+      "tag": "O"
+    },
+    {
+      "word": "them",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "their",
+      "tag": "O"
+    },
+    {
+      "word": "own.",
+      "tag": "O"
+    }
+  ],
+  "It's raining cats and dogs.": [
+    {
+      "word": "It's",
+      "tag": "O"
+    },
+    {
+      "word": "raining",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "cats",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "dogs.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "The patient rang the bell 20 minutes ago.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "patient",
+      "tag": "O"
+    },
+    {
+      "word": "rang",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bell",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "20",
+      "tag": "O"
+    },
+    {
+      "word": "minutes",
+      "tag": "O"
+    },
+    {
+      "word": "ago.",
+      "tag": "O"
+    }
+  ],
+  "\"Orde, you're all right on the river,\" said Newmark, with a dry little laugh, \"but you're a babe in the woods at this game.\"": [
+    {
+      "word": "\"Orde,",
+      "tag": "O"
+    },
+    {
+      "word": "you're",
+      "tag": "O"
+    },
+    {
+      "word": "all",
+      "tag": "O"
+    },
+    {
+      "word": "right",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "river,\"",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "said",
+      "tag": "O"
+    },
+    {
+      "word": "Newmark,",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "dry",
+      "tag": "O"
+    },
+    {
+      "word": "little",
+      "tag": "O"
+    },
+    {
+      "word": "laugh,",
+      "tag": "O"
+    },
+    {
+      "word": "\"but",
+      "tag": "O"
+    },
+    {
+      "word": "you're",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "babe",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "woods",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "this",
+      "tag": "O"
+    },
+    {
+      "word": "game.\"",
+      "tag": "O"
+    }
+  ],
+  "He went to school to study math and science and all that jazz.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "went",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "school",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "study",
+      "tag": "O"
+    },
+    {
+      "word": "math",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "science",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "all",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "jazz.",
+      "tag": "O"
+    }
+  ],
+  "Public opinion has undergone a sea change since the 2002 elections.": [
+    {
+      "word": "Public",
+      "tag": "O"
+    },
+    {
+      "word": "opinion",
+      "tag": "O"
+    },
+    {
+      "word": "has",
+      "tag": "O"
+    },
+    {
+      "word": "undergone",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "sea",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "change",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "since",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "2002",
+      "tag": "O"
+    },
+    {
+      "word": "elections.",
+      "tag": "O"
+    }
+  ],
+  "Just stop beating around the bush and tell me what the problem is!": [
+    {
+      "word": "Just",
+      "tag": "O"
+    },
+    {
+      "word": "stop",
+      "tag": "O"
+    },
+    {
+      "word": "beating",
+      "tag": "O"
+    },
+    {
+      "word": "around",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "bush",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "tell",
+      "tag": "O"
+    },
+    {
+      "word": "me",
+      "tag": "O"
+    },
+    {
+      "word": "what",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "problem",
+      "tag": "O"
+    },
+    {
+      "word": "is!",
+      "tag": "O"
+    }
+  ],
+  "Jay Branegan says each side will be preaching to the choir. \"Democrats will make the argument that's been successful with their base . . . [that] Republicans are merely helping the rich.\"": [
+    {
+      "word": "Jay",
+      "tag": "O"
+    },
+    {
+      "word": "Branegan",
+      "tag": "O"
+    },
+    {
+      "word": "says",
+      "tag": "O"
+    },
+    {
+      "word": "each",
+      "tag": "O"
+    },
+    {
+      "word": "side",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "preaching",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "choir.",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "\"Democrats",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "make",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "argument",
+      "tag": "O"
+    },
+    {
+      "word": "that's",
+      "tag": "O"
+    },
+    {
+      "word": "been",
+      "tag": "O"
+    },
+    {
+      "word": "successful",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "their",
+      "tag": "O"
+    },
+    {
+      "word": "base",
+      "tag": "O"
+    },
+    {
+      "word": ".",
+      "tag": "O"
+    },
+    {
+      "word": ".",
+      "tag": "O"
+    },
+    {
+      "word": ".",
+      "tag": "O"
+    },
+    {
+      "word": "[that]",
+      "tag": "O"
+    },
+    {
+      "word": "Republicans",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "merely",
+      "tag": "O"
+    },
+    {
+      "word": "helping",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "rich.\"",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "You can ignore their problems, but you could be in the same boat someday.": [
+    {
+      "word": "You",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "ignore",
+      "tag": "O"
+    },
+    {
+      "word": "their",
+      "tag": "O"
+    },
+    {
+      "word": "problems,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "could",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "same",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "boat",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "someday.",
+      "tag": "O"
+    }
+  ],
+  "Another five minutes wait and we finally raise glasses in a toast to the evening. ‘So, what's the plan?’ ‘Well, we can go straight to the casino after this or we can get half a skinful of Dutch courage.’": [
+    {
+      "word": "Another",
+      "tag": "O"
+    },
+    {
+      "word": "five",
+      "tag": "O"
+    },
+    {
+      "word": "minutes",
+      "tag": "O"
+    },
+    {
+      "word": "wait",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "finally",
+      "tag": "O"
+    },
+    {
+      "word": "raise",
+      "tag": "O"
+    },
+    {
+      "word": "glasses",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "toast",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "evening.",
+      "tag": "O"
+    },
+    {
+      "word": "‘So,",
+      "tag": "O"
+    },
+    {
+      "word": "what's",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "plan?’",
+      "tag": "O"
+    },
+    {
+      "word": "‘Well,",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "go",
+      "tag": "O"
+    },
+    {
+      "word": "straight",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "casino",
+      "tag": "O"
+    },
+    {
+      "word": "after",
+      "tag": "O"
+    },
+    {
+      "word": "this",
+      "tag": "O"
+    },
+    {
+      "word": "or",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "get",
+      "tag": "O"
+    },
+    {
+      "word": "half",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "skinful",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "Dutch",
+      "tag": "O"
+    },
+    {
+      "word": "courage.’",
+      "tag": "O"
+    }
+  ],
+  "She's normally a quiet person, but she will talk a blue streak about fashion, if you let her.": [
+    {
+      "word": "She's",
+      "tag": "O"
+    },
+    {
+      "word": "normally",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "quiet",
+      "tag": "O"
+    },
+    {
+      "word": "person,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "she",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "talk",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "blue",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "streak",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "about",
+      "tag": "O"
+    },
+    {
+      "word": "fashion,",
+      "tag": "O"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "you",
+      "tag": "O"
+    },
+    {
+      "word": "let",
+      "tag": "O"
+    },
+    {
+      "word": "her.",
+      "tag": "O"
+    }
+  ],
+  "The very date which put them beyond the pale as belligerents was that which they seem to have chosen in order to prove what active and valiant soldiers they still remained.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "very",
+      "tag": "O"
+    },
+    {
+      "word": "date",
+      "tag": "O"
+    },
+    {
+      "word": "which",
+      "tag": "O"
+    },
+    {
+      "word": "put",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "them",
+      "tag": "O"
+    },
+    {
+      "word": "beyond",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "pale",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "as",
+      "tag": "O"
+    },
+    {
+      "word": "belligerents",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "which",
+      "tag": "O"
+    },
+    {
+      "word": "they",
+      "tag": "O"
+    },
+    {
+      "word": "seem",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "chosen",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "order",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "prove",
+      "tag": "O"
+    },
+    {
+      "word": "what",
+      "tag": "O"
+    },
+    {
+      "word": "active",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "valiant",
+      "tag": "O"
+    },
+    {
+      "word": "soldiers",
+      "tag": "O"
+    },
+    {
+      "word": "they",
+      "tag": "O"
+    },
+    {
+      "word": "still",
+      "tag": "O"
+    },
+    {
+      "word": "remained.",
+      "tag": "O"
+    }
+  ],
+  "The three-day party had been a lot of fun, we did a lot of bad things, now it is time to pay the fiddler.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "three-day",
+      "tag": "O"
+    },
+    {
+      "word": "party",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "been",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "lot",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "fun,",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "did",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "lot",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "bad",
+      "tag": "O"
+    },
+    {
+      "word": "things,",
+      "tag": "O"
+    },
+    {
+      "word": "now",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "time",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "pay",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "fiddler.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "After a day's worth of events, it came down to one last match; this one was for all the marbles.": [
+    {
+      "word": "After",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "day's",
+      "tag": "O"
+    },
+    {
+      "word": "worth",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "events,",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "came",
+      "tag": "O"
+    },
+    {
+      "word": "down",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "one",
+      "tag": "O"
+    },
+    {
+      "word": "last",
+      "tag": "O"
+    },
+    {
+      "word": "match;",
+      "tag": "O"
+    },
+    {
+      "word": "this",
+      "tag": "O"
+    },
+    {
+      "word": "one",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "all",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "marbles.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "After I hadn’t heard from her in six months, she called me out of the blue to meet for lunch.": [
+    {
+      "word": "After",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "hadn’t",
+      "tag": "O"
+    },
+    {
+      "word": "heard",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "O"
+    },
+    {
+      "word": "her",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "six",
+      "tag": "O"
+    },
+    {
+      "word": "months,",
+      "tag": "O"
+    },
+    {
+      "word": "she",
+      "tag": "O"
+    },
+    {
+      "word": "called",
+      "tag": "O"
+    },
+    {
+      "word": "me",
+      "tag": "O"
+    },
+    {
+      "word": "out",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "blue",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "meet",
+      "tag": "O"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "lunch.",
+      "tag": "O"
+    }
+  ],
+  "Women are “woefully” under-represented in parliament, the courts and the boardroom, with new research showing that the glass ceiling is still holding back 6,000 women from the top 33,000 jobs in Britain.": [
+    {
+      "word": "Women",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "“woefully”",
+      "tag": "O"
+    },
+    {
+      "word": "under-represented",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "parliament,",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "courts",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "boardroom,",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "research",
+      "tag": "O"
+    },
+    {
+      "word": "showing",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "glass",
+      "tag": "O"
+    },
+    {
+      "word": "ceiling",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "still",
+      "tag": "O"
+    },
+    {
+      "word": "holding",
+      "tag": "O"
+    },
+    {
+      "word": "back",
+      "tag": "O"
+    },
+    {
+      "word": "6,000",
+      "tag": "O"
+    },
+    {
+      "word": "women",
+      "tag": "O"
+    },
+    {
+      "word": "from",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "top",
+      "tag": "O"
+    },
+    {
+      "word": "33,000",
+      "tag": "O"
+    },
+    {
+      "word": "jobs",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "Britain.",
+      "tag": "O"
+    }
+  ],
+  "I only bought a lemon and two oranges.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "only",
+      "tag": "O"
+    },
+    {
+      "word": "bought",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "lemon",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "two",
+      "tag": "O"
+    },
+    {
+      "word": "oranges.",
+      "tag": "O"
+    }
+  ],
+  "He told me who he saw, but it went in one ear and out the other.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "told",
+      "tag": "O"
+    },
+    {
+      "word": "me",
+      "tag": "O"
+    },
+    {
+      "word": "who",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "saw,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "went",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "one",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ear",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "out",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "other.",
+      "tag": "O"
+    }
+  ],
+  "I was beginning to wish I'd had the sense to spend the last hour in a pub. Dutch courage would have been better than no courage at all.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "beginning",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "wish",
+      "tag": "O"
+    },
+    {
+      "word": "I'd",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "sense",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "spend",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "last",
+      "tag": "O"
+    },
+    {
+      "word": "hour",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "pub.",
+      "tag": "O"
+    },
+    {
+      "word": "Dutch",
+      "tag": "O"
+    },
+    {
+      "word": "courage",
+      "tag": "O"
+    },
+    {
+      "word": "would",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "been",
+      "tag": "O"
+    },
+    {
+      "word": "better",
+      "tag": "O"
+    },
+    {
+      "word": "than",
+      "tag": "O"
+    },
+    {
+      "word": "no",
+      "tag": "O"
+    },
+    {
+      "word": "courage",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "all.",
+      "tag": "O"
+    }
+  ],
+  "Hang a Ralph up at the next stoplight.": [
+    {
+      "word": "Hang",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "Ralph",
+      "tag": "O"
+    },
+    {
+      "word": "up",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "next",
+      "tag": "O"
+    },
+    {
+      "word": "stoplight.",
+      "tag": "O"
+    }
+  ],
+  "He must apologise, he saw that clearly enough, must eat crow, as he told himself.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "must",
+      "tag": "O"
+    },
+    {
+      "word": "apologise,",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "saw",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "clearly",
+      "tag": "O"
+    },
+    {
+      "word": "enough,",
+      "tag": "O"
+    },
+    {
+      "word": "must",
+      "tag": "O"
+    },
+    {
+      "word": "eat",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "crow,",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "as",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "told",
+      "tag": "O"
+    },
+    {
+      "word": "himself.",
+      "tag": "O"
+    }
+  ],
+  "That striker has scored four goals so far - he's on fire!": [
+    {
+      "word": "That",
+      "tag": "O"
+    },
+    {
+      "word": "striker",
+      "tag": "O"
+    },
+    {
+      "word": "has",
+      "tag": "O"
+    },
+    {
+      "word": "scored",
+      "tag": "O"
+    },
+    {
+      "word": "four",
+      "tag": "O"
+    },
+    {
+      "word": "goals",
+      "tag": "O"
+    },
+    {
+      "word": "so",
+      "tag": "O"
+    },
+    {
+      "word": "far",
+      "tag": "O"
+    },
+    {
+      "word": "-",
+      "tag": "O"
+    },
+    {
+      "word": "he's",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "fire!",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Fred is having a rough trot.": [
+    {
+      "word": "Fred",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "having",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "rough",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "trot.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "She goes to work once in a blue moon.": [
+    {
+      "word": "She",
+      "tag": "O"
+    },
+    {
+      "word": "goes",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "work",
+      "tag": "O"
+    },
+    {
+      "word": "once",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "blue",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "moon.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "I am feeling under the weather today.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "am",
+      "tag": "O"
+    },
+    {
+      "word": "feeling",
+      "tag": "O"
+    },
+    {
+      "word": "under",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "weather",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "today.",
+      "tag": "O"
+    }
+  ],
+  "That guy sure can hold a grudge when something goes wrong.": [
+    {
+      "word": "That",
+      "tag": "O"
+    },
+    {
+      "word": "guy",
+      "tag": "O"
+    },
+    {
+      "word": "sure",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "hold",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "grudge",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "when",
+      "tag": "O"
+    },
+    {
+      "word": "something",
+      "tag": "O"
+    },
+    {
+      "word": "goes",
+      "tag": "O"
+    },
+    {
+      "word": "wrong.",
+      "tag": "O"
+    }
+  ],
+  "Abdominals are used to keep balance on the ball and lift your arms.": [
+    {
+      "word": "Abdominals",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "used",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "keep",
+      "tag": "O"
+    },
+    {
+      "word": "balance",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "on",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ball",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "lift",
+      "tag": "O"
+    },
+    {
+      "word": "your",
+      "tag": "O"
+    },
+    {
+      "word": "arms.",
+      "tag": "O"
+    }
+  ],
+  "It’s a good idea, but let’s see if we can get a few more of the management team on board.": [
+    {
+      "word": "It’s",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "good",
+      "tag": "O"
+    },
+    {
+      "word": "idea,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "let’s",
+      "tag": "O"
+    },
+    {
+      "word": "see",
+      "tag": "O"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "we",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "get",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "few",
+      "tag": "O"
+    },
+    {
+      "word": "more",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "management",
+      "tag": "O"
+    },
+    {
+      "word": "team",
+      "tag": "O"
+    },
+    {
+      "word": "on",
+      "tag": "O"
+    },
+    {
+      "word": "board.",
+      "tag": "O"
+    }
+  ],
+  "The garage was filled with a random assortment of odds and ends.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "garage",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "filled",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "random",
+      "tag": "O"
+    },
+    {
+      "word": "assortment",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "odds",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ends.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "We're very tired now, let's call it a day.": [
+    {
+      "word": "We're",
+      "tag": "O"
+    },
+    {
+      "word": "very",
+      "tag": "O"
+    },
+    {
+      "word": "tired",
+      "tag": "O"
+    },
+    {
+      "word": "now,",
+      "tag": "O"
+    },
+    {
+      "word": "let's",
+      "tag": "O"
+    },
+    {
+      "word": "call",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "it",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "day.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Smith is good at detail, but can't see the forest for the trees.": [
+    {
+      "word": "Smith",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "good",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "O"
+    },
+    {
+      "word": "detail,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "can't",
+      "tag": "O"
+    },
+    {
+      "word": "see",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "forest",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "for",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "trees.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Break a leg dad, I hope you'll win!": [
+    {
+      "word": "Break",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "leg",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "dad,",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "hope",
+      "tag": "O"
+    },
+    {
+      "word": "you'll",
+      "tag": "O"
+    },
+    {
+      "word": "win!",
+      "tag": "O"
+    }
+  ],
+  "Stop beating around the bush and tell me exactly what happened.": [
+    {
+      "word": "Stop",
+      "tag": "O"
+    },
+    {
+      "word": "beating",
+      "tag": "O"
+    },
+    {
+      "word": "around",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "bush",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "tell",
+      "tag": "O"
+    },
+    {
+      "word": "me",
+      "tag": "O"
+    },
+    {
+      "word": "exactly",
+      "tag": "O"
+    },
+    {
+      "word": "what",
+      "tag": "O"
+    },
+    {
+      "word": "happened.",
+      "tag": "O"
+    }
+  ],
+  "People with your skills are ten a penny these days.": [
+    {
+      "word": "People",
+      "tag": "O"
+    },
+    {
+      "word": "with",
+      "tag": "O"
+    },
+    {
+      "word": "your",
+      "tag": "O"
+    },
+    {
+      "word": "skills",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "ten",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "penny",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "these",
+      "tag": "O"
+    },
+    {
+      "word": "days.",
+      "tag": "O"
+    }
+  ],
+  "I think I can do it quickly, but the exact schedule is still up in the air.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "think",
+      "tag": "O"
+    },
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "do",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "quickly,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "exact",
+      "tag": "O"
+    },
+    {
+      "word": "schedule",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "still",
+      "tag": "O"
+    },
+    {
+      "word": "up",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "in",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "air.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Among these odd folk, who correspond exactly to the decadent element of “white trash” in the South, law and morals are non-existent; and their general mental status is probably below that of any other section of the native American people.": [
+    {
+      "word": "Among",
+      "tag": "O"
+    },
+    {
+      "word": "these",
+      "tag": "O"
+    },
+    {
+      "word": "odd",
+      "tag": "O"
+    },
+    {
+      "word": "folk,",
+      "tag": "O"
+    },
+    {
+      "word": "who",
+      "tag": "O"
+    },
+    {
+      "word": "correspond",
+      "tag": "O"
+    },
+    {
+      "word": "exactly",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "decadent",
+      "tag": "O"
+    },
+    {
+      "word": "element",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "“white",
+      "tag": "O"
+    },
+    {
+      "word": "trash”",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "South,",
+      "tag": "O"
+    },
+    {
+      "word": "law",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "morals",
+      "tag": "O"
+    },
+    {
+      "word": "are",
+      "tag": "O"
+    },
+    {
+      "word": "non-existent;",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "their",
+      "tag": "O"
+    },
+    {
+      "word": "general",
+      "tag": "O"
+    },
+    {
+      "word": "mental",
+      "tag": "O"
+    },
+    {
+      "word": "status",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "probably",
+      "tag": "O"
+    },
+    {
+      "word": "below",
+      "tag": "O"
+    },
+    {
+      "word": "that",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "any",
+      "tag": "O"
+    },
+    {
+      "word": "other",
+      "tag": "O"
+    },
+    {
+      "word": "section",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "native",
+      "tag": "O"
+    },
+    {
+      "word": "American",
+      "tag": "O"
+    },
+    {
+      "word": "people.",
+      "tag": "O"
+    }
+  ],
+  "This is a perfect way to break the ice and start the conversation.": [
+    {
+      "word": "This",
+      "tag": "O"
+    },
+    {
+      "word": "is",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "perfect",
+      "tag": "O"
+    },
+    {
+      "word": "way",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "break",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "ice",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "start",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "conversation.",
+      "tag": "O"
+    }
+  ],
+  "The company had engineered plenty of products, but manufacturing them was virgin territory.": [
+    {
+      "word": "The",
+      "tag": "O"
+    },
+    {
+      "word": "company",
+      "tag": "O"
+    },
+    {
+      "word": "had",
+      "tag": "O"
+    },
+    {
+      "word": "engineered",
+      "tag": "O"
+    },
+    {
+      "word": "plenty",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "products,",
+      "tag": "O"
+    },
+    {
+      "word": "but",
+      "tag": "O"
+    },
+    {
+      "word": "manufacturing",
+      "tag": "O"
+    },
+    {
+      "word": "them",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "virgin",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "territory.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "Let's go home and call it a day.": [
+    {
+      "word": "Let's",
+      "tag": "O"
+    },
+    {
+      "word": "go",
+      "tag": "O"
+    },
+    {
+      "word": "home",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "call",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "day.",
+      "tag": "O"
+    }
+  ],
+  "Eventually he did it, better late than never!": [
+    {
+      "word": "Eventually",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "did",
+      "tag": "O"
+    },
+    {
+      "word": "it,",
+      "tag": "O"
+    },
+    {
+      "word": "better",
+      "tag": "O"
+    },
+    {
+      "word": "late",
+      "tag": "O"
+    },
+    {
+      "word": "than",
+      "tag": "O"
+    },
+    {
+      "word": "never!",
+      "tag": "O"
+    }
+  ],
+  "We're expected to just do it at the drop of a hat.": [
+    {
+      "word": "We're",
+      "tag": "O"
+    },
+    {
+      "word": "expected",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "just",
+      "tag": "O"
+    },
+    {
+      "word": "do",
+      "tag": "O"
+    },
+    {
+      "word": "it",
+      "tag": "O"
+    },
+    {
+      "word": "at",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "drop",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "hat.",
+      "tag": "I-IDIOM"
+    }
+  ],
+  "He hit the nail on the head when he said the problem was the thermostat.": [
+    {
+      "word": "He",
+      "tag": "O"
+    },
+    {
+      "word": "hit",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "nail",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "on",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "head",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "when",
+      "tag": "O"
+    },
+    {
+      "word": "he",
+      "tag": "O"
+    },
+    {
+      "word": "said",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "problem",
+      "tag": "O"
+    },
+    {
+      "word": "was",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "thermostat.",
+      "tag": "O"
+    }
+  ],
+  "I need to get a move on if I'm going to arrive before dark.": [
+    {
+      "word": "I",
+      "tag": "O"
+    },
+    {
+      "word": "need",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "get",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "a",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "move",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "on",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "if",
+      "tag": "O"
+    },
+    {
+      "word": "I'm",
+      "tag": "O"
+    },
+    {
+      "word": "going",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "arrive",
+      "tag": "O"
+    },
+    {
+      "word": "before",
+      "tag": "O"
+    },
+    {
+      "word": "dark.",
+      "tag": "O"
+    }
+  ],
+  "You're in a bad mood today. What's eating you?": [
+    {
+      "word": "You're",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "bad",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "mood",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "today.",
+      "tag": "O"
+    },
+    {
+      "word": "What's",
+      "tag": "O"
+    },
+    {
+      "word": "eating",
+      "tag": "O"
+    },
+    {
+      "word": "you?",
+      "tag": "O"
+    }
+  ],
+  "Acme's new technology will raise the bar for the entire industry.": [
+    {
+      "word": "Acme's",
+      "tag": "O"
+    },
+    {
+      "word": "new",
+      "tag": "O"
+    },
+    {
+      "word": "technology",
+      "tag": "O"
+    },
+    {
+      "word": "will",
+      "tag": "O"
+    },
+    {
+      "word": "raise",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "the",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "bar",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "for",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "entire",
+      "tag": "O"
+    },
+    {
+      "word": "industry.",
+      "tag": "O"
+    }
+  ],
+  "By going against the grain and going to work nude, you've made yourself a laughing stock.": [
+    {
+      "word": "By",
+      "tag": "O"
+    },
+    {
+      "word": "going",
+      "tag": "O"
+    },
+    {
+      "word": "against",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "grain",
+      "tag": "O"
+    },
+    {
+      "word": "and",
+      "tag": "O"
+    },
+    {
+      "word": "going",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "work",
+      "tag": "O"
+    },
+    {
+      "word": "nude,",
+      "tag": "O"
+    },
+    {
+      "word": "you've",
+      "tag": "O"
+    },
+    {
+      "word": "made",
+      "tag": "O"
+    },
+    {
+      "word": "yourself",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "laughing",
+      "tag": "O"
+    },
+    {
+      "word": "stock.",
+      "tag": "O"
+    }
+  ],
+  "Bathing in hot water can be dangerous.": [
+    {
+      "word": "Bathing",
+      "tag": "O"
+    },
+    {
+      "word": "in",
+      "tag": "O"
+    },
+    {
+      "word": "hot",
+      "tag": "O"
+    },
+    {
+      "word": "water",
+      "tag": "O"
+    },
+    {
+      "word": "can",
+      "tag": "O"
+    },
+    {
+      "word": "be",
+      "tag": "O"
+    },
+    {
+      "word": "dangerous.",
+      "tag": "O"
+    }
+  ],
+  "When pigs fly, he'll take out the trash.": [
+    {
+      "word": "When",
+      "tag": "O"
+    },
+    {
+      "word": "pigs",
+      "tag": "O"
+    },
+    {
+      "word": "fly,",
+      "tag": "O"
+    },
+    {
+      "word": "he'll",
+      "tag": "O"
+    },
+    {
+      "word": "take",
+      "tag": "O"
+    },
+    {
+      "word": "out",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "trash.",
+      "tag": "O"
+    }
+  ],
+  "This doesn't make any sense. It's like comparing apples to oranges.": [
+    {
+      "word": "This",
+      "tag": "O"
+    },
+    {
+      "word": "doesn't",
+      "tag": "O"
+    },
+    {
+      "word": "make",
+      "tag": "O"
+    },
+    {
+      "word": "any",
+      "tag": "O"
+    },
+    {
+      "word": "sense.",
+      "tag": "O"
+    },
+    {
+      "word": "It's",
+      "tag": "O"
+    },
+    {
+      "word": "like",
+      "tag": "O"
+    },
+    {
+      "word": "comparing",
+      "tag": "O"
+    },
+    {
+      "word": "apples",
+      "tag": "O"
+    },
+    {
+      "word": "to",
+      "tag": "O"
+    },
+    {
+      "word": "oranges.",
+      "tag": "O"
+    }
+  ],
+  "Among the laundry list of inconveniences most of us can't abide: cold coffee, airport delays, the high price of gasoline.": [
+    {
+      "word": "Among",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "laundry",
+      "tag": "O"
+    },
+    {
+      "word": "list",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "inconveniences",
+      "tag": "O"
+    },
+    {
+      "word": "most",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "us",
+      "tag": "O"
+    },
+    {
+      "word": "can't",
+      "tag": "O"
+    },
+    {
+      "word": "abide:",
+      "tag": "O"
+    },
+    {
+      "word": "cold",
+      "tag": "O"
+    },
+    {
+      "word": "coffee,",
+      "tag": "O"
+    },
+    {
+      "word": "airport",
+      "tag": "O"
+    },
+    {
+      "word": "delays,",
+      "tag": "O"
+    },
+    {
+      "word": "the",
+      "tag": "O"
+    },
+    {
+      "word": "high",
+      "tag": "O"
+    },
+    {
+      "word": "price",
+      "tag": "O"
+    },
+    {
+      "word": "of",
+      "tag": "O"
+    },
+    {
+      "word": "gasoline.",
+      "tag": "O"
+    }
+  ],
+  "I'd have a piece of cake.": [
+    {
+      "word": "I'd",
+      "tag": "O"
+    },
+    {
+      "word": "have",
+      "tag": "O"
+    },
+    {
+      "word": "a",
+      "tag": "O"
+    },
+    {
+      "word": "piece",
+      "tag": "B-IDIOM"
+    },
+    {
+      "word": "of",
+      "tag": "I-IDIOM"
+    },
+    {
+      "word": "cake.",
+      "tag": "I-IDIOM"
+    }
+  ]
+}
