@@ -27,7 +27,7 @@ from dataclasses import dataclass
 
 ROOT = Path(__file__).resolve().parent.parent
 
-ENCODERS_BASE = Path("/Users/liorlivyatan/Desktop/Livyatan/Thesis/hard_idioms/encoders")
+ENCODERS_BASE = ROOT / "encoders_experiment"
 
 UPDATED_MODELS = {
     "english": [
@@ -85,12 +85,21 @@ def load_final_json(language: str) -> List[Dict]:
 
 
 def load_new_results(language: str, model: str, seed: int) -> Optional[Dict]:
-    p = ENCODERS_BASE / language / model / str(seed) / "results" / "new_results.json"
-    if not p.exists():
-        print(f"  SKIP: {p} not found")
+    """Load id10m + hard_idioms split predictions and merge into a single dict.
+
+    id10m keys are originals, hard_idioms keys are variants — no overlap expected.
+    """
+    base = ENCODERS_BASE / language / model / f"seed_{seed}"
+    id10m_path = base / "new_results_id10m.json"
+    hard_path = base / "new_results_hard_idioms.json"
+    if not id10m_path.exists() or not hard_path.exists():
+        print(f"  SKIP: {base} missing split files")
         return None
-    with open(p, encoding="utf-8") as f:
-        return json.load(f)
+    with open(id10m_path, encoding="utf-8") as f:
+        id10m_preds = json.load(f)
+    with open(hard_path, encoding="utf-8") as f:
+        hard_preds = json.load(f)
+    return {**id10m_preds, **hard_preds}
 
 
 def parse_true_idioms(raw) -> List[str]:
@@ -358,16 +367,23 @@ COMPARISON_FIELDNAMES = [
 
 
 def process_model_comparison(data: List[Dict], model: str, seed: int, language: str) -> Dict:
+    # id10m metrics: computed on ALL variants (each variant-row uses its orig prediction).
+    # Measures model accuracy on originals — unfiltered.
     id10m = calc_metrics(data, use_orig=True)
-    hard = calc_metrics(data, use_orig=False)
-    ctx = context_effects(data)
-    cb = confusion_breakdown(data)
-    adv = advanced_metrics(id10m, hard, data)
-    top = top_confused_idioms(data)
-    ex = confused_examples(data)
 
-    total_variants = len(data)
-    total_analyzed = len(set(item["orig_sentence"] for item in data))
+    # Filter to variants whose original was correctly classified.
+    # All downstream metrics measure *context confusion*, not raw model accuracy.
+    filtered = filter_orig_correct(data)
+
+    hard = calc_metrics(filtered, use_orig=False)
+    ctx = context_effects(filtered)
+    cb = confusion_breakdown(filtered)
+    adv = advanced_metrics(id10m, hard, filtered)
+    top = top_confused_idioms(filtered)
+    ex = confused_examples(filtered)
+
+    total_variants = len(filtered)
+    total_analyzed = len(set(item["orig_sentence"] for item in filtered))
     confused = adv["highly_vulnerable_sentences"]
 
     return {
@@ -516,6 +532,7 @@ def run_language(language: str) -> None:
 
             row_comp = process_model_comparison(data, model, seed, language)
             comparison_rows.append(row_comp)
+            print(f"  After filter: {row_comp['total_analyzed_sentences']} origs correctly classified, {row_comp['total_variants']} variants analyzed")
             print(f"  id10m F1={row_comp['id10m_f1']:.3f}  hard F1={row_comp['hard_f1']:.3f}  confusion={row_comp['total_confusion_percent']}%")
 
             row_sent = process_model_sentence_confusion(data, model, seed, language)
